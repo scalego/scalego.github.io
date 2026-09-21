@@ -335,7 +335,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
 
 (function(){
   var FORM_LABELS={inf:"原形",past:"過去形",pp:"過去分詞"};
-  function fbDetail(f,gloss,form){ return gloss+' の '+FORM_LABELS[f]+' は <b>'+form+'</b> です'; }
+  function fbDetail(f,gloss,form){ return '「'+gloss+'」の'+FORM_LABELS[f]+'は <b>'+form+'</b> です'; }
   var weights={};
   var stats={total:0,ok:0,bad:0};
   var current=null;
@@ -415,7 +415,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     }else{
       feedback.className="feedback show bad";
       var detail=input.value.trim()?('「'+input.value.trim()+'」と書きました。'):'';
-      feedback.innerHTML='<p class="f-title">不正解です。</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'また後で出題されます。</p>'+trioHtml(v,current.vi);
+      feedback.innerHTML='<p class="f-title">不正解です。</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'。また後で出題されます。</p>'+trioHtml(v,current.vi);
     }
     input.disabled=true;
     document.getElementById("check").disabled=true;
