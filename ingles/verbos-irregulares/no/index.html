@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Lær engelsk · Uregelmessige verb</title>
+<meta name="description" content="Øv engelske uregelmessige verb: tilfeldige spørsmål, øyeblikkelig retting og en repetisjonstabell med alle verb."/>
+<meta name="theme-color" content="#0a0b0d"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://scalego.github.io/ingles/verbos-irregulares/no/"/>
+<link rel="canonical" href="https://scalego.github.io/ingles/verbos-irregulares/no/"/>
+<meta property="og:title" content="Lær engelsk · Uregelmessige verb"/>
+<meta property="og:description" content="Øv engelske uregelmessige verb: tilfeldige spørsmål, øyeblikkelig retting og repetisjonstabell."/>
+<meta property="og:image" content="https://raulbaeza15.github.io/ingles/verbos-irregulares/og-image-en.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<style>
+@import "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap";
+:root{--bg:#0a0b0d;--panel:#101216;--text:#f3f0e9;--muted:#9da0a6;--line:#282b31;--acid:#c7ff3d;--ok:#1f2b12;--bad:#3a1416;--bad-line:#8f3a3f;--max:820px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);margin:0;font-family:Manrope,Arial,sans-serif;font-size:17px;line-height:1.6}
+a{color:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--acid);outline-offset:3px}
+.wrap{width:min(calc(100% - 32px),var(--max));margin-inline:auto}
+header.site{border-bottom:1px solid var(--line);padding:22px 0}
+header.site .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{font-family:"DM Mono",monospace;letter-spacing:-.04em;font-size:20px;font-weight:500;text-decoration:none}
+.brand span{color:var(--acid)}
+.sub{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+main{padding:34px 0 60px}
+h1{letter-spacing:-.04em;font-size:clamp(30px,6vw,44px);font-weight:600;line-height:1.1;margin:18px 0 10px}
+.intro{color:#c3c4c7;max-width:600px;margin:0 0 28px;font-size:16px}
+.tabs{display:flex;gap:8px;margin:0 0 26px}
+.tab{flex:1;background:var(--panel);border:1px solid var(--line);color:var(--muted);font-family:"DM Mono",monospace;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:14px 10px;cursor:pointer;min-height:52px}
+.tab[aria-selected="true"]{background:var(--acid);border-color:var(--acid);color:#111;font-weight:500}
+.card{background:var(--panel);border:1px solid var(--line);padding:30px 26px}
+.q-label{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.q-word{font-size:clamp(38px,9vw,56px);font-weight:700;letter-spacing:-.03em;line-height:1.05;margin:0 0 6px}
+.q-hint{color:var(--muted);font-size:15px;margin:0 0 24px}
+.q-hint b{color:var(--text);font-weight:600}
+.answer-row{display:flex;gap:10px;flex-wrap:wrap}
+input#answer{flex:1;min-width:200px;background:var(--bg);border:1px solid var(--line);color:var(--text);font-family:"DM Mono",monospace;font-size:19px;padding:15px 16px;min-height:56px;border-radius:0}
+input#answer::placeholder{color:#5d6167}
+button.btn{background:var(--acid);border:1px solid var(--acid);color:#111;font-family:"DM Mono",monospace;font-size:14px;letter-spacing:.05em;text-transform:uppercase;font-weight:500;padding:15px 22px;cursor:pointer;min-height:56px}
+button.btn.ghost{background:transparent;color:var(--text);border-color:var(--line)}
+button.btn:hover{filter:brightness(1.06)}
+button.btn:disabled{opacity:.45;cursor:default;filter:none}
+button.btn.ghost:hover{border-color:var(--acid);color:var(--acid)}
+.feedback{margin-top:22px;padding:18px 20px;display:none;border:1px solid var(--line)}
+.feedback.show{display:block}
+.feedback.ok{background:var(--ok);border-color:var(--acid)}
+.feedback.bad{background:var(--bad);border-color:var(--bad-line)}
+.feedback .f-title{font-weight:700;font-size:18px;margin:0 0 4px}
+.feedback.ok .f-title{color:var(--acid)}
+.feedback.bad .f-title{color:#ff8a90}
+.feedback .f-detail{margin:0;color:#e6e2da;font-size:16px}
+.feedback .f-detail b{color:#fff}
+.trio{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-family:"DM Mono",monospace;font-size:14px;color:var(--muted);letter-spacing:.02em}
+.trio b{color:var(--text);font-weight:500}
+.next-row{margin-top:20px;display:none}
+.next-row.show{display:block}
+.stats{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin:0 0 20px;padding:14px 18px;background:var(--panel);border:1px solid var(--line)}
+.stats p{margin:0;font-family:"DM Mono",monospace;font-size:13px;letter-spacing:.04em;color:var(--muted)}
+.stats p b{color:var(--text);font-weight:500}
+.stats .n-ok{color:var(--acid)}
+.stats .n-bad{color:#ff8a90}
+.stats button.btn{min-height:48px;padding:12px 18px;font-size:12px}
+.note{color:var(--muted);font-size:14px;margin:18px 0 0}
+/* repaso */
+.search-row{margin:0 0 18px}
+input#search{width:100%;background:var(--bg);border:1px solid var(--line);color:var(--text);font-size:17px;padding:15px 16px;min-height:56px;border-radius:0}
+input#search::placeholder{color:#5d6167}
+.table-scroll{overflow-x:auto;border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;font-size:16px;min-width:560px}
+th{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);background:var(--panel)}
+td{padding:12px 16px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:none}
+td.es{font-weight:600}
+td.en{font-family:"DM Mono",monospace;font-size:15px}
+tbody tr:hover td{background:#14161b}
+.empty{padding:26px;text-align:center;color:var(--muted);display:none}
+/* correcciones */
+details{margin-top:34px;border:1px solid var(--line);padding:0}
+summary{cursor:pointer;padding:16px 20px;font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+ ";color:var(--acid)}
+details[open] summary::before{content:"– "}
+details .body{padding:0 20px 18px;color:#c3c4c7;font-size:15px}
+details .body ul{margin:0;padding-left:20px}
+details .body li{margin-bottom:8px}
+footer{border-top:1px solid var(--line);color:var(--muted);padding:24px 0 40px;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+footer a:hover{color:var(--acid)}
+.langnav{margin-top:10px}
+.langnav a,.langnav strong{color:inherit}
+.langnav a{text-decoration:underline;text-underline-offset:3px}
+.langnav a:hover{color:var(--acid)}
+
+/* pronunciacion */
+.pv{display:flex;align-items:center;gap:7px}
+.pv + .pv{margin-top:6px}
+.pc{display:flex;flex-direction:column;line-height:1.3;white-space:nowrap}
+.ipa{color:var(--muted);font-size:12.5px;font-family:Manrope,Arial,sans-serif;white-space:nowrap}
+button.play{display:inline-flex;align-items:center;justify-content:center;min-width:36px;min-height:36px;width:36px;height:36px;background:transparent;border:1px solid var(--line);color:var(--acid);font-size:14px;cursor:pointer;padding:0;border-radius:6px;line-height:1;flex:none}
+button.play:hover{border-color:var(--acid)}
+.setbar{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text);margin:10px 0 14px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--panel)}
+.setbar.custom{border-color:var(--acid);color:var(--acid)}
+.setbar a{color:var(--acid);text-decoration:none;border-bottom:1px solid var(--acid);margin-left:8px}
+.cl-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 14px;margin:10px 0;max-height:260px;overflow:auto}
+.cl-grid label{display:flex;align-items:center;gap:8px;font-size:14px;cursor:pointer;padding:4px 2px}
+.cl-grid input{width:16px;height:16px;accent-color:var(--acid)}
+.cl-grid .cl-es{color:var(--muted);font-size:12px}
+.cl-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.cl-msg{font-size:13px;color:var(--acid);min-height:18px;margin:6px 0 0}
+@media (max-width:560px){.cl-grid{grid-template-columns:1fr}}
+.pron-list{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.pron-line{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:8px}
+.pron-line .fl{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);min-width:92px}
+.pron-line .fw{font-family:"DM Mono",monospace;font-size:15px;color:var(--text);white-space:nowrap}
+@media (max-width:560px){
+  body{padding:0 8px}
+  .card{padding:18px 14px}
+  table{min-width:0;font-size:12.5px}
+  td,th{padding:6px 2px}
+  td.es{font-size:11.5px}
+  td.en{font-size:11px}
+  .pv{gap:3px}
+  .pc{line-height:1.25}
+  .ipa{font-size:10.5px;white-space:normal}
+  .pron-line .fl{min-width:0;width:100%}
+  button.play{min-width:22px;min-height:22px;width:22px;height:22px;font-size:13px;border-radius:5px;position:relative}
+  button.play::after{content:"";position:absolute;inset:-9px}
+  .answer-row{flex-direction:column}
+  button.btn{width:100%}
+  input#answer{width:100%}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/ingles/verbos-irregulares/no/">Lær engelsk<span>.</span></a>
+    <p class="sub">Uregelmessige verb</p>
+  </div>
+</header>
+<main class="wrap">
+  <h1>Uregelmessige verb</h1>
+  <p class="intro">Tren på tilfeldige spørsmål: skriv formen som blir spurt etter, og se med én gang om det er riktig. Feil dukker opp oftere.</p>
+  <p class="setbar" id="setbar"></p>
+
+  <div class="tabs" role="tablist" aria-label="Seksjoner">
+    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">Øv</button>
+    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">Gjennomgå listen</button>
+    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">Lag liste</button>
+  </div>
+
+  <details>
+    <summary>Hva betyr symbolene /.../ (uttale)</summary>
+    <div class="body">
+      <p>Symbolene mellom skråstreker, som /ɡəʊ/, er <b>fonetisk skrift (IPA)</b>: de viser hvordan ordet høres ut på <b>britisk engelsk</b>, lyd for lyd.</p>
+      <ul>
+        <li>ˈ markerer den trykksterke stavelsen: /bɪˈɡɪn/ uttales be-GIN.</li>
+        <li>ː forlenger vokalen: /iː/ er en lang "i".</li>
+        <li>/ə/ er den vanligste svake vokalen på engelsk, som a i "about".</li>
+        <li>Hvis symbolene er kronglete, gjør det ikke noe: trykk på høyttaleren 🔊 og lytt til ordet.</li>
+      </ul>
+    </div>
+  </details>
+
+  <section id="view-practice" role="tabpanel" aria-labelledby="tab-practice">
+    <div class="stats">
+      <p>Spørsmål: <b id="s-total">0</b> · Riktige: <b id="s-ok" class="n-ok">0</b> · Gale: <b id="s-bad" class="n-bad">0</b></p>
+      <button class="btn ghost" id="restart" type="button">Begynn på nytt</button>
+    </div>
+
+    <div class="card">
+      <p class="q-label" id="q-label">Infinitiv av verbet</p>
+      <p class="q-word" id="q-word">…</p>
+      <p class="q-hint" id="q-hint"></p>
+      <form id="answer-form" autocomplete="off">
+        <div class="answer-row">
+          <label for="answer" class="sub" style="position:absolute;left:-9999px">Svaret ditt på engelsk</label>
+          <input id="answer" name="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="send" placeholder="Svaret ditt på engelsk"/>
+          <button class="btn" id="check" type="submit">Sjekk</button>
+        </div>
+      </form>
+      <div class="feedback" id="feedback" aria-live="polite"></div>
+      <div class="next-row" id="next-row">
+        <button class="btn" id="next" type="button">Neste spørsmål</button>
+      </div>
+    </div>
+    <p class="note">Fremgang teller bare i denne økten: lukk eller last siden på nytt, så nullstilles alt.</p>
+
+    <details id="correcciones-hoja" style="display:none">
+      <summary>Rettelser til øvingen</summary>
+      <div class="body">
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </details>
+  </section>
+
+  <section id="view-review" role="tabpanel" aria-labelledby="tab-review" hidden>
+    <div class="search-row">
+      <label for="search" class="sub" style="position:absolute;left:-9999px">Søk etter verb</label>
+      <input id="search" type="search" inputmode="search" placeholder="Søk på engelsk (f.eks. make, go, went)"/>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Betydning</th><th>Infinitiv</th><th>Preteritum</th><th>Perfektum partisipp</th></tr>
+        </thead>
+        <tbody id="verb-rows"></tbody>
+      </table>
+      <p class="empty" id="empty">Ingen verb passer til søket ditt.</p>
+    </div>
+  </section>
+
+  <section id="view-create" role="tabpanel" aria-labelledby="tab-create" hidden>
+    <div class="card">
+      <p>Merk verbene du vil ha, og kopier lenken: den som åpner den, øver bare på utvalget ditt, med lyd og fonetisk skrift.</p>
+      <p><input id="cl-filter" type="search" inputmode="search" placeholder="Filtrer verb (f.eks. eat, go, write)" style="width:100%;box-sizing:border-box;background:#0d0f12;border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:8px;font-size:15px"/></p>
+      <div id="cl-verbs" class="cl-grid"></div>
+      <p class="cl-actions">
+        <button class="btn ghost" id="cl-all" type="button">Merk alle</button>
+        <button class="btn ghost" id="cl-none" type="button">Fjern alle</button>
+        <button class="btn" id="cl-copy" type="button">Kopier lenke til listen</button>
+      </p>
+      <p id="cl-msg" class="cl-msg" aria-live="polite"></p>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <p>Laget av Raúl · <a href="https://raulbaeza15.github.io/">raulbaeza15.github.io</a></p>
+    <p class="langnav">Språk: <a href="/ingles/verbos-irregulares/">Español</a> · <a href="/ingles/verbos-irregulares/en/">English</a> · <a href="/ingles/verbos-irregulares/fr/">Français</a> · <a href="/ingles/verbos-irregulares/de/">Deutsch</a> · <a href="/ingles/verbos-irregulares/pt/">Português</a> · <a href="/ingles/verbos-irregulares/it/">Italiano</a> · <a href="/ingles/verbos-irregulares/tr/">Türkçe</a> · <a href="/ingles/verbos-irregulares/nl/">Nederlands</a> · <a href="/ingles/verbos-irregulares/pl/">Polski</a> · <a href="/ingles/verbos-irregulares/sv/">Svenska</a> · <a href="/ingles/verbos-irregulares/da/">Dansk</a> · <strong>Norsk</strong> · <a href="/ingles/verbos-irregulares/fi/">Suomi</a> · <a href="/ingles/verbos-irregulares/ro/">Română</a> · <a href="/ingles/verbos-irregulares/hu/">Magyar</a> · <a href="/ingles/verbos-irregulares/cs/">Čeština</a></p>
+  </div>
+</footer>
+<script src="catalog.js"></script>
+<script>
+/*LOGIC-START*/
+var VERBS_ALL=[
+{"es":"LÆRE","inf":"learn","past":"learnt / learned","pp":"learnt / learned","acc":{inf:["learn"],past:["learnt","learned","learnt/learned","learnt / learned"],pp:["learnt","learned","learnt/learned","learnt / learned"]}},
+{"es":"SYNGE","inf":"sing","past":"sang","pp":"sung","acc":{inf:["sing"],past:["sang"],pp:["sung"]}},
+{"es":"SPISE","inf":"eat","past":"ate","pp":"eaten","acc":{inf:["eat"],past:["ate"],pp:["eaten"]}},
+{"es":"BYGGE","inf":"build","past":"built","pp":"built","acc":{inf:["build"],past:["built"],pp:["built"]}},
+{"es":"SI","inf":"say","past":"said","pp":"said","acc":{inf:["say"],past:["said"],pp:["said"]}},
+{"es":"BEGYNNE","inf":"begin","past":"began","pp":"begun","acc":{inf:["begin"],past:["began"],pp:["begun"]}},
+{"es":"SKRIVE","inf":"write","past":"wrote","pp":"written","acc":{inf:["write"],past:["wrote"],pp:["written"]}},
+{"es":"BRUKE, TILBRINGE","inf":"spend","past":"spent","pp":"spent","acc":{inf:["spend"],past:["spent"],pp:["spent"]}},
+{"es":"SNAKKE, TALE","inf":"speak","past":"spoke","pp":"spoken","acc":{inf:["speak"],past:["spoke"],pp:["spoken"]}},
+{"es":"LAGE, FREMSTILLE","inf":"make","past":"made","pp":"made","acc":{inf:["make"],past:["made"],pp:["made"]}},
+{"es":"SKADE, GJØRE VONDT","inf":"hurt","past":"hurt","pp":"hurt","acc":{inf:["hurt"],past:["hurt"],pp:["hurt"]}},
+{"es":"GÅ, DRA","inf":"go","past":"went","pp":"gone","acc":{inf:["go"],past:["went"],pp:["gone"]}},
+{"es":"FÅ","inf":"get","past":"got","pp":"got","acc":{inf:["get"],past:["got"],pp:["got","gotten"]}},
+{"es":"GLEMME","inf":"forget","past":"forgot","pp":"forgotten","acc":{inf:["forget"],past:["forgot"],pp:["forgotten"]}},
+{"es":"MISTE, TAPE","inf":"lose","past":"lost","pp":"lost","acc":{inf:["lose"],past:["lost"],pp:["lost"]}},
+{"es":"STJELE","inf":"steal","past":"stole","pp":"stolen","acc":{inf:["steal"],past:["stole"],pp:["stolen"]}},
+{"es":"FORLATE, DRA","inf":"leave","past":"left","pp":"left","acc":{inf:["leave"],past:["left"],pp:["left"]}},
+{"es":"VÆRE","inf":"be","past":"was / were","pp":"been","acc":{inf:["be"],past:["was","were","was/were","was / were"],pp:["been"]}},
+{"es":"KOMME","inf":"come","past":"came","pp":"come","acc":{inf:["come"],past:["came"],pp:["come"]}},
+{"es":"SE","inf":"see","past":"saw","pp":"seen","acc":{inf:["see"],past:["saw"],pp:["seen"]}},
+{"es":"SETTE, STILLE","inf":"put","past":"put","pp":"put","acc":{inf:["put"],past:["put"],pp:["put"]}},
+{"es":"RINGE","inf":"ring","past":"rang","pp":"rung","acc":{inf:["ring"],past:["rang"],pp:["rung"]}},
+{"es":"LØPE","inf":"run","past":"ran","pp":"run","acc":{inf:["run"],past:["ran"],pp:["run"]}},
+{"es":"BRYTE, ØDELEGGE","inf":"break","past":"broke","pp":"broken","acc":{inf:["break"],past:["broke"],pp:["broken"]}},
+{"es":"SELGE","inf":"sell","past":"sold","pp":"sold","acc":{inf:["sell"],past:["sold"],pp:["sold"]}},
+{"es":"DRIKKE","inf":"drink","past":"drank","pp":"drunk","acc":{inf:["drink"],past:["drank"],pp:["drunk"]}},
+{"es":"KJØPE","inf":"buy","past":"bought","pp":"bought","acc":{inf:["buy"],past:["bought"],pp:["bought"]}},
+{"es":"TEGNE","inf":"draw","past":"drew","pp":"drawn","acc":{inf:["draw"],past:["drew"],pp:["drawn"]}},
+{"es":"HØRE","inf":"hear","past":"heard","pp":"heard","acc":{inf:["hear"],past:["heard"],pp:["heard"]}},
+{"es":"MATE, FÔRE","inf":"feed","past":"fed","pp":"fed","acc":{inf:["feed"],past:["fed"],pp:["fed"]}},
+{"es":"VINNE","inf":"win","past":"won","pp":"won","acc":{inf:["win"],past:["won"],pp:["won"]}},
+{"es":"GJØRE","inf":"do","past":"did","pp":"done","acc":{inf:["do"],past:["did"],pp:["done"]}},
+{"es":"MØTE, TREFFE","inf":"meet","past":"met","pp":"met","acc":{inf:["meet"],past:["met"],pp:["met"]}},
+{"es":"GI","inf":"give","past":"gave","pp":"given","acc":{inf:["give"],past:["gave"],pp:["given"]}},
+{"es":"FALLE","inf":"fall","past":"fell","pp":"fallen","acc":{inf:["fall"],past:["fell"],pp:["fallen"]}},
+{"es":"SKJÆRE, KLIPPE","inf":"cut","past":"cut","pp":"cut","acc":{inf:["cut"],past:["cut"],pp:["cut"]}},
+{"es":"HA","inf":"have","past":"had","pp":"had","acc":{inf:["have"],past:["had"],pp:["had"]}}
+];
+var PRON_ALL=[{"inf":[["learn","/lɜːn/"]],"past":[["learnt","/lɜːnt/"],["learned","/lɜːnd/"]],"pp":[["learnt","/lɜːnt/"],["learned","/lɜːnd/"]]},{"inf":[["sing","/sɪŋ/"]],"past":[["sang","/sæŋ/"]],"pp":[["sung","/sʌŋ/"]]},{"inf":[["eat","/iːt/"]],"past":[["ate","/et/"]],"pp":[["eaten","/ˈiːtən/"]]},{"inf":[["build","/bɪld/"]],"past":[["built","/bɪlt/"]],"pp":[["built","/bɪlt/"]]},{"inf":[["say","/seɪ/"]],"past":[["said","/sed/"]],"pp":[["said","/sed/"]]},{"inf":[["begin","/bɪˈɡɪn/"]],"past":[["began","/bɪˈɡæn/"]],"pp":[["begun","/bɪˈɡʌn/"]]},{"inf":[["write","/raɪt/"]],"past":[["wrote","/rəʊt/"]],"pp":[["written","/ˈrɪtən/"]]},{"inf":[["spend","/spend/"]],"past":[["spent","/spent/"]],"pp":[["spent","/spent/"]]},{"inf":[["speak","/spiːk/"]],"past":[["spoke","/spəʊk/"]],"pp":[["spoken","/ˈspəʊkən/"]]},{"inf":[["make","/meɪk/"]],"past":[["made","/meɪd/"]],"pp":[["made","/meɪd/"]]},{"inf":[["hurt","/hɜːt/"]],"past":[["hurt","/hɜːt/"]],"pp":[["hurt","/hɜːt/"]]},{"inf":[["go","/ɡəʊ/"]],"past":[["went","/went/"]],"pp":[["gone","/ɡɒn/"]]},{"inf":[["get","/ɡet/"]],"past":[["got","/ɡɒt/"]],"pp":[["got","/ɡɒt/"]]},{"inf":[["forget","/fəˈɡet/"]],"past":[["forgot","/fəˈɡɒt/"]],"pp":[["forgotten","/fəˈɡɒtən/"]]},{"inf":[["lose","/luːz/"]],"past":[["lost","/lɒst/"]],"pp":[["lost","/lɒst/"]]},{"inf":[["steal","/stiːl/"]],"past":[["stole","/stəʊl/"]],"pp":[["stolen","/ˈstəʊlən/"]]},{"inf":[["leave","/liːv/"]],"past":[["left","/left/"]],"pp":[["left","/left/"]]},{"inf":[["be","/biː/"]],"past":[["was / were","/wɒz/ · /wɜː/","was-were"]],"pp":[["been","/biːn/"]]},{"inf":[["come","/kʌm/"]],"past":[["came","/keɪm/"]],"pp":[["come","/kʌm/"]]},{"inf":[["see","/siː/"]],"past":[["saw","/sɔː/"]],"pp":[["seen","/siːn/"]]},{"inf":[["put","/pʊt/"]],"past":[["put","/pʊt/"]],"pp":[["put","/pʊt/"]]},{"inf":[["ring","/rɪŋ/"]],"past":[["rang","/ræŋ/"]],"pp":[["rung","/rʌŋ/"]]},{"inf":[["run","/rʌn/"]],"past":[["ran","/ræn/"]],"pp":[["run","/rʌn/"]]},{"inf":[["break","/breɪk/"]],"past":[["broke","/brəʊk/"]],"pp":[["broken","/ˈbrəʊkən/"]]},{"inf":[["sell","/sel/"]],"past":[["sold","/səʊld/"]],"pp":[["sold","/səʊld/"]]},{"inf":[["drink","/drɪŋk/"]],"past":[["drank","/dræŋk/"]],"pp":[["drunk","/drʌŋk/"]]},{"inf":[["buy","/baɪ/"]],"past":[["bought","/bɔːt/"]],"pp":[["bought","/bɔːt/"]]},{"inf":[["draw","/drɔː/"]],"past":[["drew","/druː/"]],"pp":[["drawn","/drɔːn/"]]},{"inf":[["hear","/hɪə/"]],"past":[["heard","/hɜːd/"]],"pp":[["heard","/hɜːd/"]]},{"inf":[["feed","/fiːd/"]],"past":[["fed","/fed/"]],"pp":[["fed","/fed/"]]},{"inf":[["win","/wɪn/"]],"past":[["won","/wʌn/"]],"pp":[["won","/wʌn/"]]},{"inf":[["do","/duː/"]],"past":[["did","/dɪd/"]],"pp":[["done","/dʌn/"]]},{"inf":[["meet","/miːt/"]],"past":[["met","/met/"]],"pp":[["met","/met/"]]},{"inf":[["give","/ɡɪv/"]],"past":[["gave","/ɡeɪv/"]],"pp":[["given","/ˈɡɪvən/"]]},{"inf":[["fall","/fɔːl/"]],"past":[["fell","/fel/"]],"pp":[["fallen","/ˈfɔːlən/"]]},{"inf":[["cut","/kʌt/"]],"past":[["cut","/kʌt/"]],"pp":[["cut","/kʌt/"]]},{"inf":[["have","/hæv/"]],"past":[["had","/hæd/"]],"pp":[["had","/hæd/"]]}];
+var FORMS=["inf","past","pp"];
+var CAT_OK=(typeof VERBS_CATALOG!=="undefined"&&typeof PRON_CATALOG!=="undefined"&&VERBS_CATALOG.length===PRON_CATALOG.length);
+function parseSetParam(){
+  try{
+    var h=location.hash||"";
+    var m=h.match(/^#l=([a-z-]*)$/i);
+    if(!m||!m[1])return null;
+    if(m[1]==="todos")return CAT_OK?"todos":null;
+    if(!CAT_OK)return null;
+    var codes=m[1].split("-");
+    var idx=[];
+    for(var k=0;k<codes.length;k++){
+      for(var i=0;i<VERBS_CATALOG.length;i++){
+        if(VERBS_CATALOG[i].inf===codes[k] && idx.indexOf(i)===-1){idx.push(i);break}
+      }
+    }
+    return idx.length?idx:null;
+  }catch(e){return null}
+}
+var SET=parseSetParam();
+var MODE=SET==="todos"?"catalog":(SET?"custom":"class");
+var SRC_V=MODE==="class"?VERBS_ALL:VERBS_CATALOG;
+var SRC_P=MODE==="class"?PRON_ALL:PRON_CATALOG;
+var SET_IDX=(SET&&SET!=="todos")?SET:null;
+if(!SET_IDX){SET_IDX=[];for(var j=0;j<SRC_V.length;j++)SET_IDX.push(j)}
+var VERBS=SET_IDX.map(function(i){return SRC_V[i]});
+var PRON=SET_IDX.map(function(i){return SRC_P[i]});
+window.addEventListener("hashchange",function(){location.reload()});
+function norm(s){return String(s==null?"":s).toLowerCase().trim().replace(/\s+/g," ")}
+function isCorrect(answer,accepted){var n=norm(answer);if(!n)return false;for(var i=0;i<accepted.length;i++){if(norm(accepted[i])===n)return true}return false}
+function allKeys(){var ks=[];for(var i=0;i<VERBS.length;i++){for(var j=0;j<FORMS.length;j++){ks.push(i+"-"+FORMS[j])}}return ks}
+function pickWeighted(keys,weights,lastKey,rng){
+  rng=rng||Math.random;
+  var total=0,i;
+  for(i=0;i<keys.length;i++){total+=(weights[keys[i]]||1)}
+  var chosen=keys[0];
+  for(var t=0;t<12;t++){
+    var r=rng()*total,acc=0;
+    for(i=0;i<keys.length;i++){acc+=(weights[keys[i]]||1);if(r<acc){chosen=keys[i];break}}
+    if(chosen!==lastKey||keys.length===1)return chosen;
+  }
+  return chosen;
+}
+function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights[key]}
+/*LOGIC-END*/
+
+(function(){
+  var FORM_LABELS={inf:"Infinitiv",past:"Preteritum",pp:"Perfektum partisipp"};
+  function fbDetail(f,gloss,form){ return FORM_LABELS[f]+' av verbet '+gloss+' er <b>'+form+'</b>'; }
+  var weights={};
+  var stats={total:0,ok:0,bad:0};
+  var current=null;
+  var answered=false;
+
+  var qLabel=document.getElementById("q-label");
+  var qWord=document.getElementById("q-word");
+  var qHint=document.getElementById("q-hint");
+  var form=document.getElementById("answer-form");
+  var input=document.getElementById("answer");
+  var feedback=document.getElementById("feedback");
+  var nextRow=document.getElementById("next-row");
+  var sTotal=document.getElementById("s-total");
+  var sOk=document.getElementById("s-ok");
+  var sBad=document.getElementById("s-bad");
+
+  function renderStats(){sTotal.textContent=stats.total;sOk.textContent=stats.ok;sBad.textContent=stats.bad}
+
+  function newQuestion(){
+    var key=pickWeighted(allKeys(),weights,current?current.key:null);
+    var parts=key.split("-");
+    var vi=parseInt(parts[0],10);
+    var f=parts[1];
+    var v=VERBS[vi];
+    current={key:key,verb:v,form:f,vi:vi};
+    answered=false;
+    qLabel.textContent=FORM_LABELS[f]+" av verbet";
+    qWord.textContent=v.es;
+    if(f==="inf"){qHint.innerHTML=""}
+    else{qHint.innerHTML="Infinitiv: <b>"+v.inf+"</b>"}
+    input.value="";
+    input.disabled=false;
+    document.getElementById("check").disabled=false;
+    feedback.className="feedback";
+    feedback.innerHTML="";
+    nextRow.className="next-row";
+    input.focus();
+  }
+
+  function playBtn(w,label,fileKey){
+    return '<button type="button" class="play" data-src="/ingles/verbos-irregulares/audio/'+(fileKey||w)+'.mp3" aria-label="Lytt: '+label+'">🔊</button>';
+  }
+  function pronHtml(vi,forms){
+    var p=PRON[vi];
+    if(!p)return '';
+    var out='';
+    var labels={inf:'Infinitiv',past:'Preteritum',pp:'Perfektum partisipp'};
+    for(var i=0;i<forms.length;i++){
+      var f=forms[i];
+      var vars=(p[f]||[]);
+      if(!vars.length)continue;
+      var bits='';
+      for(var j=0;j<vars.length;j++){
+        bits+='<span class="pv">'+playBtn(vars[j][0],labels[f]+': '+vars[j][0],vars[j][2])+'<span class="pc"><span class="fw">'+vars[j][0]+'</span><span class="ipa">'+vars[j][1]+'</span></span></span>';
+      }
+      out+='<div class="pron-line"><span class="fl">'+labels[f]+'</span>'+bits+'</div>';
+    }
+    return out?'<div class="pron-list">'+out+'</div>':'';
+  }
+  function trioHtml(v,vi){
+    return '<div class="trio">'+v.es+': <b>'+v.inf+'</b> · <b>'+v.past+'</b> · <b>'+v.pp+'</b></div>'+pronHtml(vi,['inf','past','pp']);
+  }
+
+  form.addEventListener("submit",function(ev){
+    ev.preventDefault();
+    if(answered)return;
+    var v=current.verb,f=current.form;
+    var ok=isCorrect(input.value,v.acc[f]);
+    answered=true;
+    stats.total++;
+    if(ok){stats.ok++}else{stats.bad++;bumpWeight(weights,current.key)}
+    renderStats();
+    var correctForm=v[f];
+    if(ok){
+      feedback.className="feedback show ok";
+      feedback.innerHTML='<p class="f-title">Riktig.</p><p class="f-detail">'+fbDetail(f,v.es,correctForm)+'.</p>'+trioHtml(v,current.vi);
+    }else{
+      feedback.className="feedback show bad";
+      var detail=input.value.trim()?('Du skrev "'+input.value.trim()+'". '):'';
+      feedback.innerHTML='<p class="f-title">Ikke helt.</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'. Den kommer tilbake.</p>'+trioHtml(v,current.vi);
+    }
+    input.disabled=true;
+    document.getElementById("check").disabled=true;
+    nextRow.className="next-row show";
+    document.getElementById("next").focus();
+  });
+
+  document.getElementById("next").addEventListener("click",function(){newQuestion()});
+  document.getElementById("restart").addEventListener("click",function(){
+    weights={};stats={total:0,ok:0,bad:0};renderStats();newQuestion();
+  });
+
+  /* pestañas */
+  var tabP=document.getElementById("tab-practice");
+  var tabR=document.getElementById("tab-review");
+  var tabC=document.getElementById("tab-create");
+  var viewP=document.getElementById("view-practice");
+  var viewR=document.getElementById("view-review");
+  var viewC=document.getElementById("view-create");
+  function select(which){
+    tabP.setAttribute("aria-selected",which==="practice"?"true":"false");
+    tabR.setAttribute("aria-selected",which==="review"?"true":"false");
+    tabC.setAttribute("aria-selected",which==="create"?"true":"false");
+    viewP.hidden=which!=="practice";
+    viewR.hidden=which!=="review";
+    viewC.hidden=which!=="create";
+    if(which==="review"){document.getElementById("search").focus()}
+  }
+  tabP.addEventListener("click",function(){select("practice")});
+  tabR.addEventListener("click",function(){select("review")});
+  tabC.addEventListener("click",function(){select("create")});
+
+  /* tabla de repaso */
+  var tbody=document.getElementById("verb-rows");
+  var empty=document.getElementById("empty");
+  var rows=[];
+  VERBS.forEach(function(v,vi){
+    var tr=document.createElement("tr");
+    var p=PRON[vi];
+    function cell(form,plain){
+      if(!p||!(p[form]||[]).length)return '<td class="en">'+plain+'</td>';
+      var labels={inf:'Infinitiv',past:'Preteritum',pp:'Perfektum partisipp'};
+      var bits='';
+      (p[form]||[]).forEach(function(pr){
+        bits+='<span class="pv">'+playBtn(pr[0],labels[form]+': '+pr[0],pr[2])+'<span class="pc"><span>'+pr[0]+'</span><span class="ipa">'+pr[1]+'</span></span></span>';
+      });
+      return '<td class="en">'+bits+'</td>';
+    }
+    tr.innerHTML='<td class="es">'+v.es+'</td>'+cell('inf',v.inf)+cell('past',v.past)+cell('pp',v.pp);
+    tbody.appendChild(tr);
+    rows.push({el:tr,hay:norm(v.es+" "+v.inf+" "+v.past+" "+v.pp)});
+  });
+  document.getElementById("search").addEventListener("input",function(){
+    var q=norm(this.value);
+    var visible=0;
+    rows.forEach(function(r){
+      var show=!q||r.hay.indexOf(q)!==-1;
+      r.el.style.display=show?"":"none";
+      if(show)visible++;
+    });
+    empty.style.display=visible?"none":"block";
+  });
+
+  var player=null;
+  document.addEventListener("click",function(ev){
+    var b=ev.target.closest("button.play");
+    if(!b)return;
+    ev.preventDefault();
+    if(player){player.pause()}
+    player=new Audio(b.getAttribute("data-src"));
+    player.play();
+  });
+
+  /* conjuntos: barra de estado y creador de listas */
+  if(MODE!=="class"){var ch=document.getElementById("correcciones-hoja");if(ch)ch.style.display="none"}
+  var setbar=document.getElementById("setbar");
+  if(MODE==="custom"){setbar.classList.add("custom");
+    setbar.innerHTML='Egen liste · '+VERBS.length+' verb · <a href="/ingles/verbos-irregulares/no/">Tilbake til klasselisten</a>';
+  }else if(MODE==="catalog"){setbar.classList.add("custom");
+    setbar.innerHTML='Hele katalogen · '+VERBS.length+' verb · <a href="/ingles/verbos-irregulares/no/">Tilbake til klasselisten</a>';
+  }else{
+    setbar.innerHTML='Klasseliste · '+VERBS.length+' verb'+(CAT_OK?' · <a href="#l=todos">Til hele katalogen ('+VERBS_CATALOG.length+')</a>':'');
+  }
+
+  var clGrid=document.getElementById("cl-verbs");
+  var clMsg=document.getElementById("cl-msg");
+  var clBoxes=[];
+  var SRC_CL=CAT_OK?VERBS_CATALOG:VERBS_ALL;
+  SRC_CL.forEach(function(v,vi){
+    var lab=document.createElement("label");
+    var cb=document.createElement("input");
+    cb.type="checkbox";cb.value=v.inf;cb.checked=true;
+    var sp=document.createElement("span");
+    sp.innerHTML=v.inf+' <span class="cl-es">'+v.es.toLowerCase()+'</span>';
+    lab.appendChild(cb);lab.appendChild(sp);
+    clGrid.appendChild(lab);
+    clBoxes.push(cb);
+  });
+  document.getElementById("cl-filter").addEventListener("input",function(){
+    var q=this.value.toLowerCase().trim();
+    for(var i=0;i<clBoxes.length;i++){
+      var v=SRC_CL[i];
+      clBoxes[i].parentNode.style.display=(!q||v.inf.toLowerCase().indexOf(q)!==-1||v.es.toLowerCase().indexOf(q)!==-1)?"":"none";
+    }
+  });
+  document.getElementById("cl-all").addEventListener("click",function(){clBoxes.forEach(function(c){c.checked=true})});
+  document.getElementById("cl-none").addEventListener("click",function(){clBoxes.forEach(function(c){c.checked=false})});
+  document.getElementById("cl-copy").addEventListener("click",function(){
+    var sel=clBoxes.filter(function(c){return c.checked}).map(function(c){return c.value});
+    if(!sel.length){clMsg.textContent="Merk minst ett verb.";return}
+    var url=location.origin+location.pathname+"#l="+sel.join("-");
+    function done(){clMsg.textContent="Lenke kopiert: "+sel.length+" verb."}
+    function fallback(){
+      var ta=document.createElement("textarea");
+      ta.value=url;document.body.appendChild(ta);ta.select();
+      try{document.execCommand("copy");done()}catch(e){clMsg.textContent=url}
+      document.body.removeChild(ta);
+    }
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(done,fallback)}else{fallback()}
+  });
+
+  newQuestion();
+})();
+</script>
+</body>
+</html>
