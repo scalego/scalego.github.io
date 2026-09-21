@@ -419,7 +419,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     }else{
       feedback.className="feedback show bad";
       var detail=input.value.trim()?('Ang na-type mo ay «'+input.value.trim()+'». '):'';
-      feedback.innerHTML='<p class="f-title">Mali.</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+' Babalikan ito mamaya.</p>'+trioHtml(v,current.vi);
+      feedback.innerHTML='<p class="f-title">Mali.</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'. Lalabas ito ulit.</p>'+trioHtml(v,current.vi);
     }
     input.disabled=true;
     document.getElementById("check").disabled=true;
