@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="zh">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Nauka angielskiego · Czasowniki nieregularne</title>
-<meta name="description" content="Ćwicz nieregularne czasowniki angielskie: losowe pytania, natychmiastowa poprawka i tabela powtórek ze wszystkimi czasownikami."/>
+<title>学英语 · 不规则动词</title>
+<meta name="description" content="练习英语不规则动词：随机出题、即时判定、动词完整列表。"/>
 <meta name="theme-color" content="#0B0F14"/>
 <meta property="og:type" content="website"/>
-<meta property="og:url" content="https://scalego.github.io/ingles/verbos-irregulares/pl/"/>
-<link rel="canonical" href="https://scalego.github.io/ingles/verbos-irregulares/pl/"/>
-<meta property="og:title" content="Nauka angielskiego · Czasowniki nieregularne"/>
-<meta property="og:description" content="Ćwicz nieregularne czasowniki angielskie: losowe pytania, natychmiastowa poprawka i tabela powtórek."/>
+<meta property="og:url" content="https://scalego.github.io/ingles/verbos-irregulares/zh/"/>
+<link rel="canonical" href="https://scalego.github.io/ingles/verbos-irregulares/zh/"/>
+<meta property="og:title" content="学英语 · 不规则动词"/>
+<meta property="og:description" content="随机出题，即时判定。用完整列表练习英语不规则动词。"/>
 <meta property="og:image" content="https://scalego.github.io/ingles/verbos-irregulares/og-scalego-en.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
@@ -145,60 +145,60 @@ button.play:hover{border-color:var(--acid)}
 <header class="site">
   <div class="wrap">
     <a class="brand" href="/" aria-label="Scale Go"><svg width="26" height="26" viewBox="0 0 48 48" aria-hidden="true"><rect x="2" y="2" width="44" height="44" rx="11" fill="#2F6BFF"/><path d="M33 15H19v7h10v11H15" fill="none" stroke="#0B0F14" stroke-width="5" stroke-linecap="square"/></svg><span>Scale <span>Go</span></span></a>
-    <p class="sub">Czasowniki nieregularne</p>
+    <p class="sub">不规则动词</p>
   </div>
-  <div class="wrap"><p class="crumb"><a href="/">Scale Go</a> &rsaquo; <a href="/ingles/">English</a> &rsaquo; Czasowniki nieregularne</p></div>
+  <div class="wrap"><p class="crumb"><a href="/">Scale Go</a> &rsaquo; <a href="/ingles/">English</a> &rsaquo; 不规则动词</p></div>
 </header>
 <main class="wrap">
-  <h1>Czasowniki nieregularne</h1>
-  <p class="intro">Ćwicz na losowych pytaniach: wpisz wymaganą formę i od razu zobacz, czy jest dobrze. Błędy będą się pojawiać częściej.</p>
+  <h1>不规则动词</h1>
+  <p class="intro">随机练习。输入正确的形式，马上就能知道对不对。答错的动词会更频繁地出现。</p>
   <p class="setbar" id="setbar"></p>
 
-  <div class="tabs" role="tablist" aria-label="Sekcje">
-    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">Ćwicz</button>
-    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">Powtórz listę</button>
-    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">Utwórz listę</button>
+  <div class="tabs" role="tablist" aria-label="栏目">
+    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">练习</button>
+    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">复习</button>
+    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">创建列表</button>
   </div>
 
   <details>
-    <summary>Co znaczą symbole /.../ (wymowa)</summary>
+    <summary>/…/ 符号的含义（发音）</summary>
     <div class="body">
-      <p>Symbole między ukośnikami, jak /ɡəʊ/, to <b>zapis fonetyczny (IPA)</b>: pokazuje, jak słowo brzmi w <b>angielskim brytyjskim</b>, dźwięk po dźwięku.</p>
+      <p>斜线之间的符号，如 /ɡəʊ/，是<b>国际音标（IPA）</b>，表示单词在<b>英式英语</b>中每个音的发音方式。</p>
       <ul>
-        <li>ˈ oznacza akcentowaną sylabę: /bɪˈɡɪn/ wymawiamy be-GIN.</li>
-        <li>ː wydłuża samogłoskę: /iː/ to długie "i".</li>
-        <li>/ə/ to najczęstsza luźna samogłoska w angielskim, jak a w słowie "about".</li>
-        <li>Jeśli symbole cię mylą, nic nie szkodzi: dotknij głośnika 🔊 i posłuchaj słowa.</li>
+        <li>ˈ 表示重读音节：/bɪˈɡɪn/ 读作 bi-GIN。</li>
+        <li>ː 表示长元音：/iː/ 是拉长的「衣」音。</li>
+        <li>/ə/ 是英语中最常见的弱读元音，类似汉语「的」的轻声。</li>
+        <li>看不懂符号也没关系，点击喇叭 🔊 直接听发音。</li>
       </ul>
     </div>
   </details>
 
   <section id="view-practice" role="tabpanel" aria-labelledby="tab-practice">
     <div class="stats">
-      <p>Pytania: <b id="s-total">0</b> · Dobrze: <b id="s-ok" class="n-ok">0</b> · Źle: <b id="s-bad" class="n-bad">0</b></p>
-      <button class="btn ghost" id="restart" type="button">Zacznij od nowa</button>
+      <p>题目数：<b id="s-total">0</b> · 答对：<b id="s-ok" class="n-ok">0</b> · 答错：<b id="s-bad" class="n-bad">0</b></p>
+      <button class="btn ghost" id="restart" type="button">重新开始</button>
     </div>
 
     <div class="card">
-      <p class="q-label" id="q-label">Bezokolicznik czasownika</p>
+      <p class="q-label" id="q-label">原形</p>
       <p class="q-word" id="q-word">…</p>
       <p class="q-hint" id="q-hint"></p>
       <form id="answer-form" autocomplete="off">
         <div class="answer-row">
-          <label for="answer" class="sub" style="position:absolute;left:-9999px">Twoja odpowiedź po angielsku</label>
-          <input id="answer" name="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="send" placeholder="Twoja odpowiedź po angielsku"/>
-          <button class="btn" id="check" type="submit">Sprawdź</button>
+          <label for="answer" class="sub" style="position:absolute;left:-9999px">用英语输入答案</label>
+          <input id="answer" name="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="send" placeholder="用英语输入答案"/>
+          <button class="btn" id="check" type="submit">检查</button>
         </div>
       </form>
       <div class="feedback" id="feedback" aria-live="polite"></div>
       <div class="next-row" id="next-row">
-        <button class="btn" id="next" type="button">Następne pytanie</button>
+        <button class="btn" id="next" type="button">下一题</button>
       </div>
     </div>
-    <p class="note">Postęp liczy się tylko w tej sesji: zamknij lub odśwież stronę, a wszystko wróci do zera.</p>
+    <p class="note">进度只在本会话中有效：关闭或刷新页面后将全部重置。</p>
 
     <details id="correcciones-hoja" style="display:none">
-      <summary>Poprawki do karty pracy</summary>
+      <summary>讲义更正</summary>
       <div class="body">
         <ul>
           <li></li>
@@ -210,29 +210,29 @@ button.play:hover{border-color:var(--acid)}
 
   <section id="view-review" role="tabpanel" aria-labelledby="tab-review" hidden>
     <div class="search-row">
-      <label for="search" class="sub" style="position:absolute;left:-9999px">Szukaj czasownika</label>
-      <input id="search" type="search" inputmode="search" placeholder="Szukaj po angielsku (np. make, go, went)"/>
+      <label for="search" class="sub" style="position:absolute;left:-9999px">查找动词</label>
+      <input id="search" type="search" inputmode="search" placeholder="用英语搜索（例：make, go, went）"/>
     </div>
     <div class="table-scroll">
       <table>
         <thead>
-          <tr><th>Znaczenie</th><th>Bezokolicznik</th><th>Czas przeszły</th><th>Imiesłów bierny</th></tr>
+          <tr><th>意思</th><th>原形</th><th>过去式</th><th>过去分词</th></tr>
         </thead>
         <tbody id="verb-rows"></tbody>
       </table>
-      <p class="empty" id="empty">Żaden czasownik nie pasuje do twojego wyszukiwania.</p>
+      <p class="empty" id="empty">没有符合搜索条件的动词。</p>
     </div>
   </section>
 
   <section id="view-create" role="tabpanel" aria-labelledby="tab-create" hidden>
     <div class="card">
-      <p>Zaznacz czasowniki, które chcesz, i skopiuj link: kto go otworzy, ćwiczy tylko ten wybór, z dźwiękiem i zapisem fonetycznym.</p>
-      <p><input id="cl-filter" type="search" inputmode="search" placeholder="Filtruj czasowniki (np. eat, go, write)" style="width:100%;box-sizing:border-box;background:#0d0f12;border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:8px;font-size:15px"/></p>
+      <p>选择动词并复制链接。打开链接的人只练习你选的动词，带音频和音标。</p>
+      <p><input id="cl-filter" type="search" inputmode="search" placeholder="筛选动词（例：eat, go, write）" style="width:100%;box-sizing:border-box;background:#0d0f12;border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:8px;font-size:15px"/></p>
       <div id="cl-verbs" class="cl-grid"></div>
       <p class="cl-actions">
-        <button class="btn ghost" id="cl-all" type="button">Zaznacz wszystkie</button>
-        <button class="btn ghost" id="cl-none" type="button">Odznacz wszystkie</button>
-        <button class="btn" id="cl-copy" type="button">Skopiuj link do listy</button>
+        <button class="btn ghost" id="cl-all" type="button">全选</button>
+        <button class="btn ghost" id="cl-none" type="button">取消选择</button>
+        <button class="btn" id="cl-copy" type="button">复制列表链接</button>
       </p>
       <p id="cl-msg" class="cl-msg" aria-live="polite"></p>
     </div>
@@ -240,51 +240,51 @@ button.play:hover{border-color:var(--acid)}
 </main>
 <footer>
   <div class="wrap">
-    <p>Zrobił Raúl · <a href="/">Scale Go</a></p>
-    <p class="langnav">Języki: <a href="/ingles/verbos-irregulares/">Español</a> · <a href="/ingles/verbos-irregulares/en/">English</a> · <a href="/ingles/verbos-irregulares/fr/">Français</a> · <a href="/ingles/verbos-irregulares/de/">Deutsch</a> · <a href="/ingles/verbos-irregulares/pt/">Português</a> · <a href="/ingles/verbos-irregulares/it/">Italiano</a> · <a href="/ingles/verbos-irregulares/tr/">Türkçe</a> · <a href="/ingles/verbos-irregulares/nl/">Nederlands</a> · <strong>Polski</strong> · <a href="/ingles/verbos-irregulares/sv/">Svenska</a> · <a href="/ingles/verbos-irregulares/da/">Dansk</a> · <a href="/ingles/verbos-irregulares/no/">Norsk</a> · <a href="/ingles/verbos-irregulares/fi/">Suomi</a> · <a href="/ingles/verbos-irregulares/ro/">Română</a> · <a href="/ingles/verbos-irregulares/hu/">Magyar</a> · <a href="/ingles/verbos-irregulares/cs/">Čeština</a> · <a href="/ingles/verbos-irregulares/uk/">Українська</a> · <a href="/ingles/verbos-irregulares/el/">Ελληνικά</a> · <a href="/ingles/verbos-irregulares/hr/">Hrvatski</a> · <a href="/ingles/verbos-irregulares/id/">Bahasa Indonesia</a> · <a href="/ingles/verbos-irregulares/hi/">हिन्दी</a> · <a href="/ingles/verbos-irregulares/ru/">Русский</a> · <a href="/ingles/verbos-irregulares/ja/">日本語</a> · <a href="/ingles/verbos-irregulares/ca/">Català</a> · <a href="/ingles/verbos-irregulares/gl/">Galego</a> · <a href="/ingles/verbos-irregulares/eu/">Euskara</a> · <a href="/ingles/verbos-irregulares/va/">Valencià</a> · <a href="/ingles/verbos-irregulares/ast/">Asturianu</a> · <a href="/ingles/verbos-irregulares/an/">Aragonés</a> · <a href="/ingles/verbos-irregulares/zh/">中文</a></p>
+    <p>Raúl 制作 · <a href="/">Scale Go</a></p>
+    <p class="langnav">语言: <a href="/ingles/verbos-irregulares/">Español</a> · <a href="/ingles/verbos-irregulares/en/">English</a> · <a href="/ingles/verbos-irregulares/fr/">Français</a> · <a href="/ingles/verbos-irregulares/de/">Deutsch</a> · <a href="/ingles/verbos-irregulares/pt/">Português</a> · <a href="/ingles/verbos-irregulares/it/">Italiano</a> · <a href="/ingles/verbos-irregulares/tr/">Türkçe</a> · <a href="/ingles/verbos-irregulares/nl/">Nederlands</a> · <a href="/ingles/verbos-irregulares/pl/">Polski</a> · <a href="/ingles/verbos-irregulares/sv/">Svenska</a> · <a href="/ingles/verbos-irregulares/da/">Dansk</a> · <a href="/ingles/verbos-irregulares/no/">Norsk</a> · <a href="/ingles/verbos-irregulares/fi/">Suomi</a> · <a href="/ingles/verbos-irregulares/ro/">Română</a> · <a href="/ingles/verbos-irregulares/hu/">Magyar</a> · <a href="/ingles/verbos-irregulares/cs/">Čeština</a> · <a href="/ingles/verbos-irregulares/uk/">Українська</a> · <a href="/ingles/verbos-irregulares/el/">Ελληνικά</a> · <a href="/ingles/verbos-irregulares/hr/">Hrvatski</a> · <a href="/ingles/verbos-irregulares/id/">Bahasa Indonesia</a> · <a href="/ingles/verbos-irregulares/hi/">हिन्दी</a> · <a href="/ingles/verbos-irregulares/ru/">Русский</a> · <a href="/ingles/verbos-irregulares/ja/">日本語</a> · <a href="/ingles/verbos-irregulares/ca/">Català</a> · <a href="/ingles/verbos-irregulares/gl/">Galego</a> · <a href="/ingles/verbos-irregulares/eu/">Euskara</a> · <a href="/ingles/verbos-irregulares/va/">Valencià</a> · <a href="/ingles/verbos-irregulares/ast/">Asturianu</a> · <a href="/ingles/verbos-irregulares/an/">Aragonés</a> · <strong>中文</strong></p>
   </div>
 </footer>
 <script src="catalog.js"></script>
 <script>
 /*LOGIC-START*/
 var VERBS_ALL=[
-{"es":"NAUCZYĆ SIĘ, UCZYĆ SIĘ","inf":"learn","past":"learnt / learned","pp":"learnt / learned","acc":{inf:["learn"],past:["learnt","learned","learnt/learned","learnt / learned"],pp:["learnt","learned","learnt/learned","learnt / learned"]}},
-{"es":"ŚPIEWAĆ, ZAŚPIEWAĆ","inf":"sing","past":"sang","pp":"sung","acc":{inf:["sing"],past:["sang"],pp:["sung"]}},
-{"es":"JEŚĆ","inf":"eat","past":"ate","pp":"eaten","acc":{inf:["eat"],past:["ate"],pp:["eaten"]}},
-{"es":"ZBUDOWAĆ","inf":"build","past":"built","pp":"built","acc":{inf:["build"],past:["built"],pp:["built"]}},
-{"es":"POWIEDZIEĆ, MÓWIĆ","inf":"say","past":"said","pp":"said","acc":{inf:["say"],past:["said"],pp:["said"]}},
-{"es":"ZACZĄĆ","inf":"begin","past":"began","pp":"begun","acc":{inf:["begin"],past:["began"],pp:["begun"]}},
-{"es":"PISAĆ, NAPISAĆ","inf":"write","past":"wrote","pp":"written","acc":{inf:["write"],past:["wrote"],pp:["written"]}},
-{"es":"WYDAWAĆ, SPĘDZAĆ","inf":"spend","past":"spent","pp":"spent","acc":{inf:["spend"],past:["spent"],pp:["spent"]}},
-{"es":"MÓWIĆ, ROZMAWIAĆ","inf":"speak","past":"spoke","pp":"spoken","acc":{inf:["speak"],past:["spoke"],pp:["spoken"]}},
-{"es":"ZROBIĆ, WYPRODUKOWAĆ","inf":"make","past":"made","pp":"made","acc":{inf:["make"],past:["made"],pp:["made"]}},
-{"es":"ZRANIĆ, SPRAWIĆ BÓL","inf":"hurt","past":"hurt","pp":"hurt","acc":{inf:["hurt"],past:["hurt"],pp:["hurt"]}},
-{"es":"IŚĆ, JECHAĆ","inf":"go","past":"went","pp":"gone","acc":{inf:["go"],past:["went"],pp:["gone"]}},
-{"es":"DOSTAĆ, UZYSKAĆ","inf":"get","past":"got","pp":"got","acc":{inf:["get"],past:["got"],pp:["got","gotten"]}},
-{"es":"ZAPOMNIEĆ","inf":"forget","past":"forgot","pp":"forgotten","acc":{inf:["forget"],past:["forgot"],pp:["forgotten"]}},
-{"es":"ZGUBIĆ, STRACIĆ","inf":"lose","past":"lost","pp":"lost","acc":{inf:["lose"],past:["lost"],pp:["lost"]}},
-{"es":"UKRAŚĆ, KRAŚĆ","inf":"steal","past":"stole","pp":"stolen","acc":{inf:["steal"],past:["stole"],pp:["stolen"]}},
-{"es":"WYJŚĆ, ZOSTAWIĆ","inf":"leave","past":"left","pp":"left","acc":{inf:["leave"],past:["left"],pp:["left"]}},
-{"es":"BYĆ","inf":"be","past":"was / were","pp":"been","acc":{inf:["be"],past:["was","were","was/were","was / were"],pp:["been"]}},
-{"es":"PRZYJŚĆ","inf":"come","past":"came","pp":"come","acc":{inf:["come"],past:["came"],pp:["come"]}},
-{"es":"ZOBACZYĆ, WIDZIEĆ","inf":"see","past":"saw","pp":"seen","acc":{inf:["see"],past:["saw"],pp:["seen"]}},
-{"es":"POŁOŻYĆ, POSTAWIĆ","inf":"put","past":"put","pp":"put","acc":{inf:["put"],past:["put"],pp:["put"]}},
-{"es":"DZWONIĆ, ZADZWONIĆ","inf":"ring","past":"rang","pp":"rung","acc":{inf:["ring"],past:["rang"],pp:["rung"]}},
-{"es":"BIEGAĆ, BIEC","inf":"run","past":"ran","pp":"run","acc":{inf:["run"],past:["ran"],pp:["run"]}},
-{"es":"ZŁAMAĆ, ZEPSUĆ","inf":"break","past":"broke","pp":"broken","acc":{inf:["break"],past:["broke"],pp:["broken"]}},
-{"es":"SPRZEDAĆ, SPRZEDAWAĆ","inf":"sell","past":"sold","pp":"sold","acc":{inf:["sell"],past:["sold"],pp:["sold"]}},
-{"es":"PIĆ","inf":"drink","past":"drank","pp":"drunk","acc":{inf:["drink"],past:["drank"],pp:["drunk"]}},
-{"es":"KUPIĆ","inf":"buy","past":"bought","pp":"bought","acc":{inf:["buy"],past:["bought"],pp:["bought"]}},
-{"es":"RYSOWAĆ","inf":"draw","past":"drew","pp":"drawn","acc":{inf:["draw"],past:["drew"],pp:["drawn"]}},
-{"es":"SŁYSZEĆ","inf":"hear","past":"heard","pp":"heard","acc":{inf:["hear"],past:["heard"],pp:["heard"]}},
-{"es":"KARMIĆ","inf":"feed","past":"fed","pp":"fed","acc":{inf:["feed"],past:["fed"],pp:["fed"]}},
-{"es":"WYGRAĆ, ZWYCIĘŻYĆ","inf":"win","past":"won","pp":"won","acc":{inf:["win"],past:["won"],pp:["won"]}},
-{"es":"ROBIĆ","inf":"do","past":"did","pp":"done","acc":{inf:["do"],past:["did"],pp:["done"]}},
-{"es":"SPOTKAĆ (SIĘ), POZNAĆ","inf":"meet","past":"met","pp":"met","acc":{inf:["meet"],past:["met"],pp:["met"]}},
-{"es":"DAĆ","inf":"give","past":"gave","pp":"given","acc":{inf:["give"],past:["gave"],pp:["given"]}},
-{"es":"UPADAĆ, SPAŚĆ","inf":"fall","past":"fell","pp":"fallen","acc":{inf:["fall"],past:["fell"],pp:["fallen"]}},
-{"es":"CIĄĆ, KROIĆ","inf":"cut","past":"cut","pp":"cut","acc":{inf:["cut"],past:["cut"],pp:["cut"]}},
-{"es":"MIEĆ","inf":"have","past":"had","pp":"had","acc":{inf:["have"],past:["had"],pp:["had"]}}
+{"es":"学习","inf":"learn","past":"learnt / learned","pp":"learnt / learned","acc":{inf:["learn"],past:["learnt","learned","learnt/learned","learnt / learned"],pp:["learnt","learned","learnt/learned","learnt / learned"]}},
+{"es":"唱歌","inf":"sing","past":"sang","pp":"sung","acc":{inf:["sing"],past:["sang"],pp:["sung"]}},
+{"es":"吃","inf":"eat","past":"ate","pp":"eaten","acc":{inf:["eat"],past:["ate"],pp:["eaten"]}},
+{"es":"建造","inf":"build","past":"built","pp":"built","acc":{inf:["build"],past:["built"],pp:["built"]}},
+{"es":"说","inf":"say","past":"said","pp":"said","acc":{inf:["say"],past:["said"],pp:["said"]}},
+{"es":"开始","inf":"begin","past":"began","pp":"begun","acc":{inf:["begin"],past:["began"],pp:["begun"]}},
+{"es":"写","inf":"write","past":"wrote","pp":"written","acc":{inf:["write"],past:["wrote"],pp:["written"]}},
+{"es":"花费、度过","inf":"spend","past":"spent","pp":"spent","acc":{inf:["spend"],past:["spent"],pp:["spent"]}},
+{"es":"说话","inf":"speak","past":"spoke","pp":"spoken","acc":{inf:["speak"],past:["spoke"],pp:["spoken"]}},
+{"es":"制作","inf":"make","past":"made","pp":"made","acc":{inf:["make"],past:["made"],pp:["made"]}},
+{"es":"受伤、使疼痛","inf":"hurt","past":"hurt","pp":"hurt","acc":{inf:["hurt"],past:["hurt"],pp:["hurt"]}},
+{"es":"去","inf":"go","past":"went","pp":"gone","acc":{inf:["go"],past:["went"],pp:["gone"]}},
+{"es":"得到","inf":"get","past":"got","pp":"got","acc":{inf:["get"],past:["got"],pp:["got","gotten"]}},
+{"es":"忘记","inf":"forget","past":"forgot","pp":"forgotten","acc":{inf:["forget"],past:["forgot"],pp:["forgotten"]}},
+{"es":"丢失","inf":"lose","past":"lost","pp":"lost","acc":{inf:["lose"],past:["lost"],pp:["lost"]}},
+{"es":"偷","inf":"steal","past":"stole","pp":"stolen","acc":{inf:["steal"],past:["stole"],pp:["stolen"]}},
+{"es":"离开、留下","inf":"leave","past":"left","pp":"left","acc":{inf:["leave"],past:["left"],pp:["left"]}},
+{"es":"是、在","inf":"be","past":"was / were","pp":"been","acc":{inf:["be"],past:["was","were","was/were","was / were"],pp:["been"]}},
+{"es":"来","inf":"come","past":"came","pp":"come","acc":{inf:["come"],past:["came"],pp:["come"]}},
+{"es":"看见","inf":"see","past":"saw","pp":"seen","acc":{inf:["see"],past:["saw"],pp:["seen"]}},
+{"es":"放","inf":"put","past":"put","pp":"put","acc":{inf:["put"],past:["put"],pp:["put"]}},
+{"es":"（铃）响、打电话","inf":"ring","past":"rang","pp":"rung","acc":{inf:["ring"],past:["rang"],pp:["rung"]}},
+{"es":"跑","inf":"run","past":"ran","pp":"run","acc":{inf:["run"],past:["ran"],pp:["run"]}},
+{"es":"打破","inf":"break","past":"broke","pp":"broken","acc":{inf:["break"],past:["broke"],pp:["broken"]}},
+{"es":"卖","inf":"sell","past":"sold","pp":"sold","acc":{inf:["sell"],past:["sold"],pp:["sold"]}},
+{"es":"喝","inf":"drink","past":"drank","pp":"drunk","acc":{inf:["drink"],past:["drank"],pp:["drunk"]}},
+{"es":"买","inf":"buy","past":"bought","pp":"bought","acc":{inf:["buy"],past:["bought"],pp:["bought"]}},
+{"es":"画","inf":"draw","past":"drew","pp":"drawn","acc":{inf:["draw"],past:["drew"],pp:["drawn"]}},
+{"es":"听见","inf":"hear","past":"heard","pp":"heard","acc":{inf:["hear"],past:["heard"],pp:["heard"]}},
+{"es":"喂养","inf":"feed","past":"fed","pp":"fed","acc":{inf:["feed"],past:["fed"],pp:["fed"]}},
+{"es":"赢","inf":"win","past":"won","pp":"won","acc":{inf:["win"],past:["won"],pp:["won"]}},
+{"es":"做","inf":"do","past":"did","pp":"done","acc":{inf:["do"],past:["did"],pp:["done"]}},
+{"es":"遇见、见面","inf":"meet","past":"met","pp":"met","acc":{inf:["meet"],past:["met"],pp:["met"]}},
+{"es":"给","inf":"give","past":"gave","pp":"given","acc":{inf:["give"],past:["gave"],pp:["given"]}},
+{"es":"落下","inf":"fall","past":"fell","pp":"fallen","acc":{inf:["fall"],past:["fell"],pp:["fallen"]}},
+{"es":"切、割","inf":"cut","past":"cut","pp":"cut","acc":{inf:["cut"],past:["cut"],pp:["cut"]}},
+{"es":"有","inf":"have","past":"had","pp":"had","acc":{inf:["have"],past:["had"],pp:["had"]}}
 ];
 var PRON_ALL=[{"inf":[["learn","/lɜːn/"]],"past":[["learnt","/lɜːnt/"],["learned","/lɜːnd/"]],"pp":[["learnt","/lɜːnt/"],["learned","/lɜːnd/"]]},{"inf":[["sing","/sɪŋ/"]],"past":[["sang","/sæŋ/"]],"pp":[["sung","/sʌŋ/"]]},{"inf":[["eat","/iːt/"]],"past":[["ate","/et/"]],"pp":[["eaten","/ˈiːtən/"]]},{"inf":[["build","/bɪld/"]],"past":[["built","/bɪlt/"]],"pp":[["built","/bɪlt/"]]},{"inf":[["say","/seɪ/"]],"past":[["said","/sed/"]],"pp":[["said","/sed/"]]},{"inf":[["begin","/bɪˈɡɪn/"]],"past":[["began","/bɪˈɡæn/"]],"pp":[["begun","/bɪˈɡʌn/"]]},{"inf":[["write","/raɪt/"]],"past":[["wrote","/rəʊt/"]],"pp":[["written","/ˈrɪtən/"]]},{"inf":[["spend","/spend/"]],"past":[["spent","/spent/"]],"pp":[["spent","/spent/"]]},{"inf":[["speak","/spiːk/"]],"past":[["spoke","/spəʊk/"]],"pp":[["spoken","/ˈspəʊkən/"]]},{"inf":[["make","/meɪk/"]],"past":[["made","/meɪd/"]],"pp":[["made","/meɪd/"]]},{"inf":[["hurt","/hɜːt/"]],"past":[["hurt","/hɜːt/"]],"pp":[["hurt","/hɜːt/"]]},{"inf":[["go","/ɡəʊ/"]],"past":[["went","/went/"]],"pp":[["gone","/ɡɒn/"]]},{"inf":[["get","/ɡet/"]],"past":[["got","/ɡɒt/"]],"pp":[["got","/ɡɒt/"]]},{"inf":[["forget","/fəˈɡet/"]],"past":[["forgot","/fəˈɡɒt/"]],"pp":[["forgotten","/fəˈɡɒtən/"]]},{"inf":[["lose","/luːz/"]],"past":[["lost","/lɒst/"]],"pp":[["lost","/lɒst/"]]},{"inf":[["steal","/stiːl/"]],"past":[["stole","/stəʊl/"]],"pp":[["stolen","/ˈstəʊlən/"]]},{"inf":[["leave","/liːv/"]],"past":[["left","/left/"]],"pp":[["left","/left/"]]},{"inf":[["be","/biː/"]],"past":[["was / were","/wɒz/ · /wɜː/","was-were"]],"pp":[["been","/biːn/"]]},{"inf":[["come","/kʌm/"]],"past":[["came","/keɪm/"]],"pp":[["come","/kʌm/"]]},{"inf":[["see","/siː/"]],"past":[["saw","/sɔː/"]],"pp":[["seen","/siːn/"]]},{"inf":[["put","/pʊt/"]],"past":[["put","/pʊt/"]],"pp":[["put","/pʊt/"]]},{"inf":[["ring","/rɪŋ/"]],"past":[["rang","/ræŋ/"]],"pp":[["rung","/rʌŋ/"]]},{"inf":[["run","/rʌn/"]],"past":[["ran","/ræn/"]],"pp":[["run","/rʌn/"]]},{"inf":[["break","/breɪk/"]],"past":[["broke","/brəʊk/"]],"pp":[["broken","/ˈbrəʊkən/"]]},{"inf":[["sell","/sel/"]],"past":[["sold","/səʊld/"]],"pp":[["sold","/səʊld/"]]},{"inf":[["drink","/drɪŋk/"]],"past":[["drank","/dræŋk/"]],"pp":[["drunk","/drʌŋk/"]]},{"inf":[["buy","/baɪ/"]],"past":[["bought","/bɔːt/"]],"pp":[["bought","/bɔːt/"]]},{"inf":[["draw","/drɔː/"]],"past":[["drew","/druː/"]],"pp":[["drawn","/drɔːn/"]]},{"inf":[["hear","/hɪə/"]],"past":[["heard","/hɜːd/"]],"pp":[["heard","/hɜːd/"]]},{"inf":[["feed","/fiːd/"]],"past":[["fed","/fed/"]],"pp":[["fed","/fed/"]]},{"inf":[["win","/wɪn/"]],"past":[["won","/wʌn/"]],"pp":[["won","/wʌn/"]]},{"inf":[["do","/duː/"]],"past":[["did","/dɪd/"]],"pp":[["done","/dʌn/"]]},{"inf":[["meet","/miːt/"]],"past":[["met","/met/"]],"pp":[["met","/met/"]]},{"inf":[["give","/ɡɪv/"]],"past":[["gave","/ɡeɪv/"]],"pp":[["given","/ˈɡɪvən/"]]},{"inf":[["fall","/fɔːl/"]],"past":[["fell","/fel/"]],"pp":[["fallen","/ˈfɔːlən/"]]},{"inf":[["cut","/kʌt/"]],"past":[["cut","/kʌt/"]],"pp":[["cut","/kʌt/"]]},{"inf":[["have","/hæv/"]],"past":[["had","/hæd/"]],"pp":[["had","/hæd/"]]}];
 var FORMS=["inf","past","pp"];
@@ -334,8 +334,8 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
 /*LOGIC-END*/
 
 (function(){
-  var FORM_LABELS={inf:"Bezokolicznik",past:"Czas przeszły",pp:"Imiesłów bierny"};
-  function fbDetail(f,gloss,form){ return FORM_LABELS[f]+' czasownika '+gloss+' to <b>'+form+'</b>'; }
+  var FORM_LABELS={inf:"原形",past:"过去式",pp:"过去分词"};
+  function fbDetail(f,gloss,form){ return '「'+gloss+'」的'+FORM_LABELS[f]+'是 <b>'+form+'</b>'; }
   var weights={};
   var stats={total:0,ok:0,bad:0};
   var current=null;
@@ -362,10 +362,10 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var v=VERBS[vi];
     current={key:key,verb:v,form:f,vi:vi};
     answered=false;
-    qLabel.textContent=FORM_LABELS[f]+" czasownika";
+    qLabel.textContent=FORM_LABELS[f]+"";
     qWord.textContent=v.es;
     if(f==="inf"){qHint.innerHTML=""}
-    else{qHint.innerHTML="Bezokolicznik: <b>"+v.inf+"</b>"}
+    else{qHint.innerHTML="原形: <b>"+v.inf+"</b>"}
     input.value="";
     input.disabled=false;
     document.getElementById("check").disabled=false;
@@ -376,13 +376,13 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   }
 
   function playBtn(w,label,fileKey){
-    return '<button type="button" class="play" data-src="/ingles/verbos-irregulares/audio/'+(fileKey||w)+'.mp3" aria-label="Posłuchaj: '+label+'">🔊</button>';
+    return '<button type="button" class="play" data-src="/ingles/verbos-irregulares/audio/'+(fileKey||w)+'.mp3" aria-label="听：'+label+'">🔊</button>';
   }
   function pronHtml(vi,forms){
     var p=PRON[vi];
     if(!p)return '';
     var out='';
-    var labels={inf:'Bezokolicznik',past:'Czas przeszły',pp:'Imiesłów bierny'};
+    var labels={inf:'原形',past:'过去式',pp:'过去分词'};
     for(var i=0;i<forms.length;i++){
       var f=forms[i];
       var vars=(p[f]||[]);
@@ -411,11 +411,11 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var correctForm=v[f];
     if(ok){
       feedback.className="feedback show ok";
-      feedback.innerHTML='<p class="f-title">Dobrze.</p><p class="f-detail">'+fbDetail(f,v.es,correctForm)+'.</p>'+trioHtml(v,current.vi);
+      feedback.innerHTML='<p class="f-title">正确！</p><p class="f-detail">'+fbDetail(f,v.es,correctForm)+'.</p>'+trioHtml(v,current.vi);
     }else{
       feedback.className="feedback show bad";
-      var detail=input.value.trim()?('Napisałeś "'+input.value.trim()+'". '):'';
-      feedback.innerHTML='<p class="f-title">Nie do końca.</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'. Ten jeszcze wróci.</p>'+trioHtml(v,current.vi);
+      var detail=input.value.trim()?('你写的是「'+input.value.trim()+'」。'):'';
+      feedback.innerHTML='<p class="f-title">不正确。</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'，之后会再次出现。</p>'+trioHtml(v,current.vi);
     }
     input.disabled=true;
     document.getElementById("check").disabled=true;
@@ -457,7 +457,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var p=PRON[vi];
     function cell(form,plain){
       if(!p||!(p[form]||[]).length)return '<td class="en">'+plain+'</td>';
-      var labels={inf:'Bezokolicznik',past:'Czas przeszły',pp:'Imiesłów bierny'};
+      var labels={inf:'原形',past:'过去式',pp:'过去分词'};
       var bits='';
       (p[form]||[]).forEach(function(pr){
         bits+='<span class="pv">'+playBtn(pr[0],labels[form]+': '+pr[0],pr[2])+'<span class="pc"><span>'+pr[0]+'</span><span class="ipa">'+pr[1]+'</span></span></span>';
@@ -493,11 +493,11 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   if(MODE!=="class"){var ch=document.getElementById("correcciones-hoja");if(ch)ch.style.display="none"}
   var setbar=document.getElementById("setbar");
   if(MODE==="custom"){setbar.classList.add("custom");
-    setbar.innerHTML='Własna lista · '+VERBS.length+(VERBS.length===1?' czasownik':(VERBS.length<5?' czasowniki':' czasowników'))+' · <a href="/ingles/verbos-irregulares/pl/">Wróć do listy klasowej</a>';
+    setbar.innerHTML='你的列表 · '+VERBS.length+' 个动词 · <a href="/ingles/verbos-irregulares/zh/">返回班级列表</a>';
   }else if(MODE==="catalog"){setbar.classList.add("custom");
-    setbar.innerHTML='Pełny katalog · '+VERBS.length+' czasowników · <a href="/ingles/verbos-irregulares/pl/">Wróć do listy klasowej</a>';
+    setbar.innerHTML='完整目录 · '+VERBS.length+' 个动词 · <a href="/ingles/verbos-irregulares/zh/">返回班级列表</a>';
   }else{
-    setbar.innerHTML='Lista klasowa · '+VERBS.length+' czasowników'+(CAT_OK?' · <a href="#l=todos">Do pełnego katalogu ('+VERBS_CATALOG.length+')</a>':'');
+    setbar.innerHTML='班级列表 · '+VERBS.length+' 个动词'+(CAT_OK?' · <a href="#l=todos">完整目录 ('+VERBS_CATALOG.length+')</a>':'');
   }
 
   var clGrid=document.getElementById("cl-verbs");
@@ -525,9 +525,9 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   document.getElementById("cl-none").addEventListener("click",function(){clBoxes.forEach(function(c){c.checked=false})});
   document.getElementById("cl-copy").addEventListener("click",function(){
     var sel=clBoxes.filter(function(c){return c.checked}).map(function(c){return c.value});
-    if(!sel.length){clMsg.textContent="Zaznacz przynajmniej jeden czasownik.";return}
+    if(!sel.length){clMsg.textContent="请至少选择一个动词。";return}
     var url=location.origin+location.pathname+"#l="+sel.join("-");
-    function done(){clMsg.textContent="Link skopiowany: "+sel.length+(sel.length===1?" czasownik.":(sel.length<5?" czasowniki.":" czasowników."))}
+    function done(){clMsg.textContent="链接已复制："+sel.length+" 个动词。"}
     function fallback(){
       var ta=document.createElement("textarea");
       ta.value=url;document.body.appendChild(ta);ta.select();
