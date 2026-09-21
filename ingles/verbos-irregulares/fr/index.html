@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Apprendre l'anglais · Verbes irréguliers</title>
 <meta name="description" content="Entraîne-toi sur les verbes irréguliers anglais : questions aléatoires, correction immédiate et tableau de révision avec tous les verbes."/>
-<meta name="theme-color" content="#0a0b0d"/>
+<meta name="theme-color" content="#0B0F14"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://scalego.github.io/ingles/verbos-irregulares/fr/"/>
 <link rel="canonical" href="https://scalego.github.io/ingles/verbos-irregulares/fr/"/>
@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <style>
 @import "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap";
-:root{--bg:#0a0b0d;--panel:#101216;--text:#f3f0e9;--muted:#9da0a6;--line:#282b31;--acid:#c7ff3d;--ok:#1f2b12;--bad:#3a1416;--bad-line:#8f3a3f;--max:820px}
+:root{--bg:#0B0F14;--panel:#131B26;--text:#E8EEF4;--muted:#8A98A8;--line:#233246;--acid:#2F6BFF;--ok:#122a1d;--ok-ink:#3DDC97;--bad:#2c1517;--bad-line:#7d3a40;--max:820px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);margin:0;font-family:Manrope,Arial,sans-serif;font-size:17px;line-height:1.6}
@@ -26,7 +26,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{o
 .wrap{width:min(calc(100% - 32px),var(--max));margin-inline:auto}
 header.site{border-bottom:1px solid var(--line);padding:22px 0}
 header.site .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
-.brand{font-family:"DM Mono",monospace;letter-spacing:-.04em;font-size:20px;font-weight:500;text-decoration:none}
+.crumb{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:12px 0 0}
+.crumb a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
+.crumb a:hover{color:var(--acid);border-color:var(--acid)}
+.brand{display:inline-flex;align-items:center;gap:9px;font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;letter-spacing:-.01em;font-size:19px;font-weight:700;text-decoration:none}
 .brand span{color:var(--acid)}
 .sub{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 main{padding:34px 0 60px}
@@ -34,7 +37,7 @@ h1{letter-spacing:-.04em;font-size:clamp(30px,6vw,44px);font-weight:600;line-hei
 .intro{color:#c3c4c7;max-width:600px;margin:0 0 28px;font-size:16px}
 .tabs{display:flex;gap:8px;margin:0 0 26px}
 .tab{flex:1;background:var(--panel);border:1px solid var(--line);color:var(--muted);font-family:"DM Mono",monospace;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:14px 10px;cursor:pointer;min-height:52px}
-.tab[aria-selected="true"]{background:var(--acid);border-color:var(--acid);color:#111;font-weight:500}
+.tab[aria-selected="true"]{background:var(--acid);border-color:var(--acid);color:#fff;font-weight:500}
 .card{background:var(--panel);border:1px solid var(--line);padding:30px 26px}
 .q-label{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .q-word{font-size:clamp(38px,9vw,56px);font-weight:700;letter-spacing:-.03em;line-height:1.05;margin:0 0 6px}
@@ -43,17 +46,17 @@ h1{letter-spacing:-.04em;font-size:clamp(30px,6vw,44px);font-weight:600;line-hei
 .answer-row{display:flex;gap:10px;flex-wrap:wrap}
 input#answer{flex:1;min-width:200px;background:var(--bg);border:1px solid var(--line);color:var(--text);font-family:"DM Mono",monospace;font-size:19px;padding:15px 16px;min-height:56px;border-radius:0}
 input#answer::placeholder{color:#5d6167}
-button.btn{background:var(--acid);border:1px solid var(--acid);color:#111;font-family:"DM Mono",monospace;font-size:14px;letter-spacing:.05em;text-transform:uppercase;font-weight:500;padding:15px 22px;cursor:pointer;min-height:56px}
+button.btn{background:var(--acid);border:1px solid var(--acid);color:#fff;font-family:"DM Mono",monospace;font-size:14px;letter-spacing:.05em;text-transform:uppercase;font-weight:500;padding:15px 22px;cursor:pointer;min-height:56px}
 button.btn.ghost{background:transparent;color:var(--text);border-color:var(--line)}
 button.btn:hover{filter:brightness(1.06)}
 button.btn:disabled{opacity:.45;cursor:default;filter:none}
 button.btn.ghost:hover{border-color:var(--acid);color:var(--acid)}
 .feedback{margin-top:22px;padding:18px 20px;display:none;border:1px solid var(--line)}
 .feedback.show{display:block}
-.feedback.ok{background:var(--ok);border-color:var(--acid)}
+.feedback.ok{background:var(--ok);border-color:var(--ok-ink)}
 .feedback.bad{background:var(--bad);border-color:var(--bad-line)}
 .feedback .f-title{font-weight:700;font-size:18px;margin:0 0 4px}
-.feedback.ok .f-title{color:var(--acid)}
+.feedback.ok .f-title{color:var(--ok-ink)}
 .feedback.bad .f-title{color:#ff8a90}
 .feedback .f-detail{margin:0;color:#e6e2da;font-size:16px}
 .feedback .f-detail b{color:#fff}
@@ -64,7 +67,7 @@ button.btn.ghost:hover{border-color:var(--acid);color:var(--acid)}
 .stats{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin:0 0 20px;padding:14px 18px;background:var(--panel);border:1px solid var(--line)}
 .stats p{margin:0;font-family:"DM Mono",monospace;font-size:13px;letter-spacing:.04em;color:var(--muted)}
 .stats p b{color:var(--text);font-weight:500}
-.stats .n-ok{color:var(--acid)}
+.stats .n-ok{color:var(--ok-ink)}
 .stats .n-bad{color:#ff8a90}
 .stats button.btn{min-height:48px;padding:12px 18px;font-size:12px}
 .note{color:var(--muted);font-size:14px;margin:18px 0 0}
@@ -141,9 +144,10 @@ button.play:hover{border-color:var(--acid)}
 <body>
 <header class="site">
   <div class="wrap">
-    <a class="brand" href="/ingles/verbos-irregulares/fr/">Apprendre l'anglais<span>.</span></a>
+    <a class="brand" href="/" aria-label="Scale Go"><svg width="26" height="26" viewBox="0 0 48 48" aria-hidden="true"><rect x="2" y="2" width="44" height="44" rx="11" fill="#2F6BFF"/><path d="M33 15H19v7h10v11H15" fill="none" stroke="#0B0F14" stroke-width="5" stroke-linecap="square"/></svg><span>Scale <span>Go</span></span></a>
     <p class="sub">Verbes irréguliers</p>
   </div>
+  <div class="wrap"><p class="crumb"><a href="/">Scale Go</a> &rsaquo; <a href="/ingles/">English</a> &rsaquo; Verbes irréguliers</p></div>
 </header>
 <main class="wrap">
   <h1>Verbes irréguliers</h1>
@@ -236,7 +240,7 @@ button.play:hover{border-color:var(--acid)}
 </main>
 <footer>
   <div class="wrap">
-    <p>Fait par Raúl · <a href="https://raulbaeza15.github.io/">raulbaeza15.github.io</a></p>
+    <p>Fait par Raúl · <a href="/">Scale Go</a></p>
     <p class="langnav">Langues: <a href="/ingles/verbos-irregulares/">Español</a> · <a href="/ingles/verbos-irregulares/en/">English</a> · <strong>Français</strong> · <a href="/ingles/verbos-irregulares/de/">Deutsch</a> · <a href="/ingles/verbos-irregulares/pt/">Português</a> · <a href="/ingles/verbos-irregulares/it/">Italiano</a> · <a href="/ingles/verbos-irregulares/tr/">Türkçe</a> · <a href="/ingles/verbos-irregulares/nl/">Nederlands</a> · <a href="/ingles/verbos-irregulares/pl/">Polski</a> · <a href="/ingles/verbos-irregulares/sv/">Svenska</a> · <a href="/ingles/verbos-irregulares/da/">Dansk</a> · <a href="/ingles/verbos-irregulares/no/">Norsk</a> · <a href="/ingles/verbos-irregulares/fi/">Suomi</a> · <a href="/ingles/verbos-irregulares/ro/">Română</a> · <a href="/ingles/verbos-irregulares/hu/">Magyar</a> · <a href="/ingles/verbos-irregulares/cs/">Čeština</a></p>
   </div>
 </footer>
