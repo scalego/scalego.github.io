@@ -32,7 +32,7 @@ jobs:
             p.write_text(s[:m.start()]+rep+s[m.end():])
           for p in pages:
             b=re.search(r'<p class="langnav">(.*?)</p>',p.read_text(),re.S).group(1)
-            assert len(re.findall(r'<(?:a|strong)\\b',b))==100
+            assert len(re.findall(r'<(?:a|strong)\b',b))==100
             assert b.count('<strong>')==1
           Path('.github/workflows/complete-langnav.yml').unlink()
       - name: Commit batch
