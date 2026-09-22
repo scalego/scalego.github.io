@@ -18,6 +18,12 @@ html = open(f'{BASE}/{prev}/index.html', encoding='utf-8').read()
 # protect the footer's own-language <strong>NAME</strong> from string pairs that
 # may collide with the language name (e.g. JV T_LANGS "Basa" inside "Basa Jawa")
 html = html.replace(f'<strong>{prevname}</strong>', '\x01')
+# protect the whole langnav block: display names can contain UI strings
+# (e.g. jv T_LANGS 'Basa' inside 'Basa Jawa'), so pairs must not touch it
+_m = re.search(r'<p class="langnav">.*?</p>', html, re.S)
+assert _m, 'langnav not found'
+langnav = _m.group(0)
+html = html.replace(langnav, '\x02')
 pairs = [(PREV[k], NEW[k]) for k in PREV if k in NEW and k != 'LANG' and PREV[k] and PREV[k] != NEW[k]]
 pairs.sort(key=lambda p: -len(p[0]))
 for idx, (a, b) in enumerate(pairs):
@@ -37,6 +43,10 @@ if new in RTL_LANGS:
     anchor = '/* pronunciacion */'
     if anchor in html and 'html[dir=rtl]' not in html:
         html = html.replace(anchor, RTL_CSS + '\n' + anchor, 1)
+# restore langnav, translating only its label
+langnav = langnav.replace(f'<p class="langnav">{PREV["T_LANGS"]}:', f'<p class="langnav">{NEW["T_LANGS"]}:')
+assert NEW['T_LANGS'] in langnav, 'langnav label not swapped'
+html = html.replace('\x02', langnav)
 html = html.replace('\x01', f'<strong>{prevname}</strong>')
 if f'<strong>{prevname}</strong> · <a href="{PATH}{new}/">{newname}</a></p>' in html:
     html = html.replace(f'<strong>{prevname}</strong> · <a href="{PATH}{new}/">{newname}</a></p>',
