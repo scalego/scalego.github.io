@@ -1,20 +1,21 @@
 <!DOCTYPE html>
+
 <html lang="eo">
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, iistial-scale=1"/>
-<title>Jàng Àngle · Verb yu jaarul yoon</title>
-<meta name="description" content="Jàngaleel verb yu jaarul yoon ci Àngle: laaj yuy génne ci saasi, feedback ci saasi ak tablo verb yu mat."/>
-<meta name="theme-color" content="#0B0F14"/>
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://scalego.github.io/ingles/verbos-irregulares/eo/"/>
-<link rel="canoiscal" href="https://scalego.github.io/ingles/verbos-irregulares/eo/"/>
-<meta property="og:title" content="Jàng Àngle · Verb yu jaarul yoon"/>
-<meta property="og:description" content="Jàngaleel verb angale yu jaxasoo ak laaj yuy génne ci saasi, feedback ci saasi ak tablo yu mat."/>
-<meta property="og:image" content="https://scalego.github.io/ingles/verbos-irregulares/og-scalego-en.png"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="630"/>
-<meta name="twitter:card" content="summary_large_image"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Lernu la anglan · Neregulaj verboj</title>
+<meta content="Practise Angla irregular verbs: random questions, instant correction and a review table with every verb." name="description"/>
+<meta content="#0B0F14" name="theme-color"/>
+<meta content="website" property="og:type"/>
+<meta content="https://scalego.github.io/ingles/verbos-irregulares/eo/" property="og:url"/>
+<link href="https://scalego.github.io/ingles/verbos-irregulares/eo/" rel="canonical"/>
+<meta content="Learn Angla · Neregulaj verboj" property="og:title"/>
+<meta content="Practise Angla irregular verbs: random questions, instant correction and a review table." property="og:description"/>
+<meta content="https://scalego.github.io/ingles/verbos-irregulares/og-scalego-en.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="summary_large_image" name="twitter:card"/>
 <style>
 @import "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap";
 :root{--bg:#0B0F14;--panel:#131B26;--text:#E8EEF4;--muted:#8A98A8;--line:#233246;--acid:#2F6BFF;--ok:#122a1d;--ok-ink:#3DDC97;--bad:#2c1517;--bad-line:#7d3a40;--max:820px}
@@ -99,8 +100,10 @@ footer a:hover{color:var(--acid)}
 .langnav a,.langnav strong{color:inherit}
 .langnav a{text-decoration:underline;text-underline-offset:3px}
 .langnav a:hover{color:var(--acid)}
-
-
+html[dir=rtl] *{letter-spacing:normal}
+html[dir=rtl] th{text-align:right}
+html[dir=rtl] details .body ul{padding-left:0;padding-right:20px}
+html[dir=rtl] .setbar a{margin-left:0;margin-right:8px}
 
 /* pronunciacion */
 .pv{display:flex;align-items:center;gap:7px}
@@ -145,106 +148,99 @@ button.play:hover{border-color:var(--acid)}
 </head>
 <body>
 <header class="site">
-  <div class="wrap">
-    <a class="brand" href="/" aria-label="Scale Go"><svg width="26" height="26" viewBox="0 0 48 48" aria-hidden="true"><rect x="2" y="2" width="44" height="44" rx="11" fill="#2F6BFF"/><path d="M33 15H19v7h10v11H15" fill="none" stroke="#0B0F14" stroke-width="5" stroke-linecap="square"/></svg><span>Scale <span>Go</span></span></a>
-    <p class="sub"></p>
-  </div>
-  <div class="wrap"><p class="crumb"><a href="/">Scale Go</a> &rsaquo; <a href="/ingles/">English</a> &rsaquo; </p></div>
+<div class="wrap">
+<a aria-label="Scale Go" class="brand" href="/"><svg aria-hidden="true" height="26" viewbox="0 0 48 48" width="26"><rect fill="#2F6BFF" height="44" rx="11" width="44" x="2" y="2"></rect><path d="M33 15H19v7h10v11H15" fill="none" stroke="#0B0F14" stroke-linecap="square" stroke-width="5"></path></svg><span>Scale <span>Go</span></span></a>
+<p class="sub">Neregulaj verboj</p>
+</div>
+<div class="wrap"><p class="crumb"><a href="/">Scale Go</a> › <a href="/ingles/">Angla</a> › Neregulaj verboj</p></div>
 </header>
 <main class="wrap">
-  <h1></h1>
-  <p class="intro">Tàmbaleel ci laaj yiy génn ci saasi: binndal formileer bi war nga xool ci saasi ndax sa tontu jub na am déet. Verb boo juum dina dellusi.</p>
-  <p class="setbar" id="setbar"></p>
-
-  <div class="tabs" role="tablist" aria-label="">
-    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">Ekzerci</button>
-    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">Revizia listo</button>
-    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">Krei liston</button>
-  </div>
-
-  <details>
-    <summary>Luy màndarga /.../ (son) yi?</summary>
-    <div class="body">
-      <p>Mandarga yi nekk ci digganté slash yi, lu ci melni /ɡəʊ/, ñooy<b>Alfabet fonetik internasional (IPA)</b>: dañuy wane ni ñuy waxe baat bu nekk ci<b></b>, son par son.</p>
-      <ul>
-        <li>ˈ dafay màndargaal silabal biñ aksante: /bɪˈɡɪn/ ñu ngi koy waxe bi-GIN.</li>
-        <li>ː dafay gudd baat bi: /iː/ "i" bu gudd la.</li>
-        <li>/ə/ mooy waxin bu amul benn boor, moo gëna bari ci Àngle, lu melni "a" ci "about".</li>
-        <li>Sudee màndarga yooyu dañu jafe, amul jafe-jafe: bësal 🔊 bi te déglu baat bi.</li>
-      </ul>
-    </div>
-  </details>
-
-  <section id="view-practice" role="tabpanel" aria-labelledby="tab-practice">
-    <div class="stats">
-      <p>Demandoj: <b id="s-total">0</b> · Ĝusta: <b id="s-ok" class="n-ok">0</b> · Malĝusta: <b id="s-bad" class="n-bad">0</b></p>
-      <button class="btn ghost" id="restart" type="button">Rekomenci</button>
-    </div>
-
-    <div class="card">
-      <p class="q-label" id="q-label">ci jëf ji:</p>
-      <p class="q-word" id="q-word">…</p>
-      <p class="q-hint" id="q-hint"></p>
-      <form id="answer-form" autocomplete="off">
-        <div class="answer-row">
-          <label for="answer" class="sub" style="position:absolute;left:-9999px"></label>
-          <input id="answer" name="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="send" placeholder=""/>
-          <button class="btn" id="check" type="submit">Kontroli</button>
-        </div>
-      </form>
-      <div class="feedback" id="feedback" aria-live="polite"></div>
-      <div class="next-row" id="next-row">
-        <button class="btn" id="next" type="button">Laaj bi ci topp</button>
-      </div>
-    </div>
-    <p class="note">Sa yokkute fii rekk lañu koy denc: suñu tëjee xët wi wala ñu ubbi beneen, lépp dina réer.</p>
-
-    <details id="correcciones-hoja" style="display:none">
-      <summary></summary>
-      <div class="body">
-        <ul>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-    </details>
-  </section>
-
-  <section id="view-review" role="tabpanel" aria-labelledby="tab-review" hidden>
-    <div class="search-row">
-      <label for="search" class="sub" style="position:absolute;left:-9999px"></label>
-      <input id="search" type="search" inputmode="search" placeholder="Seetal ci Àngle (lu melni def, dem, dem)"/>
-    </div>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr><th>Tekki</th><th></th><th>Dàmb bu yomb</th><th></th></tr>
-        </thead>
-        <tbody id="verb-rows"></tbody>
-      </table>
-      <p class="empty" id="empty">Amul benn verb bu méngoo ak seetlu bi.</p>
-    </div>
-  </section>
-
-  <section id="view-create" role="tabpanel" aria-labelledby="tab-create" hidden>
-    <div class="card">
-      <p>Tannal verb yi nga kopie lien bi: képp ku ko ubbi, verb yi nga tànn kese ngay jàng, ak audio ak transcription fonetik.</p>
-      <p><input id="cl-filter" type="search" inputmode="search" placeholder="Verb yiy segg (lu melni lekk, dem, bind)" style="width:100%;box-sizing:border-box;background:#0d0f12;border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:8px;font-size:15px"/></p>
-      <div id="cl-verbs" class="cl-grid"></div>
-      <p class="cl-actions">
-        <button class="btn ghost" id="cl-all" type="button">Tannal lépp</button>
-        <button class="btn ghost" id="cl-none" type="button">Futti tànneef</button>
-        <button class="btn" id="cl-copy" type="button">Kopie lëkkalekaayu limu</button>
-      </p>
-      <p id="cl-msg" class="cl-msg" aria-live="polite"></p>
-    </div>
-  </section>
+<h1>Neregulaj verboj</h1>
+<p class="intro">Ekzercu per hazardaj demandoj: tajpu la petitan formon kaj tuj kontrolu ĉu ĝi estas ĝusta. La eraritaj verboj aperos pli ofte.</p>
+<p class="setbar" id="setbar"></p>
+<div aria-label="Sections" class="tabs" role="tablist">
+<button aria-controls="view-practice" aria-selected="true" class="tab" id="tab-practice" role="tab">Ekzerci</button>
+<button aria-controls="view-review" aria-selected="false" class="tab" id="tab-review" role="tab">Revizia listo</button>
+<button aria-controls="view-create" aria-selected="false" class="tab" id="tab-create" role="tab">Krei liston</button>
+</div>
+<details>
+<summary>Kion signifas la simboloj /.../ (prononco)</summary>
+<div class="body">
+<p>La simboloj inter oblikvaj strekoj, kiel /ɡəʊ/, estas la <b>fonetika transskribo (IPA)</b>: ili montras kiel la vorto sonas en <b>brita angla</b>, sono post sono.</p>
+<ul>
+<li>ˈ markas la akcentitan silabon: /bɪˈɡɪn/ estas prononcata be-GIN.</li>
+<li>ː plilongigas la vokalon: /iː/ estas longa "i".</li>
+<li>/ə/ estas la plej ofta neakcentita vokalo en la angla, kiel la "a" en "about".</li>
+<li>Se la simboloj konfuzas vin, premu la laŭtparolilon 🔊 kaj aŭskultu la vorton.</li>
+</ul>
+</div>
+</details>
+<section aria-labelledby="tab-practice" id="view-practice" role="tabpanel">
+<div class="stats">
+<p>Demandoj: <b id="s-total">0</b> · Ĝusta: <b class="n-ok" id="s-ok">0</b> · Malĝusta: <b class="n-bad" id="s-bad">0</b></p>
+<button class="btn ghost" id="restart" type="button">Rekomenci</button>
+</div>
+<div class="card">
+<p class="q-label" id="q-label">Infinitivo de</p>
+<p class="q-word" id="q-word">…</p>
+<p class="q-hint" id="q-hint"></p>
+<form autocomplete="off" id="answer-form">
+<div class="answer-row">
+<label class="sub" for="answer" style="position:absolute;left:-9999px">Via respondo en la angla</label>
+<input autocapitalize="none" autocorrect="off" enterkeyhint="send" id="answer" inputmode="text" name="answer" placeholder="Via respondo en la angla" spellcheck="false" type="text"/>
+<button class="btn" id="check" type="submit">Kontroli</button>
+</div>
+</form>
+<div aria-live="polite" class="feedback" id="feedback"></div>
+<div class="next-row" id="next-row">
+<button class="btn" id="next" type="button">Sekva demando</button>
+</div>
+</div>
+<p class="note">La progreso konserviĝas nur dum ĉi tiu sesio: fermu aŭ reŝargu la paĝon kaj ĝi rekomenciĝos de nulo.</p>
+<details id="correcciones-hoja" style="display:none">
+<summary>Korektoj de laborfolio</summary>
+<div class="body">
+<ul>
+<li></li>
+<li></li>
+</ul>
+</div>
+</details>
+</section>
+<section aria-labelledby="tab-review" hidden="" id="view-review" role="tabpanel">
+<div class="search-row">
+<label class="sub" for="search" style="position:absolute;left:-9999px">Serĉi verbon</label>
+<input id="search" inputmode="search" placeholder="Search in Angla (e.g. make, go, went)" type="search"/>
+</div>
+<div class="table-scroll">
+<table>
+<thead>
+<tr><th>Signifo</th><th>Infinitivo</th><th>Simpla pasinteco</th><th>Pasinta participo</th></tr>
+</thead>
+<tbody id="verb-rows"></tbody>
+</table>
+<p class="empty" id="empty">Neniu verbo kongruas kun via serĉo.</p>
+</div>
+</section>
+<section aria-labelledby="tab-create" hidden="" id="view-create" role="tabpanel">
+<div class="card">
+<p>Elektu la verbojn el la plena katalogo kaj kopiu la ligilon: kiu malfermos ĝin, ekzercos nur tiun elekton, kun sono kaj fonetiko.</p>
+<p><input id="cl-filter" inputmode="search" placeholder="Filter verbs (e.g. eat, go, write)" style="width:100%;box-sizing:border-box;background:#0d0f12;border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:8px;font-size:15px" type="search"/></p>
+<div class="cl-grid" id="cl-verbs"></div>
+<p class="cl-actions">
+<button class="btn ghost" id="cl-all" type="button">Elekti ĉiujn</button>
+<button class="btn ghost" id="cl-none" type="button">Forigi ĉiujn</button>
+<button class="btn" id="cl-copy" type="button">Kopii la listan ligilon</button>
+</p>
+<p aria-live="polite" class="cl-msg" id="cl-msg"></p>
+</div>
+</section>
 </main>
 <footer>
-  <div class="wrap">
-    <p>Raúl moo ko defar ·<a href="/">Scale Go</a></p>
-    <p class="langnav">Lingvoj: <a href="/ingles/verbos-irregulares/">Español</a> · <a href="/ingles/verbos-irregulares/en/">English</a> · <a href="/ingles/verbos-irregulares/fr/">Français</a> · <a href="/ingles/verbos-irregulares/de/">Deutsch</a> · <a href="/ingles/verbos-irregulares/pt/">Português</a> · <a href="/ingles/verbos-irregulares/it/">Italiano</a> · <a href="/ingles/verbos-irregulares/tr/">Türkçe</a> · <a href="/ingles/verbos-irregulares/nl/">Nederlands</a> · <a href="/ingles/verbos-irregulares/pl/">Polski</a> · <a href="/ingles/verbos-irregulares/sv/">Svenska</a> · <a href="/ingles/verbos-irregulares/da/">Dansk</a> · <a href="/ingles/verbos-irregulares/no/">Norsk</a> · <a href="/ingles/verbos-irregulares/fi/">Suomi</a> · <a href="/ingles/verbos-irregulares/ro/">Română</a> · <a href="/ingles/verbos-irregulares/hu/">Magyar</a> · <a href="/ingles/verbos-irregulares/cs/">Čeština</a> · <a href="/ingles/verbos-irregulares/uk/">Українська</a> · <a href="/ingles/verbos-irregulares/el/">Ελληνικά</a> · <a href="/ingles/verbos-irregulares/hr/">Hrvatski</a> · <a href="/ingles/verbos-irregulares/id/">Bahasa Indonesia</a> · <a href="/ingles/verbos-irregulares/hi/">हिन्दी</a> · <a href="/ingles/verbos-irregulares/ru/">Русский</a> · <a href="/ingles/verbos-irregulares/ja/">日本語</a> · <a href="/ingles/verbos-irregulares/ca/">Català</a> · <a href="/ingles/verbos-irregulares/gl/">Galego</a> · <a href="/ingles/verbos-irregulares/eu/">Euskara</a> · <a href="/ingles/verbos-irregulares/va/">Valencià</a> · <a href="/ingles/verbos-irregulares/ast/">Asturianu</a> · <a href="/ingles/verbos-irregulares/an/">Aragonés</a> · <a href="/ingles/verbos-irregulares/zh/">中文</a> · <a href="/ingles/verbos-irregulares/ko/">한국어</a> · <a href="/ingles/verbos-irregulares/ar/">العربية</a> · <a href="/ingles/verbos-irregulares/bn/">বাংলা</a> · <a href="/ingles/verbos-irregulares/vi/">Tiếng Việt</a> · <a href="/ingles/verbos-irregulares/th/">ไทย</a> · <a href="/ingles/verbos-irregulares/tl/">Tagalog</a> · <a href="/ingles/verbos-irregulares/ms/">Bahasa Melayu</a> · <a href="/ingles/verbos-irregulares/fa/">فارسی</a> · <a href="/ingles/verbos-irregulares/ur/">اردو</a> · <a href="/ingles/verbos-irregulares/sw/">Kiswahili</a> · <a href="/ingles/verbos-irregulares/he/">עברית</a> · <a href="/ingles/verbos-irregulares/ta/">தமிழ்</a> · <a href="/ingles/verbos-irregulares/te/">తెలుగు</a> · <a href="/ingles/verbos-irregulares/mr/">मराठी</a> · <a href="/ingles/verbos-irregulares/gu/">ગુજરાતી</a> · <a href="/ingles/verbos-irregulares/kn/">ಕನ್ನಡ</a> · <a href="/ingles/verbos-irregulares/pa/">ਪੰਜਾਬੀ</a> · <a href="/ingles/verbos-irregulares/ml/">മലയാളം</a> · <a href="/ingles/verbos-irregulares/my/">မြန်မာ</a> · <a href="/ingles/verbos-irregulares/am/">አማርኛ</a> · <a href="/ingles/verbos-irregulares/ha/">Hausa</a> · <a href="/ingles/verbos-irregulares/yo/">Yorùbá</a> · <a href="/ingles/verbos-irregulares/ig/">Igbo</a> · <a href="/ingles/verbos-irregulares/zu/">Zulu</a> · <a href="/ingles/verbos-irregulares/sr/">Српски</a> · <a href="/ingles/verbos-irregulares/bg/">Български</a> · <a href="/ingles/verbos-irregulares/sq/">Shqip</a> · <a href="/ingles/verbos-irregulares/hy/">Հայերեն</a> · <a href="/ingles/verbos-irregulares/be/">Беларуская</a> · <a href="/ingles/verbos-irregulares/sk/">Slovenčina</a> · <a href="/ingles/verbos-irregulares/lt/">Lietuvių</a> · <a href="/ingles/verbos-irregulares/bs/">Bosanski</a> · <a href="/ingles/verbos-irregulares/sl/">Slovenščina</a> · <a href="/ingles/verbos-irregulares/jv/">Basa Jawa</a> · <a href="/ingles/verbos-irregulares/bho/">भोजपुरी</a> · <a href="/ingles/verbos-irregulares/ps/">پښتو</a> · <a href="/ingles/verbos-irregulares/su/">Basa Sunda</a> · <a href="/ingles/verbos-irregulares/or/">ଓଡ଼ିଆ</a> · <a href="/ingles/verbos-irregulares/om/">Afaan Oromoo</a> · <a href="/ingles/verbos-irregulares/uz/">Oʻzbek</a> · <a href="/ingles/verbos-irregulares/mai/">मैथिली</a> · <a href="/ingles/verbos-irregulares/az/">Azərbaycan</a> · <a href="/ingles/verbos-irregulares/ne/">नेपाली</a> · <a href="/ingles/verbos-irregulares/sd/">سنڌي</a> · <a href="/ingles/verbos-irregulares/lo/">ລາວ</a> · <a href="/ingles/verbos-irregulares/ku/">Kurdî</a> · <a href="/ingles/verbos-irregulares/mg/">Malagasy</a> · <a href="/ingles/verbos-irregulares/ff/">Fulfulde</a> · <a href="/ingles/verbos-irregulares/so/">Soomaali</a> · <a href="/ingles/verbos-irregulares/ceb/">Cebuano</a> · <a href="/ingles/verbos-irregulares/ln/">Lingála</a> · <a href="/ingles/verbos-irregulares/xh/">isiXhosa</a> · <a href="/ingles/verbos-irregulares/km/">ភាសាខ្មែរ</a> · <a href="/ingles/verbos-irregulares/si/">සිංහල</a> · <a href="/ingles/verbos-irregulares/af/">Afrikaans</a> · <a href="/ingles/verbos-irregulares/rw/">Kinyarwanda</a> · <a href="/ingles/verbos-irregulares/as/">Assamese</a> · <a href="/ingles/verbos-irregulares/bm/">Bamanankan</a> · <a href="/ingles/verbos-irregulares/st/">Sesotho</a> · <a href="/ingles/verbos-irregulares/ny/">Chichewa</a> · <a href="/ingles/verbos-irregulares/kk/">Қазақша</a> · <a href="/ingles/verbos-irregulares/ht/">Kreyòl Ayisyen</a> · <a href="/ingles/verbos-irregulares/lg/">Luganda</a> · <strong>Wolof</strong> · <a href="/ingles/verbos-irregulares/sn/">Chishona</a> · <a href="/ingles/verbos-irregulares/tk/">Türkmençe</a> · <a href="/ingles/verbos-irregulares/tg/">Тоҷикӣ</a> · <a href="/ingles/verbos-irregulares/tt/">Татарча</a> · <a href="/ingles/verbos-irregulares/ky/">Кыргызча</a> · <a href="/ingles/verbos-irregulares/mn/">Монгол</a></p>
-  </div>
+<div class="wrap">
+<p>Farita de Raúl · <a href="/">Scale Go</a></p>
+<p class="langnav">Lingvoj: <a href="/ingles/verbos-irregulares/">Español</a> · <strong>Angla</strong> · <a href="/ingles/verbos-irregulares/fr/">Français</a> · <a href="/ingles/verbos-irregulares/de/">Deutsch</a> · <a href="/ingles/verbos-irregulares/pt/">Português</a> · <a href="/ingles/verbos-irregulares/it/">Italiano</a> · <a href="/ingles/verbos-irregulares/tr/">Türkçe</a> · <a href="/ingles/verbos-irregulares/nl/">Nederlands</a> · <a href="/ingles/verbos-irregulares/pl/">Polski</a> · <a href="/ingles/verbos-irregulares/sv/">Svenska</a> · <a href="/ingles/verbos-irregulares/da/">Dansk</a> · <a href="/ingles/verbos-irregulares/no/">Norsk</a> · <a href="/ingles/verbos-irregulares/fi/">Suomi</a> · <a href="/ingles/verbos-irregulares/ro/">Română</a> · <a href="/ingles/verbos-irregulares/hu/">Magyar</a> · <a href="/ingles/verbos-irregulares/cs/">Čeština</a> · <a href="/ingles/verbos-irregulares/uk/">Українська</a> · <a href="/ingles/verbos-irregulares/el/">Ελληνικά</a> · <a href="/ingles/verbos-irregulares/hr/">Hrvatski</a> · <a href="/ingles/verbos-irregulares/id/">Bahasa Indonesia</a> · <a href="/ingles/verbos-irregulares/hi/">हिन्दी</a> · <a href="/ingles/verbos-irregulares/ru/">Русский</a> · <a href="/ingles/verbos-irregulares/ja/">日本語</a> · <a href="/ingles/verbos-irregulares/ca/">Català</a> · <a href="/ingles/verbos-irregulares/gl/">Galego</a> · <a href="/ingles/verbos-irregulares/eu/">Euskara</a> · <a href="/ingles/verbos-irregulares/va/">Valencià</a> · <a href="/ingles/verbos-irregulares/ast/">Asturianu</a> · <a href="/ingles/verbos-irregulares/an/">Aragonés</a> · <a href="/ingles/verbos-irregulares/zh/">中文</a> · <a href="/ingles/verbos-irregulares/ko/">한국어</a> · <a href="/ingles/verbos-irregulares/ar/">العربية</a> · <a href="/ingles/verbos-irregulares/bn/">বাংলা</a> · <a href="/ingles/verbos-irregulares/vi/">Tiếng Việt</a> · <a href="/ingles/verbos-irregulares/th/">ไทย</a> · <a href="/ingles/verbos-irregulares/tl/">Tagalog</a> · <a href="/ingles/verbos-irregulares/ms/">Bahasa Melayu</a> · <a href="/ingles/verbos-irregulares/fa/">فارسی</a> · <a href="/ingles/verbos-irregulares/ur/">اردو</a> · <a href="/ingles/verbos-irregulares/sw/">Kiswahili</a> · <a href="/ingles/verbos-irregulares/he/">עברית</a> · <a href="/ingles/verbos-irregulares/ta/">தமிழ்</a> · <a href="/ingles/verbos-irregulares/te/">తెలుగు</a> · <a href="/ingles/verbos-irregulares/mr/">मराठी</a> · <a href="/ingles/verbos-irregulares/gu/">ગુજરાતી</a> · <a href="/ingles/verbos-irregulares/kn/">ಕನ್ನಡ</a> · <a href="/ingles/verbos-irregulares/pa/">ਪੰਜਾਬੀ</a> · <a href="/ingles/verbos-irregulares/ml/">മലയാളം</a> · <a href="/ingles/verbos-irregulares/my/">မြန်မာ</a> · <a href="/ingles/verbos-irregulares/am/">አማርኛ</a> · <a href="/ingles/verbos-irregulares/ha/">Hausa</a> · <a href="/ingles/verbos-irregulares/yo/">Yorùbá</a> · <a href="/ingles/verbos-irregulares/ig/">Igbo</a> · <a href="/ingles/verbos-irregulares/zu/">Zulu</a> · <a href="/ingles/verbos-irregulares/sr/">Српски</a> · <a href="/ingles/verbos-irregulares/bg/">Български</a> · <a href="/ingles/verbos-irregulares/sq/">Shqip</a> · <a href="/ingles/verbos-irregulares/hy/">Հայերեն</a> · <a href="/ingles/verbos-irregulares/be/">Беларуская</a> · <a href="/ingles/verbos-irregulares/sk/">Slovenčina</a> · <a href="/ingles/verbos-irregulares/lt/">Lietuvių</a> · <a href="/ingles/verbos-irregulares/bs/">Bosanski</a> · <a href="/ingles/verbos-irregulares/sl/">Slovenščina</a> · <a href="/ingles/verbos-irregulares/jv/">Basa Jawa</a> · <a href="/ingles/verbos-irregulares/bho/">भोजपुरी</a> · <a href="/ingles/verbos-irregulares/ps/">پښتو</a> · <a href="/ingles/verbos-irregulares/su/">Basa Sunda</a> · <a href="/ingles/verbos-irregulares/or/">ଓଡ଼ିଆ</a> · <a href="/ingles/verbos-irregulares/om/">Afaan Oromoo</a> · <a href="/ingles/verbos-irregulares/uz/">Oʻzbek</a> · <a href="/ingles/verbos-irregulares/mai/">मैथिली</a> · <a href="/ingles/verbos-irregulares/az/">Azərbaycan</a> · <a href="/ingles/verbos-irregulares/ne/">नेपाली</a> · <a href="/ingles/verbos-irregulares/sd/">سنڌي</a> · <a href="/ingles/verbos-irregulares/lo/">ລາວ</a> · <a href="/ingles/verbos-irregulares/ku/">Kurdî</a> · <a href="/ingles/verbos-irregulares/mg/">Malagasy</a> · <a href="/ingles/verbos-irregulares/ff/">Fulfulde</a> · <a href="/ingles/verbos-irregulares/so/">Soomaali</a> · <a href="/ingles/verbos-irregulares/ceb/">Cebuano</a> · <a href="/ingles/verbos-irregulares/ln/">Lingála</a> · <a href="/ingles/verbos-irregulares/xh/">isiXhosa</a> · <a href="/ingles/verbos-irregulares/km/">ភាសាខ្មែរ</a> · <a href="/ingles/verbos-irregulares/si/">සිංහල</a> · <a href="/ingles/verbos-irregulares/af/">Afrikaans</a></p>
+</div>
 </footer>
 <script src="catalog.js"></script>
 <script>
@@ -336,8 +332,8 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
 /*LOGIC-END*/
 
 (function(){
-  var FORM_LABELS={inf:"",past:"Dàmb bu yomb",pp:""};
-  function fbDetail(f,gloss,form){ return FORM_LABELS[f]+'xeetu'+gloss+' is <b>'+form+'</b>'; }
+  var FORM_LABELS={inf:"Infinitivo",past:"Simpla pasinteco",pp:"Pasinta participo"};
+  function fbDetail(f,gloss,form){ return FORM_LABELS[f]+' of '+gloss+' is <b>'+form+'</b>'; }
   var weights={};
   var stats={total:0,ok:0,bad:0};
   var current=null;
@@ -364,10 +360,10 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var v=VERBS[vi];
     current={key:key,verb:v,form:f,vi:vi};
     answered=false;
-    qLabel.textContent=FORM_LABELS[f]+"ci jëf ji:";
+    qLabel.textContent=FORM_LABELS[f]+" of";
     qWord.textContent=v.es;
     if(f==="inf"){qHint.innerHTML=""}
-    else{qHint.innerHTML=": dañuy wane ni ñuy waxe baat bu nekk ci<b>"+v.inf+"</b>"}
+    else{qHint.innerHTML="Infinitivo: <b>"+v.inf+"</b>"}
     input.value="";
     input.disabled=false;
     document.getElementById("check").disabled=false;
@@ -378,27 +374,27 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   }
 
   function playBtn(w,label,fileKey){
-    return '<button type="button" class="play" data-src="/ingles/verbos-irregulares/audio/'+(fileKey||w)+'.mp3" aria-label="Déglu:'+label+'">🔊</button>';
+    return '<button type="button" class="play" data-src="/ingles/verbos-irregulares/audio/'+(fileKey||w)+'.mp3" aria-label="Listen to '+label+'">🔊</button>';
   }
   function pronHtml(vi,forms){
     var p=PRON[vi];
     if(!p)return '';
     var out='';
-    var labels={inf:'Baza formo',past:'jamonoy jàll',pp:'Pasinta participo'};
+    var labels={inf:'Infinitivo',past:'Past',pp:'Pasinta participo'};
     for(var i=0;i<forms.length;i++){
       var f=forms[i];
       var vars=(p[f]||[]);
       if(!vars.length)continue;
       var bits='';
       for(var j=0;j<vars.length;j++){
-        bits+='<span class="pv">'+playBtn(vars[j][0],labels[f]+': dañuy wane ni ñuy waxe baat bu nekk ci'+vars[j][0],vars[j][2])+'<span class="pc"><span class="fw">'+vars[j][0]+'</span><span class="ipa">'+vars[j][1]+'</span></span></span>';
+        bits+='<span class="pv">'+playBtn(vars[j][0],labels[f]+': '+vars[j][0],vars[j][2])+'<span class="pc"><span class="fw">'+vars[j][0]+'</span><span class="ipa">'+vars[j][1]+'</span></span></span>';
       }
       out+='<div class="pron-line"><span class="fl">'+labels[f]+'</span>'+bits+'</div>';
     }
     return out?'<div class="pron-list">'+out+'</div>':'';
   }
   function trioHtml(v,vi){
-    return '<div class="trio">'+v.es+': dañuy wane ni ñuy waxe baat bu nekk ci<b>'+v.inf+'</b> · <b>'+v.past+'</b> · <b>'+v.pp+'</b></div>'+pronHtml(vi,['inf','past','pp']);
+    return '<div class="trio">'+v.es+': <b>'+v.inf+'</b> · <b>'+v.past+'</b> · <b>'+v.pp+'</b></div>'+pronHtml(vi,['inf','past','pp']);
   }
 
   form.addEventListener("submit",function(ev){
@@ -413,11 +409,11 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var correctForm=v[f];
     if(ok){
       feedback.className="feedback show ok";
-      feedback.innerHTML='<p class="f-title">Jub.</p><p class="f-detail">'+fbDetail(f,v.es,correctForm)+'.</p>'+trioHtml(v,current.vi);
+      feedback.innerHTML='<p class="f-title">Correct.</p><p class="f-detail">'+fbDetail(f,v.es,correctForm)+'.</p>'+trioHtml(v,current.vi);
     }else{
       feedback.className="feedback show bad";
-      var detail=input.value.trim()?('Yaa ngi bind: "'+input.value.trim()+'".'):'';
-      feedback.innerHTML='<p class="f-title">Baaxul.</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'. Dina dellusi ci lu yaggul dara.</p>'+trioHtml(v,current.vi);
+      var detail=input.value.trim()?('You wrote "'+input.value.trim()+'". '):'';
+      feedback.innerHTML='<p class="f-title">Not quite.</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'. This one will come up again.</p>'+trioHtml(v,current.vi);
     }
     input.disabled=true;
     document.getElementById("check").disabled=true;
@@ -459,10 +455,10 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var p=PRON[vi];
     function cell(form,plain){
       if(!p||!(p[form]||[]).length)return '<td class="en">'+plain+'</td>';
-      var labels={inf:'Baza formo',past:'Dàmb bu yomb',pp:'Pasinta participo'};
+      var labels={inf:'Infinitivo',past:'Simpla pasinteco',pp:'Pasinta participo'};
       var bits='';
       (p[form]||[]).forEach(function(pr){
-        bits+='<span class="pv">'+playBtn(pr[0],labels[form]+': dañuy wane ni ñuy waxe baat bu nekk ci'+pr[0],pr[2])+'<span class="pc"><span>'+pr[0]+'</span><span class="ipa">'+pr[1]+'</span></span></span>';
+        bits+='<span class="pv">'+playBtn(pr[0],labels[form]+': '+pr[0],pr[2])+'<span class="pc"><span>'+pr[0]+'</span><span class="ipa">'+pr[1]+'</span></span></span>';
       });
       return '<td class="en">'+bits+'</td>';
     }
@@ -491,15 +487,15 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     player.play();
   });
 
-  /* conjuntos: dañuy wane ni ñuy waxe baat bu nekk cibarra de estado y creador de listas */
+  /* conjuntos: barra de estado y creador de listas */
   if(MODE!=="class"){var ch=document.getElementById("correcciones-hoja");if(ch)ch.style.display="none"}
   var setbar=document.getElementById("setbar");
   if(MODE==="custom"){setbar.classList.add("custom");
-    setbar.innerHTML='Limu personaaliseer · verbs: '+VERBS.length+' · <a href="/ingles/verbos-irregulares/eo/">Dellu ci limu klaas yi</a>';
+    setbar.innerHTML='Custom list · '+VERBS.length+(VERBS.length===1?' verb':' verbs')+' · <a href="/ingles/verbos-irregulares/eo/">Back to the class list</a>';
   }else if(MODE==="catalog"){setbar.classList.add("custom");
-    setbar.innerHTML='· jëf yi:'+VERBS.length+' · <a href="/ingles/verbos-irregulares/eo/">Dellu ci limu klaas yi</a>';
+    setbar.innerHTML='Full catalogue · '+VERBS.length+' verbs · <a href="/ingles/verbos-irregulares/eo/">Back to the class list</a>';
   }else{
-    setbar.innerHTML='Limu klaas yi · verb yi:'+VERBS.length+(CAT_OK?'· <a href="#l=todos">Katalog bu mat ('+VERBS_CATALOG.length+')</a>':'');
+    setbar.innerHTML='Class list · '+VERBS.length+' verbs'+(CAT_OK?' · <a href="#l=todos">Go to the full catalogue ('+VERBS_CATALOG.length+')</a>':'');
   }
 
   var clGrid=document.getElementById("cl-verbs");
@@ -527,9 +523,9 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   document.getElementById("cl-none").addEventListener("click",function(){clBoxes.forEach(function(c){c.checked=false})});
   document.getElementById("cl-copy").addEventListener("click",function(){
     var sel=clBoxes.filter(function(c){return c.checked}).map(function(c){return c.value});
-    if(!sel.length){clMsg.textContent="Tannal benn verb soo bëggee.";return}
+    if(!sel.length){clMsg.textContent="Tick at least one verb.";return}
     var url=location.origin+location.pathname+"#l="+sel.join("-");
-    function done(){clMsg.textContent="Lëkkalekaay biñ kopie:"+sel.length+"jëf."}
+    function done(){clMsg.textContent="Link copied: "+sel.length+(sel.length===1?" verb.":" verbs.")}
     function fallback(){
       var ta=document.createElement("textarea");
       ta.value=url;document.body.appendChild(ta);ta.select();
