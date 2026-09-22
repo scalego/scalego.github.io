@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="ne">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>学英语 · 不规则动词</title>
-<meta name="description" content="练习英语不规则动词：随机出题、即时判定、动词完整列表。"/>
+<title>अङ्ग्रेजी सिक्नुहोस् · अनियमित क्रियाहरू</title>
+<meta name="description" content="अङ्ग्रेजीका अनियमित क्रियाहरू सिक्नुहोस्: छानिएका प्रश्नहरू, तुरुन्त प्रतिक्रिया र पूर्ण क्रिया तालिका।"/>
 <meta name="theme-color" content="#0B0F14"/>
 <meta property="og:type" content="website"/>
-<meta property="og:url" content="https://scalego.github.io/ingles/verbos-irregulares/zh/"/>
-<link rel="canonical" href="https://scalego.github.io/ingles/verbos-irregulares/zh/"/>
-<meta property="og:title" content="学英语 · 不规则动词"/>
-<meta property="og:description" content="随机出题，即时判定。用完整列表练习英语不规则动词。"/>
+<meta property="og:url" content="https://scalego.github.io/ingles/verbos-irregulares/ne/"/>
+<link rel="canonical" href="https://scalego.github.io/ingles/verbos-irregulares/ne/"/>
+<meta property="og:title" content="अङ्ग्रेजी सिक्नुहोस् · अनियमित क्रियाहरू"/>
+<meta property="og:description" content="छानिएका प्रश्नहरू, तुरुन्त प्रतिक्रिया र पूर्ण तालिकाबाट अङ्ग्रेजी अनियमित क्रियाहरू सिक्नुहोस्।"/>
 <meta property="og:image" content="https://scalego.github.io/ingles/verbos-irregulares/og-scalego-en.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
@@ -99,10 +99,7 @@ footer a:hover{color:var(--acid)}
 .langnav a,.langnav strong{color:inherit}
 .langnav a{text-decoration:underline;text-underline-offset:3px}
 .langnav a:hover{color:var(--acid)}
-html[dir=rtl] *{letter-spacing:normal}
-html[dir=rtl] th{text-align:right}
-html[dir=rtl] details .body ul{padding-left:0;padding-right:20px}
-html[dir=rtl] .setbar a{margin-left:0;margin-right:8px}
+
 
 /* pronunciacion */
 .pv{display:flex;align-items:center;gap:7px}
@@ -149,60 +146,60 @@ button.play:hover{border-color:var(--acid)}
 <header class="site">
   <div class="wrap">
     <a class="brand" href="/" aria-label="Scale Go"><svg width="26" height="26" viewBox="0 0 48 48" aria-hidden="true"><rect x="2" y="2" width="44" height="44" rx="11" fill="#2F6BFF"/><path d="M33 15H19v7h10v11H15" fill="none" stroke="#0B0F14" stroke-width="5" stroke-linecap="square"/></svg><span>Scale <span>Go</span></span></a>
-    <p class="sub">不规则动词</p>
+    <p class="sub">अनियमित क्रियाहरू</p>
   </div>
-  <div class="wrap"><p class="crumb"><a href="/">Scale Go</a> &rsaquo; <a href="/ingles/">English</a> &rsaquo; 不规则动词</p></div>
+  <div class="wrap"><p class="crumb"><a href="/">Scale Go</a> &rsaquo; <a href="/ingles/">English</a> &rsaquo; अनियमित क्रियाहरू</p></div>
 </header>
 <main class="wrap">
-  <h1>不规则动词</h1>
-  <p class="intro">随机练习。输入正确的形式，马上就能知道对不对。答错的动词会更频繁地出现。</p>
+  <h1>अनियमित क्रियाहरू</h1>
+  <p class="intro">छानिएका प्रश्नहरूबाट सुरु गर्नुहोस्: सही रूप लेख्नुहोस् र तपाईंको उत्तर सही वा गलत भएको तुरुन्त हेर्नुहोस्। गल्ती गरिएको क्रिया पछि फेरि आउँछ।</p>
   <p class="setbar" id="setbar"></p>
 
-  <div class="tabs" role="tablist" aria-label="栏目">
-    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">练习</button>
-    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">复习</button>
-    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">创建列表</button>
+  <div class="tabs" role="tablist" aria-label="खण्डहरू">
+    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">अभ्यास</button>
+    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">सूची हेर्नुहोस्</button>
+    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">सूची बनाउनुहोस्</button>
   </div>
 
   <details>
-    <summary>/…/ 符号的含义（发音）</summary>
+    <summary>/.../ (ध्वनि) चिन्हहरूको अर्थ के हो?</summary>
     <div class="body">
-      <p>斜线之间的符号，如 /ɡəʊ/，是<b>国际音标（IPA）</b>，表示单词在<b>英式英语</b>中每个音的发音方式。</p>
+      <p>छाडिएका रेखाहरूबीचका चिन्हहरू, जस्तै /ɡəʊ/, <b>ध्वनिको वैज्ञानिक लेखन (IPA) हो</b>: हरेक शब्दको <b>बेलायती अङ्ग्रेजीमा</b> उच्चारण ध्वनि-दर-ध्वनि देखाउँछ।</p>
       <ul>
-        <li>ˈ 表示重读音节：/bɪˈɡɪn/ 读作 bi-GIN。</li>
-        <li>ː 表示长元音：/iː/ 是拉长的「衣」音。</li>
-        <li>/ə/ 是英语中最常见的弱读元音，类似汉语「的」的轻声。</li>
-        <li>看不懂符号也没关系，点击喇叭 🔊 直接听发音。</li>
+        <li>ˈ जोड दिइएको अक्षर देखाउँछ: /bɪˈɡɪn/ bi-GIN भनी उच्चारण हुन्छ।</li>
+        <li>ː स्वर लामो बनाउँछ: /iː/ लामो "i" हो।</li>
+        <li>/ə/ मध्य स्वर हो, अङ्ग्रेजीमा सबैभन्दा धेरै प्रयोग हुने, "about" को "a" जस्तै।</li>
+        <li>यी चिन्हहरू गाह्रो लागे चिन्ता नगर्नुहोस्: 🔊 बटन थिच्नुहोस् र शब्द सुन्नुहोस्।</li>
       </ul>
     </div>
   </details>
 
   <section id="view-practice" role="tabpanel" aria-labelledby="tab-practice">
     <div class="stats">
-      <p>题目数：<b id="s-total">0</b> · 答对：<b id="s-ok" class="n-ok">0</b> · 答错：<b id="s-bad" class="n-bad">0</b></p>
-      <button class="btn ghost" id="restart" type="button">重新开始</button>
+      <p>प्रश्नहरू: <b id="s-total">0</b> · सही: <b id="s-ok" class="n-ok">0</b> · गल्ती: <b id="s-bad" class="n-bad">0</b></p>
+      <button class="btn ghost" id="restart" type="button">फेरि सुरु गर्नुहोस्</button>
     </div>
 
     <div class="card">
-      <p class="q-label" id="q-label">原形</p>
+      <p class="q-label" id="q-label">मूल रूप क्रिया:</p>
       <p class="q-word" id="q-word">…</p>
       <p class="q-hint" id="q-hint"></p>
       <form id="answer-form" autocomplete="off">
         <div class="answer-row">
-          <label for="answer" class="sub" style="position:absolute;left:-9999px">用英语输入答案</label>
-          <input id="answer" name="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="send" placeholder="用英语输入答案"/>
-          <button class="btn" id="check" type="submit">检查</button>
+          <label for="answer" class="sub" style="position:absolute;left:-9999px">तपाईंको उत्तर अङ्ग्रेजीमा</label>
+          <input id="answer" name="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="send" placeholder="तपाईंको उत्तर अङ्ग्रेजीमा"/>
+          <button class="btn" id="check" type="submit">जाँच्नुहोस्</button>
         </div>
       </form>
       <div class="feedback" id="feedback" aria-live="polite"></div>
       <div class="next-row" id="next-row">
-        <button class="btn" id="next" type="button">下一题</button>
+        <button class="btn" id="next" type="button">अर्को प्रश्न</button>
       </div>
     </div>
-    <p class="note">进度只在本会话中有效：关闭或刷新页面后将全部重置。</p>
+    <p class="note">तपाईंको प्रगति यहीँ मात्र सुरक्षित हुन्छ: पृष्ठ बन्द भए वा अर्को पृष्ठ खोलिए सबै हराउँछ।</p>
 
     <details id="correcciones-hoja" style="display:none">
-      <summary>讲义更正</summary>
+      <summary>गल्तीहरूको अभ्यास</summary>
       <div class="body">
         <ul>
           <li></li>
@@ -214,29 +211,29 @@ button.play:hover{border-color:var(--acid)}
 
   <section id="view-review" role="tabpanel" aria-labelledby="tab-review" hidden>
     <div class="search-row">
-      <label for="search" class="sub" style="position:absolute;left:-9999px">查找动词</label>
-      <input id="search" type="search" inputmode="search" placeholder="用英语搜索（例：make, go, went）"/>
+      <label for="search" class="sub" style="position:absolute;left:-9999px">क्रिया खोज्नुहोस्</label>
+      <input id="search" type="search" inputmode="search" placeholder="अङ्ग्रेजीमा खोज्नुहोस् (जस्तै make, go, went)"/>
     </div>
     <div class="table-scroll">
       <table>
         <thead>
-          <tr><th>意思</th><th>原形</th><th>过去式</th><th>过去分词</th></tr>
+          <tr><th>अर्थ</th><th>मूल रूप</th><th>Past Tense</th><th>Past Participle</th></tr>
         </thead>
         <tbody id="verb-rows"></tbody>
       </table>
-      <p class="empty" id="empty">没有符合搜索条件的动词。</p>
+      <p class="empty" id="empty">खोजीसँग मिल्ने कुनै क्रिया भेटिएन।</p>
     </div>
   </section>
 
   <section id="view-create" role="tabpanel" aria-labelledby="tab-create" hidden>
     <div class="card">
-      <p>选择动词并复制链接。打开链接的人只练习你选的动词，带音频和音标。</p>
-      <p><input id="cl-filter" type="search" inputmode="search" placeholder="筛选动词（例：eat, go, write）" style="width:100%;box-sizing:border-box;background:#0d0f12;border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:8px;font-size:15px"/></p>
+      <p>क्रियाहरू छान्नुहोस् र लिंक कपी गर्नुहोस्: जसले खोल्छ, ऊ तपाईंले छानेका क्रियाहरू मात्र अभ्यास गर्छ, ध्वनि र ध्वन्यात्मक लेखनसहित।</p>
+      <p><input id="cl-filter" type="search" inputmode="search" placeholder="क्रियाहरू छान्नुहोस् (जस्तै eat, go, write)" style="width:100%;box-sizing:border-box;background:#0d0f12;border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:8px;font-size:15px"/></p>
       <div id="cl-verbs" class="cl-grid"></div>
       <p class="cl-actions">
-        <button class="btn ghost" id="cl-all" type="button">全选</button>
-        <button class="btn ghost" id="cl-none" type="button">取消选择</button>
-        <button class="btn" id="cl-copy" type="button">复制列表链接</button>
+        <button class="btn ghost" id="cl-all" type="button">सबै छान्नुहोस्</button>
+        <button class="btn ghost" id="cl-none" type="button">छनोट हटाउनुहोस्</button>
+        <button class="btn" id="cl-copy" type="button">सूचीको लिंक कपी गर्नुहोस्</button>
       </p>
       <p id="cl-msg" class="cl-msg" aria-live="polite"></p>
     </div>
@@ -244,51 +241,51 @@ button.play:hover{border-color:var(--acid)}
 </main>
 <footer>
   <div class="wrap">
-    <p>Raúl 制作 · <a href="/">Scale Go</a></p>
-    <p class="langnav">语言: <a href="/ingles/verbos-irregulares/">Español</a> · <a href="/ingles/verbos-irregulares/en/">English</a> · <a href="/ingles/verbos-irregulares/fr/">Français</a> · <a href="/ingles/verbos-irregulares/de/">Deutsch</a> · <a href="/ingles/verbos-irregulares/pt/">Português</a> · <a href="/ingles/verbos-irregulares/it/">Italiano</a> · <a href="/ingles/verbos-irregulares/tr/">Türkçe</a> · <a href="/ingles/verbos-irregulares/nl/">Nederlands</a> · <a href="/ingles/verbos-irregulares/pl/">Polski</a> · <a href="/ingles/verbos-irregulares/sv/">Svenska</a> · <a href="/ingles/verbos-irregulares/da/">Dansk</a> · <a href="/ingles/verbos-irregulares/no/">Norsk</a> · <a href="/ingles/verbos-irregulares/fi/">Suomi</a> · <a href="/ingles/verbos-irregulares/ro/">Română</a> · <a href="/ingles/verbos-irregulares/hu/">Magyar</a> · <a href="/ingles/verbos-irregulares/cs/">Čeština</a> · <a href="/ingles/verbos-irregulares/uk/">Українська</a> · <a href="/ingles/verbos-irregulares/el/">Ελληνικά</a> · <a href="/ingles/verbos-irregulares/hr/">Hrvatski</a> · <a href="/ingles/verbos-irregulares/id/">Bahasa Indonesia</a> · <a href="/ingles/verbos-irregulares/hi/">हिन्दी</a> · <a href="/ingles/verbos-irregulares/ru/">Русский</a> · <a href="/ingles/verbos-irregulares/ja/">日本語</a> · <a href="/ingles/verbos-irregulares/ca/">Català</a> · <a href="/ingles/verbos-irregulares/gl/">Galego</a> · <a href="/ingles/verbos-irregulares/eu/">Euskara</a> · <a href="/ingles/verbos-irregulares/va/">Valencià</a> · <a href="/ingles/verbos-irregulares/ast/">Asturianu</a> · <a href="/ingles/verbos-irregulares/an/">Aragonés</a> · <strong>中文</strong> · <a href="/ingles/verbos-irregulares/ko/">한국어</a> · <a href="/ingles/verbos-irregulares/ar/">العربية</a> · <a href="/ingles/verbos-irregulares/bn/">বাংলা</a> · <a href="/ingles/verbos-irregulares/vi/">Tiếng Việt</a> · <a href="/ingles/verbos-irregulares/th/">ไทย</a> · <a href="/ingles/verbos-irregulares/tl/">Tagalog</a> · <a href="/ingles/verbos-irregulares/ms/">Bahasa Melayu</a> · <a href="/ingles/verbos-irregulares/fa/">فارسی</a> · <a href="/ingles/verbos-irregulares/ur/">اردو</a> · <a href="/ingles/verbos-irregulares/sw/">Kiswahili</a> · <a href="/ingles/verbos-irregulares/he/">עברית</a> · <a href="/ingles/verbos-irregulares/ta/">தமிழ்</a> · <a href="/ingles/verbos-irregulares/te/">తెలుగు</a> · <a href="/ingles/verbos-irregulares/mr/">मराठी</a> · <a href="/ingles/verbos-irregulares/gu/">ગુજરાતી</a> · <a href="/ingles/verbos-irregulares/kn/">ಕನ್ನಡ</a> · <a href="/ingles/verbos-irregulares/pa/">ਪੰਜਾਬੀ</a> · <a href="/ingles/verbos-irregulares/ml/">മലയാളം</a> · <a href="/ingles/verbos-irregulares/my/">မြန်မာ</a> · <a href="/ingles/verbos-irregulares/am/">አማርኛ</a> · <a href="/ingles/verbos-irregulares/ha/">Hausa</a> · <a href="/ingles/verbos-irregulares/yo/">Yorùbá</a> · <a href="/ingles/verbos-irregulares/ig/">Igbo</a> · <a href="/ingles/verbos-irregulares/zu/">Zulu</a> · <a href="/ingles/verbos-irregulares/sr/">Српски</a> · <a href="/ingles/verbos-irregulares/bg/">Български</a> · <a href="/ingles/verbos-irregulares/sq/">Shqip</a> · <a href="/ingles/verbos-irregulares/hy/">Հայերեն</a> · <a href="/ingles/verbos-irregulares/be/">Беларуская</a> · <a href="/ingles/verbos-irregulares/sk/">Slovenčina</a> · <a href="/ingles/verbos-irregulares/lt/">Lietuvių</a> · <a href="/ingles/verbos-irregulares/bs/">Bosanski</a> · <a href="/ingles/verbos-irregulares/sl/">Slovenščina</a> · <a href="/ingles/verbos-irregulares/jv/">Basa Jawa</a> · <a href="/ingles/verbos-irregulares/bho/">भोजपुरी</a> · <a href="/ingles/verbos-irregulares/ps/">پښتو</a> · <a href="/ingles/verbos-irregulares/su/">Basa Sunda</a> · <a href="/ingles/verbos-irregulares/or/">ଓଡ଼ିଆ</a> · <a href="/ingles/verbos-irregulares/om/">Afaan Oromoo</a> · <a href="/ingles/verbos-irregulares/uz/">Oʻzbek</a> · <a href="/ingles/verbos-irregulares/mai/">मैथिली</a> · <a href="/ingles/verbos-irregulares/az/">Azərbaycan</a> · <a href="/ingles/verbos-irregulares/ne/">नेपाली</a></p>
+    <p>Raúl द्वारा बनाइएको · <a href="/">Scale Go</a></p>
+    <p class="langnav">भाषाहरू: <a href="/ingles/verbos-irregulares/">Español</a> · <a href="/ingles/verbos-irregulares/en/">English</a> · <a href="/ingles/verbos-irregulares/fr/">Français</a> · <a href="/ingles/verbos-irregulares/de/">Deutsch</a> · <a href="/ingles/verbos-irregulares/pt/">Português</a> · <a href="/ingles/verbos-irregulares/it/">Italiano</a> · <a href="/ingles/verbos-irregulares/tr/">Türkçe</a> · <a href="/ingles/verbos-irregulares/nl/">Nederlands</a> · <a href="/ingles/verbos-irregulares/pl/">Polski</a> · <a href="/ingles/verbos-irregulares/sv/">Svenska</a> · <a href="/ingles/verbos-irregulares/da/">Dansk</a> · <a href="/ingles/verbos-irregulares/no/">Norsk</a> · <a href="/ingles/verbos-irregulares/fi/">Suomi</a> · <a href="/ingles/verbos-irregulares/ro/">Română</a> · <a href="/ingles/verbos-irregulares/hu/">Magyar</a> · <a href="/ingles/verbos-irregulares/cs/">Čeština</a> · <a href="/ingles/verbos-irregulares/uk/">Українська</a> · <a href="/ingles/verbos-irregulares/el/">Ελληνικά</a> · <a href="/ingles/verbos-irregulares/hr/">Hrvatski</a> · <a href="/ingles/verbos-irregulares/id/">Bahasa Indonesia</a> · <a href="/ingles/verbos-irregulares/hi/">हिन्दी</a> · <a href="/ingles/verbos-irregulares/ru/">Русский</a> · <a href="/ingles/verbos-irregulares/ja/">日本語</a> · <a href="/ingles/verbos-irregulares/ca/">Català</a> · <a href="/ingles/verbos-irregulares/gl/">Galego</a> · <a href="/ingles/verbos-irregulares/eu/">Euskara</a> · <a href="/ingles/verbos-irregulares/va/">Valencià</a> · <a href="/ingles/verbos-irregulares/ast/">Asturianu</a> · <a href="/ingles/verbos-irregulares/an/">Aragonés</a> · <a href="/ingles/verbos-irregulares/zh/">中文</a> · <a href="/ingles/verbos-irregulares/ko/">한국어</a> · <a href="/ingles/verbos-irregulares/ar/">العربية</a> · <a href="/ingles/verbos-irregulares/bn/">বাংলা</a> · <a href="/ingles/verbos-irregulares/vi/">Tiếng Việt</a> · <a href="/ingles/verbos-irregulares/th/">ไทย</a> · <a href="/ingles/verbos-irregulares/tl/">Tagalog</a> · <a href="/ingles/verbos-irregulares/ms/">Bahasa Melayu</a> · <a href="/ingles/verbos-irregulares/fa/">فارسی</a> · <a href="/ingles/verbos-irregulares/ur/">اردو</a> · <a href="/ingles/verbos-irregulares/sw/">Kiswahili</a> · <a href="/ingles/verbos-irregulares/he/">עברית</a> · <a href="/ingles/verbos-irregulares/ta/">தமிழ்</a> · <a href="/ingles/verbos-irregulares/te/">తెలుగు</a> · <a href="/ingles/verbos-irregulares/mr/">मराठी</a> · <a href="/ingles/verbos-irregulares/gu/">ગુજરાતી</a> · <a href="/ingles/verbos-irregulares/kn/">ಕನ್ನಡ</a> · <a href="/ingles/verbos-irregulares/pa/">ਪੰਜਾਬੀ</a> · <a href="/ingles/verbos-irregulares/ml/">മലയാളം</a> · <a href="/ingles/verbos-irregulares/my/">မြန်မာ</a> · <a href="/ingles/verbos-irregulares/am/">አማርኛ</a> · <a href="/ingles/verbos-irregulares/ha/">Hausa</a> · <a href="/ingles/verbos-irregulares/yo/">Yorùbá</a> · <a href="/ingles/verbos-irregulares/ig/">Igbo</a> · <a href="/ingles/verbos-irregulares/zu/">Zulu</a> · <a href="/ingles/verbos-irregulares/sr/">Српски</a> · <a href="/ingles/verbos-irregulares/bg/">Български</a> · <a href="/ingles/verbos-irregulares/sq/">Shqip</a> · <a href="/ingles/verbos-irregulares/hy/">Հայերեն</a> · <a href="/ingles/verbos-irregulares/be/">Беларуская</a> · <a href="/ingles/verbos-irregulares/sk/">Slovenčina</a> · <a href="/ingles/verbos-irregulares/lt/">Lietuvių</a> · <a href="/ingles/verbos-irregulares/bs/">Bosanski</a> · <a href="/ingles/verbos-irregulares/sl/">Slovenščina</a> · <a href="/ingles/verbos-irregulares/jv/">Basa Jawa</a> · <a href="/ingles/verbos-irregulares/bho/">भोजपुरी</a> · <a href="/ingles/verbos-irregulares/ps/">پښتو</a> · <a href="/ingles/verbos-irregulares/su/">Basa Sunda</a> · <a href="/ingles/verbos-irregulares/or/">ଓଡ଼ିଆ</a> · <a href="/ingles/verbos-irregulares/om/">Afaan Oromoo</a> · <a href="/ingles/verbos-irregulares/uz/">Oʻzbek</a> · <a href="/ingles/verbos-irregulares/mai/">मैथिली</a> · <a href="/ingles/verbos-irregulares/az/">Azərbaycan</a> · <strong>नेपाली</strong></p>
   </div>
 </footer>
 <script src="catalog.js"></script>
 <script>
 /*LOGIC-START*/
 var VERBS_ALL=[
-{"es":"学习","inf":"learn","past":"learnt / learned","pp":"learnt / learned","acc":{inf:["learn"],past:["learnt","learned","learnt/learned","learnt / learned"],pp:["learnt","learned","learnt/learned","learnt / learned"]}},
-{"es":"唱歌","inf":"sing","past":"sang","pp":"sung","acc":{inf:["sing"],past:["sang"],pp:["sung"]}},
-{"es":"吃","inf":"eat","past":"ate","pp":"eaten","acc":{inf:["eat"],past:["ate"],pp:["eaten"]}},
-{"es":"建造","inf":"build","past":"built","pp":"built","acc":{inf:["build"],past:["built"],pp:["built"]}},
-{"es":"说","inf":"say","past":"said","pp":"said","acc":{inf:["say"],past:["said"],pp:["said"]}},
-{"es":"开始","inf":"begin","past":"began","pp":"begun","acc":{inf:["begin"],past:["began"],pp:["begun"]}},
-{"es":"写","inf":"write","past":"wrote","pp":"written","acc":{inf:["write"],past:["wrote"],pp:["written"]}},
-{"es":"花费、度过","inf":"spend","past":"spent","pp":"spent","acc":{inf:["spend"],past:["spent"],pp:["spent"]}},
-{"es":"说话","inf":"speak","past":"spoke","pp":"spoken","acc":{inf:["speak"],past:["spoke"],pp:["spoken"]}},
-{"es":"制作","inf":"make","past":"made","pp":"made","acc":{inf:["make"],past:["made"],pp:["made"]}},
-{"es":"受伤、使疼痛","inf":"hurt","past":"hurt","pp":"hurt","acc":{inf:["hurt"],past:["hurt"],pp:["hurt"]}},
-{"es":"去","inf":"go","past":"went","pp":"gone","acc":{inf:["go"],past:["went"],pp:["gone"]}},
-{"es":"得到","inf":"get","past":"got","pp":"got","acc":{inf:["get"],past:["got"],pp:["got","gotten"]}},
-{"es":"忘记","inf":"forget","past":"forgot","pp":"forgotten","acc":{inf:["forget"],past:["forgot"],pp:["forgotten"]}},
-{"es":"丢失","inf":"lose","past":"lost","pp":"lost","acc":{inf:["lose"],past:["lost"],pp:["lost"]}},
-{"es":"偷","inf":"steal","past":"stole","pp":"stolen","acc":{inf:["steal"],past:["stole"],pp:["stolen"]}},
-{"es":"离开、留下","inf":"leave","past":"left","pp":"left","acc":{inf:["leave"],past:["left"],pp:["left"]}},
-{"es":"是、在","inf":"be","past":"was / were","pp":"been","acc":{inf:["be"],past:["was","were","was/were","was / were"],pp:["been"]}},
-{"es":"来","inf":"come","past":"came","pp":"come","acc":{inf:["come"],past:["came"],pp:["come"]}},
-{"es":"看见","inf":"see","past":"saw","pp":"seen","acc":{inf:["see"],past:["saw"],pp:["seen"]}},
-{"es":"放","inf":"put","past":"put","pp":"put","acc":{inf:["put"],past:["put"],pp:["put"]}},
-{"es":"（铃）响、打电话","inf":"ring","past":"rang","pp":"rung","acc":{inf:["ring"],past:["rang"],pp:["rung"]}},
-{"es":"跑","inf":"run","past":"ran","pp":"run","acc":{inf:["run"],past:["ran"],pp:["run"]}},
-{"es":"打破","inf":"break","past":"broke","pp":"broken","acc":{inf:["break"],past:["broke"],pp:["broken"]}},
-{"es":"卖","inf":"sell","past":"sold","pp":"sold","acc":{inf:["sell"],past:["sold"],pp:["sold"]}},
-{"es":"喝","inf":"drink","past":"drank","pp":"drunk","acc":{inf:["drink"],past:["drank"],pp:["drunk"]}},
-{"es":"买","inf":"buy","past":"bought","pp":"bought","acc":{inf:["buy"],past:["bought"],pp:["bought"]}},
-{"es":"画","inf":"draw","past":"drew","pp":"drawn","acc":{inf:["draw"],past:["drew"],pp:["drawn"]}},
-{"es":"听见","inf":"hear","past":"heard","pp":"heard","acc":{inf:["hear"],past:["heard"],pp:["heard"]}},
-{"es":"喂养","inf":"feed","past":"fed","pp":"fed","acc":{inf:["feed"],past:["fed"],pp:["fed"]}},
-{"es":"赢","inf":"win","past":"won","pp":"won","acc":{inf:["win"],past:["won"],pp:["won"]}},
-{"es":"做","inf":"do","past":"did","pp":"done","acc":{inf:["do"],past:["did"],pp:["done"]}},
-{"es":"遇见、见面","inf":"meet","past":"met","pp":"met","acc":{inf:["meet"],past:["met"],pp:["met"]}},
-{"es":"给","inf":"give","past":"gave","pp":"given","acc":{inf:["give"],past:["gave"],pp:["given"]}},
-{"es":"落下","inf":"fall","past":"fell","pp":"fallen","acc":{inf:["fall"],past:["fell"],pp:["fallen"]}},
-{"es":"切、割","inf":"cut","past":"cut","pp":"cut","acc":{inf:["cut"],past:["cut"],pp:["cut"]}},
-{"es":"有","inf":"have","past":"had","pp":"had","acc":{inf:["have"],past:["had"],pp:["had"]}}
+{"es":"सिक्नु","inf":"learn","past":"learnt / learned","pp":"learnt / learned","acc":{inf:["learn"],past:["learnt","learned","learnt/learned","learnt / learned"],pp:["learnt","learned","learnt/learned","learnt / learned"]}},
+{"es":"गाउनु","inf":"sing","past":"sang","pp":"sung","acc":{inf:["sing"],past:["sang"],pp:["sung"]}},
+{"es":"खानु","inf":"eat","past":"ate","pp":"eaten","acc":{inf:["eat"],past:["ate"],pp:["eaten"]}},
+{"es":"निर्माण गर्नु","inf":"build","past":"built","pp":"built","acc":{inf:["build"],past:["built"],pp:["built"]}},
+{"es":"भन्नु","inf":"say","past":"said","pp":"said","acc":{inf:["say"],past:["said"],pp:["said"]}},
+{"es":"सुरु गर्नु","inf":"begin","past":"began","pp":"begun","acc":{inf:["begin"],past:["began"],pp:["begun"]}},
+{"es":"लेख्नु","inf":"write","past":"wrote","pp":"written","acc":{inf:["write"],past:["wrote"],pp:["written"]}},
+{"es":"खर्च गर्नु","inf":"spend","past":"spent","pp":"spent","acc":{inf:["spend"],past:["spent"],pp:["spent"]}},
+{"es":"बोल्नु","inf":"speak","past":"spoke","pp":"spoken","acc":{inf:["speak"],past:["spoke"],pp:["spoken"]}},
+{"es":"बनाउनु","inf":"make","past":"made","pp":"made","acc":{inf:["make"],past:["made"],pp:["made"]}},
+{"es":"चोट पुर्याउनु","inf":"hurt","past":"hurt","pp":"hurt","acc":{inf:["hurt"],past:["hurt"],pp:["hurt"]}},
+{"es":"जानु","inf":"go","past":"went","pp":"gone","acc":{inf:["go"],past:["went"],pp:["gone"]}},
+{"es":"प्राप्त गर्नु","inf":"get","past":"got","pp":"got","acc":{inf:["get"],past:["got"],pp:["got"]}},
+{"es":"बिर्सनु","inf":"forget","past":"forgot","pp":"forgotten","acc":{inf:["forget"],past:["forgot"],pp:["forgotten"]}},
+{"es":"हराउनु","inf":"lose","past":"lost","pp":"lost","acc":{inf:["lose"],past:["lost"],pp:["lost"]}},
+{"es":"चोर्नु","inf":"steal","past":"stole","pp":"stolen","acc":{inf:["steal"],past:["stole"],pp:["stolen"]}},
+{"es":"छोड्नु","inf":"leave","past":"left","pp":"left","acc":{inf:["leave"],past:["left"],pp:["left"]}},
+{"es":"हुनु","inf":"be","past":"was / were","pp":"been","acc":{inf:["be"],past:["was / were"],pp:["been"]}},
+{"es":"आउनु","inf":"come","past":"came","pp":"come","acc":{inf:["come"],past:["came"],pp:["come"]}},
+{"es":"देख्नु","inf":"see","past":"saw","pp":"seen","acc":{inf:["see"],past:["saw"],pp:["seen"]}},
+{"es":"राख्नु","inf":"put","past":"put","pp":"put","acc":{inf:["put"],past:["put"],pp:["put"]}},
+{"es":"बजाउनु","inf":"ring","past":"rang","pp":"rung","acc":{inf:["ring"],past:["rang"],pp:["rung"]}},
+{"es":"दौडनु","inf":"run","past":"ran","pp":"run","acc":{inf:["run"],past:["ran"],pp:["run"]}},
+{"es":"भाँच्नु","inf":"break","past":"broke","pp":"broken","acc":{inf:["break"],past:["broke"],pp:["broken"]}},
+{"es":"बेच्नु","inf":"sell","past":"sold","pp":"sold","acc":{inf:["sell"],past:["sold"],pp:["sold"]}},
+{"es":"पिउनु","inf":"drink","past":"drank","pp":"drunk","acc":{inf:["drink"],past:["drank"],pp:["drunk"]}},
+{"es":"किन्नु","inf":"buy","past":"bought","pp":"bought","acc":{inf:["buy"],past:["bought"],pp:["bought"]}},
+{"es":"कोर्नु","inf":"draw","past":"drew","pp":"drawn","acc":{inf:["draw"],past:["drew"],pp:["drawn"]}},
+{"es":"सुन्नु","inf":"hear","past":"heard","pp":"heard","acc":{inf:["hear"],past:["heard"],pp:["heard"]}},
+{"es":"खुवाउनु","inf":"feed","past":"fed","pp":"fed","acc":{inf:["feed"],past:["fed"],pp:["fed"]}},
+{"es":"जित्नु","inf":"win","past":"won","pp":"won","acc":{inf:["win"],past:["won"],pp:["won"]}},
+{"es":"गर्नु","inf":"do","past":"did","pp":"done","acc":{inf:["do"],past:["did"],pp:["done"]}},
+{"es":"भेट्नु","inf":"meet","past":"met","pp":"met","acc":{inf:["meet"],past:["met"],pp:["met"]}},
+{"es":"दिनु","inf":"give","past":"gave","pp":"given","acc":{inf:["give"],past:["gave"],pp:["given"]}},
+{"es":"खस्नु","inf":"fall","past":"fell","pp":"fallen","acc":{inf:["fall"],past:["fell"],pp:["fallen"]}},
+{"es":"काट्नु","inf":"cut","past":"cut","pp":"cut","acc":{inf:["cut"],past:["cut"],pp:["cut"]}},
+{"es":"साथ हुनु","inf":"have","past":"had","pp":"had","acc":{inf:["have"],past:["had"],pp:["had"]}}
 ];
 var PRON_ALL=[{"inf":[["learn","/lɜːn/"]],"past":[["learnt","/lɜːnt/"],["learned","/lɜːnd/"]],"pp":[["learnt","/lɜːnt/"],["learned","/lɜːnd/"]]},{"inf":[["sing","/sɪŋ/"]],"past":[["sang","/sæŋ/"]],"pp":[["sung","/sʌŋ/"]]},{"inf":[["eat","/iːt/"]],"past":[["ate","/et/"]],"pp":[["eaten","/ˈiːtən/"]]},{"inf":[["build","/bɪld/"]],"past":[["built","/bɪlt/"]],"pp":[["built","/bɪlt/"]]},{"inf":[["say","/seɪ/"]],"past":[["said","/sed/"]],"pp":[["said","/sed/"]]},{"inf":[["begin","/bɪˈɡɪn/"]],"past":[["began","/bɪˈɡæn/"]],"pp":[["begun","/bɪˈɡʌn/"]]},{"inf":[["write","/raɪt/"]],"past":[["wrote","/rəʊt/"]],"pp":[["written","/ˈrɪtən/"]]},{"inf":[["spend","/spend/"]],"past":[["spent","/spent/"]],"pp":[["spent","/spent/"]]},{"inf":[["speak","/spiːk/"]],"past":[["spoke","/spəʊk/"]],"pp":[["spoken","/ˈspəʊkən/"]]},{"inf":[["make","/meɪk/"]],"past":[["made","/meɪd/"]],"pp":[["made","/meɪd/"]]},{"inf":[["hurt","/hɜːt/"]],"past":[["hurt","/hɜːt/"]],"pp":[["hurt","/hɜːt/"]]},{"inf":[["go","/ɡəʊ/"]],"past":[["went","/went/"]],"pp":[["gone","/ɡɒn/"]]},{"inf":[["get","/ɡet/"]],"past":[["got","/ɡɒt/"]],"pp":[["got","/ɡɒt/"]]},{"inf":[["forget","/fəˈɡet/"]],"past":[["forgot","/fəˈɡɒt/"]],"pp":[["forgotten","/fəˈɡɒtən/"]]},{"inf":[["lose","/luːz/"]],"past":[["lost","/lɒst/"]],"pp":[["lost","/lɒst/"]]},{"inf":[["steal","/stiːl/"]],"past":[["stole","/stəʊl/"]],"pp":[["stolen","/ˈstəʊlən/"]]},{"inf":[["leave","/liːv/"]],"past":[["left","/left/"]],"pp":[["left","/left/"]]},{"inf":[["be","/biː/"]],"past":[["was / were","/wɒz/ · /wɜː/","was-were"]],"pp":[["been","/biːn/"]]},{"inf":[["come","/kʌm/"]],"past":[["came","/keɪm/"]],"pp":[["come","/kʌm/"]]},{"inf":[["see","/siː/"]],"past":[["saw","/sɔː/"]],"pp":[["seen","/siːn/"]]},{"inf":[["put","/pʊt/"]],"past":[["put","/pʊt/"]],"pp":[["put","/pʊt/"]]},{"inf":[["ring","/rɪŋ/"]],"past":[["rang","/ræŋ/"]],"pp":[["rung","/rʌŋ/"]]},{"inf":[["run","/rʌn/"]],"past":[["ran","/ræn/"]],"pp":[["run","/rʌn/"]]},{"inf":[["break","/breɪk/"]],"past":[["broke","/brəʊk/"]],"pp":[["broken","/ˈbrəʊkən/"]]},{"inf":[["sell","/sel/"]],"past":[["sold","/səʊld/"]],"pp":[["sold","/səʊld/"]]},{"inf":[["drink","/drɪŋk/"]],"past":[["drank","/dræŋk/"]],"pp":[["drunk","/drʌŋk/"]]},{"inf":[["buy","/baɪ/"]],"past":[["bought","/bɔːt/"]],"pp":[["bought","/bɔːt/"]]},{"inf":[["draw","/drɔː/"]],"past":[["drew","/druː/"]],"pp":[["drawn","/drɔːn/"]]},{"inf":[["hear","/hɪə/"]],"past":[["heard","/hɜːd/"]],"pp":[["heard","/hɜːd/"]]},{"inf":[["feed","/fiːd/"]],"past":[["fed","/fed/"]],"pp":[["fed","/fed/"]]},{"inf":[["win","/wɪn/"]],"past":[["won","/wʌn/"]],"pp":[["won","/wʌn/"]]},{"inf":[["do","/duː/"]],"past":[["did","/dɪd/"]],"pp":[["done","/dʌn/"]]},{"inf":[["meet","/miːt/"]],"past":[["met","/met/"]],"pp":[["met","/met/"]]},{"inf":[["give","/ɡɪv/"]],"past":[["gave","/ɡeɪv/"]],"pp":[["given","/ˈɡɪvən/"]]},{"inf":[["fall","/fɔːl/"]],"past":[["fell","/fel/"]],"pp":[["fallen","/ˈfɔːlən/"]]},{"inf":[["cut","/kʌt/"]],"past":[["cut","/kʌt/"]],"pp":[["cut","/kʌt/"]]},{"inf":[["have","/hæv/"]],"past":[["had","/hæd/"]],"pp":[["had","/hæd/"]]}];
 var FORMS=["inf","past","pp"];
@@ -338,8 +335,8 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
 /*LOGIC-END*/
 
 (function(){
-  var FORM_LABELS={inf:"原形",past:"过去式",pp:"过去分词"};
-  function fbDetail(f,gloss,form){ return '「'+gloss+'」的'+FORM_LABELS[f]+'是 <b>'+form+'</b>'; }
+  var FORM_LABELS={inf:"मूल रूप",past:"Past Tense",pp:"Past Participle"};
+  function fbDetail(f,gloss,form){ return gloss+' क्रियाको '+FORM_LABELS[f]+' <b>'+form+'</b> हो'; }
   var weights={};
   var stats={total:0,ok:0,bad:0};
   var current=null;
@@ -366,10 +363,10 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var v=VERBS[vi];
     current={key:key,verb:v,form:f,vi:vi};
     answered=false;
-    qLabel.textContent=FORM_LABELS[f]+"";
+    qLabel.textContent=FORM_LABELS[f]+" क्रिया:";
     qWord.textContent=v.es;
     if(f==="inf"){qHint.innerHTML=""}
-    else{qHint.innerHTML="原形: <b>"+v.inf+"</b>"}
+    else{qHint.innerHTML="मूल रूप: <b>"+v.inf+"</b>"}
     input.value="";
     input.disabled=false;
     document.getElementById("check").disabled=false;
@@ -380,13 +377,13 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   }
 
   function playBtn(w,label,fileKey){
-    return '<button type="button" class="play" data-src="/ingles/verbos-irregulares/audio/'+(fileKey||w)+'.mp3" aria-label="听：'+label+'">🔊</button>';
+    return '<button type="button" class="play" data-src="/ingles/verbos-irregulares/audio/'+(fileKey||w)+'.mp3" aria-label="सुन्नुहोस्: '+label+'">🔊</button>';
   }
   function pronHtml(vi,forms){
     var p=PRON[vi];
     if(!p)return '';
     var out='';
-    var labels={inf:'原形',past:'过去式',pp:'过去分词'};
+    var labels={inf:'मूल रूप',past:'बितेको समय',pp:'Past Participle'};
     for(var i=0;i<forms.length;i++){
       var f=forms[i];
       var vars=(p[f]||[]);
@@ -415,11 +412,11 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var correctForm=v[f];
     if(ok){
       feedback.className="feedback show ok";
-      feedback.innerHTML='<p class="f-title">正确！</p><p class="f-detail">'+fbDetail(f,v.es,correctForm)+'.</p>'+trioHtml(v,current.vi);
+      feedback.innerHTML='<p class="f-title">सही छ।</p><p class="f-detail">'+fbDetail(f,v.es,correctForm)+'.</p>'+trioHtml(v,current.vi);
     }else{
       feedback.className="feedback show bad";
-      var detail=input.value.trim()?('你写的是「'+input.value.trim()+'」。'):'';
-      feedback.innerHTML='<p class="f-title">不正确。</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'，之后会再次出现。</p>'+trioHtml(v,current.vi);
+      var detail=input.value.trim()?('तपाईंले लेख्नुभयो: "'+input.value.trim()+'". '):'';
+      feedback.innerHTML='<p class="f-title">गलत छ।</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'. चाँडै फर्कन्छ।</p>'+trioHtml(v,current.vi);
     }
     input.disabled=true;
     document.getElementById("check").disabled=true;
@@ -461,7 +458,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var p=PRON[vi];
     function cell(form,plain){
       if(!p||!(p[form]||[]).length)return '<td class="en">'+plain+'</td>';
-      var labels={inf:'原形',past:'过去式',pp:'过去分词'};
+      var labels={inf:'मूल रूप',past:'Past Tense',pp:'Past Participle'};
       var bits='';
       (p[form]||[]).forEach(function(pr){
         bits+='<span class="pv">'+playBtn(pr[0],labels[form]+': '+pr[0],pr[2])+'<span class="pc"><span>'+pr[0]+'</span><span class="ipa">'+pr[1]+'</span></span></span>';
@@ -497,11 +494,11 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   if(MODE!=="class"){var ch=document.getElementById("correcciones-hoja");if(ch)ch.style.display="none"}
   var setbar=document.getElementById("setbar");
   if(MODE==="custom"){setbar.classList.add("custom");
-    setbar.innerHTML='你的列表 · '+VERBS.length+' 个动词 · <a href="/ingles/verbos-irregulares/zh/">返回班级列表</a>';
+    setbar.innerHTML='छानिएको सूची · क्रियाहरू: '+VERBS.length+' · <a href="/ingles/verbos-irregulares/ne/">कक्षा सूचीमा फर्कनुहोस्</a>';
   }else if(MODE==="catalog"){setbar.classList.add("custom");
-    setbar.innerHTML='完整目录 · '+VERBS.length+' 个动词 · <a href="/ingles/verbos-irregulares/zh/">返回班级列表</a>';
+    setbar.innerHTML='पूर्ण क्याटलग · क्रियाहरू: '+VERBS.length+' · <a href="/ingles/verbos-irregulares/ne/">कक्षा सूचीमा फर्कनुहोस्</a>';
   }else{
-    setbar.innerHTML='班级列表 · '+VERBS.length+' 个动词'+(CAT_OK?' · <a href="#l=todos">完整目录 ('+VERBS_CATALOG.length+')</a>':'');
+    setbar.innerHTML='कक्षा सूची · क्रियाहरू: '+VERBS.length+(CAT_OK?' · <a href="#l=todos">पूर्ण क्याटलग ('+VERBS_CATALOG.length+')</a>':'');
   }
 
   var clGrid=document.getElementById("cl-verbs");
@@ -529,9 +526,9 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   document.getElementById("cl-none").addEventListener("click",function(){clBoxes.forEach(function(c){c.checked=false})});
   document.getElementById("cl-copy").addEventListener("click",function(){
     var sel=clBoxes.filter(function(c){return c.checked}).map(function(c){return c.value});
-    if(!sel.length){clMsg.textContent="请至少选择一个动词。";return}
+    if(!sel.length){clMsg.textContent="कम्तीमा एउटा क्रिया छान्नुहोस्।";return}
     var url=location.origin+location.pathname+"#l="+sel.join("-");
-    function done(){clMsg.textContent="链接已复制："+sel.length+" 个动词。"}
+    function done(){clMsg.textContent="लिंक कपी भयो: "+sel.length+" क्रियाहरू।"}
     function fallback(){
       var ta=document.createElement("textarea");
       ta.value=url;document.body.appendChild(ta);ta.select();
