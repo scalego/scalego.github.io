@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="sr">
+<html lang="ku">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Научи енглески · Неправилни глаголи</title>
-<meta name="description" content="Научи неправилне глаголе енглеског: изабрана питања, тренутна повратна информација и комплетне табеле глагола."/>
+<title>Îngilîzî hîn bibin · Lêkerên bêrêz</title>
+<meta name="description" content="Lêkerên bêrêz ên îngilîzî hîn bibin: pirsên hilbijartî, bersiva bilez û tabloya lêkeran a temam."/>
 <meta name="theme-color" content="#0B0F14"/>
 <meta property="og:type" content="website"/>
-<meta property="og:url" content="https://scalego.github.io/ingles/verbos-irregulares/sr/"/>
-<link rel="canonical" href="https://scalego.github.io/ingles/verbos-irregulares/sr/"/>
-<meta property="og:title" content="Научи енглески · Неправилни глаголи"/>
-<meta property="og:description" content="Научи неправилне глаголе енглеског кроз изабрана питања, тренутну повратну информацију и комплетне табеле."/>
+<meta property="og:url" content="https://scalego.github.io/ingles/verbos-irregulares/ku/"/>
+<link rel="canonical" href="https://scalego.github.io/ingles/verbos-irregulares/ku/"/>
+<meta property="og:title" content="Îngilîzî hîn bibin · Lêkerên bêrêz"/>
+<meta property="og:description" content="Lêkerên bêrêz ên îngilîzî bi pirsên hilbijartî, bersiva bilez û tabloya temam hîn bibin."/>
 <meta property="og:image" content="https://scalego.github.io/ingles/verbos-irregulares/og-scalego-en.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
@@ -99,10 +99,8 @@ footer a:hover{color:var(--acid)}
 .langnav a,.langnav strong{color:inherit}
 .langnav a{text-decoration:underline;text-underline-offset:3px}
 .langnav a:hover{color:var(--acid)}
-html[dir=rtl] *{letter-spacing:normal}
-html[dir=rtl] th{text-align:right}
-html[dir=rtl] details .body ul{padding-left:0;padding-right:20px}
-html[dir=rtl] .setbar a{margin-left:0;margin-right:8px}
+
+
 
 /* pronunciacion */
 .pv{display:flex;align-items:center;gap:7px}
@@ -149,60 +147,60 @@ button.play:hover{border-color:var(--acid)}
 <header class="site">
   <div class="wrap">
     <a class="brand" href="/" aria-label="Scale Go"><svg width="26" height="26" viewBox="0 0 48 48" aria-hidden="true"><rect x="2" y="2" width="44" height="44" rx="11" fill="#2F6BFF"/><path d="M33 15H19v7h10v11H15" fill="none" stroke="#0B0F14" stroke-width="5" stroke-linecap="square"/></svg><span>Scale <span>Go</span></span></a>
-    <p class="sub">Неправилни глаголи</p>
+    <p class="sub">Lêkerên bêrêz</p>
   </div>
-  <div class="wrap"><p class="crumb"><a href="/">Scale Go</a> &rsaquo; <a href="/ingles/">English</a> &rsaquo; Неправилни глаголи</p></div>
+  <div class="wrap"><p class="crumb"><a href="/">Scale Go</a> &rsaquo; <a href="/ingles/">English</a> &rsaquo; Lêkerên bêrêz</p></div>
 </header>
 <main class="wrap">
-  <h1>Неправилни глаголи</h1>
-  <p class="intro">Почни са изабраним питањима: укуцај исправан облик и одмах види да ли је твој одговор тачан. Глагол на коме погрешиш појавиће се поново касније.</p>
+  <h1>Lêkerên bêrêz</h1>
+  <p class="intro">Ji pirsên hilbijartî dest pê bikin: formek rast binivîsin û tavilê bibînin ka bersiva we rast e yan na. Lêkera ku hûn di wê de çewtî bikin, dê paşê dîsa were.</p>
   <p class="setbar" id="setbar"></p>
 
-  <div class="tabs" role="tablist" aria-label="Одељци">
-    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">Вежбање</button>
-    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">Преглед листе</button>
-    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">Направи листу</button>
+  <div class="tabs" role="tablist" aria-label="Beş">
+    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">Pratîk</button>
+    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">Lîsteyê bibînin</button>
+    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">Lîsteyê çêbikin</button>
   </div>
 
   <details>
-    <summary>Шта значе ознаке /.../ (звук)?</summary>
+    <summary>Nîşanên /.../ (deng) çi wateyê digire?</summary>
     <div class="body">
-      <p>Знаци између косих црта, као /ɡəʊ/, <b>научни су запис звука (IPA)</b>: показују како се свака реч изговара у <b>британском енглеском</b>, звук по звук.</p>
+      <p>Nîşanên di navbera xetên berjêr de, wek /ɡəʊ/, <b>nivîsandina zanistî ya deng (IPA) ye</b>: têlfuza her peyvê di <b>îngilîziya brîtanî de</b>, deng bi deng, nîşan dide.</p>
       <ul>
-        <li>ˈ означава наглашен слог: /bɪˈɡɪn/ изговара се би-ГИН.</li>
-        <li>ː продужује самогласник: /iː/ је дуго „и“.</li>
-        <li>/ə/ је средњи самогласник, најчешћи у енглеском, као „a“ у речи „about“.</li>
-        <li>Ако су ти ове ознаке тешке, нема проблема: притисни дугме 🔊 и чуј реч.</li>
+        <li>ˈ heceya zextkirî nîşan dide: /bɪˈɡɪn/ wek bi-GIN tê telaffuzkirin.</li>
+        <li>ː dengbêjê dirêj dike: /iː/ "i"yek dirêj e.</li>
+        <li>/ə/ dengbêja navîn e, ya herî zêde di îngilîzî de tê bikaranîn, wek "a" di "about" de.</li>
+        <li>Heke ev nîşan ji we re zehmet in, ne girîng e: li bişkojka 🔊 bitikînin û peyvê guhdarî bikin.</li>
       </ul>
     </div>
   </details>
 
   <section id="view-practice" role="tabpanel" aria-labelledby="tab-practice">
     <div class="stats">
-      <p>Питања: <b id="s-total">0</b> · Тачно: <b id="s-ok" class="n-ok">0</b> · Грешке: <b id="s-bad" class="n-bad">0</b></p>
-      <button class="btn ghost" id="restart" type="button">Почни поново</button>
+      <p>Pirs: <b id="s-total">0</b> · Rast: <b id="s-ok" class="n-ok">0</b> · Çewtî: <b id="s-bad" class="n-bad">0</b></p>
+      <button class="btn ghost" id="restart" type="button">Ji nû ve dest pê bike</button>
     </div>
 
     <div class="card">
-      <p class="q-label" id="q-label">Инфинитив глагола:</p>
+      <p class="q-label" id="q-label">Forma bingehîn yê lêkerê:</p>
       <p class="q-word" id="q-word">…</p>
       <p class="q-hint" id="q-hint"></p>
       <form id="answer-form" autocomplete="off">
         <div class="answer-row">
-          <label for="answer" class="sub" style="position:absolute;left:-9999px">Твој одговор на енглеском</label>
-          <input id="answer" name="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="send" placeholder="Твој одговор на енглеском"/>
-          <button class="btn" id="check" type="submit">Провери</button>
+          <label for="answer" class="sub" style="position:absolute;left:-9999px">Bersiva we bi îngilîzî</label>
+          <input id="answer" name="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="send" placeholder="Bersiva we bi îngilîzî"/>
+          <button class="btn" id="check" type="submit">Kontrol bike</button>
         </div>
       </form>
       <div class="feedback" id="feedback" aria-live="polite"></div>
       <div class="next-row" id="next-row">
-        <button class="btn" id="next" type="button">Следеће питање</button>
+        <button class="btn" id="next" type="button">Pirsa din</button>
       </div>
     </div>
-    <p class="note">Твој напредак се чува само у овом приказу: ако затвориш или отвориш другу страницу, све ће нестати.</p>
+    <p class="note">Pêşveçûna we tenê li vir tê tomarkirin: heke rûpel were girtin an rûpeleke din were vekirin, her tişt dê winda bibe.</p>
 
     <details id="correcciones-hoja" style="display:none">
-      <summary>Вежбање грешака</summary>
+      <summary>Pratîka çewtiyan</summary>
       <div class="body">
         <ul>
           <li></li>
@@ -214,29 +212,29 @@ button.play:hover{border-color:var(--acid)}
 
   <section id="view-review" role="tabpanel" aria-labelledby="tab-review" hidden>
     <div class="search-row">
-      <label for="search" class="sub" style="position:absolute;left:-9999px">Тражи глагол</label>
-      <input id="search" type="search" inputmode="search" placeholder="Тражи на енглеском (нпр. make, go, went)"/>
+      <label for="search" class="sub" style="position:absolute;left:-9999px">Lêker bigere</label>
+      <input id="search" type="search" inputmode="search" placeholder="Bi îngilîzî bigere (wek make, go, went)"/>
     </div>
     <div class="table-scroll">
       <table>
         <thead>
-          <tr><th>Значење</th><th>Инфинитив</th><th>Past Tense</th><th>Past Participle</th></tr>
+          <tr><th>Wate</th><th>Forma bingehîn</th><th>Past Tense</th><th>Past Participle</th></tr>
         </thead>
         <tbody id="verb-rows"></tbody>
       </table>
-      <p class="empty" id="empty">Нема глагола који одговара претрази.</p>
+      <p class="empty" id="empty">Tu lêker ji lêgerînê re li pey nehat dîtin.</p>
     </div>
   </section>
 
   <section id="view-create" role="tabpanel" aria-labelledby="tab-create" hidden>
     <div class="card">
-      <p>Изабери глаголе и копирај линк: ко год га отвори вежбаће само твој избор, са звуком и фонетским записом.</p>
-      <p><input id="cl-filter" type="search" inputmode="search" placeholder="Филтрирај глаголе (нпр. eat, go, write)" style="width:100%;box-sizing:border-box;background:#0d0f12;border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:8px;font-size:15px"/></p>
+      <p>Lêkeran hilbijêrin û girêdanê kopî bikin: her kesê ku ew veke, dê tenê lêkerên ku we hilbijartî pratîk bike, bi deng û nivîsandina fonetîk re.</p>
+      <p><input id="cl-filter" type="search" inputmode="search" placeholder="Lêkeran parzûn bike (wek eat, go, write)" style="width:100%;box-sizing:border-box;background:#0d0f12;border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:8px;font-size:15px"/></p>
       <div id="cl-verbs" class="cl-grid"></div>
       <p class="cl-actions">
-        <button class="btn ghost" id="cl-all" type="button">Изабери све</button>
-        <button class="btn ghost" id="cl-none" type="button">Поништи избор</button>
-        <button class="btn" id="cl-copy" type="button">Копирај линк листе</button>
+        <button class="btn ghost" id="cl-all" type="button">Hemûyan hilbijêre</button>
+        <button class="btn ghost" id="cl-none" type="button">Hilbijartinê paqij bike</button>
+        <button class="btn" id="cl-copy" type="button">Girêdana lîsteyê kopî bike</button>
       </p>
       <p id="cl-msg" class="cl-msg" aria-live="polite"></p>
     </div>
@@ -244,51 +242,51 @@ button.play:hover{border-color:var(--acid)}
 </main>
 <footer>
   <div class="wrap">
-    <p>Направио Raúl · <a href="/">Scale Go</a></p>
-    <p class="langnav">Језици: <a href="/ingles/verbos-irregulares/">Español</a> · <a href="/ingles/verbos-irregulares/en/">English</a> · <a href="/ingles/verbos-irregulares/fr/">Français</a> · <a href="/ingles/verbos-irregulares/de/">Deutsch</a> · <a href="/ingles/verbos-irregulares/pt/">Português</a> · <a href="/ingles/verbos-irregulares/it/">Italiano</a> · <a href="/ingles/verbos-irregulares/tr/">Türkçe</a> · <a href="/ingles/verbos-irregulares/nl/">Nederlands</a> · <a href="/ingles/verbos-irregulares/pl/">Polski</a> · <a href="/ingles/verbos-irregulares/sv/">Svenska</a> · <a href="/ingles/verbos-irregulares/da/">Dansk</a> · <a href="/ingles/verbos-irregulares/no/">Norsk</a> · <a href="/ingles/verbos-irregulares/fi/">Suomi</a> · <a href="/ingles/verbos-irregulares/ro/">Română</a> · <a href="/ingles/verbos-irregulares/hu/">Magyar</a> · <a href="/ingles/verbos-irregulares/cs/">Čeština</a> · <a href="/ingles/verbos-irregulares/uk/">Українська</a> · <a href="/ingles/verbos-irregulares/el/">Ελληνικά</a> · <a href="/ingles/verbos-irregulares/hr/">Hrvatski</a> · <a href="/ingles/verbos-irregulares/id/">Bahasa Indonesia</a> · <a href="/ingles/verbos-irregulares/hi/">हिन्दी</a> · <a href="/ingles/verbos-irregulares/ru/">Русский</a> · <a href="/ingles/verbos-irregulares/ja/">日本語</a> · <a href="/ingles/verbos-irregulares/ca/">Català</a> · <a href="/ingles/verbos-irregulares/gl/">Galego</a> · <a href="/ingles/verbos-irregulares/eu/">Euskara</a> · <a href="/ingles/verbos-irregulares/va/">Valencià</a> · <a href="/ingles/verbos-irregulares/ast/">Asturianu</a> · <a href="/ingles/verbos-irregulares/an/">Aragonés</a> · <a href="/ingles/verbos-irregulares/zh/">中文</a> · <a href="/ingles/verbos-irregulares/ko/">한국어</a> · <a href="/ingles/verbos-irregulares/ar/">العربية</a> · <a href="/ingles/verbos-irregulares/bn/">বাংলা</a> · <a href="/ingles/verbos-irregulares/vi/">Tiếng Việt</a> · <a href="/ingles/verbos-irregulares/th/">ไทย</a> · <a href="/ingles/verbos-irregulares/tl/">Tagalog</a> · <a href="/ingles/verbos-irregulares/ms/">Bahasa Melayu</a> · <a href="/ingles/verbos-irregulares/fa/">فارسی</a> · <a href="/ingles/verbos-irregulares/ur/">اردو</a> · <a href="/ingles/verbos-irregulares/sw/">Kiswahili</a> · <a href="/ingles/verbos-irregulares/he/">עברית</a> · <a href="/ingles/verbos-irregulares/ta/">தமிழ்</a> · <a href="/ingles/verbos-irregulares/te/">తెలుగు</a> · <a href="/ingles/verbos-irregulares/mr/">मराठी</a> · <a href="/ingles/verbos-irregulares/gu/">ગુજરાતી</a> · <a href="/ingles/verbos-irregulares/kn/">ಕನ್ನಡ</a> · <a href="/ingles/verbos-irregulares/pa/">ਪੰਜਾਬੀ</a> · <a href="/ingles/verbos-irregulares/ml/">മലയാളം</a> · <a href="/ingles/verbos-irregulares/my/">မြန်မာ</a> · <a href="/ingles/verbos-irregulares/am/">አማርኛ</a> · <a href="/ingles/verbos-irregulares/ha/">Hausa</a> · <a href="/ingles/verbos-irregulares/yo/">Yorùbá</a> · <a href="/ingles/verbos-irregulares/ig/">Igbo</a> · <a href="/ingles/verbos-irregulares/zu/">Zulu</a> · <strong>Српски</strong> · <a href="/ingles/verbos-irregulares/bg/">Български</a> · <a href="/ingles/verbos-irregulares/sq/">Shqip</a> · <a href="/ingles/verbos-irregulares/hy/">Հայերեն</a> · <a href="/ingles/verbos-irregulares/be/">Беларуская</a> · <a href="/ingles/verbos-irregulares/sk/">Slovenčina</a> · <a href="/ingles/verbos-irregulares/lt/">Lietuvių</a> · <a href="/ingles/verbos-irregulares/bs/">Bosanski</a> · <a href="/ingles/verbos-irregulares/sl/">Slovenščina</a> · <a href="/ingles/verbos-irregulares/jv/">Basa Jawa</a> · <a href="/ingles/verbos-irregulares/bho/">भोजपुरी</a> · <a href="/ingles/verbos-irregulares/ps/">پښتو</a> · <a href="/ingles/verbos-irregulares/su/">Basa Sunda</a> · <a href="/ingles/verbos-irregulares/or/">ଓଡ଼ିଆ</a> · <a href="/ingles/verbos-irregulares/om/">Afaan Oromoo</a> · <a href="/ingles/verbos-irregulares/uz/">Oʻzbek</a> · <a href="/ingles/verbos-irregulares/mai/">मैथिली</a> · <a href="/ingles/verbos-irregulares/az/">Azərbaycan</a> · <a href="/ingles/verbos-irregulares/ne/">नेपाली</a> · <a href="/ingles/verbos-irregulares/sd/">سنڌي</a> · <a href="/ingles/verbos-irregulares/lo/">ລາວ</a> · <a href="/ingles/verbos-irregulares/ku/">Kurdî</a></p>
+    <p>Ji aliyê Raúl ve hatiye çêkirin · <a href="/">Scale Go</a></p>
+    <p class="langnav">Ziman: <a href="/ingles/verbos-irregulares/">Español</a> · <a href="/ingles/verbos-irregulares/en/">English</a> · <a href="/ingles/verbos-irregulares/fr/">Français</a> · <a href="/ingles/verbos-irregulares/de/">Deutsch</a> · <a href="/ingles/verbos-irregulares/pt/">Português</a> · <a href="/ingles/verbos-irregulares/it/">Italiano</a> · <a href="/ingles/verbos-irregulares/tr/">Türkçe</a> · <a href="/ingles/verbos-irregulares/nl/">Nederlands</a> · <a href="/ingles/verbos-irregulares/pl/">Polski</a> · <a href="/ingles/verbos-irregulares/sv/">Svenska</a> · <a href="/ingles/verbos-irregulares/da/">Dansk</a> · <a href="/ingles/verbos-irregulares/no/">Norsk</a> · <a href="/ingles/verbos-irregulares/fi/">Suomi</a> · <a href="/ingles/verbos-irregulares/ro/">Română</a> · <a href="/ingles/verbos-irregulares/hu/">Magyar</a> · <a href="/ingles/verbos-irregulares/cs/">Čeština</a> · <a href="/ingles/verbos-irregulares/uk/">Українська</a> · <a href="/ingles/verbos-irregulares/el/">Ελληνικά</a> · <a href="/ingles/verbos-irregulares/hr/">Hrvatski</a> · <a href="/ingles/verbos-irregulares/id/">Bahasa Indonesia</a> · <a href="/ingles/verbos-irregulares/hi/">हिन्दी</a> · <a href="/ingles/verbos-irregulares/ru/">Русский</a> · <a href="/ingles/verbos-irregulares/ja/">日本語</a> · <a href="/ingles/verbos-irregulares/ca/">Català</a> · <a href="/ingles/verbos-irregulares/gl/">Galego</a> · <a href="/ingles/verbos-irregulares/eu/">Euskara</a> · <a href="/ingles/verbos-irregulares/va/">Valencià</a> · <a href="/ingles/verbos-irregulares/ast/">Asturianu</a> · <a href="/ingles/verbos-irregulares/an/">Aragonés</a> · <a href="/ingles/verbos-irregulares/zh/">中文</a> · <a href="/ingles/verbos-irregulares/ko/">한국어</a> · <a href="/ingles/verbos-irregulares/ar/">العربية</a> · <a href="/ingles/verbos-irregulares/bn/">বাংলা</a> · <a href="/ingles/verbos-irregulares/vi/">Tiếng Việt</a> · <a href="/ingles/verbos-irregulares/th/">ไทย</a> · <a href="/ingles/verbos-irregulares/tl/">Tagalog</a> · <a href="/ingles/verbos-irregulares/ms/">Bahasa Melayu</a> · <a href="/ingles/verbos-irregulares/fa/">فارسی</a> · <a href="/ingles/verbos-irregulares/ur/">اردو</a> · <a href="/ingles/verbos-irregulares/sw/">Kiswahili</a> · <a href="/ingles/verbos-irregulares/he/">עברית</a> · <a href="/ingles/verbos-irregulares/ta/">தமிழ்</a> · <a href="/ingles/verbos-irregulares/te/">తెలుగు</a> · <a href="/ingles/verbos-irregulares/mr/">मराठी</a> · <a href="/ingles/verbos-irregulares/gu/">ગુજરાતી</a> · <a href="/ingles/verbos-irregulares/kn/">ಕನ್ನಡ</a> · <a href="/ingles/verbos-irregulares/pa/">ਪੰਜਾਬੀ</a> · <a href="/ingles/verbos-irregulares/ml/">മലയാളം</a> · <a href="/ingles/verbos-irregulares/my/">မြန်မာ</a> · <a href="/ingles/verbos-irregulares/am/">አማርኛ</a> · <a href="/ingles/verbos-irregulares/ha/">Hausa</a> · <a href="/ingles/verbos-irregulares/yo/">Yorùbá</a> · <a href="/ingles/verbos-irregulares/ig/">Igbo</a> · <a href="/ingles/verbos-irregulares/zu/">Zulu</a> · <a href="/ingles/verbos-irregulares/sr/">Српски</a> · <a href="/ingles/verbos-irregulares/bg/">Български</a> · <a href="/ingles/verbos-irregulares/sq/">Shqip</a> · <a href="/ingles/verbos-irregulares/hy/">Հայերեն</a> · <a href="/ingles/verbos-irregulares/be/">Беларуская</a> · <a href="/ingles/verbos-irregulares/sk/">Slovenčina</a> · <a href="/ingles/verbos-irregulares/lt/">Lietuvių</a> · <a href="/ingles/verbos-irregulares/bs/">Bosanski</a> · <a href="/ingles/verbos-irregulares/sl/">Slovenščina</a> · <a href="/ingles/verbos-irregulares/jv/">Basa Jawa</a> · <a href="/ingles/verbos-irregulares/bho/">भोजपुरी</a> · <a href="/ingles/verbos-irregulares/ps/">پښتو</a> · <a href="/ingles/verbos-irregulares/su/">Basa Sunda</a> · <a href="/ingles/verbos-irregulares/or/">ଓଡ଼ିଆ</a> · <a href="/ingles/verbos-irregulares/om/">Afaan Oromoo</a> · <a href="/ingles/verbos-irregulares/uz/">Oʻzbek</a> · <a href="/ingles/verbos-irregulares/mai/">मैथिली</a> · <a href="/ingles/verbos-irregulares/az/">Azərbaycan</a> · <a href="/ingles/verbos-irregulares/ne/">नेपाली</a> · <a href="/ingles/verbos-irregulares/sd/">سنڌي</a> · <a href="/ingles/verbos-irregulares/lo/">ລາວ</a> · <strong>Kurdî</strong></p>
   </div>
 </footer>
 <script src="catalog.js"></script>
 <script>
 /*LOGIC-START*/
 var VERBS_ALL=[
-{"es":"учити","inf":"learn","past":"learnt / learned","pp":"learnt / learned","acc":{inf:["learn"],past:["learnt","learned","learnt/learned","learnt / learned"],pp:["learnt","learned","learnt/learned","learnt / learned"]}},
-{"es":"певати","inf":"sing","past":"sang","pp":"sung","acc":{inf:["sing"],past:["sang"],pp:["sung"]}},
-{"es":"јести","inf":"eat","past":"ate","pp":"eaten","acc":{inf:["eat"],past:["ate"],pp:["eaten"]}},
-{"es":"градити","inf":"build","past":"built","pp":"built","acc":{inf:["build"],past:["built"],pp:["built"]}},
-{"es":"рећи","inf":"say","past":"said","pp":"said","acc":{inf:["say"],past:["said"],pp:["said"]}},
-{"es":"почети","inf":"begin","past":"began","pp":"begun","acc":{inf:["begin"],past:["began"],pp:["begun"]}},
-{"es":"писати","inf":"write","past":"wrote","pp":"written","acc":{inf:["write"],past:["wrote"],pp:["written"]}},
-{"es":"трошити","inf":"spend","past":"spent","pp":"spent","acc":{inf:["spend"],past:["spent"],pp:["spent"]}},
-{"es":"говорити","inf":"speak","past":"spoke","pp":"spoken","acc":{inf:["speak"],past:["spoke"],pp:["spoken"]}},
-{"es":"направити","inf":"make","past":"made","pp":"made","acc":{inf:["make"],past:["made"],pp:["made"]}},
-{"es":"повредити","inf":"hurt","past":"hurt","pp":"hurt","acc":{inf:["hurt"],past:["hurt"],pp:["hurt"]}},
-{"es":"ићи","inf":"go","past":"went","pp":"gone","acc":{inf:["go"],past:["went"],pp:["gone"]}},
-{"es":"добити","inf":"get","past":"got","pp":"got","acc":{inf:["get"],past:["got"],pp:["got"]}},
-{"es":"заборавити","inf":"forget","past":"forgot","pp":"forgotten","acc":{inf:["forget"],past:["forgot"],pp:["forgotten"]}},
-{"es":"изгубити","inf":"lose","past":"lost","pp":"lost","acc":{inf:["lose"],past:["lost"],pp:["lost"]}},
-{"es":"украсти","inf":"steal","past":"stole","pp":"stolen","acc":{inf:["steal"],past:["stole"],pp:["stolen"]}},
-{"es":"напустити","inf":"leave","past":"left","pp":"left","acc":{inf:["leave"],past:["left"],pp:["left"]}},
-{"es":"бити","inf":"be","past":"was / were","pp":"been","acc":{inf:["be"],past:["was / were"],pp:["been"]}},
-{"es":"доћи","inf":"come","past":"came","pp":"come","acc":{inf:["come"],past:["came"],pp:["come"]}},
-{"es":"видети","inf":"see","past":"saw","pp":"seen","acc":{inf:["see"],past:["saw"],pp:["seen"]}},
-{"es":"ставити","inf":"put","past":"put","pp":"put","acc":{inf:["put"],past:["put"],pp:["put"]}},
-{"es":"звонити","inf":"ring","past":"rang","pp":"rung","acc":{inf:["ring"],past:["rang"],pp:["rung"]}},
-{"es":"трчати","inf":"run","past":"ran","pp":"run","acc":{inf:["run"],past:["ran"],pp:["run"]}},
-{"es":"сломити","inf":"break","past":"broke","pp":"broken","acc":{inf:["break"],past:["broke"],pp:["broken"]}},
-{"es":"продати","inf":"sell","past":"sold","pp":"sold","acc":{inf:["sell"],past:["sold"],pp:["sold"]}},
-{"es":"пити","inf":"drink","past":"drank","pp":"drunk","acc":{inf:["drink"],past:["drank"],pp:["drunk"]}},
-{"es":"купити","inf":"buy","past":"bought","pp":"bought","acc":{inf:["buy"],past:["bought"],pp:["bought"]}},
-{"es":"цртати","inf":"draw","past":"drew","pp":"drawn","acc":{inf:["draw"],past:["drew"],pp:["drawn"]}},
-{"es":"чути","inf":"hear","past":"heard","pp":"heard","acc":{inf:["hear"],past:["heard"],pp:["heard"]}},
-{"es":"хранити","inf":"feed","past":"fed","pp":"fed","acc":{inf:["feed"],past:["fed"],pp:["fed"]}},
-{"es":"победити","inf":"win","past":"won","pp":"won","acc":{inf:["win"],past:["won"],pp:["won"]}},
-{"es":"урадити","inf":"do","past":"did","pp":"done","acc":{inf:["do"],past:["did"],pp:["done"]}},
-{"es":"срести","inf":"meet","past":"met","pp":"met","acc":{inf:["meet"],past:["met"],pp:["met"]}},
-{"es":"дати","inf":"give","past":"gave","pp":"given","acc":{inf:["give"],past:["gave"],pp:["given"]}},
-{"es":"пасти","inf":"fall","past":"fell","pp":"fallen","acc":{inf:["fall"],past:["fell"],pp:["fallen"]}},
-{"es":"сећи","inf":"cut","past":"cut","pp":"cut","acc":{inf:["cut"],past:["cut"],pp:["cut"]}},
-{"es":"имати","inf":"have","past":"had","pp":"had","acc":{inf:["have"],past:["had"],pp:["had"]}}
+{"es":"hînbûn","inf":"learn","past":"learnt / learned","pp":"learnt / learned","acc":{inf:["learn"],past:["learnt","learned","learnt/learned","learnt / learned"],pp:["learnt","learned","learnt/learned","learnt / learned"]}},
+{"es":"stran gotin","inf":"sing","past":"sang","pp":"sung","acc":{inf:["sing"],past:["sang"],pp:["sung"]}},
+{"es":"xwarin","inf":"eat","past":"ate","pp":"eaten","acc":{inf:["eat"],past:["ate"],pp:["eaten"]}},
+{"es":"avakirin","inf":"build","past":"built","pp":"built","acc":{inf:["build"],past:["built"],pp:["built"]}},
+{"es":"gotin","inf":"say","past":"said","pp":"said","acc":{inf:["say"],past:["said"],pp:["said"]}},
+{"es":"destpêkirin","inf":"begin","past":"began","pp":"begun","acc":{inf:["begin"],past:["began"],pp:["begun"]}},
+{"es":"nivîsandin","inf":"write","past":"wrote","pp":"written","acc":{inf:["write"],past:["wrote"],pp:["written"]}},
+{"es":"xerckirin","inf":"spend","past":"spent","pp":"spent","acc":{inf:["spend"],past:["spent"],pp:["spent"]}},
+{"es":"axaftin","inf":"speak","past":"spoke","pp":"spoken","acc":{inf:["speak"],past:["spoke"],pp:["spoken"]}},
+{"es":"çêkirin","inf":"make","past":"made","pp":"made","acc":{inf:["make"],past:["made"],pp:["made"]}},
+{"es":"birîndarkirin","inf":"hurt","past":"hurt","pp":"hurt","acc":{inf:["hurt"],past:["hurt"],pp:["hurt"]}},
+{"es":"çûn","inf":"go","past":"went","pp":"gone","acc":{inf:["go"],past:["went"],pp:["gone"]}},
+{"es":"bidestxistin","inf":"get","past":"got","pp":"got","acc":{inf:["get"],past:["got"],pp:["got"]}},
+{"es":"ji bîr kirin","inf":"forget","past":"forgot","pp":"forgotten","acc":{inf:["forget"],past:["forgot"],pp:["forgotten"]}},
+{"es":"windakirin","inf":"lose","past":"lost","pp":"lost","acc":{inf:["lose"],past:["lost"],pp:["lost"]}},
+{"es":"dizîn","inf":"steal","past":"stole","pp":"stolen","acc":{inf:["steal"],past:["stole"],pp:["stolen"]}},
+{"es":"berdan","inf":"leave","past":"left","pp":"left","acc":{inf:["leave"],past:["left"],pp:["left"]}},
+{"es":"hebûn","inf":"be","past":"was / were","pp":"been","acc":{inf:["be"],past:["was / were"],pp:["been"]}},
+{"es":"hatin","inf":"come","past":"came","pp":"come","acc":{inf:["come"],past:["came"],pp:["come"]}},
+{"es":"temaşekirin","inf":"see","past":"saw","pp":"seen","acc":{inf:["see"],past:["saw"],pp:["seen"]}},
+{"es":"danîn","inf":"put","past":"put","pp":"put","acc":{inf:["put"],past:["put"],pp:["put"]}},
+{"es":"zeng lêdan","inf":"ring","past":"rang","pp":"rung","acc":{inf:["ring"],past:["rang"],pp:["rung"]}},
+{"es":"bezîn","inf":"run","past":"ran","pp":"run","acc":{inf:["run"],past:["ran"],pp:["run"]}},
+{"es":"şikandin","inf":"break","past":"broke","pp":"broken","acc":{inf:["break"],past:["broke"],pp:["broken"]}},
+{"es":"firotin","inf":"sell","past":"sold","pp":"sold","acc":{inf:["sell"],past:["sold"],pp:["sold"]}},
+{"es":"vexwarin","inf":"drink","past":"drank","pp":"drunk","acc":{inf:["drink"],past:["drank"],pp:["drunk"]}},
+{"es":"kirîn","inf":"buy","past":"bought","pp":"bought","acc":{inf:["buy"],past:["bought"],pp:["bought"]}},
+{"es":"xêzkirin","inf":"draw","past":"drew","pp":"drawn","acc":{inf:["draw"],past:["drew"],pp:["drawn"]}},
+{"es":"bihîstin","inf":"hear","past":"heard","pp":"heard","acc":{inf:["hear"],past:["heard"],pp:["heard"]}},
+{"es":"xwarin dan","inf":"feed","past":"fed","pp":"fed","acc":{inf:["feed"],past:["fed"],pp:["fed"]}},
+{"es":"qezenc kirin","inf":"win","past":"won","pp":"won","acc":{inf:["win"],past:["won"],pp:["won"]}},
+{"es":"kirin","inf":"do","past":"did","pp":"done","acc":{inf:["do"],past:["did"],pp:["done"]}},
+{"es":"hevdîtin kirin","inf":"meet","past":"met","pp":"met","acc":{inf:["meet"],past:["met"],pp:["met"]}},
+{"es":"dan","inf":"give","past":"gave","pp":"given","acc":{inf:["give"],past:["gave"],pp:["given"]}},
+{"es":"ketin","inf":"fall","past":"fell","pp":"fallen","acc":{inf:["fall"],past:["fell"],pp:["fallen"]}},
+{"es":"birîn","inf":"cut","past":"cut","pp":"cut","acc":{inf:["cut"],past:["cut"],pp:["cut"]}},
+{"es":"xwedîbûn","inf":"have","past":"had","pp":"had","acc":{inf:["have"],past:["had"],pp:["had"]}}
 ];
 var PRON_ALL=[{"inf":[["learn","/lɜːn/"]],"past":[["learnt","/lɜːnt/"],["learned","/lɜːnd/"]],"pp":[["learnt","/lɜːnt/"],["learned","/lɜːnd/"]]},{"inf":[["sing","/sɪŋ/"]],"past":[["sang","/sæŋ/"]],"pp":[["sung","/sʌŋ/"]]},{"inf":[["eat","/iːt/"]],"past":[["ate","/et/"]],"pp":[["eaten","/ˈiːtən/"]]},{"inf":[["build","/bɪld/"]],"past":[["built","/bɪlt/"]],"pp":[["built","/bɪlt/"]]},{"inf":[["say","/seɪ/"]],"past":[["said","/sed/"]],"pp":[["said","/sed/"]]},{"inf":[["begin","/bɪˈɡɪn/"]],"past":[["began","/bɪˈɡæn/"]],"pp":[["begun","/bɪˈɡʌn/"]]},{"inf":[["write","/raɪt/"]],"past":[["wrote","/rəʊt/"]],"pp":[["written","/ˈrɪtən/"]]},{"inf":[["spend","/spend/"]],"past":[["spent","/spent/"]],"pp":[["spent","/spent/"]]},{"inf":[["speak","/spiːk/"]],"past":[["spoke","/spəʊk/"]],"pp":[["spoken","/ˈspəʊkən/"]]},{"inf":[["make","/meɪk/"]],"past":[["made","/meɪd/"]],"pp":[["made","/meɪd/"]]},{"inf":[["hurt","/hɜːt/"]],"past":[["hurt","/hɜːt/"]],"pp":[["hurt","/hɜːt/"]]},{"inf":[["go","/ɡəʊ/"]],"past":[["went","/went/"]],"pp":[["gone","/ɡɒn/"]]},{"inf":[["get","/ɡet/"]],"past":[["got","/ɡɒt/"]],"pp":[["got","/ɡɒt/"]]},{"inf":[["forget","/fəˈɡet/"]],"past":[["forgot","/fəˈɡɒt/"]],"pp":[["forgotten","/fəˈɡɒtən/"]]},{"inf":[["lose","/luːz/"]],"past":[["lost","/lɒst/"]],"pp":[["lost","/lɒst/"]]},{"inf":[["steal","/stiːl/"]],"past":[["stole","/stəʊl/"]],"pp":[["stolen","/ˈstəʊlən/"]]},{"inf":[["leave","/liːv/"]],"past":[["left","/left/"]],"pp":[["left","/left/"]]},{"inf":[["be","/biː/"]],"past":[["was / were","/wɒz/ · /wɜː/","was-were"]],"pp":[["been","/biːn/"]]},{"inf":[["come","/kʌm/"]],"past":[["came","/keɪm/"]],"pp":[["come","/kʌm/"]]},{"inf":[["see","/siː/"]],"past":[["saw","/sɔː/"]],"pp":[["seen","/siːn/"]]},{"inf":[["put","/pʊt/"]],"past":[["put","/pʊt/"]],"pp":[["put","/pʊt/"]]},{"inf":[["ring","/rɪŋ/"]],"past":[["rang","/ræŋ/"]],"pp":[["rung","/rʌŋ/"]]},{"inf":[["run","/rʌn/"]],"past":[["ran","/ræn/"]],"pp":[["run","/rʌn/"]]},{"inf":[["break","/breɪk/"]],"past":[["broke","/brəʊk/"]],"pp":[["broken","/ˈbrəʊkən/"]]},{"inf":[["sell","/sel/"]],"past":[["sold","/səʊld/"]],"pp":[["sold","/səʊld/"]]},{"inf":[["drink","/drɪŋk/"]],"past":[["drank","/dræŋk/"]],"pp":[["drunk","/drʌŋk/"]]},{"inf":[["buy","/baɪ/"]],"past":[["bought","/bɔːt/"]],"pp":[["bought","/bɔːt/"]]},{"inf":[["draw","/drɔː/"]],"past":[["drew","/druː/"]],"pp":[["drawn","/drɔːn/"]]},{"inf":[["hear","/hɪə/"]],"past":[["heard","/hɜːd/"]],"pp":[["heard","/hɜːd/"]]},{"inf":[["feed","/fiːd/"]],"past":[["fed","/fed/"]],"pp":[["fed","/fed/"]]},{"inf":[["win","/wɪn/"]],"past":[["won","/wʌn/"]],"pp":[["won","/wʌn/"]]},{"inf":[["do","/duː/"]],"past":[["did","/dɪd/"]],"pp":[["done","/dʌn/"]]},{"inf":[["meet","/miːt/"]],"past":[["met","/met/"]],"pp":[["met","/met/"]]},{"inf":[["give","/ɡɪv/"]],"past":[["gave","/ɡeɪv/"]],"pp":[["given","/ˈɡɪvən/"]]},{"inf":[["fall","/fɔːl/"]],"past":[["fell","/fel/"]],"pp":[["fallen","/ˈfɔːlən/"]]},{"inf":[["cut","/kʌt/"]],"past":[["cut","/kʌt/"]],"pp":[["cut","/kʌt/"]]},{"inf":[["have","/hæv/"]],"past":[["had","/hæd/"]],"pp":[["had","/hæd/"]]}];
 var FORMS=["inf","past","pp"];
@@ -338,8 +336,8 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
 /*LOGIC-END*/
 
 (function(){
-  var FORM_LABELS={inf:"Инфинитив",past:"Past Tense",pp:"Past Participle"};
-  function fbDetail(f,gloss,form){ return FORM_LABELS[f]+' глагола '+gloss+' је <b>'+form+'</b>'; }
+  var FORM_LABELS={inf:"Forma bingehîn",past:"Past Tense",pp:"Past Participle"};
+  function fbDetail(f,gloss,form){ return FORM_LABELS[f]+' yê lêkera '+gloss+' <b>'+form+'</b> ye'; }
   var weights={};
   var stats={total:0,ok:0,bad:0};
   var current=null;
@@ -366,10 +364,10 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var v=VERBS[vi];
     current={key:key,verb:v,form:f,vi:vi};
     answered=false;
-    qLabel.textContent=FORM_LABELS[f]+" глагола:";
+    qLabel.textContent=FORM_LABELS[f]+" yê lêkerê:";
     qWord.textContent=v.es;
     if(f==="inf"){qHint.innerHTML=""}
-    else{qHint.innerHTML="Инфинитив: <b>"+v.inf+"</b>"}
+    else{qHint.innerHTML="Forma bingehîn: <b>"+v.inf+"</b>"}
     input.value="";
     input.disabled=false;
     document.getElementById("check").disabled=false;
@@ -380,13 +378,13 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   }
 
   function playBtn(w,label,fileKey){
-    return '<button type="button" class="play" data-src="/ingles/verbos-irregulares/audio/'+(fileKey||w)+'.mp3" aria-label="Слушај: '+label+'">🔊</button>';
+    return '<button type="button" class="play" data-src="/ingles/verbos-irregulares/audio/'+(fileKey||w)+'.mp3" aria-label="Guhdarî bike: '+label+'">🔊</button>';
   }
   function pronHtml(vi,forms){
     var p=PRON[vi];
     if(!p)return '';
     var out='';
-    var labels={inf:'Инфинитив',past:'Прошло време',pp:'Past Participle'};
+    var labels={inf:'Forma bingehîn',past:'Demborî',pp:'Past Participle'};
     for(var i=0;i<forms.length;i++){
       var f=forms[i];
       var vars=(p[f]||[]);
@@ -415,11 +413,11 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var correctForm=v[f];
     if(ok){
       feedback.className="feedback show ok";
-      feedback.innerHTML='<p class="f-title">Тачно.</p><p class="f-detail">'+fbDetail(f,v.es,correctForm)+'.</p>'+trioHtml(v,current.vi);
+      feedback.innerHTML='<p class="f-title">Rast.</p><p class="f-detail">'+fbDetail(f,v.es,correctForm)+'.</p>'+trioHtml(v,current.vi);
     }else{
       feedback.className="feedback show bad";
-      var detail=input.value.trim()?('Написано: "'+input.value.trim()+'". '):'';
-      feedback.innerHTML='<p class="f-title">Нетачно.</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'. Вратиће се ускоро.</p>'+trioHtml(v,current.vi);
+      var detail=input.value.trim()?('Hûn nivîsand: "'+input.value.trim()+'". '):'';
+      feedback.innerHTML='<p class="f-title">Çewt.</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'. Ew dê dîsa were.</p>'+trioHtml(v,current.vi);
     }
     input.disabled=true;
     document.getElementById("check").disabled=true;
@@ -461,7 +459,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var p=PRON[vi];
     function cell(form,plain){
       if(!p||!(p[form]||[]).length)return '<td class="en">'+plain+'</td>';
-      var labels={inf:'Инфинитив',past:'Past Tense',pp:'Past Participle'};
+      var labels={inf:'Forma bingehîn',past:'Past Tense',pp:'Past Participle'};
       var bits='';
       (p[form]||[]).forEach(function(pr){
         bits+='<span class="pv">'+playBtn(pr[0],labels[form]+': '+pr[0],pr[2])+'<span class="pc"><span>'+pr[0]+'</span><span class="ipa">'+pr[1]+'</span></span></span>';
@@ -497,11 +495,11 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   if(MODE!=="class"){var ch=document.getElementById("correcciones-hoja");if(ch)ch.style.display="none"}
   var setbar=document.getElementById("setbar");
   if(MODE==="custom"){setbar.classList.add("custom");
-    setbar.innerHTML='Изабрана листа · '+VERBS.length+' глагола · <a href="/ingles/verbos-irregulares/sr/">Назад на листу одељења</a>';
+    setbar.innerHTML='Lîsteya hilbijartî · lêker: '+VERBS.length+' · <a href="/ingles/verbos-irregulares/ku/">Vegere lîsteya polê</a>';
   }else if(MODE==="catalog"){setbar.classList.add("custom");
-    setbar.innerHTML='Комплетан каталог · '+VERBS.length+' глагола · <a href="/ingles/verbos-irregulares/sr/">Назад на листу одељења</a>';
+    setbar.innerHTML='Kataloga temam · lêker: '+VERBS.length+' · <a href="/ingles/verbos-irregulares/ku/">Vegere lîsteya polê</a>';
   }else{
-    setbar.innerHTML='Листа одељења · '+VERBS.length+' глагола'+(CAT_OK?' · <a href="#l=todos">Комплетан каталог ('+VERBS_CATALOG.length+')</a>':'');
+    setbar.innerHTML='Lîsteya polê · lêker: '+VERBS.length+(CAT_OK?' · <a href="#l=todos">Kataloga temam ('+VERBS_CATALOG.length+')</a>':'');
   }
 
   var clGrid=document.getElementById("cl-verbs");
@@ -529,9 +527,9 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   document.getElementById("cl-none").addEventListener("click",function(){clBoxes.forEach(function(c){c.checked=false})});
   document.getElementById("cl-copy").addEventListener("click",function(){
     var sel=clBoxes.filter(function(c){return c.checked}).map(function(c){return c.value});
-    if(!sel.length){clMsg.textContent="Изабери бар један глагол.";return}
+    if(!sel.length){clMsg.textContent="Bi kêmî yek lêker hilbijêre.";return}
     var url=location.origin+location.pathname+"#l="+sel.join("-");
-    function done(){clMsg.textContent="Линк копиран: "+sel.length+" глагола."}
+    function done(){clMsg.textContent="Girêdan hat kopîkirin: "+sel.length+" lêker."}
     function fallback(){
       var ta=document.createElement("textarea");
       ta.value=url;document.body.appendChild(ta);ta.select();
