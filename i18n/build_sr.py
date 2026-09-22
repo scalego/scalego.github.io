@@ -1,33 +1,33 @@
 # -*- coding: utf-8 -*-
 import sys, re, os
 sys.path.insert(0,'/home/sandbox/i18n')
-from strings_ig import IG
-from strings_zu import ZU
-from glosses_zu import GLOSSES
+from strings_zu import ZU as IG
+from strings_sr import SR as ZU
+from glosses_sr import GLOSSES
 
 ROOT = '/home/sandbox/portal'
 BASE = ROOT + '/ingles/verbos-irregulares'
 
 # 1. Build zu/index.html from ig template
-html = open(BASE + '/ig/index.html', encoding='utf-8').read()
+html = open(BASE + '/zu/index.html', encoding='utf-8').read()
 pairs = [(IG[k], ZU[k]) for k in IG if k in ZU and k != 'LANG' and IG[k] and IG[k] != ZU[k]]
 pairs.sort(key=lambda p: -len(p[0]))
 for a, b in pairs:
     if a not in html:
         print('WARN missing in template:', a[:60])
     html = html.replace(a, b)
-html = html.replace('/ingles/verbos-irregulares/ig/', '/ingles/verbos-irregulares/zu/')
-html = html.replace('html lang="ig"', 'html lang="zu"')
-html = html.replace('<strong>Igbo</strong> · <a href="/ingles/verbos-irregulares/zu/">Zulu</a></p>',
-    '<a href="/ingles/verbos-irregulares/ig/">Igbo</a> · <strong>Zulu</strong></p>')
-assert '<strong>Igbo</strong>' not in html, 'strong not swapped'
-assert '<strong>Zulu</strong>' in html and html.count('/ig/') == 1, 'footer swap wrong'
-assert 'lang="zu"' in html
-os.makedirs(BASE + '/zu', exist_ok=True)
-open(BASE + '/zu/index.html', 'w', encoding='utf-8').write(html)
+html = html.replace('/ingles/verbos-irregulares/zu/', '/ingles/verbos-irregulares/sr/')
+html = html.replace('html lang="zu"', 'html lang="sr"')
+html = html.replace('<strong>Zulu</strong></p>',
+    '<a href="/ingles/verbos-irregulares/zu/">Zulu</a> · <strong>Српски</strong></p>')
+assert '<strong>Zulu</strong>' not in html, 'strong not swapped'
+assert '<strong>Српски</strong>' in html and html.count('/zu/') == 1, 'footer swap wrong'
+assert 'lang="sr"' in html
+os.makedirs(BASE + '/sr', exist_ok=True)
+open(BASE + '/sr/index.html', 'w', encoding='utf-8').write(html)
 
 # 2. Build zu/catalog.js from ig catalog (replace "es" in order)
-cat = open(BASE + '/ig/catalog.js', encoding='utf-8').read()
+cat = open(BASE + '/zu/catalog.js', encoding='utf-8').read()
 i = 0
 def repl(m):
     global i
@@ -35,25 +35,25 @@ def repl(m):
     return '{"es":' + __import__('json').dumps(g, ensure_ascii=False) + ','
 cat = re.sub(r'\{"es":"(?:[^"\\]|\\.)*",', repl, cat)
 assert i == 145, f'only {i} glosses swapped'
-open(BASE + '/zu/catalog.js', 'w', encoding='utf-8').write(cat)
+open(BASE + '/sr/catalog.js', 'w', encoding='utf-8').write(cat)
 
 # 3. Footer link on every other page
 count = 0
 for d in os.listdir(BASE):
     p = os.path.join(BASE, d, 'index.html')
-    if d == 'zu' or not os.path.isfile(p): continue
+    if d == 'sr' or not os.path.isfile(p): continue
     s = open(p, encoding='utf-8').read()
-    if '/zu/' in s: continue
-    if 'Igbo</a></p>' in s:
-        s = s.replace('Igbo</a></p>', 'Igbo</a> · <a href="/ingles/verbos-irregulares/zu/">Zulu</a></p>')
+    if '/sr/' in s: continue
+    if 'Zulu</a></p>' in s:
+        s = s.replace('Zulu</a></p>', 'Zulu</a> · <a href="/ingles/verbos-irregulares/sr/">Српски</a></p>')
         open(p, 'w', encoding='utf-8').write(s); count += 1
-    elif '<strong>Igbo</strong></p>' in s:
-        s = s.replace('<strong>Igbo</strong></p>', '<strong>Igbo</strong> · <a href="/ingles/verbos-irregulares/zu/">Zulu</a></p>')
+    elif '<strong>Zulu</strong></p>' in s:
+        s = s.replace('<strong>Zulu</strong></p>', '<strong>Zulu</strong> · <a href="/ingles/verbos-irregulares/sr/">Српски</a></p>')
         open(p, 'w', encoding='utf-8').write(s); count += 1
 p = BASE + '/index.html'
 s = open(p, encoding='utf-8').read()
-if '/zu/' not in s and 'Igbo</a></p>' in s:
-    s = s.replace('Igbo</a></p>', 'Igbo</a> · <a href="/ingles/verbos-irregulares/zu/">Zulu</a></p>')
+if '/zu/' not in s and 'Zulu</a></p>' in s:
+    s = s.replace('Zulu</a></p>', 'Zulu</a> · <a href="/ingles/verbos-irregulares/sr/">Српски</a></p>')
     open(p, 'w', encoding='utf-8').write(s); count += 1
 print('footer-updated pages:', count)
 
@@ -61,7 +61,7 @@ print('footer-updated pages:', count)
 for f in ['404.html', 'ingles/index.html', 'index.html']:
     p = ROOT + '/' + f
     s = open(p, encoding='utf-8').read()
-    s = s.replace('53 IDIOMAS', '54 IDIOMAS').replace('53 idiomas', '54 idiomas')
+    s = s.replace('54 IDIOMAS', '55 IDIOMAS').replace('54 idiomas', '55 idiomas')
     open(p, 'w', encoding='utf-8').write(s)
 print('done')
 
@@ -90,5 +90,5 @@ def _rebuild_verbs_all(lang):
     newarr = ',\n'.join(ser(by_inf[x]) for x in infs)
     s = s[:m.start()] + m.group(1) + '\n' + newarr + '\n' + m.group(3) + s[m.end():]
     open(p, 'w', encoding='utf-8').write(s)
-_rebuild_verbs_all('zu')
+_rebuild_verbs_all('sr')
 print('VERBS_ALL rebuilt')
