@@ -64,3 +64,31 @@ for f in ['404.html', 'ingles/index.html', 'index.html']:
     s = s.replace('53 IDIOMAS', '54 IDIOMAS').replace('53 idiomas', '54 idiomas')
     open(p, 'w', encoding='utf-8').write(s)
 print('done')
+
+# 5. Rebuild inline VERBS_ALL (class list, 37) from the NEW catalog:
+# template substitution does not touch VERBS_ALL, so without this step
+# class mode keeps the previous language's glosses.
+import json as _json
+def _rebuild_verbs_all(lang):
+    p = BASE + '/' + lang + '/index.html'
+    s = open(p, encoding='utf-8').read()
+    cat = open(BASE + '/' + lang + '/catalog.js', encoding='utf-8').read()
+    i = cat.find('var VERBS_CATALOG=') + len('var VERBS_CATALOG=')
+    entries, _ = _json.JSONDecoder().raw_decode(cat[i:])
+    by_inf = {e['inf']: e for e in entries}
+    m = re.search(r'(VERBS_ALL=\[)(.*?)(\];)', s, re.S)
+    infs = re.findall(r'"inf":"([^"]+)"', m.group(2))
+    assert len(infs) == 37
+    def ser(e):
+        acc = e['acc']
+        def a(k): return k + ':[' + ','.join(_json.dumps(x, ensure_ascii=False) for x in acc[k]) + ']'
+        return ('{"es":' + _json.dumps(e['es'], ensure_ascii=False)
+                + ',"inf":' + _json.dumps(e['inf'])
+                + ',"past":' + _json.dumps(e['past'])
+                + ',"pp":' + _json.dumps(e['pp'])
+                + ',"acc":{' + a('inf') + ',' + a('past') + ',' + a('pp') + '}}')
+    newarr = ',\n'.join(ser(by_inf[x]) for x in infs)
+    s = s[:m.start()] + m.group(1) + '\n' + newarr + '\n' + m.group(3) + s[m.end():]
+    open(p, 'w', encoding='utf-8').write(s)
+_rebuild_verbs_all('zu')
+print('VERBS_ALL rebuilt')
