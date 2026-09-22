@@ -157,9 +157,9 @@ button.play:hover{border-color:var(--acid)}
   <p class="setbar" id="setbar"></p>
 
   <div class="tabs" role="tablist" aria-label="">
-    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice"></button>
-    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review"></button>
-    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create"></button>
+    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">Okwegezamu</button>
+    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">Olukalala lw’okuddamu okwetegereza</button>
+    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">Tonda olukalala</button>
   </div>
 
   <details>
@@ -177,8 +177,8 @@ button.play:hover{border-color:var(--acid)}
 
   <section id="view-practice" role="tabpanel" aria-labelledby="tab-practice">
     <div class="stats">
-      <p><b id="s-total">0</b><b id="s-ok" class="n-ok">0</b><b id="s-bad" class="n-bad">0</b></p>
-      <button class="btn ghost" id="restart" type="button"></button>
+      <p>Ebibuuzo: <b id="s-total">0</b> · Okugolola: <b id="s-ok" class="n-ok">0</b> · Kyaamu: <b id="s-bad" class="n-bad">0</b></p>
+      <button class="btn ghost" id="restart" type="button">Tandika nate</button>
     </div>
 
     <div class="card">
@@ -384,7 +384,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var p=PRON[vi];
     if(!p)return '';
     var out='';
-    var labels={inf:'',past:'ekiseera ekiyise',pp:'M\'mbuyomu'};
+    var labels={inf:'Ffoomu ya base',past:'ekiseera ekiyise',pp:'Ekigambo Ekiyitawo'};
     for(var i=0;i<forms.length;i++){
       var f=forms[i];
       var vars=(p[f]||[]);
@@ -459,7 +459,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var p=PRON[vi];
     function cell(form,plain){
       if(!p||!(p[form]||[]).length)return '<td class="en">'+plain+'</td>';
-      var labels={inf:'',past:'Ebiyise Simple',pp:'M\'mbuyomu'};
+      var labels={inf:'Ffoomu ya base',past:'Ebiyise Simple',pp:'Ekigambo Ekiyitawo'};
       var bits='';
       (p[form]||[]).forEach(function(pr){
         bits+='<span class="pv">'+playBtn(pr[0],labels[form]+': ziraga engeri buli kigambo gye kyatulwamu mu'+pr[0],pr[2])+'<span class="pc"><span>'+pr[0]+'</span><span class="ipa">'+pr[1]+'</span></span></span>';
