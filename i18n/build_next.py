@@ -34,7 +34,7 @@ for idx, (a, b) in enumerate(pairs):
 html = html.replace(PATH + prev + '/', PATH + new + '/')
 html = html.replace(f'html lang="{prev}"', f'html lang="{new}"')
 # direction handling: strip inherited RTL, re-apply for RTL languages
-RTL_LANGS = {'ar','fa','ur','ps','sd','ku','tk','ug','he','ks'}
+RTL_LANGS = {'ar','fa','ur','ps','sd','tk','ug','he','ks'}
 RTL_CSS = "html[dir=rtl] *{letter-spacing:normal}\nhtml[dir=rtl] th{text-align:right}\nhtml[dir=rtl] details .body ul{padding-left:0;padding-right:20px}\nhtml[dir=rtl] .setbar a{margin-left:0;margin-right:8px}\n"
 html = html.replace(f'<html lang="{new}" dir="rtl">', f'<html lang="{new}">')
 html = html.replace(RTL_CSS, '')
