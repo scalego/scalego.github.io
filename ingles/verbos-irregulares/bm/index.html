@@ -165,7 +165,7 @@ button.play:hover{border-color:var(--acid)}
   <details>
     <summary>/.../ (mankan) taamasiyɛnw kɔrɔ ye mun ye?</summary>
     <div class="body">
-      <p>Taamaʃyɛn minnu bɛ sɛrɛkiliw ni ɲɔgɔn cɛ, i n’a fɔ /ɡəʊ/, olu ye<b>Dugukolo kan fɔcogo sɛbɛnni (IPA) .</b>: u bɛ daɲɛ kelen-kelen bɛɛ fɔcogo jira<b>Angilɛkan Angilɛkan na</b>, mankan ni mankan.</p>
+      <p>Taamaʃyɛn minnu bɛ sɛrɛkiliw ni ɲɔgɔn cɛ, i n’a fɔ /ɡəʊ/, olu ye<b>Dugukolo kan fɔcogo sɛbɛnni (IPA) .</b>: u bɛ daɲɛ kelen-kelen bɛɛ fɔcogo jira: <b>Angilɛkan Angilɛkan na</b>, mankan ni mankan.</p>
       <ul>
         <li>ˈ bɛ daɲɛ kɔrɔfɔlen taamasiyɛn: /bɪˈɡɪn/ bɛ fɔ bi-GIN.</li>
         <li>ː bɛ kanhakɛ janya: /iː/ ye "i" jan ye.</li>
@@ -367,7 +367,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     qLabel.textContent=FORM_LABELS[f]+"wale in na:";
     qWord.textContent=v.es;
     if(f==="inf"){qHint.innerHTML=""}
-    else{qHint.innerHTML="Basi sɛbɛnfura: u bɛ daɲɛ kelen-kelen bɛɛ fɔcogo jira<b>"+v.inf+"</b>"}
+    else{qHint.innerHTML="Basi sɛbɛnfura: u bɛ daɲɛ kelen-kelen bɛɛ fɔcogo jira: <b>"+v.inf+"</b>"}
     input.value="";
     input.disabled=false;
     document.getElementById("check").disabled=false;
@@ -398,7 +398,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     return out?'<div class="pron-list">'+out+'</div>':'';
   }
   function trioHtml(v,vi){
-    return '<div class="trio">'+v.es+': u bɛ daɲɛ kelen-kelen bɛɛ fɔcogo jira<b>'+v.inf+'</b> · <b>'+v.past+'</b> · <b>'+v.pp+'</b></div>'+pronHtml(vi,['inf','past','pp']);
+    return '<div class="trio">'+v.es+': u bɛ daɲɛ kelen-kelen bɛɛ fɔcogo jira: <b>'+v.inf+'</b> · <b>'+v.past+'</b> · <b>'+v.pp+'</b></div>'+pronHtml(vi,['inf','past','pp']);
   }
 
   form.addEventListener("submit",function(ev){
