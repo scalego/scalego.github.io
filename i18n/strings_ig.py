@@ -6,7 +6,7 @@ IG = {
 "T_TITLE":"Mụta Bekee · Ọrụ-okwu Ndị Ezughị Usoro",
 "T_BRAND":"Mụta Bekee",
 "T_SUB":"Ọrụ-okwu Ndị Ezughị Usoro",
-"T_INTRO":"Kwado site na ajụjụ ndị a họpụtara: dee ụdị ziri ezi ka ị hụ ozugbo ma azịza gị dị mma. Ọrụ-okwu ọ bụla ị hiere ụjọ ga-apụta ọzọ mgbe ụfọdụ.",
+"T_INTRO":"Kwado site na ajụjụ ndị a họpụtara: dee ụdị ziri ezi ka ị hụ ozugbo ma azịza gị dị mma. Ọrụ-okwu ọ bụla ị mere njehie na ya ga-apụta ọzọ mgbe ụfọdụ.",
 "T_SECTIONS":"Ngalaba",
 "T_TAB_PRACTICE":"Ọmụmụ",
 "T_TAB_REVIEW":"Lele Ndepụta",
