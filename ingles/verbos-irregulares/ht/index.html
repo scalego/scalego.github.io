@@ -157,9 +157,9 @@ button.play:hover{border-color:var(--acid)}
   <p class="setbar" id="setbar"></p>
 
   <div class="tabs" role="tablist" aria-label="">
-    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice"></button>
-    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review"></button>
-    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create"></button>
+    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">Pratike</button>
+    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">Lis revize</button>
+    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">Kreye lis</button>
   </div>
 
   <details>
@@ -177,8 +177,8 @@ button.play:hover{border-color:var(--acid)}
 
   <section id="view-practice" role="tabpanel" aria-labelledby="tab-practice">
     <div class="stats">
-      <p><b id="s-total">0</b><b id="s-ok" class="n-ok">0</b><b id="s-bad" class="n-bad">0</b></p>
-      <button class="btn ghost" id="restart" type="button"></button>
+      <p>Kesyon: <b id="s-total">0</b> · Kòrèk: <b id="s-ok" class="n-ok">0</b> · Mal: <b id="s-bad" class="n-bad">0</b></p>
+      <button class="btn ghost" id="restart" type="button">Rekòmanse</button>
     </div>
 
     <div class="card">
@@ -384,7 +384,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var p=PRON[vi];
     if(!p)return '';
     var out='';
-    var labels={inf:'',past:'tan pase',pp:'M\'mbuyomu'};
+    var labels={inf:'Fòm baz',past:'tan pase',pp:'Patisipe sot pase yo'};
     for(var i=0;i<forms.length;i++){
       var f=forms[i];
       var vars=(p[f]||[]);
@@ -459,7 +459,7 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
     var p=PRON[vi];
     function cell(form,plain){
       if(!p||!(p[form]||[]).length)return '<td class="en">'+plain+'</td>';
-      var labels={inf:'',past:'Past Senp',pp:'M\'mbuyomu'};
+      var labels={inf:'Fòm baz',past:'Past Senp',pp:'Patisipe sot pase yo'};
       var bits='';
       (p[form]||[]).forEach(function(pr){
         bits+='<span class="pv">'+playBtn(pr[0],labels[form]+': yo montre kijan chak mo yo pwononse nan'+pr[0],pr[2])+'<span class="pc"><span>'+pr[0]+'</span><span class="ipa">'+pr[1]+'</span></span></span>';
