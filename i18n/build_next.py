@@ -15,6 +15,9 @@ PATH = '/ingles/verbos-irregulares/'
 
 # 1. index.html from previous language template
 html = open(f'{BASE}/{prev}/index.html', encoding='utf-8').read()
+# protect the footer's own-language <strong>NAME</strong> from string pairs that
+# may collide with the language name (e.g. JV T_LANGS "Basa" inside "Basa Jawa")
+html = html.replace(f'<strong>{prevname}</strong>', '\x01')
 pairs = [(PREV[k], NEW[k]) for k in PREV if k in NEW and k != 'LANG' and PREV[k] and PREV[k] != NEW[k]]
 pairs.sort(key=lambda p: -len(p[0]))
 for idx, (a, b) in enumerate(pairs):
@@ -24,6 +27,7 @@ for idx, (a, b) in enumerate(pairs):
     html = html.replace('\x00%d\x00' % idx, b)
 html = html.replace(PATH + prev + '/', PATH + new + '/')
 html = html.replace(f'html lang="{prev}"', f'html lang="{new}"')
+html = html.replace('\x01', f'<strong>{prevname}</strong>')
 if f'<strong>{prevname}</strong> · <a href="{PATH}{new}/">{newname}</a></p>' in html:
     html = html.replace(f'<strong>{prevname}</strong> · <a href="{PATH}{new}/">{newname}</a></p>',
         f'<a href="{PATH}{prev}/">{prevname}</a> · <strong>{newname}</strong></p>')
