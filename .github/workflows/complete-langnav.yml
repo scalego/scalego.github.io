@@ -41,4 +41,5 @@ jobs:
           git config user.email '177480579+RaulBaeza15@users.noreply.github.com'
           git add ingles/verbos-irregulares .github/workflows/complete-langnav.yml
           git commit -m 'Complete language navigation across all 100 pages'
-          git push
+          for i in 1 2 3; do git push && break; sleep $((i*10)); done
+          test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)"
