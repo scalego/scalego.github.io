@@ -1,0 +1,2 @@
+# -*- coding: utf-8 -*-
+EO={'T_BRAND': 'Lernu la anglan', 'T_SUB': 'Neregulaj verboj', 'T_TAB_PRACTICE': 'Ekzerci', 'T_TAB_REVIEW': 'Revizia listo', 'T_TAB_CREATE': 'Krei liston', 'T_STATS_Q': 'Demandoj:', 'T_STATS_OK': '· Ĝusta:', 'T_STATS_BAD': '· Malĝusta:', 'T_RESTART': 'Rekomenci', 'T_CHECK': 'Kontroli', 'T_TH_INF': 'Baza formo', 'T_TH_PP': 'Pasinta participo', 'T_LANGS': 'Lingvoj', 'LANG': 'eo'}
