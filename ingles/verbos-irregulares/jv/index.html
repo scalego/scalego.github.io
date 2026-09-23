@@ -142,6 +142,7 @@ h1{letter-spacing:-.04em;font-size:clamp(30px,6vw,44px);font-weight:600;line-hei
 .card{background:var(--panel);border:1px solid var(--line);padding:30px 26px}
 .q-label{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .q-word{font-size:clamp(38px,9vw,56px);font-weight:700;letter-spacing:-.03em;line-height:1.05;margin:0 0 6px}
+.hint-btn{background:none;border:1px solid var(--line);color:var(--muted);font:inherit;font-size:14px;padding:6px 14px;border-radius:999px;margin:0 0 20px;cursor:pointer}.hint-btn:hover{color:var(--text);border-color:var(--muted)}
 .q-hint{color:var(--muted);font-size:15px;margin:0 0 24px}
 .q-hint b{color:var(--text);font-weight:600}
 .answer-row{display:flex;gap:10px;flex-wrap:wrap}
@@ -287,7 +288,7 @@ button.play:hover{border-color:var(--acid)}
     <div class="card">
       <p class="q-label" id="q-label">Bentuk dhasar kata kerja:</p>
       <p class="q-word" id="q-word">…</p>
-      <p class="q-hint" id="q-hint"></p>
+      <button type="button" class="hint-btn" id="hint-btn">Pitunjuk</button><p class="q-hint" id="q-hint" hidden></p>
       <form id="answer-form" autocomplete="off">
         <div class="answer-row">
           <label for="answer" class="sub" style="position:absolute;left:-9999px">Wangsulanmu ing basa Inggris</label>
@@ -436,7 +437,7 @@ function pickWeighted(keys,weights,lastKey,rng){
   return chosen;
 }
 function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights[key]}
-var DIRS=[["inf","past"],["inf","pp"],["past","inf"],["pp","inf"]];
+var DIRS=[["es","inf"],["inf","past"],["inf","pp"],["past","inf"],["pp","inf"]];
 function dirKeys(){var ks=[];for(var i=0;i<VERBS.length;i++){for(var j=0;j<DIRS.length;j++){ks.push(i+"-"+j)}}return ks}
 /*LOGIC-END*/
 
@@ -451,6 +452,8 @@ function dirKeys(){var ks=[];for(var i=0;i<VERBS.length;i++){for(var j=0;j<DIRS.
   var qLabel=document.getElementById("q-label");
   var qWord=document.getElementById("q-word");
   var qHint=document.getElementById("q-hint");
+  var hintBtn=document.getElementById("hint-btn");
+  hintBtn.addEventListener("click",function(){qHint.hidden=false;hintBtn.hidden=true});
   var form=document.getElementById("answer-form");
   var input=document.getElementById("answer");
   var feedback=document.getElementById("feedback");
@@ -472,7 +475,9 @@ function dirKeys(){var ks=[];for(var i=0;i<VERBS.length;i++){for(var j=0;j<DIRS.
     answered=false;
     qLabel.textContent=FORM_LABELS[f]+" kata kerja:";
     qWord.textContent=v[from];
-    qHint.innerHTML=FORM_LABELS[from]+" · <b>"+v.es+"</b>";
+    qHint.innerHTML=from==="es"?"":FORM_LABELS[from]+" · <b>"+v.es+"</b>";
+    qHint.hidden=true;
+    hintBtn.hidden=(from==="es");
     input.value="";
     input.disabled=false;
     document.getElementById("check").disabled=false;
