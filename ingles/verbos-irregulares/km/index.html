@@ -434,6 +434,8 @@ function pickWeighted(keys,weights,lastKey,rng){
   return chosen;
 }
 function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights[key]}
+var DIRS=[["inf","past"],["inf","pp"],["past","inf"],["pp","inf"]];
+function dirKeys(){var ks=[];for(var i=0;i<VERBS.length;i++){for(var j=0;j<DIRS.length;j++){ks.push(i+"-"+j)}}return ks}
 /*LOGIC-END*/
 
 (function(){
@@ -458,17 +460,17 @@ function bumpWeight(weights,key){weights[key]=(weights[key]||1)+2;return weights
   function renderStats(){sTotal.textContent=stats.total;sOk.textContent=stats.ok;sBad.textContent=stats.bad}
 
   function newQuestion(){
-    var key=pickWeighted(allKeys(),weights,current?current.key:null);
+    var key=pickWeighted(dirKeys(),weights,current?current.key:null);
     var parts=key.split("-");
     var vi=parseInt(parts[0],10);
-    var f=parts[1];
+    var d=DIRS[parseInt(parts[1],10)];
+    var from=d[0],f=d[1];
     var v=VERBS[vi];
-    current={key:key,verb:v,form:f,vi:vi};
+    current={key:key,verb:v,form:f,vi:vi,from:from};
     answered=false;
     qLabel.textContent=FORM_LABELS[f]+" នៃកិរិយាសព្ទ:";
-    qWord.textContent=v.es;
-    if(f==="inf"){qHint.innerHTML=""}
-    else{qHint.innerHTML="ទម្រង់ដើម: <b>"+v.inf+"</b>"}
+    qWord.textContent=v[from];
+    qHint.innerHTML=FORM_LABELS[from]+" · <b>"+v.es+"</b>";
     input.value="";
     input.disabled=false;
     document.getElementById("check").disabled=false;
