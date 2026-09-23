@@ -1,0 +1,109 @@
+name: SEO pass
+on:
+  push:
+    paths: ['.github/workflows/seo-pass.yml']
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply SEO changes
+        shell: python
+        run: |
+          import re, json, datetime
+          from pathlib import Path
+          B='https://scalego.github.io'
+          V=Path('ingles/verbos-irregulares')
+          today=datetime.date.today().isoformat()
+          FAV='<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>'
+          Path('favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect x="2" y="2" width="44" height="44" rx="11" fill="#2F6BFF"/><path d="M33 15H19v7h10v11H15" fill="none" stroke="#0B0F14" stroke-width="5" stroke-linecap="square"/></svg>\n')
+          def ld(obj): return '<script type="application/ld+json">'+json.dumps(obj,ensure_ascii=False,separators=(',',':'))+'</script>'
+          def once(s,marker,ins):
+              assert s.count(marker)>=1, marker
+              return s.replace(marker,marker+'\n'+ins,1)
+          def meta(s,name):
+              m=re.search(r'<meta name="%s" content="([^"]*)"'%name,s) or re.search(r'<meta content="([^"]*)" name="%s"'%name,s); return m.group(1) if m else ''
+          FIX={'eo':'Ekzercu la neregulajn anglajn verbojn: hazardaj demandoj, tuja korektado kaj ripeta tabelo kun ĉiuj verboj.',
+           'et':'Harjuta inglise keele ebareeglipäraseid tegusõnu: juhuslikud küsimused, kohene parandus ja kordamistabel kõigi tegusõnadega.',
+           'ga':'Cleacht briathra neamhrialta an Bhéarla: ceisteanna randamacha, ceartú láithreach agus tábla athbhreithnithe le gach briathar.',
+           'is':'Æfðu óreglulegar sagnir í ensku: handahófskenndar spurningar, tafarlaus leiðrétting og upprifjunartafla með öllum sögnum.',
+           'lv':'Trenē angļu valodas neregulāros darbības vārdus: nejauši jautājumi, tūlītēja labošana un atkārtošanas tabula ar visiem darbības vārdiem.',
+           'mk':'Вежбај ги неправилните англиски глаголи: случајни прашања, веднаш исправка и табела за повторување со сите глаголи.'}
+          def settitle(s,t):
+              return re.sub(r'<title>.*?</title>','<title>'+t+'</title>',s,count=1,flags=re.S)
+          ORG={"@type":"Organization","@id":B+"/#org","name":"Scale Go","url":B+"/","logo":B+"/favicon.svg","sameAs":["https://github.com/scalego"]}
+          codes=sorted(p.name for p in V.iterdir() if p.is_dir() and (p/'index.html').exists() and p.name!='audio')
+          hl=[('es','')]+[(c,c+'/') for c in codes if len(c)==2 and c!='va']
+          alts=''.join('<link rel="alternate" hreflang="%s" href="%s/ingles/verbos-irregulares/%s"/>\n'%(c,B,u) for c,u in hl)
+          alts+='<link rel="alternate" hreflang="x-default" href="%s/ingles/verbos-irregulares/en/"/>'%B
+          NEW={'':dict(title='Verbos irregulares en inglés: ejercicios con audio | Scale Go',og='Verbos irregulares en inglés: ejercicios con audio',
+            desc='Ejercicios de verbos irregulares en inglés con corrección al momento, audio y pronunciación, y la lista completa para repasar. Gratis y sin registro.',h1='Verbos irregulares en inglés'),
+           'en/':dict(title='English irregular verbs: practice with audio | Scale Go',og='English irregular verbs: practice with audio',
+            desc='Practise English irregular verbs with instant feedback, audio and pronunciation, plus the full list to review. Free, no sign-up.',h1='English irregular verbs')}
+          pages=[('',V/'index.html')]+[(c+'/',V/c/'index.html') for c in codes]
+          for sub,p in pages:
+              s=p.read_text(); url=B+'/ingles/verbos-irregulares/'+sub
+              s=s.replace('rel="canoiscal"','rel="canonical"')
+              if 'rel="canonical"' not in s:
+                  s=once(s,'<meta property="og:url" content="%s"/>'%url,'<link rel="canonical" href="%s"/>'%url)
+              assert len(re.findall(r'<link (?:rel="canonical" href="%s"|href="%s" rel="canonical")/>'%(url,url),s))==1, p
+              c=sub.rstrip('/')
+              if c in FIX:
+                  t=re.search(r'<title>(.*?)</title>',s,re.S).group(1)
+                  s,k1=re.subn(r'<meta content="[^"]*" name="description"/>','<meta content="%s" name="description"/>'%FIX[c],s,count=1)
+                  s,k2=re.subn(r'<meta content="[^"]*" property="og:description"/>','<meta content="%s" property="og:description"/>'%FIX[c],s,count=1)
+                  s,k3=re.subn(r'<meta content="[^"]*" property="og:title"/>','<meta content="%s" property="og:title"/>'%t,s,count=1)
+                  assert k1==k2==k3==1, p
+              assert 'hreflang' not in s and 'ld+json' not in s, p
+              if sub in NEW:
+                  n=NEW[sub]; s=settitle(s,n['title'])
+                  s=re.sub(r'<meta property="og:title" content="[^"]*"/>','<meta property="og:title" content="%s"/>'%n['og'],s,count=1)
+                  s=re.sub(r'<meta name="description" content="[^"]*"/>','<meta name="description" content="%s"/>'%n['desc'],s,count=1)
+                  s,k=re.subn(r'<h1>[^<]*</h1>','<h1>%s</h1>'%n['h1'],s,count=1); assert k==1
+              else:
+                  t=re.search(r'<title>(.*?)</title>',s,re.S).group(1).strip()
+                  if 'Scale Go' not in t: s=settitle(s,t+' | Scale Go')
+              s=s.replace('@import "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap";\n','',1)
+              fonts='<link rel="preconnect" href="https://fonts.googleapis.com"/>\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>\n<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap"/>'
+              assert '@import' not in s, p
+              lang=re.search(r'<html[^>]*lang="([^"]+)"',s).group(1)
+              h1=re.search(r'<h1>([^<]*)</h1>',s).group(1)
+              cr=re.search(r'<p class="crumb"><a href="/">([^<]*)</a> &rsaquo; <a href="/ingles/">([^<]*)</a> &rsaquo; ([^<]*)</p>',s)
+              graph={"@context":"https://schema.org","@graph":[
+                {"@type":"WebApplication","@id":url+"#app","name":h1,"url":url,"inLanguage":lang,"description":meta(s,'description'),
+                 "applicationCategory":"EducationalApplication","operatingSystem":"Any","isAccessibleForFree":True,
+                 "offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"publisher":{"@id":B+"/#org"}},
+                {"@type":"BreadcrumbList","itemListElement":[
+                  {"@type":"ListItem","position":1,"name":cr.group(1) if cr else "Scale Go","item":B+"/"},
+                  {"@type":"ListItem","position":2,"name":cr.group(2) if cr else "Inglés","item":B+"/ingles/"},
+                  {"@type":"ListItem","position":3,"name":h1,"item":url}]},ORG]}
+              inhl=any(sub==u for _,u in hl)
+              head_add='\n'.join(([alts] if inhl else [])+['<meta property="og:site_name" content="Scale Go"/>',FAV,fonts,ld(graph)])
+              s=s.replace('<style>',head_add+'\n<style>',1)
+              p.write_text(s)
+          # home, ingles, 404
+          for p,kind in [(Path('index.html'),'home'),(Path('ingles/index.html'),'ingles'),(Path('404.html'),'404')]:
+              s=p.read_text(); add=[FAV]
+              if kind!='404':
+                  add.append('<meta property="og:site_name" content="Scale Go">')
+                  if kind=='home':
+                      g={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":B+"/#site","name":"Scale Go","url":B+"/","inLanguage":"es","publisher":{"@id":B+"/#org"}},ORG]}
+                  else:
+                      g={"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","name":"Inglés","url":B+"/ingles/","inLanguage":"es","description":meta(s,'description'),"isPartOf":{"@id":B+"/#site"}},
+                        {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Scale Go","item":B+"/"},{"@type":"ListItem","position":2,"name":"Inglés","item":B+"/ingles/"}]}]}
+                  add.append(ld(g))
+              s=s.replace('<style>','\n'.join(add)+'\n<style>',1); p.write_text(s)
+          urls=[B+'/',B+'/ingles/']+[B+'/ingles/verbos-irregulares/'+sub for sub,_ in pages]
+          Path('sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('  <url><loc>%s</loc><lastmod>%s</lastmod></url>\n'%(u,today) for u in urls)+'</urlset>\n')
+          Path('robots.txt').write_text('User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n'%B)
+          print('pages',len(pages),'hreflang',len(hl)+1,'urls',len(urls))
+          Path('.github/workflows/seo-pass.yml').unlink()
+      - name: Commit
+        run: |
+          git config user.name 'RaulBaeza15'
+          git config user.email '177480579+RaulBaeza15@users.noreply.github.com'
+          git add -A
+          git commit -m 'SEO: canonical fixes, hreflang, JSON-LD, sitemap, robots, favicon'
+          git push
