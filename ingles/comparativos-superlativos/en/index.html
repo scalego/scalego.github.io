@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English comparatives and superlatives: interactive practice | Scale Go</title>
+<meta name="description" content="Practise English comparatives and superlatives with instant feedback: taller than, the tallest, more interesting, the most interesting. Free, no sign-up.">
+<meta name="theme-color" content="#0B0F14">
+<link rel="canonical" href="https://scalego.github.io/ingles/comparativos-superlativos/en/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://scalego.github.io/ingles/comparativos-superlativos/en/">
+<meta property="og:title" content="English comparatives and superlatives: interactive practice">
+<meta property="og:description" content="Practise English comparatives and superlatives with random questions, instant feedback and clear rules in English.">
+<meta property="og:image" content="https://scalego.github.io/ingles/comparativos-superlativos/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Scale Go">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"English comparatives and superlatives","url":"https://scalego.github.io/ingles/comparativos-superlativos/en/","inLanguage":"en","description":"Interactive English comparative and superlative exercises with instant feedback, rules in English and an adjective review list.","isPartOf":{"@id":"https://scalego.github.io/#site"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Scale Go","item":"https://scalego.github.io/"},{"@type":"ListItem","position":2,"name":"English","item":"https://scalego.github.io/ingles/"},{"@type":"ListItem","position":3,"name":"Comparatives and superlatives","item":"https://scalego.github.io/ingles/comparativos-superlativos/en/"}]}]}</script>
+<style>
+:root{
+  --accent:#2F6BFF; --accent-ink:#0B0F14;
+  --base:#0B0F14; --surface:#131B26; --text:#E8EEF4; --muted:#8A98A8;
+  --ok:#3DDC97; --err:#FF5C5C; --line:#233246;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--base);color:var(--text);font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;min-height:100vh;display:flex;flex-direction:column}
+.mono{font-family:'SF Mono',Menlo,Consolas,monospace}
+.wrap{width:100%;max-width:640px;margin:0 auto;padding:28px 20px 32px;flex:1}
+header{display:flex;align-items:center;gap:11px;margin-bottom:26px}
+header .wm{font-weight:700;font-size:18px;letter-spacing:.02em}
+header .wm span{color:var(--accent)}
+h1{font-size:44px;line-height:1.05;font-weight:800;letter-spacing:-.025em;margin-bottom:14px}
+h1 em{font-style:normal;color:var(--accent)}
+.tag{font-size:16px;line-height:1.55;color:var(--muted);max-width:52ch;margin-bottom:8px}
+.sub{font-size:12px;color:var(--muted);letter-spacing:.12em;margin-bottom:30px}
+.back{font-size:12px;color:var(--muted);letter-spacing:.12em;margin-bottom:26px}
+.back a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
+.tabs{display:flex;gap:8px;margin-bottom:22px}
+.tab{flex:1;background:var(--surface);border:1px solid var(--line);color:var(--muted);border-radius:12px;padding:11px 6px;font-size:13.5px;font-weight:600;cursor:pointer;font-family:inherit}
+.tab.on{border-color:var(--accent);color:var(--text)}
+.panel{display:none}
+.panel.on{display:block}
+.modes{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:18px}
+.mode{background:var(--surface);border:1px solid var(--line);color:var(--muted);border-radius:12px;padding:12px 10px;font-size:13px;font-weight:600;cursor:pointer;text-align:left;font-family:inherit;line-height:1.3}
+.mode.on{border-color:var(--accent);color:var(--text)}
+.mode .n{display:block;font-size:10.5px;letter-spacing:.1em;color:var(--accent);margin-bottom:3px;font-family:'SF Mono',Menlo,Consolas,monospace}
+.score{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--muted);margin-bottom:14px;font-family:'SF Mono',Menlo,Consolas,monospace;letter-spacing:.05em}
+.qcard{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 18px;margin-bottom:14px}
+.qlabel{font-size:11px;letter-spacing:.12em;color:var(--muted);margin-bottom:12px;font-family:'SF Mono',Menlo,Consolas,monospace}
+.qadj{font-size:34px;font-weight:800;letter-spacing:-.02em}
+.qes{font-size:14px;color:var(--muted);margin-top:4px}
+.qsent{font-size:21px;line-height:1.5;font-weight:600}
+.qsent .hint{color:var(--accent);font-weight:700}
+.blank{display:inline-block;min-width:60px;border-bottom:2px solid var(--accent)}
+.answerrow{display:flex;align-items:center;gap:8px;margin-top:18px}
+.affix{font-size:18px;color:var(--muted);font-weight:600;white-space:nowrap}
+input[type=text]{flex:1;min-width:0;background:var(--base);border:1px solid var(--line);border-radius:10px;color:var(--text);font-size:17px;padding:12px 14px;font-family:inherit;outline:none}
+input[type=text]:focus{border-color:var(--accent)}
+.btnrow{display:flex;gap:8px;margin-top:14px}
+button.act{background:var(--accent);color:var(--accent-ink);border:none;border-radius:10px;padding:12px 18px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit;flex:1}
+button.ghost{background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit}
+.fb{display:none;margin-top:14px;border-radius:12px;padding:14px;font-size:14.5px;line-height:1.5}
+.fb.ok{display:block;background:rgba(61,220,151,.1);border:1px solid var(--ok);color:var(--ok)}
+.fb.ko{display:block;background:rgba(255,92,92,.08);border:1px solid var(--err);color:var(--text)}
+.fb .ans{color:var(--ok);font-weight:700}
+.fb .note{display:block;margin-top:6px;font-size:13px;color:var(--muted)}
+.fb .trans{display:block;margin-top:8px;font-size:13.5px;color:var(--muted)}
+.pista{display:none;margin-top:12px;font-size:13.5px;color:var(--muted);border-left:3px solid var(--accent);padding:8px 12px;line-height:1.5}
+.rulecard{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:12px}
+.rulecard h3{font-size:16px;font-weight:700;margin-bottom:8px}
+.rulecard p{font-size:14.5px;line-height:1.6;color:var(--muted)}
+.rulecard .ex{margin-top:10px;font-size:14px;line-height:1.7}
+.rulecard .ex b{color:var(--text)}
+.rulecard .ex i{color:var(--muted);font-style:normal;font-size:12.5px;display:block}
+.chain{font-weight:700;color:var(--accent)}
+table.adj{width:100%;border-collapse:collapse;font-size:14px}
+table.adj th{text-align:left;font-size:10.5px;letter-spacing:.12em;color:var(--muted);padding:8px 6px;border-bottom:1px solid var(--line);font-family:'SF Mono',Menlo,Consolas,monospace}
+table.adj td{padding:8px 6px;border-bottom:1px solid var(--line);color:var(--text);line-height:1.4}
+table.adj td.es{color:var(--muted);font-size:13px}
+footer{border-top:1px solid var(--line);padding-top:18px;margin-top:34px;font-size:12px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+footer a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
+@media (max-width:480px){
+  h1{font-size:36px}
+  .qadj{font-size:30px}
+  .qsent{font-size:19px}
+  table.adj,table.adj tbody,table.adj tr,table.adj td{display:block;width:100%}
+  table.adj thead{display:none}
+  table.adj tr:first-child{display:none}
+  table.adj tr{border-bottom:1px solid var(--line);padding:10px 4px}
+  table.adj td{border:none;padding:1px 4px;font-size:14.5px}
+  table.adj td:first-child{font-size:16px;margin-bottom:3px}
+  table.adj td:nth-child(2)::before{content:"comparative: ";color:var(--muted);font-size:12.5px}
+  table.adj td:nth-child(3)::before{content:"superlative: ";color:var(--muted);font-size:12.5px}
+  table.adj td:nth-child(4)::before{content:"meaning: ";color:var(--muted);font-size:12.5px}
+}
+
+.lang-switch{margin-left:auto;display:flex;gap:6px;align-items:center;font:600 12px/1.2 ui-monospace,monospace;letter-spacing:.05em;white-space:nowrap}.lang-switch a,.lang-switch strong{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:8px 10px;text-decoration:none;color:var(--muted)}.lang-switch strong{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}.lang-switch a:hover{border-color:var(--accent);color:var(--text)}
+</style>
+<link rel="alternate" hreflang="es" href="https://scalego.github.io/ingles/comparativos-superlativos/">
+<link rel="alternate" hreflang="en" href="https://scalego.github.io/ingles/comparativos-superlativos/en/">
+</head>
+<body>
+<div class="wrap">
+<header>
+<svg width="34" height="34" viewBox="0 0 48 48" aria-hidden="true"><rect x="2" y="2" width="44" height="44" rx="11" fill="var(--accent)"/><path d="M33 15H19v7h10v11H15" fill="none" stroke="var(--accent-ink)" stroke-width="5" stroke-linecap="square"/></svg>
+<div class="wm">Scale <span>Go</span></div>
+<nav class="lang-switch" aria-label="Language"><a href="/ingles/comparativos-superlativos/">ES</a><strong aria-current="page">EN</strong></nav>
+</header>
+<p class="back mono"><a href="/ingles/en/">← ENGLISH</a></p>
+<h1>Comparatives<br>and <em>superlatives</em></h1>
+<p class="tag">Learn to compare two things with <b>taller than</b>, or pick the top of a group with <b>the tallest</b>. Practise with random questions and instant feedback.</p>
+<p class="sub mono">INSTANT FEEDBACK · NO SIGN-UP</p>
+
+<div class="tabs">
+<button class="tab on" data-tab="practicar">Practise</button>
+<button class="tab" data-tab="reglas">Rules</button>
+<button class="tab" data-tab="adjetivos">Adjectives</button>
+</div>
+
+<section id="practicar" class="panel on">
+<div class="modes">
+<button class="mode on" data-mode="csent"><span class="n">TYPE 1</span>Complete the sentence: comparative</button>
+<button class="mode" data-mode="sup"><span class="n">TYPE 2</span>Write the superlative</button>
+<button class="mode" data-mode="ssent"><span class="n">TYPE 3</span>Complete the sentence: superlative</button>
+<button class="mode" data-mode="comp"><span class="n">TYPE 4</span>Write the comparative</button>
+</div>
+<div class="score"><span id="score">CORRECT: 0 / 0</span><span id="modeinfo"></span></div>
+<div class="qcard" id="qcard"></div>
+</section>
+
+<section id="reglas" class="panel">
+<div class="rulecard">
+<h3>When do you use each form?</h3>
+<p>A <b>comparative</b> compares two people or things: "My car is faster <b>than</b> yours." Use <b>than</b> to introduce the second one.</p>
+<p style="margin-top:8px">A <b>superlative</b> picks the top member of a group: "It is <b>the</b> fastest <b>of</b> them all." Use <b>the</b> before the adjective; use <b>in</b> or <b>of</b> to name the group.</p>
+<div class="ex"><span class="chain">tall → taller than → the tallest</span></div>
+</div>
+<div class="rulecard">
+<h3>Short adjectives: -er / -est</h3>
+<p>Most one-syllable adjectives (fast, old, long) take <b>-er</b> for the comparative and <b>the -est</b> for the superlative.</p>
+<div class="ex"><b>fast → faster than → the fastest</b></div>
+</div>
+<div class="rulecard">
+<h3>Spelling: three details</h3>
+<p><b>1.</b> If a short adjective ends in consonant + vowel + consonant, double the last letter: <b>big → bigger</b>, <b>wet → wetter</b>.</p>
+<p style="margin-top:6px"><b>2.</b> If it ends in <b>-e</b>, add only -r or -st: <b>nice → nicer</b>, <b>safe → the safest</b>.</p>
+<p style="margin-top:6px"><b>3.</b> If it ends in consonant + <b>y</b>, change y to i: <b>easy → easier</b>, <b>funny → the funniest</b>.</p>
+</div>
+<div class="rulecard">
+<h3>Long adjectives: more / the most</h3>
+<p>Many longer adjectives stay the same: put <b>more</b> before the comparative and <b>the most</b> before the superlative.</p>
+<div class="ex"><b>popular → more popular than → the most popular</b></div>
+<div class="ex"><b>difficult → more difficult than → the most difficult</b></div>
+</div>
+<div class="rulecard">
+<h3>Irregular adjectives: learn the forms</h3>
+<p>These common adjectives do not follow the usual pattern:</p>
+<div class="ex"><span class="chain">good → better → the best</span></div>
+<div class="ex"><span class="chain">bad → worse → the worst</span></div>
+<div class="ex"><span class="chain">far → further → the furthest</span></div>
+<div class="ex"><span class="chain">little → less → the least</span></div>
+<div class="ex"><span class="chain">many / much → more → the most</span></div>
+</div>
+<div class="rulecard">
+<h3>Common mistakes</h3>
+<p><b>1.</b> Do not combine the two patterns: "more taller" is wrong. Use <b>-er</b> or <b>more</b>, not both.</p>
+<p style="margin-top:6px"><b>2.</b> Use <b>the</b> with the superlative in these exercises: "the fastest," not "fastest" on its own.</p>
+<p style="margin-top:6px"><b>3.</b> Use <b>than</b> after a comparative, not "that" or "then": "slower than a bus."</p>
+</div>
+</section>
+
+<section id="adjetivos" class="panel">
+<p class="tag" style="margin-bottom:16px">Review these A2-B1 adjectives, their comparative and superlative forms, and a short definition.</p>
+<div class="rulecard" style="padding:8px 10px">
+<table class="adj" id="adjtable"></table>
+</div>
+</section>
+
+<footer>
+<span>Made by Raúl</span>
+<a href="https://github.com/scalego">github.com/scalego</a>
+</footer>
+</div>
+
+<script>
+var ADJ=[
+{a:"tall",es:"tall (person)",c:"taller",s:"the tallest",t:"short"},
+{a:"short",es:"short (person)",c:"shorter",s:"the shortest",t:"short"},
+{a:"fast",es:"fast",c:"faster",s:"the fastest",t:"short"},
+{a:"slow",es:"slow",c:"slower",s:"the slowest",t:"short"},
+{a:"cold",es:"cold",c:"colder",s:"the coldest",t:"short"},
+{a:"new",es:"new",c:"newer",s:"the newest",t:"short"},
+{a:"old",es:"old; older",c:"older",s:"the oldest",t:"short"},
+{a:"young",es:"young",c:"younger",s:"the youngest",t:"short"},
+{a:"long",es:"long",c:"longer",s:"the longest",t:"short"},
+{a:"cheap",es:"cheap",c:"cheaper",s:"the cheapest",t:"short"},
+{a:"wide",es:"wide",c:"wider",s:"the widest",t:"short"},
+{a:"high",es:"high (mountains, prices)",c:"higher",s:"the highest",t:"short"},
+{a:"quiet",es:"quiet",c:"quieter",s:"the quietest",t:"short"},
+{a:"clean",es:"clean",c:"cleaner",s:"the cleanest",t:"short"},
+{a:"warm",es:"warm",c:"warmer",s:"the warmest",t:"short"},
+{a:"cool",es:"cool",c:"cooler",s:"the coolest",t:"short"},
+{a:"rich",es:"rich",c:"richer",s:"the richest",t:"short"},
+{a:"poor",es:"poor",c:"poorer",s:"the poorest",t:"short"},
+{a:"strong",es:"strong",c:"stronger",s:"the strongest",t:"short"},
+{a:"weak",es:"weak",c:"weaker",s:"the weakest",t:"short"},
+{a:"dark",es:"dark",c:"darker",s:"the darkest",t:"short"},
+{a:"soft",es:"soft",c:"softer",s:"the softest",t:"short"},
+{a:"hard",es:"hard; difficult",c:"harder",s:"the hardest",t:"short"},
+{a:"deep",es:"deep",c:"deeper",s:"the deepest",t:"short"},
+{a:"light",es:"light; bright",c:"lighter",s:"the lightest",t:"short"},
+{a:"near",es:"near",c:"nearer",s:"the nearest",t:"short"},
+{a:"narrow",es:"narrow",c:"narrower",s:"the narrowest",t:"short"},
+{a:"bright",es:"bright",c:"brighter",s:"the brightest",t:"short"},
+{a:"neat",es:"neat; tidy",c:"neater",s:"the neatest",t:"short"},
+{a:"large",es:"large; big",c:"larger",s:"the largest",t:"e"},
+{a:"nice",es:"nice; pleasant",c:"nicer",s:"the nicest",t:"e"},
+{a:"safe",es:"safe",c:"safer",s:"the safest",t:"e"},
+{a:"late",es:"late",c:"later",s:"the latest",t:"e"},
+{a:"big",es:"big",c:"bigger",s:"the biggest",t:"double"},
+{a:"hot",es:"hot",c:"hotter",s:"the hottest",t:"double"},
+{a:"wet",es:"wet; rainy",c:"wetter",s:"the wettest",t:"double"},
+{a:"thin",es:"thin",c:"thinner",s:"the thinnest",t:"double"},
+{a:"easy",es:"easy",c:"easier",s:"the easiest",t:"y"},
+{a:"happy",es:"happy",c:"happier",s:"the happiest",t:"y"},
+{a:"heavy",es:"heavy",c:"heavier",s:"the heaviest",t:"y"},
+{a:"pretty",es:"pretty",c:"prettier",s:"the prettiest",t:"y"},
+{a:"dirty",es:"dirty",c:"dirtier",s:"the dirtiest",t:"y"},
+{a:"busy",es:"busy",c:"busier",s:"the busiest",t:"y"},
+{a:"noisy",es:"noisy",c:"noisier",s:"the noisiest",t:"y"},
+{a:"healthy",es:"healthy",c:"healthier",s:"the healthiest",t:"y"},
+{a:"funny",es:"funny",c:"funnier",s:"the funniest",t:"y"},
+{a:"lazy",es:"lazy",c:"lazier",s:"the laziest",t:"y"},
+{a:"friendly",es:"friendly",c:"friendlier",s:"the friendliest",t:"y",altc:["more friendly"],alts:["the most friendly"]},
+{a:"early",es:"early",c:"earlier",s:"the earliest",t:"y"},
+{a:"difficult",es:"difficult",c:"more difficult",s:"the most difficult",t:"long"},
+{a:"expensive",es:"expensive",c:"more expensive",s:"the most expensive",t:"long"},
+{a:"interesting",es:"interesting",c:"more interesting",s:"the most interesting",t:"long"},
+{a:"beautiful",es:"beautiful",c:"more beautiful",s:"the most beautiful",t:"long"},
+{a:"intelligent",es:"intelligent",c:"more intelligent",s:"the most intelligent",t:"long"},
+{a:"modern",es:"modern",c:"more modern",s:"the most modern",t:"long"},
+{a:"comfortable",es:"comfortable",c:"more comfortable",s:"the most comfortable",t:"long"},
+{a:"dangerous",es:"dangerous",c:"more dangerous",s:"the most dangerous",t:"long"},
+{a:"important",es:"important",c:"more important",s:"the most important",t:"long"},
+{a:"exciting",es:"exciting",c:"more exciting",s:"the most exciting",t:"long"},
+{a:"valuable",es:"valuable",c:"more valuable",s:"the most valuable",t:"long"},
+{a:"useful",es:"useful",c:"more useful",s:"the most useful",t:"long"},
+{a:"famous",es:"famous",c:"more famous",s:"the most famous",t:"long"},
+{a:"popular",es:"popular",c:"more popular",s:"the most popular",t:"long"},
+{a:"boring",es:"boring",c:"more boring",s:"the most boring",t:"long"},
+{a:"careful",es:"careful",c:"more careful",s:"the most careful",t:"long"},
+{a:"hard-working",es:"hard-working",c:"more hard-working",s:"the most hard-working",t:"long"},
+{a:"crowded",es:"crowded",c:"more crowded",s:"the most crowded",t:"long"},
+{a:"stressful",es:"stressful",c:"more stressful",s:"the most stressful",t:"long"},
+{a:"peaceful",es:"peaceful",c:"more peaceful",s:"the most peaceful",t:"long"},
+{a:"organised",es:"organised",c:"more organised",s:"the most organised",t:"long"},
+{a:"talented",es:"talented",c:"more talented",s:"the most talented",t:"long"},
+{a:"good",es:"good",c:"better",s:"the best",t:"irreg"},
+{a:"bad",es:"bad",c:"worse",s:"the worst",t:"irreg"},
+{a:"far",es:"far",c:"further",s:"the furthest",t:"irreg",altc:["farther"],alts:["the farthest"]},
+{a:"little",es:"little; not much",c:"less",s:"the least",t:"irreg"},
+{a:"many",es:"many (countable)",c:"more",s:"the most",t:"irreg"},
+{a:"much",es:"much (uncountable)",c:"more",s:"the most",t:"irreg"}
+];
+var COMP_S=[
+{t:"My new phone is ___ my old one.",h:"fast",ans:"faster than",es:"My new phone is faster than my old one."},
+{t:"This morning is ___ yesterday morning.",h:"cold",ans:"colder than",es:"This morning is colder than yesterday morning."},
+{t:"Her new job is ___ the old one.",h:"stressful",ans:"more stressful than",es:"Her new job is more stressful than the old one."},
+{t:"The bus is ___ the train.",h:"cheap",ans:"cheaper than",es:"The bus is cheaper than the train."},
+{t:"My grandfather is ___ my father.",h:"old",ans:"older than",es:"My grandfather is older than my father."},
+{t:"Today's class was ___ yesterday's class.",h:"boring",ans:"more boring than",es:"Today's class was more boring than yesterday's class."},
+{t:"Spanish food is ___ English food.",h:"good",ans:"better than",es:"Spanish food is better than English food."},
+{t:"My street is ___ the main road.",h:"quiet",ans:"quieter than",es:"My street is quieter than the main road."},
+{t:"Her flat is ___ my flat.",h:"modern",ans:"more modern than",es:"Her flat is more modern than my flat."},
+{t:"The corner supermarket is ___ the big one.",h:"expensive",ans:"more expensive than",es:"The corner supermarket is more expensive than the big one."},
+{t:"The children are ___ their parents.",h:"happy",ans:"happier than",es:"The children are happier than their parents."},
+{t:"A motorbike is ___ a bicycle.",h:"dangerous",ans:"more dangerous than",es:"A motorbike is more dangerous than a bicycle."},
+{t:"This winter is ___ last winter.",h:"wet",ans:"wetter than",es:"This winter is wetter than last winter."},
+{t:"The new teacher is ___ the old one.",h:"friendly",ans:"friendlier than",alt:["more friendly than"],es:"The new teacher is friendlier than the old one."},
+{t:"My English is ___ last year.",h:"good",ans:"better than",es:"My English is better than last year."},
+{t:"The motorway is ___ the old road.",h:"wide",ans:"wider than",es:"The motorway is wider than the old road."},
+{t:"The June exams are ___ the February ones.",h:"difficult",ans:"more difficult than",es:"The June exams are more difficult than the February ones."},
+{t:"August flights are ___ May flights.",h:"expensive",ans:"more expensive than",es:"August flights are more expensive than May flights."},
+{t:"My dog is ___ my cat.",h:"lazy",ans:"lazier than",es:"My dog is lazier than my cat."},
+{t:"The beach in the morning is ___ at noon.",h:"peaceful",ans:"more peaceful than",es:"The beach in the morning is more peaceful than at noon."},
+{t:"This chair is ___ that one.",h:"comfortable",ans:"more comfortable than",es:"This chair is more comfortable than that one."},
+{t:"Her bag is ___ it looks.",h:"heavy",ans:"heavier than",es:"Her bag is heavier than it looks."},
+{t:"The city centre on Saturdays is ___ on Mondays.",h:"busy",ans:"busier than",es:"The city centre on Saturdays is busier than on Mondays."},
+{t:"Learning by doing is ___ memorising lists.",h:"useful",ans:"more useful than",es:"Learning by doing is more useful than memorising lists."},
+{t:"Autumn evenings are ___ summer evenings.",h:"dark",ans:"darker than",es:"Autumn evenings are darker than summer evenings."},
+{t:"His stories are ___ mine.",h:"funny",ans:"funnier than",es:"His stories are funnier than mine."},
+{t:"The new bridge is ___ the old one.",h:"long",ans:"longer than",es:"The new bridge is longer than the old one."},
+{t:"Cooking at home is ___ eating out.",h:"cheap",ans:"cheaper than",es:"Cooking at home is cheaper than eating out."},
+{t:"My daughter is ___ me now.",h:"tall",ans:"taller than",es:"My daughter is taller than me now."},
+{t:"The sea in March is ___ in August.",h:"cold",ans:"colder than",es:"The sea in March is colder than in August."},
+{t:"This path is ___ the main road.",h:"narrow",ans:"narrower than",es:"This path is narrower than the main road."},
+{t:"The early train is ___ the last one.",h:"crowded",ans:"more crowded than",es:"The early train is more crowded than the last one."},
+{t:"Her handwriting is ___ mine.",h:"neat",ans:"neater than",es:"Her handwriting is neater than mine."},
+{t:"Friday afternoon traffic is ___ Sunday traffic.",h:"bad",ans:"worse than",es:"Friday afternoon traffic is worse than Sunday traffic."},
+{t:"The documentary was ___ I expected.",h:"interesting",ans:"more interesting than",es:"The documentary was more interesting than I expected."},
+{t:"This sofa is ___ the old one.",h:"soft",ans:"softer than",es:"This sofa is softer than the old one."},
+{t:"Autumn mornings are ___ summer mornings.",h:"cool",ans:"cooler than",es:"Autumn mornings are cooler than summer mornings."},
+{t:"My grandparents' house is ___ ours.",h:"big",ans:"bigger than",es:"My grandparents' house is bigger than ours."}
+];
+var SUP_S=[
+{t:"This is ___ coffee in the neighbourhood.",h:"good",ans:"the best",es:"This is the best coffee in the neighbourhood."},
+{t:"September is ___ month for going back to routine.",h:"hard",ans:"the hardest",es:"September is the hardest month for going back to routine."},
+{t:"Teide is ___ mountain in Spain.",h:"high",ans:"the highest",es:"Teide is the highest mountain in Spain."},
+{t:"My grandmother makes ___ croquetas in the family.",h:"good",ans:"the best",es:"My grandmother makes the best croquetas in the family."},
+{t:"Yesterday was ___ day of the week at work.",h:"busy",ans:"the busiest",es:"Yesterday was the busiest day of the week at work."},
+{t:"The hotel was ___ part of the trip.",h:"bad",ans:"the worst",es:"The hotel was the worst part of the trip."},
+{t:"My colleague Ana is ___ person in the office.",h:"organised",ans:"the most organised",es:"My colleague Ana is the most organised person in the office."},
+{t:"This is ___ museum I have ever visited.",h:"interesting",ans:"the most interesting",es:"This is the most interesting museum I have ever visited."},
+{t:"Russia is ___ country in the world.",h:"large",ans:"the largest",es:"Russia is the largest country in the world."},
+{t:"January is usually ___ month of the year here.",h:"cold",ans:"the coldest",es:"January is usually the coldest month of the year here."},
+{t:"He is ___ singer in the competition.",h:"talented",ans:"the most talented",es:"He is the most talented singer in the competition."},
+{t:"My dog is ___ animal in the park.",h:"friendly",ans:"the friendliest",alt:["the most friendly"],es:"My dog is the friendliest animal in the park."},
+{t:"That was ___ film of the year.",h:"funny",ans:"the funniest",es:"That was the funniest film of the year."},
+{t:"The peregrine falcon is ___ bird in the world.",h:"fast",ans:"the fastest",es:"The peregrine falcon is the fastest bird in the world."},
+{t:"Buying a house is ___ decision for most people.",h:"big",ans:"the biggest",es:"Buying a house is the biggest decision for most people."},
+{t:"The blue dress is ___ of all.",h:"cheap",ans:"the cheapest",es:"The blue dress is the cheapest of all."},
+{t:"Sunday is ___ day of the week.",h:"quiet",ans:"the quietest",es:"Sunday is the quietest day of the week."},
+{t:"Parking in the centre is ___ thing about driving.",h:"difficult",ans:"the most difficult",es:"Parking in the centre is the most difficult thing about driving."},
+{t:"It was ___ holiday of my life.",h:"good",ans:"the best",es:"It was the best holiday of my life."},
+{t:"The sofa is ___ place in the house.",h:"comfortable",ans:"the most comfortable",es:"The sofa is the most comfortable place in the house."},
+{t:"July afternoons are ___ of the summer.",h:"hot",ans:"the hottest",es:"July afternoons are the hottest of the summer."},
+{t:"She is ___ girl in her class.",h:"tall",ans:"the tallest",es:"She is the tallest girl in her class."},
+{t:"This restaurant is ___ in town.",h:"popular",ans:"the most popular",es:"This restaurant is the most popular in town."},
+{t:"My grandfather tells ___ stories in the family.",h:"funny",ans:"the funniest",es:"My grandfather tells the funniest stories in the family."},
+{t:"The new shopping centre is ___ building in the area.",h:"modern",ans:"the most modern",es:"The new shopping centre is the most modern building in the area."},
+{t:"That was ___ journey I have ever made.",h:"long",ans:"the longest",es:"That was the longest journey I have ever made."},
+{t:"Winter mornings are ___ of the year.",h:"dark",ans:"the darkest",es:"Winter mornings are the darkest of the year."},
+{t:"This is ___ phone I have ever had.",h:"good",ans:"the best",es:"This is the best phone I have ever had."},
+{t:"The mountain route is ___ of all the walks.",h:"beautiful",ans:"the most beautiful",es:"The mountain route is the most beautiful of all the walks."},
+{t:"Saturday night is ___ time to go out.",h:"good",ans:"the best",es:"Saturday night is the best time to go out."},
+{t:"This is ___ part of the exam.",h:"easy",ans:"the easiest",es:"This is the easiest part of the exam."}
+];
+var HINTS={
+short:"Short adjective (one syllable): add <b>-er</b> for the comparative or <b>the -est</b> for the superlative.",
+double:"Ends in consonant-vowel-consonant: <b>double the final letter</b> (big → bigger, wet → wetter).",
+y:"Ends in consonant + y: <b>change y to i</b>, then add -er / -est (easy → easier).",
+e:"Ends in -e: add only <b>-r</b> or <b>-st</b> (nice → nicer, safe → the safest).",
+long:"Long adjective: keep its form. Add <b>more</b> for the comparative or <b>the most</b> for the superlative.",
+irreg:"This adjective is <b>irregular</b>. Learn its forms (good → better → the best)."
+};
+var MODEINFO={csent:"SENTENCES: COMPARATIVE",sup:"WRITE: THE MOST…",ssent:"SENTENCES: SUPERLATIVE",comp:"WRITE: MORE… THAN"};
+var state={mode:"csent",q:null,answered:false,ok:0,total:0,last:-1};
+var qcard=document.getElementById("qcard");
+var scoreEl=document.getElementById("score");
+var modeinfoEl=document.getElementById("modeinfo");
+function norm(s){return (s||"").toLowerCase().replace(/[.,!¡¿?]/g,"").replace(/\s+/g," ").trim()}
+function pick(arr){var i;do{i=Math.floor(Math.random()*arr.length)}while(arr.length>1&&i===state.last);state.last=i;return arr[i]}
+function render(){
+  state.answered=false;
+  modeinfoEl.textContent=MODEINFO[state.mode];
+  var html="";
+  if(state.mode==="comp"||state.mode==="sup"){
+    var it=pick(ADJ);
+    state.q=it;
+    var isComp=state.mode==="comp";
+    html+='<div class="qlabel">'+(isComp?"WRITE THE COMPARATIVE (MORE… THAN)":"WRITE THE SUPERLATIVE (THE MOST…)")+'</div>';
+    html+='<div class="qadj">'+it.a+'</div><div class="qes">'+it.es+'</div>';
+    html+='<div class="answerrow">';
+    if(!isComp)html+='<span class="affix">the</span>';
+    html+='<input type="text" id="inp" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="go" placeholder="'+(isComp?"taller":"tallest")+'">';
+    if(isComp)html+='<span class="affix">than</span>';
+    html+='</div>';
+  }else{
+    var arr=state.mode==="csent"?COMP_S:SUP_S;
+    var s=pick(arr);
+    state.q=s;
+    html+='<div class="qlabel">'+(state.mode==="csent"?"COMPLETE WITH THE COMPARATIVE":"COMPLETE WITH THE SUPERLATIVE")+'</div>';
+    html+='<div class="qsent">'+s.t.replace("___",'<span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>')+' <span class="hint">('+s.h+')</span></div>';
+    html+='<div class="answerrow"><input type="text" id="inp" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="go" placeholder="type the full answer"></div>';
+  }
+  html+='<div class="btnrow"><button class="act" id="go">Check</button><button class="ghost" id="hintbtn">Hint</button></div>';
+  html+='<div class="pista" id="pista"></div>';
+  html+='<div class="fb" id="fb"></div>';
+  qcard.innerHTML=html;
+  document.getElementById("go").addEventListener("click",check);
+  document.getElementById("hintbtn").addEventListener("click",showHint);
+  var inp=document.getElementById("inp");
+  inp.addEventListener("keydown",function(e){if(e.key==="Enter"){e.preventDefault();document.getElementById("go").click()}});
+  inp.focus();
+}
+function showHint(){
+  var p=document.getElementById("pista");
+  if(p.style.display==="block"){p.style.display="none";return}
+  var h="";
+  if(state.mode==="comp"||state.mode==="sup")h=HINTS[state.q.t];
+  else{
+    var adj=null;
+    for(var i=0;i<ADJ.length;i++)if(ADJ[i].a===state.q.h){adj=ADJ[i];break}
+    h=adj?HINTS[adj.t]:"Think about how the adjective changes.";
+    if(state.mode==="csent")h+="<br>Remember <b>than</b> in the sentence.";
+    else h+="<br>Remember <b>the</b> at the start.";
+  }
+  p.innerHTML=h;p.style.display="block";
+}
+function answers(){
+  var q=state.q,list;
+  if(state.mode==="comp"){list=[q.c].concat(q.altc||[])}
+  else if(state.mode==="sup"){list=[q.s].concat(q.alts||[])}
+  else{list=[q.ans].concat(q.alt||[])}
+  return list.map(norm);
+}
+function mainAnswer(){
+  var q=state.q;
+  if(state.mode==="comp")return q.c+" than";
+  if(state.mode==="sup")return q.s;
+  return q.ans;
+}
+function check(){
+  var inp=document.getElementById("inp");
+  if(!inp)return;
+  if(!state.answered){
+    var v=norm(inp.value);
+    if(state.mode==="comp")v=v.replace(/\s+than$/,"");
+    if(state.mode==="sup")v=v.replace(/^the\s+/,"");
+    if(!v)return;
+    state.total++;
+    var ok=answers().indexOf(v)>-1;
+    var fb=document.getElementById("fb");
+    if(ok){state.ok++;fb.className="fb ok";fb.innerHTML="<b>Correct!</b>"}
+    else{
+      fb.className="fb ko";
+      var exp=mainAnswer();
+      var nExp=norm(exp);
+      var note="";
+      if(state.mode==="csent"&&norm(v+" than")===nExp)note='<span class="note">You left out <b>than</b>.</span>';
+      else if(state.mode==="ssent"&&norm("the "+v)===nExp)note='<span class="note">You left out <b>the</b> at the start.</span>';
+      fb.innerHTML="Not quite. The correct answer is <span class=\"ans\">"+exp+"</span>."+note;
+    }
+    if(state.mode==="csent"||state.mode==="ssent"){
+      if(state.q.es)fb.innerHTML+='<span class="trans">'+state.q.es+'</span>';
+    }else{
+      fb.innerHTML+='<span class="trans">'+state.q.a+" → "+state.q.c+" than → "+state.q.s+" ("+state.q.es+")</span>";
+    }
+    state.answered=true;
+    inp.disabled=true;
+    document.getElementById("go").textContent="Next question";
+    scoreEl.textContent="CORRECT: "+state.ok+" / "+state.total;
+  }else{
+    render();
+  }
+}
+document.querySelectorAll(".tab").forEach(function(b){
+  b.addEventListener("click",function(){
+    document.querySelectorAll(".tab").forEach(function(x){x.classList.remove("on")});
+    document.querySelectorAll(".panel").forEach(function(x){x.classList.remove("on")});
+    b.classList.add("on");
+    document.getElementById(b.dataset.tab).classList.add("on");
+  });
+});
+document.querySelectorAll(".mode").forEach(function(b){
+  b.addEventListener("click",function(){
+    document.querySelectorAll(".mode").forEach(function(x){x.classList.remove("on")});
+    b.classList.add("on");
+    state.mode=b.dataset.mode;state.last=-1;
+    render();
+  });
+});
+(function(){
+  var t=document.getElementById("adjtable");
+  var h="<tr><th>ADJECTIVE</th><th>COMPARATIVE</th><th>SUPERLATIVE</th><th>MEANING</th></tr>";
+  for(var i=0;i<ADJ.length;i++){
+    h+="<tr><td><b>"+ADJ[i].a+"</b></td><td>"+ADJ[i].c+" than</td><td>"+ADJ[i].s+"</td><td class=\"es\">"+ADJ[i].es+"</td></tr>";
+  }
+  t.innerHTML=h;
+})();
+render();
+</script>
+</body>
+</html>
