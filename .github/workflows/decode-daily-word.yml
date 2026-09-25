@@ -1,0 +1,24 @@
+name: Decode Scale Go assets once
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Decode and commit preview
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd ingles/daily-word
+          cat encoded-og/og-*.txt | base64 -d > og-image.png
+          file og-image.png
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add og-image.png
+          git commit -m 'Add Scale Go word preview asset' || exit 0
+          git push
