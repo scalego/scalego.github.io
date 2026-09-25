@@ -1,0 +1,17 @@
+{
+  "title": "The Words of Tomorrow",
+  "start_date": "2026-09-25",
+  "timezone": "Europe/Madrid",
+  "app_url": "https://scalego.github.io/ingles/daily-word/",
+  "word_bank_url": "https://scalego.github.io/ingles/daily-word/words.json",
+  "rule": "For date D >= start, day = UTC calendar-day difference from 2026-09-25; select words[(day * count + i) % words.length], i=0..count-1, separately for A2/B1/B2. No server or automated refresh; browser date uses Europe/Madrid.",
+  "counts": {
+    "A2": 30,
+    "B1": 27,
+    "B2": 22
+  },
+  "examples": [
+    "https://scalego.github.io/api/2026-09-25.json",
+    "https://scalego.github.io/api/2026-09-26.json"
+  ]
+}
