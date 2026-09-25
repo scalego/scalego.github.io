@@ -1,0 +1,21 @@
+name: decode-og
+on:
+  push:
+    paths:
+      - 'ingles/comparativos-superlativos/og-image.b64'
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode OG image and commit
+        run: |
+          base64 -d ingles/comparativos-superlativos/og-image.b64 > ingles/comparativos-superlativos/og-image.png
+          rm ingles/comparativos-superlativos/og-image.b64
+          git config user.name "scalego-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "Add comparativos-superlativos OG image"
+          git push
