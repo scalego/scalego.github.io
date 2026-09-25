@@ -45,7 +45,11 @@ h1 em{font-style:normal;color:var(--accent)}
 footer{border-top:1px solid var(--line);padding-top:18px;font-size:12px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
 footer a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
 @media (max-width:480px){h1{font-size:42px}.future{flex-direction:column}.card .meta{flex-direction:column;align-items:flex-start}}
+
+.lang-switch{margin-left:auto;display:flex;gap:6px;align-items:center;font:600 12px/1.2 ui-monospace,monospace;letter-spacing:.05em;white-space:nowrap}.lang-switch a,.lang-switch strong{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:8px 10px;text-decoration:none;color:var(--muted)}.lang-switch strong{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}.lang-switch a:hover{border-color:var(--accent);color:var(--text)}
 </style>
+<link rel="alternate" hreflang="es" href="https://scalego.github.io/404.html">
+<link rel="alternate" hreflang="en" href="https://scalego.github.io/404.htmlen/">
 </head>
 <body>
 <div class="wrap">
@@ -53,6 +57,7 @@ footer a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--l
 <!-- LOGO SLOT -->
 <svg width="34" height="34" viewBox="0 0 48 48" aria-hidden="true"><rect x="2" y="2" width="44" height="44" rx="11" fill="var(--accent)"/><path d="M33 15H19v7h10v11H15" fill="none" stroke="var(--accent-ink)" stroke-width="5" stroke-linecap="square"/></svg>
 <div class="wm">Scale <span>Go</span></div>
+<nav class="lang-switch" aria-label="Idioma"><strong aria-current="page">ES</strong><a href="/404.htmlen/">EN</a></nav>
 </header>
 <h1>Esta página<br><em>no existe</em>.</h1>
 <p class="tag">La dirección no lleva a ninguna herramienta. Puede que el enlace esté mal copiado o que la página se haya movido.</p>
