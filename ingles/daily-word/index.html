@@ -16,6 +16,9 @@
 <meta property="og:image" content="https://scalego.github.io/ingles/daily-word/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="style.css">
+<script>if(new URLSearchParams(location.search).get("lang")==="en")document.documentElement.lang="en";</script>
+<link rel="alternate" hreflang="es" href="https://scalego.github.io/ingles/daily-word/">
+<link rel="alternate" hreflang="en" href="https://scalego.github.io/ingles/daily-word/?lang=en">
 </head>
 <body>
 <div class="wrap">
@@ -26,19 +29,19 @@
 <path d="M33 15H19v7h10v11H15" fill="none" stroke="#0B0F14" stroke-width="5" stroke-linecap="square"/>
 </svg>Scale <span>Go</span>
 </a>
-<a class="back" href="/ingles/">← Inglés</a>
+<div class="top-right"><nav class="lang-switch" aria-label="Idioma / Language"><button type="button" data-lang="es" aria-pressed="true">ES</button><button type="button" data-lang="en" aria-pressed="false">EN</button></nav><a class="back" href="/ingles/">← Inglés</a></div>
 </header>
 <main>
 <section class="intro">
-<div class="eyebrow">INGLÉS · CADA DÍA</div>
+<div class="eyebrow" data-i18n="1">INGLÉS · CADA DÍA</div>
 <h1>The Words of Tomorrow</h1>
-<p>Un poco de vocabulario cada día. Escucha cómo se dice, mira un ejemplo y vuelve mañana a por más.</p>
+<p data-i18n="2">Un poco de vocabulario cada día. Escucha cómo se dice, mira un ejemplo y vuelve mañana a por más.</p>
 </section>
 <div id="streak" class="streak" aria-live="polite">
 </div>
 <div class="controls">
 <div class="field">
-<label for="level">Tu nivel</label>
+<label for="level" data-i18n="3">Tu nivel</label>
 <select id="level">
 <option>A2</option>
 <option>B1</option>
@@ -46,11 +49,11 @@
 </select>
 </div>
 <div class="field">
-<label for="count">Palabras al día</label>
+<label for="count" data-i18n="4">Palabras al día</label>
 <select id="count">
-<option value="1">1 palabra</option>
-<option value="5">5 palabras</option>
-<option value="10">10 palabras</option>
+<option value="1" data-i18n="5">1 palabra</option>
+<option value="5" data-i18n="6">5 palabras</option>
+<option value="10" data-i18n="7">10 palabras</option>
 </select>
 </div>
 </div>
@@ -58,35 +61,35 @@
 <div class="datebar">
 <strong id="date">
 </strong>
-<a class="archive-link" href="#archivo">Ver archivo ↓</a>
+<a class="archive-link" href="#archivo" data-i18n="8">Ver archivo ↓</a>
 </div>
-<div id="cards" class="empty">Cargando palabras…</div>
+<div id="cards" class="empty" data-i18n="9">Cargando palabras…</div>
 </section>
 <section id="tomorrow" class="tomorrow">
-<div class="eyebrow">UN VISTAZO A MAÑANA</div>
-<h2>Mañana</h2>
+<div class="eyebrow" data-i18n="10">UN VISTAZO A MAÑANA</div>
+<h2 data-i18n="11">Mañana</h2>
 <p id="tomorrow-date">
 </p>
 <div id="preview">
 </div>
 </section>
 <section id="learned" class="archive">
-<div class="eyebrow">TU REPASO</div>
-<h2>Aprendidas</h2>
-<p>Guárdalas aquí para volver a ellas cuando quieras. Se quedan en este dispositivo.</p>
+<div class="eyebrow" data-i18n="12">TU REPASO</div>
+<h2 data-i18n="13">Aprendidas</h2>
+<p data-i18n="14">Guárdalas aquí para volver a ellas cuando quieras. Se quedan en este dispositivo.</p>
 <div id="learned-list">
 </div>
 </section>
 <section id="archivo" class="archive">
-<div class="eyebrow">DESDE EL 25 DE SEPTIEMBRE DE 2026</div>
-<h2>Archivo</h2>
-<p>Consulta las palabras de los días anteriores. Cambia el nivel y la cantidad arriba para ver el recorrido que prefieras.</p>
+<div class="eyebrow" data-i18n="15">DESDE EL 25 DE SEPTIEMBRE DE 2026</div>
+<h2 data-i18n="16">Archivo</h2>
+<p data-i18n="17">Consulta las palabras de los días anteriores. Cambia el nivel y la cantidad arriba para ver el recorrido que prefieras.</p>
 <div id="days">
 </div>
 </section>
 </main>
 <footer>
-<span>Hecho por Scale Go · Gratis y sin registro</span>
-<a href="/">Volver a Scale Go</a>
+<span data-i18n="18">Hecho por Scale Go · Gratis y sin registro</span>
+<a href="/" data-i18n="19">Volver a Scale Go</a>
 </footer>
-</div><script src="app.js?v=20260925-1"></script></body></html>
+</div><script src="app.js?v=20260926-bilingual"></script></body></html>
