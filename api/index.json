@@ -6,9 +6,9 @@
   "word_bank_url": "https://scalego.github.io/ingles/daily-word/words.json",
   "rule": "For date D >= start, day = UTC calendar-day difference from 2026-09-25; select words[(day * count + i) % words.length], i=0..count-1, separately for A2/B1/B2. No server or automated refresh; browser date uses Europe/Madrid.",
   "counts": {
-    "A2": 30,
-    "B1": 27,
-    "B2": 22
+    "A2": 56,
+    "B1": 52,
+    "B2": 68
   },
   "examples": [
     "https://scalego.github.io/api/2026-09-25.json",
