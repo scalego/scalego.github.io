@@ -1,0 +1,24 @@
+name: One-time daily word audio import
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import-audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode and commit verified audio
+        run: |
+          set -euo pipefail
+          cd ingles/daily-word
+          cat staging-audio-{00..08}.b64 | base64 -d > /tmp/daily-audio.tar.gz
+          mkdir -p audio
+          tar -xzf /tmp/daily-audio.tar.gz -C audio --no-same-owner --no-same-permissions
+          rm staging-audio-{00..08}.b64
+          cd ../..
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A ingles/daily-word
+          git commit -m 'Import licensed pronunciation recordings; remove audio staging'
+          git push
