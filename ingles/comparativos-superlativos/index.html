@@ -403,7 +403,7 @@ function showHint(){
 function answers(){
   var q=state.q,list;
   if(state.mode==="comp"){list=[q.c].concat(q.altc||[])}
-  else if(state.mode==="sup"){list=[q.s].concat(q.alts||[])}
+  else if(state.mode==="sup"){list=[q.s.replace(/^the\s+/,"")].concat((q.alts||[]).map(function(x){return x.replace(/^the\s+/,"")}))}
   else{list=[q.ans].concat(q.alt||[])}
   return list.map(norm);
 }
