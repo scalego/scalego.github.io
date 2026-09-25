@@ -10,15 +10,18 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
-      - name: Decode and commit preview
+      - name: Decode and commit preview and test audio
         shell: bash
         run: |
           set -euo pipefail
           cd ingles/daily-word
           cat encoded-og/og-*.txt | base64 -d > og-image.png
           file og-image.png
+          mkdir -p audio
+          cat encoded-audio/learn-*.txt | base64 -d > audio/learn.ogg
+          file audio/learn.ogg
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add og-image.png
-          git commit -m 'Add Scale Go word preview asset' || exit 0
+          git add og-image.png audio/learn.ogg
+          git commit -m 'Add Scale Go preview and test pronunciation' || exit 0
           git push
