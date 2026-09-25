@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
-      - name: Decode and commit preview and test audio
+      - name: Decode and commit all daily word audio
         shell: bash
         run: |
           set -euo pipefail
@@ -18,10 +18,10 @@ jobs:
           cat encoded-og/og-*.txt | base64 -d > og-image.png
           file og-image.png
           mkdir -p audio
-          python3 -c 'import base64,pathlib; [(pathlib.Path("audio",n).write_bytes(base64.b64decode(b,validate=True))) for n,b in (x.split(chr(9),1) for x in pathlib.Path("pack-test.txt").read_text().splitlines())]'
+          python3 -c 'import base64,pathlib; root=pathlib.Path("encoded-audio-large"); lines=(line for f in sorted(root.glob("pack-*.txt")) for line in f.read_text().splitlines()); [(pathlib.Path("audio",n).write_bytes(base64.b64decode(b,validate=True))) for n,b in (x.split(chr(9),1) for x in lines)]'
           file audio/*.ogg
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add og-image.png audio/*.ogg
-          git commit -m 'Add Scale Go preview and first audio pack' || exit 0
+          git commit -m 'Add all Scale Go word recordings' || exit 0
           git push
