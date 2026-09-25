@@ -66,3 +66,5 @@ footer a{color:var(--muted)}
 .datebar{font-size:12px}
 footer{flex-direction:column}
 }
+
+.top-right{display:flex;align-items:center;gap:14px}.lang-switch{display:flex;gap:5px}.lang-switch button{border:1px solid var(--line);border-radius:7px;background:transparent;color:var(--muted);padding:5px 8px;cursor:pointer;font-size:12px;font-weight:700}.lang-switch button[aria-pressed="true"]{background:var(--blue);color:white;border-color:var(--blue)}@media(max-width:430px){.top-right{gap:8px}.back{font-size:12px}}
