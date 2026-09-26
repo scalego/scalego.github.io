@@ -29,6 +29,9 @@ body{background:var(--base);color:var(--text);font-family:-apple-system,'Segoe U
 header{display:flex;align-items:center;gap:11px;margin-bottom:52px}
 header .wm{font-weight:700;font-size:18px;letter-spacing:.02em}
 header .wm span{color:var(--accent)}
+header .brand-home{display:flex;align-items:center;gap:11px;color:inherit;text-decoration:none}
+header .brand-home:hover .wm{text-decoration:underline}
+header .brand-home:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:4px}
 h1{font-size:52px;line-height:1.03;font-weight:800;letter-spacing:-.025em;margin-bottom:18px}
 h1 em{font-style:normal;color:var(--accent)}
 .tag{font-size:17px;line-height:1.55;color:var(--muted);max-width:46ch;margin-bottom:10px}
@@ -57,8 +60,8 @@ footer a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--l
 <div class="wrap">
 <header>
 <!-- LOGO SLOT -->
-<svg width="34" height="34" viewBox="0 0 48 48" aria-hidden="true"><rect x="2" y="2" width="44" height="44" rx="11" fill="var(--accent)"/><path d="M33 15H19v7h10v11H15" fill="none" stroke="var(--accent-ink)" stroke-width="5" stroke-linecap="square"/></svg>
-<div class="wm">Scale <span>Go</span></div>
+<a class="brand-home" href="/" aria-label="Scale Go, inicio"><svg width="34" height="34" viewBox="0 0 48 48" aria-hidden="true"><rect x="2" y="2" width="44" height="44" rx="11" fill="var(--accent)"/><path d="M33 15H19v7h10v11H15" fill="none" stroke="var(--accent-ink)" stroke-width="5" stroke-linecap="square"/></svg>
+<div class="wm">Scale <span>Go</span></div></a>
 <nav class="lang-switch" aria-label="Idioma"><strong aria-current="page">ES</strong><a href="/en/">EN</a></nav>
 </header>
 <h1>Herramientas de estudio<br><em>hechas a mano</em>.</h1>
