@@ -1,0 +1,29 @@
+name: Refresh daily vocabulary navigation
+on:
+  push:
+    paths:
+      - .github/workflows/bump-daily-navigation.yml
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update script version and clean up
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('ingles/daily-word/index.html')
+          s=p.read_text()
+          old='app.js?v=20260926-bilingual'
+          assert s.count(old)==1
+          p.write_text(s.replace(old,'app.js?v=20260926-home'))
+          Path('.github/workflows/bump-daily-navigation.yml').unlink()
+          PY
+          git config user.name 'Instinct Agent'
+          git config user.email 'agent@instinct.com'
+          git add -A
+          git diff --cached --check
+          git commit -m 'Refresh vocabulary script after navigation fix'
+          git push
