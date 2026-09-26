@@ -5,8 +5,8 @@ let uiLang=new URLSearchParams(location.search).get('lang')==='en'?'en':'es';
 function setLanguage(lang){
   uiLang=lang;document.documentElement.lang=lang;
   document.querySelector('meta[name="description"]').content=lang==='en'?'Daily English vocabulary with real audio, examples and Spanish translations. Free, no sign-up.':'Una pequeña dosis diaria de inglés: palabras por nivel, pronunciación real y ejemplos con traducción. Gratis y sin registro.';
-  document.querySelector('.back').textContent=lang==='en'?enText.BACK:'← Inglés';
-  document.querySelector('.back').href=lang==='en'?'/ingles/en/':'/ingles/';
+  document.querySelector('.back').textContent='← Scale Go';
+  document.querySelector('.back').href='/';
   document.querySelector('.brand').href=lang==='en'?'/en/':'/';
   document.querySelector('footer a').href=lang==='en'?'/en/':'/';
   document.querySelectorAll('[data-i18n]').forEach(el=>{let key=el.dataset.i18n;el.textContent=(lang==='en'?EN_STRINGS:ES_STRINGS)[key]||el.textContent});
