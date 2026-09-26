@@ -1,0 +1,32 @@
+name: Fix daily vocabulary home link
+on:
+  push:
+    paths:
+      - .github/workflows/fix-daily-navigation.yml
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Correct script-driven link and remove workflow
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('ingles/daily-word/app.js')
+          s=p.read_text()
+          old="document.querySelector('.back').textContent=lang==='en'?enText.BACK:'← Inglés';"
+          old_href="document.querySelector('.back').href=lang==='en'?'/ingles/en/':'/ingles/';"
+          assert s.count(old)==1 and s.count(old_href)==1
+          s=s.replace(old,"document.querySelector('.back').textContent='← Scale Go';")
+          s=s.replace(old_href,"document.querySelector('.back').href='/';")
+          p.write_text(s)
+          Path('.github/workflows/fix-daily-navigation.yml').unlink()
+          PY
+          git config user.name 'Instinct Agent'
+          git config user.email 'agent@instinct.com'
+          git add -A
+          git diff --cached --check
+          git commit -m 'Keep vocabulary return link pointed at home'
+          git push
