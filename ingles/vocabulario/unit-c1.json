@@ -1,0 +1,152 @@
+{
+  "id": "work-decisions-c1",
+  "level": "C1",
+  "topic": "Trabajo y decisiones",
+  "version": 1,
+  "cards": [
+    {
+      "id": "setback",
+      "word": "setback",
+      "es": "contratiempo; revés",
+      "en": "an unexpected problem that delays progress",
+      "example": "The launch hit a setback, so we moved it to Friday.",
+      "translation": "El lanzamiento sufrió un contratiempo, así que lo pasamos al viernes.",
+      "prompt": "The launch hit a ___, so we moved it to Friday.",
+      "choices": [
+        {
+          "label": "setback",
+          "correct": true
+        },
+        {
+          "label": "deadline",
+          "correct": false
+        },
+        {
+          "label": "oversight",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/setback"
+    },
+    {
+      "id": "mitigate",
+      "word": "mitigate",
+      "es": "mitigar; reducir el impacto",
+      "en": "to make something harmful less severe",
+      "example": "We added a backup to mitigate the risk of losing data.",
+      "translation": "Añadimos una copia de seguridad para reducir el riesgo de perder datos.",
+      "prompt": "We added a backup to ___ the risk of losing data.",
+      "choices": [
+        {
+          "label": "mitigate",
+          "correct": true
+        },
+        {
+          "label": "allocate",
+          "correct": false
+        },
+        {
+          "label": "overlook",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/mitigate"
+    },
+    {
+      "id": "discrepancy",
+      "word": "discrepancy",
+      "es": "discrepancia; diferencia que no cuadra",
+      "en": "a difference between things that should agree",
+      "example": "There is a discrepancy between the invoice and the quote.",
+      "translation": "Hay una discrepancia entre la factura y el presupuesto.",
+      "prompt": "There is a ___ between the invoice and the quote.",
+      "choices": [
+        {
+          "label": "discrepancy",
+          "correct": true
+        },
+        {
+          "label": "milestone",
+          "correct": false
+        },
+        {
+          "label": "workload",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/discrepancy"
+    },
+    {
+      "id": "contingency",
+      "word": "contingency",
+      "es": "imprevisto; posibilidad para la que conviene prepararse",
+      "en": "a possible future event that needs a plan",
+      "example": "We have a contingency plan if the supplier is late.",
+      "translation": "Tenemos un plan para imprevistos por si el proveedor se retrasa.",
+      "prompt": "We have a ___ plan if the supplier is late.",
+      "choices": [
+        {
+          "label": "contingency",
+          "correct": true
+        },
+        {
+          "label": "routine",
+          "correct": false
+        },
+        {
+          "label": "casual",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/contingency"
+    },
+    {
+      "id": "oversight",
+      "word": "oversight",
+      "es": "descuido; error por omisión",
+      "en": "a mistake made by failing to notice something",
+      "example": "The missing attachment was an oversight, not a change of plan.",
+      "translation": "El adjunto que faltaba fue un descuido, no un cambio de plan.",
+      "prompt": "The missing attachment was an ___, not a change of plan.",
+      "choices": [
+        {
+          "label": "oversight",
+          "correct": true
+        },
+        {
+          "label": "outcome",
+          "correct": false
+        },
+        {
+          "label": "estimate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/oversight"
+    },
+    {
+      "id": "bottleneck",
+      "word": "bottleneck",
+      "es": "cuello de botella",
+      "en": "a point that slows down a process",
+      "example": "The approval step has become a bottleneck for the whole team.",
+      "translation": "La fase de aprobación se ha convertido en un cuello de botella para todo el equipo.",
+      "prompt": "The approval step has become a ___ for the whole team.",
+      "choices": [
+        {
+          "label": "bottleneck",
+          "correct": true
+        },
+        {
+          "label": "shortcut",
+          "correct": false
+        },
+        {
+          "label": "benefit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/bottleneck"
+    }
+  ]
+}
