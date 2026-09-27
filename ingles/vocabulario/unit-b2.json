@@ -1,0 +1,152 @@
+{
+  "id": "work-planning-b2",
+  "level": "B2",
+  "topic": "Trabajo y planificación",
+  "version": 1,
+  "cards": [
+    {
+      "id": "deadline",
+      "word": "deadline",
+      "es": "fecha límite",
+      "en": "the date or time by which a task must be finished",
+      "example": "The deadline for the report is Friday.",
+      "translation": "La fecha límite del informe es el viernes.",
+      "prompt": "The ___ for the report is Friday.",
+      "choices": [
+        {
+          "label": "deadline",
+          "correct": true
+        },
+        {
+          "label": "feedback",
+          "correct": false
+        },
+        {
+          "label": "workload",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/deadline"
+    },
+    {
+      "id": "workload",
+      "word": "workload",
+      "es": "carga de trabajo",
+      "en": "the amount of work a person has to do",
+      "example": "My workload is heavier this week.",
+      "translation": "Esta semana tengo más carga de trabajo.",
+      "prompt": "My ___ is heavier this week.",
+      "choices": [
+        {
+          "label": "workload",
+          "correct": true
+        },
+        {
+          "label": "deadline",
+          "correct": false
+        },
+        {
+          "label": "priority",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/workload"
+    },
+    {
+      "id": "negotiate",
+      "word": "negotiate",
+      "es": "negociar",
+      "en": "to discuss with someone to reach an agreement",
+      "example": "We need to negotiate a new delivery date.",
+      "translation": "Tenemos que negociar una nueva fecha de entrega.",
+      "prompt": "We need to ___ a new delivery date.",
+      "choices": [
+        {
+          "label": "negotiate",
+          "correct": true
+        },
+        {
+          "label": "delay",
+          "correct": false
+        },
+        {
+          "label": "request",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/negotiate"
+    },
+    {
+      "id": "feedback",
+      "word": "feedback",
+      "es": "comentarios; opinión para mejorar",
+      "en": "information about how well something is working",
+      "example": "Can you give me feedback on the first draft?",
+      "translation": "¿Me puedes dar tu opinión sobre el primer borrador?",
+      "prompt": "Can you give me ___ on the first draft?",
+      "choices": [
+        {
+          "label": "feedback",
+          "correct": true
+        },
+        {
+          "label": "a deadline",
+          "correct": false
+        },
+        {
+          "label": "a workload",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/feedback"
+    },
+    {
+      "id": "priority",
+      "word": "priority",
+      "es": "prioridad",
+      "en": "something that is more important than other things",
+      "example": "The client meeting is our priority today.",
+      "translation": "La reunión con el cliente es nuestra prioridad hoy.",
+      "prompt": "The client meeting is our ___ today.",
+      "choices": [
+        {
+          "label": "priority",
+          "correct": true
+        },
+        {
+          "label": "deadline",
+          "correct": false
+        },
+        {
+          "label": "oversight",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/priority"
+    },
+    {
+      "id": "follow-up",
+      "word": "follow-up",
+      "es": "seguimiento; acción posterior",
+      "en": "a further action to check what happened after an earlier one",
+      "example": "Let us arrange a follow-up call next week.",
+      "translation": "Organicemos una llamada de seguimiento la semana que viene.",
+      "prompt": "Let us arrange a ___ call next week.",
+      "choices": [
+        {
+          "label": "follow-up",
+          "correct": true
+        },
+        {
+          "label": "deadline",
+          "correct": false
+        },
+        {
+          "label": "workload",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/follow-up"
+    }
+  ]
+}
