@@ -1,0 +1,152 @@
+{
+  "id": "unit-01-a2",
+  "level": "A2",
+  "topic": "Viajes y planes",
+  "version": 1,
+  "cards": [
+    {
+      "id": "travel",
+      "word": "travel",
+      "es": "viajar",
+      "en": "to go from one place to another",
+      "example": "We travel by train in summer.",
+      "translation": "Viajamos en tren en verano.",
+      "prompt": "We ___ by train in summer.",
+      "choices": [
+        {
+          "label": "travel",
+          "correct": true
+        },
+        {
+          "label": "arrive",
+          "correct": false
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/travel"
+    },
+    {
+      "id": "arrive",
+      "word": "arrive",
+      "es": "llegar",
+      "en": "to get to a place",
+      "example": "The train arrives at eight.",
+      "translation": "El tren llega a las ocho.",
+      "prompt": "The train ___s at eight.",
+      "choices": [
+        {
+          "label": "arrive",
+          "correct": true
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        },
+        {
+          "label": "invite",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/arrive"
+    },
+    {
+      "id": "borrow",
+      "word": "borrow",
+      "es": "pedir prestado",
+      "en": "to take and use something that belongs to someone else, then return it",
+      "example": "Can I borrow your pen?",
+      "translation": "¿Me prestas tu bolígrafo?",
+      "prompt": "Can I ___ your pen?",
+      "choices": [
+        {
+          "label": "borrow",
+          "correct": true
+        },
+        {
+          "label": "invite",
+          "correct": false
+        },
+        {
+          "label": "choose",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/borrow"
+    },
+    {
+      "id": "invite",
+      "word": "invite",
+      "es": "invitar",
+      "en": "to ask someone to come to an event or place",
+      "example": "I want to invite Ana to dinner.",
+      "translation": "Quiero invitar a Ana a cenar.",
+      "prompt": "I want to ___ Ana to dinner.",
+      "choices": [
+        {
+          "label": "invite",
+          "correct": true
+        },
+        {
+          "label": "choose",
+          "correct": false
+        },
+        {
+          "label": "ticket",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/invite"
+    },
+    {
+      "id": "choose",
+      "word": "choose",
+      "es": "elegir",
+      "en": "to decide which person or thing you want",
+      "example": "You can choose a different book.",
+      "translation": "Puedes elegir otro libro.",
+      "prompt": "You can ___ a different book.",
+      "choices": [
+        {
+          "label": "choose",
+          "correct": true
+        },
+        {
+          "label": "ticket",
+          "correct": false
+        },
+        {
+          "label": "travel",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/choose"
+    },
+    {
+      "id": "ticket",
+      "word": "ticket",
+      "es": "billete; entrada",
+      "en": "a piece of paper or digital pass that lets you travel or enter an event",
+      "example": "I bought a ticket for the bus.",
+      "translation": "Compré un billete para el autobús.",
+      "prompt": "I bought a ___ for the bus.",
+      "choices": [
+        {
+          "label": "ticket",
+          "correct": true
+        },
+        {
+          "label": "travel",
+          "correct": false
+        },
+        {
+          "label": "arrive",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/ticket"
+    }
+  ]
+}
