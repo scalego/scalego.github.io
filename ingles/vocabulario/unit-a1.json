@@ -1,0 +1,152 @@
+{
+  "id": "unit-01-a1",
+  "level": "A1",
+  "topic": "La vida cotidiana",
+  "version": 1,
+  "cards": [
+    {
+      "id": "family",
+      "word": "family",
+      "es": "familia",
+      "en": "the people you are related to",
+      "example": "My family lives near the sea.",
+      "translation": "Mi familia vive cerca del mar.",
+      "prompt": "My ___ lives near the sea.",
+      "choices": [
+        {
+          "label": "family",
+          "correct": true
+        },
+        {
+          "label": "water",
+          "correct": false
+        },
+        {
+          "label": "house",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/family"
+    },
+    {
+      "id": "water",
+      "word": "water",
+      "es": "agua",
+      "en": "a clear liquid that people drink",
+      "example": "Can I have a glass of water?",
+      "translation": "¿Puedo tomar un vaso de agua?",
+      "prompt": "Can I have a glass of ___?",
+      "choices": [
+        {
+          "label": "water",
+          "correct": true
+        },
+        {
+          "label": "house",
+          "correct": false
+        },
+        {
+          "label": "book",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/water"
+    },
+    {
+      "id": "house",
+      "word": "house",
+      "es": "casa",
+      "en": "a building where people live",
+      "example": "Their house has a small garden.",
+      "translation": "Su casa tiene un jardín pequeño.",
+      "prompt": "Their ___ has a small garden.",
+      "choices": [
+        {
+          "label": "house",
+          "correct": true
+        },
+        {
+          "label": "book",
+          "correct": false
+        },
+        {
+          "label": "friend",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/house"
+    },
+    {
+      "id": "book",
+      "word": "book",
+      "es": "libro",
+      "en": "pages with words or pictures, joined together",
+      "example": "This book is about animals.",
+      "translation": "Este libro trata sobre animales.",
+      "prompt": "This ___ is about animals.",
+      "choices": [
+        {
+          "label": "book",
+          "correct": true
+        },
+        {
+          "label": "friend",
+          "correct": false
+        },
+        {
+          "label": "school",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/book"
+    },
+    {
+      "id": "friend",
+      "word": "friend",
+      "es": "amigo; amiga",
+      "en": "a person you know and like",
+      "example": "My friend lives in Madrid.",
+      "translation": "Mi amiga vive en Madrid.",
+      "prompt": "My ___ lives in Madrid.",
+      "choices": [
+        {
+          "label": "friend",
+          "correct": true
+        },
+        {
+          "label": "school",
+          "correct": false
+        },
+        {
+          "label": "family",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/friend"
+    },
+    {
+      "id": "school",
+      "word": "school",
+      "es": "escuela; colegio",
+      "en": "a place where children go to learn",
+      "example": "The school opens at nine.",
+      "translation": "El colegio abre a las nueve.",
+      "prompt": "The ___ opens at nine.",
+      "choices": [
+        {
+          "label": "school",
+          "correct": true
+        },
+        {
+          "label": "family",
+          "correct": false
+        },
+        {
+          "label": "water",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/school"
+    }
+  ]
+}
