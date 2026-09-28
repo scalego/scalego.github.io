@@ -1,0 +1,27 @@
+{
+  "A1": [
+    {"id":"personas","title":"Personas y familia","cards":["family","friend"]},
+    {"id":"casa","title":"Casa y cosas de cada día","cards":["house","water"]},
+    {"id":"escuela","title":"Escuela y lectura","cards":["school","book"]}
+  ],
+  "A2": [
+    {"id":"viajes","title":"Viajes y transporte","cards":["travel","arrive","ticket"]},
+    {"id":"planes","title":"Planes con otras personas","cards":["borrow","invite","choose"]}
+  ],
+  "B1": [
+    {"id":"aprendizaje","title":"Aprender y mejorar","cards":["achieve","improve","opportunity"]},
+    {"id":"decisiones","title":"Decisiones y consejos","cards":["suggest","manage","avoid"]}
+  ],
+  "B2": [
+    {"id":"trabajo","title":"Organizar el trabajo","cards":["deadline","workload","priority"]},
+    {"id":"colaboracion","title":"Colaborar y negociar","cards":["negotiate","feedback","follow-up"]}
+  ],
+  "C1": [
+    {"id":"imprevistos","title":"Problemas e imprevistos","cards":["setback","contingency","bottleneck"]},
+    {"id":"analisis","title":"Análisis y decisiones","cards":["mitigate","discrepancy","oversight"]}
+  ],
+  "C2": [
+    {"id":"contrastes","title":"Contrastes y contexto","cards":["ubiquitous","incongruous","juxtapose"]},
+    {"id":"precision","title":"Matices y claridad","cards":["perfunctory","equivocal","obfuscate"]}
+  ]
+}
