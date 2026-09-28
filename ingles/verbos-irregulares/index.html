@@ -245,6 +245,8 @@ button.play:hover{border-color:var(--acid)}
   input#answer{width:100%}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* Easier first visit for adult learners: readable directions and clear taps. */
+.intro{font-size:18px;line-height:1.6;margin-bottom:20px}.steps{font-size:16px;line-height:1.55;color:var(--text);background:#17243a;border-left:4px solid var(--acid);padding:14px 16px;margin:0 0 16px}.q-label{font:600 17px/1.4 -apple-system,"Segoe UI",Arial,sans-serif;letter-spacing:0;text-transform:none;color:var(--text)}.tab{font:600 15px/1.25 -apple-system,"Segoe UI",Arial,sans-serif;letter-spacing:0;text-transform:none;min-height:58px}.tab:focus-visible,.hint-btn:focus-visible,button.btn:focus-visible,input#answer:focus-visible{outline:3px solid #3ddc97;outline-offset:3px}.hint-btn{font-size:16px;min-height:46px;padding:10px 16px}button.btn{font:700 16px/1.3 -apple-system,"Segoe UI",Arial,sans-serif;letter-spacing:0;text-transform:none;border-radius:8px;min-height:56px}input#answer{font-family:-apple-system,"Segoe UI",Arial,sans-serif;border-radius:8px}.secondary-details{margin-top:30px}@media(max-width:600px){.tabs{flex-wrap:wrap}.tab{flex:1 1 calc(50% - 8px)}.tab:last-child{flex-basis:100%}}
 </style>
 </head>
 <body>
@@ -257,17 +259,17 @@ button.play:hover{border-color:var(--acid)}
 </header>
 <main class="wrap">
   <h1>Verbos irregulares en inglés</h1>
-  <p class="intro">Practica con preguntas al azar: escribe la forma que te piden y comprueba al momento si está bien. Las que falles volverán a salir más a menudo.</p>
+  <p class="intro">Mira la palabra. Escribe la forma en inglés que te piden. Pulsa «Comprobar» y después «Siguiente pregunta». Si no la sabes, usa la pista.</p>
   <p class="setbar" id="setbar"></p>
 
-  <div class="tabs" role="tablist" aria-label="Secciones">
-    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">Practicar</button>
-    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">Repasar la lista</button>
-    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">Crear lista</button>
+  <div class="tabs" role="tablist" aria-label="Qué quieres hacer">
+    <button class="tab" id="tab-practice" role="tab" aria-selected="true" aria-controls="view-practice">1. Practicar</button>
+    <button class="tab" id="tab-review" role="tab" aria-selected="false" aria-controls="view-review">2. Ver la lista</button>
+    <button class="tab" id="tab-create" role="tab" aria-selected="false" aria-controls="view-create">Crear mi lista</button>
   </div>
 
   <details>
-    <summary>Qué significan los símbolos /.../ (pronunciación)</summary>
+    <summary>Cómo escuchar las palabras (y qué son los símbolos)</summary>
     <div class="body">
       <p>Los símbolos entre barras, como /ɡəʊ/, son la <b>transcripción fonética (IPA)</b>: te dicen cómo suena la palabra en <b>inglés británico</b>, letra por sonido.</p>
       <ul>
@@ -280,20 +282,21 @@ button.play:hover{border-color:var(--acid)}
   </details>
 
   <section id="view-practice" role="tabpanel" aria-labelledby="tab-practice">
+    <p class="steps" id="practice-steps">1. Mira la palabra que aparece abajo. 2. Escribe la forma que falta. 3. Comprueba y pasa a la siguiente.</p>
     <div class="stats">
       <p>Preguntas: <b id="s-total">0</b> · Aciertos: <b id="s-ok" class="n-ok">0</b> · Fallos: <b id="s-bad" class="n-bad">0</b></p>
-      <button class="btn ghost" id="restart" type="button">Reiniciar</button>
+      <button class="btn ghost" id="restart" type="button">Empezar de nuevo</button>
     </div>
 
     <div class="card">
-      <p class="q-label" id="q-label">Infinitivo de</p>
+      <p class="q-label" id="q-label">Escribe el infinitivo de</p>
       <p class="q-word" id="q-word">…</p>
-      <button type="button" class="hint-btn" id="hint-btn">Pista</button><p class="q-hint" id="q-hint" hidden></p>
+      <button type="button" class="hint-btn" id="hint-btn">¿Necesitas una pista?</button><p class="q-hint" id="q-hint" hidden></p>
       <form id="answer-form" autocomplete="off">
         <div class="answer-row">
           <label for="answer" class="sub" style="position:absolute;left:-9999px">Tu respuesta en inglés</label>
-          <input id="answer" name="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="send" placeholder="Tu respuesta en inglés"/>
-          <button class="btn" id="check" type="submit">Comprobar</button>
+          <input id="answer" name="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="send" placeholder="Escribe aquí la palabra en inglés"/>
+          <button class="btn" id="check" type="submit">Comprobar respuesta</button>
         </div>
       </form>
       <div class="feedback" id="feedback" aria-live="polite"></div>
@@ -301,10 +304,10 @@ button.play:hover{border-color:var(--acid)}
         <button class="btn" id="next" type="button">Siguiente pregunta</button>
       </div>
     </div>
-    <p class="note">El progreso es solo de esta sesión: si cierras o recargas la página, se empieza de cero.</p>
+    <p class="note">Los aciertos se cuentan mientras tengas esta página abierta.</p>
 
-    <details id="correcciones-hoja">
-      <summary>Correcciones de la hoja</summary>
+    <details id="correcciones-hoja" class="secondary-details">
+      <summary>Sobre la lista de clase</summary>
       <div class="body">
         <ul>
           <li>«Come» (venir) aparecía dos veces en la hoja; se ha dejado una sola.</li>
@@ -473,7 +476,7 @@ function dirKeys(){var ks=[];for(var i=0;i<VERBS.length;i++){for(var j=0;j<DIRS.
     var v=VERBS[vi];
     current={key:key,verb:v,form:f,vi:vi,from:from};
     answered=false;
-    qLabel.textContent=FORM_LABELS[f]+" de";
+    qLabel.textContent="Escribe el "+FORM_LABELS[f].toLowerCase()+" de";
     qWord.textContent=v[from];
     qHint.innerHTML=from==="es"?"":FORM_LABELS[from]+" · <b>"+v.es+"</b>";
     qHint.hidden=true;
@@ -523,11 +526,11 @@ function dirKeys(){var ks=[];for(var i=0;i<VERBS.length;i++){for(var j=0;j<DIRS.
     var correctForm=v[f];
     if(ok){
       feedback.className="feedback show ok";
-      feedback.innerHTML='<p class="f-title">Correcto.</p><p class="f-detail">'+fbDetail(f,v.es,correctForm)+'.</p>'+trioHtml(v,current.vi);
+      feedback.innerHTML='<p class="f-title">¡Bien!</p><p class="f-detail">'+fbDetail(f,v.es,correctForm)+'.</p>'+trioHtml(v,current.vi);
     }else{
       feedback.className="feedback show bad";
       var detail=input.value.trim()?('Has escrito «'+input.value.trim()+'». '):'';
-      feedback.innerHTML='<p class="f-title">No es correcto.</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'. Esta te volverá a salir.</p>'+trioHtml(v,current.vi);
+      feedback.innerHTML='<p class="f-title">No pasa nada. Mira la respuesta:</p><p class="f-detail">'+detail+fbDetail(f,v.es,correctForm)+'. Esta te volverá a salir.</p>'+trioHtml(v,current.vi);
     }
     input.disabled=true;
     document.getElementById("check").disabled=true;
