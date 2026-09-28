@@ -1,0 +1,152 @@
+{
+  "id": "unit-01-c2",
+  "level": "C2",
+  "topic": "Expresión avanzada",
+  "version": 1,
+  "cards": [
+    {
+      "id": "ubiquitous",
+      "word": "ubiquitous",
+      "es": "omnipresente",
+      "en": "seeming to be everywhere",
+      "example": "Smartphones are ubiquitous in large cities.",
+      "translation": "Los móviles son omnipresentes en las grandes ciudades.",
+      "prompt": "Smartphones are ___ in large cities.",
+      "choices": [
+        {
+          "label": "ubiquitous",
+          "correct": true
+        },
+        {
+          "label": "incongruous",
+          "correct": false
+        },
+        {
+          "label": "juxtapose",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/ubiquitous"
+    },
+    {
+      "id": "incongruous",
+      "word": "incongruous",
+      "es": "incongruente; fuera de lugar",
+      "en": "strange because it does not fit its surroundings",
+      "example": "The modern sign looked incongruous on the old building.",
+      "translation": "El cartel moderno desentonaba en el edificio antiguo.",
+      "prompt": "The modern sign looked ___ on the old building.",
+      "choices": [
+        {
+          "label": "incongruous",
+          "correct": true
+        },
+        {
+          "label": "juxtapose",
+          "correct": false
+        },
+        {
+          "label": "perfunctory",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/incongruous"
+    },
+    {
+      "id": "juxtapose",
+      "word": "juxtapose",
+      "es": "yuxtaponer; colocar en contraste",
+      "en": "to place different things next to each other to show a contrast",
+      "example": "The film juxtaposes luxury with poverty.",
+      "translation": "La película yuxtapone el lujo y la pobreza.",
+      "prompt": "The film ___s luxury with poverty.",
+      "choices": [
+        {
+          "label": "juxtapose",
+          "correct": true
+        },
+        {
+          "label": "perfunctory",
+          "correct": false
+        },
+        {
+          "label": "equivocal",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/juxtapose"
+    },
+    {
+      "id": "perfunctory",
+      "word": "perfunctory",
+      "es": "superficial; hecho por cumplir",
+      "en": "done quickly with little interest or care",
+      "example": "He gave the report a perfunctory glance.",
+      "translation": "Echó un vistazo superficial al informe.",
+      "prompt": "He gave the report a ___ glance.",
+      "choices": [
+        {
+          "label": "perfunctory",
+          "correct": true
+        },
+        {
+          "label": "equivocal",
+          "correct": false
+        },
+        {
+          "label": "obfuscate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/perfunctory"
+    },
+    {
+      "id": "equivocal",
+      "word": "equivocal",
+      "es": "ambiguo; poco claro",
+      "en": "having more than one possible meaning and not expressing a clear opinion",
+      "example": "Her answer was equivocal, so we asked again.",
+      "translation": "Su respuesta fue ambigua, así que volvimos a preguntar.",
+      "prompt": "Her answer was ___, so we asked again.",
+      "choices": [
+        {
+          "label": "equivocal",
+          "correct": true
+        },
+        {
+          "label": "obfuscate",
+          "correct": false
+        },
+        {
+          "label": "ubiquitous",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/equivocal"
+    },
+    {
+      "id": "obfuscate",
+      "word": "obfuscate",
+      "es": "ofuscar; hacer confuso",
+      "en": "to make something less clear or harder to understand",
+      "example": "The extra jargon only obfuscates the main point.",
+      "translation": "La jerga adicional solo dificulta entender la idea principal.",
+      "prompt": "The extra jargon only ___s the main point.",
+      "choices": [
+        {
+          "label": "obfuscate",
+          "correct": true
+        },
+        {
+          "label": "ubiquitous",
+          "correct": false
+        },
+        {
+          "label": "incongruous",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/obfuscate"
+    }
+  ]
+}
