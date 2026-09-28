@@ -259,7 +259,7 @@ button.play:hover{border-color:var(--acid)}
 </header>
 <main class="wrap">
   <h1>Verbos irregulares en inglés</h1>
-  <p class="intro">Mira la palabra. Escribe la forma en inglés que te piden. Pulsa «Comprobar» y después «Siguiente pregunta». Si no la sabes, usa la pista.</p>
+  <p class="intro">Mira la palabra. Escribe la forma en inglés que te piden. Pulsa «Comprobar respuesta» y después «Siguiente pregunta». Si no la sabes, usa la pista.</p>
   <p class="setbar" id="setbar"></p>
 
   <div class="tabs" role="tablist" aria-label="Qué quieres hacer">
@@ -282,7 +282,7 @@ button.play:hover{border-color:var(--acid)}
   </details>
 
   <section id="view-practice" role="tabpanel" aria-labelledby="tab-practice">
-    <p class="steps" id="practice-steps">1. Mira la palabra que aparece abajo. 2. Escribe la forma que falta. 3. Comprueba y pasa a la siguiente.</p>
+    <p class="steps" id="practice-steps">Mira el verbo. Escribe la forma que falta en inglés. Comprueba la respuesta y pasa al siguiente.</p>
     <div class="stats">
       <p>Preguntas: <b id="s-total">0</b> · Aciertos: <b id="s-ok" class="n-ok">0</b> · Fallos: <b id="s-bad" class="n-bad">0</b></p>
       <button class="btn ghost" id="restart" type="button">Empezar de nuevo</button>
@@ -487,7 +487,7 @@ function dirKeys(){var ks=[];for(var i=0;i<VERBS.length;i++){for(var j=0;j<DIRS.
     feedback.className="feedback";
     feedback.innerHTML="";
     nextRow.className="next-row";
-    input.focus();
+    /* Leave the first screen at the instructions. The answer field follows in reading order. */
   }
 
   function playBtn(w,label,fileKey){
