@@ -1,0 +1,152 @@
+{
+  "id": "unit-01-b1",
+  "level": "B1",
+  "topic": "Metas y decisiones",
+  "version": 1,
+  "cards": [
+    {
+      "id": "achieve",
+      "word": "achieve",
+      "es": "lograr",
+      "en": "to succeed in doing something you worked for",
+      "example": "She worked hard to achieve her goal.",
+      "translation": "Trabajó mucho para lograr su objetivo.",
+      "prompt": "She worked hard to ___ her goal.",
+      "choices": [
+        {
+          "label": "achieve",
+          "correct": true
+        },
+        {
+          "label": "improve",
+          "correct": false
+        },
+        {
+          "label": "opportunity",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/achieve"
+    },
+    {
+      "id": "improve",
+      "word": "improve",
+      "es": "mejorar",
+      "en": "to become better or make something better",
+      "example": "Reading every day can improve your English.",
+      "translation": "Leer cada día puede mejorar tu inglés.",
+      "prompt": "Reading every day can ___ your English.",
+      "choices": [
+        {
+          "label": "improve",
+          "correct": true
+        },
+        {
+          "label": "opportunity",
+          "correct": false
+        },
+        {
+          "label": "suggest",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/improve"
+    },
+    {
+      "id": "opportunity",
+      "word": "opportunity",
+      "es": "oportunidad",
+      "en": "a situation in which you can do something you want to do",
+      "example": "This course is an opportunity to learn.",
+      "translation": "Este curso es una oportunidad para aprender.",
+      "prompt": "This course is an ___ to learn.",
+      "choices": [
+        {
+          "label": "opportunity",
+          "correct": true
+        },
+        {
+          "label": "suggest",
+          "correct": false
+        },
+        {
+          "label": "manage",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/opportunity"
+    },
+    {
+      "id": "suggest",
+      "word": "suggest",
+      "es": "sugerir",
+      "en": "to give an idea for someone to consider",
+      "example": "I suggest taking an earlier train.",
+      "translation": "Sugiero coger un tren más temprano.",
+      "prompt": "I ___ taking an earlier train.",
+      "choices": [
+        {
+          "label": "suggest",
+          "correct": true
+        },
+        {
+          "label": "manage",
+          "correct": false
+        },
+        {
+          "label": "avoid",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/suggest"
+    },
+    {
+      "id": "manage",
+      "word": "manage",
+      "es": "conseguir; lograr",
+      "en": "to succeed in doing something difficult",
+      "example": "Did you manage to finish on time?",
+      "translation": "¿Conseguiste terminar a tiempo?",
+      "prompt": "Did you ___ to finish on time?",
+      "choices": [
+        {
+          "label": "manage",
+          "correct": true
+        },
+        {
+          "label": "avoid",
+          "correct": false
+        },
+        {
+          "label": "achieve",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/manage"
+    },
+    {
+      "id": "avoid",
+      "word": "avoid",
+      "es": "evitar",
+      "en": "to keep away from something or prevent it from happening",
+      "example": "Leave early to avoid the traffic.",
+      "translation": "Sal pronto para evitar el tráfico.",
+      "prompt": "Leave early to ___ the traffic.",
+      "choices": [
+        {
+          "label": "avoid",
+          "correct": true
+        },
+        {
+          "label": "achieve",
+          "correct": false
+        },
+        {
+          "label": "improve",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/avoid"
+    }
+  ]
+}
