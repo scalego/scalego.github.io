@@ -2,3 +2,6 @@
 
 /* Six levels and the alternating A1–C2 practice fit without sideways scrolling. */
 .levels{flex-wrap:wrap}.level{flex:0 0 auto}#mixed{min-width:122px}
+
+
+.topic-heading{font-size:18px;margin:22px 0 11px;line-height:1.3}.topics{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:16px}.topic{background:var(--surface);border:1px solid var(--line);border-radius:10px;color:var(--text);padding:12px 15px;min-height:52px;cursor:pointer;text-align:left}.topic[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--base);font-weight:750}.topic:focus-visible{outline:3px solid var(--ok);outline-offset:3px}
