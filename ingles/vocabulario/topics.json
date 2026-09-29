@@ -25,6 +25,18 @@
       ]
     },
     {
+      "id": "comida",
+      "title": "Comida y bebida",
+      "cards": [
+        "apple",
+        "bread",
+        "milk",
+        "rice",
+        "egg",
+        "breakfast"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
