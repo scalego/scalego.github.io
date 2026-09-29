@@ -147,6 +147,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/school"
+    },
+    {
+      "id": "apple",
+      "word": "apple",
+      "es": "manzana",
+      "en": "a round fruit that grows on a tree",
+      "example": "This apple is red.",
+      "translation": "Esta manzana es roja.",
+      "prompt": "This red ___ grows on a tree.",
+      "choices": [
+        {
+          "label": "apple",
+          "correct": true
+        },
+        {
+          "label": "bread",
+          "correct": false
+        },
+        {
+          "label": "milk",
+          "correct": false
+        }
+      ],
+      "source": "https://www.cambridgeenglish.org/Images/wordlists-pre-a1-starters-a1-movers-and-a2-flyers.pdf"
+    },
+    {
+      "id": "bread",
+      "word": "bread",
+      "es": "pan",
+      "en": "food made from flour and baked",
+      "example": "We make sandwiches with bread.",
+      "translation": "Hacemos bocadillos con pan.",
+      "prompt": "We make sandwiches with ___.",
+      "choices": [
+        {
+          "label": "bread",
+          "correct": true
+        },
+        {
+          "label": "milk",
+          "correct": false
+        },
+        {
+          "label": "apple",
+          "correct": false
+        }
+      ],
+      "source": "https://www.cambridgeenglish.org/Images/wordlists-pre-a1-starters-a1-movers-and-a2-flyers.pdf"
+    },
+    {
+      "id": "milk",
+      "word": "milk",
+      "es": "leche",
+      "en": "a white drink that comes from cows",
+      "example": "She puts milk in her tea.",
+      "translation": "Echa leche en el té.",
+      "prompt": "She puts ___ in her tea.",
+      "choices": [
+        {
+          "label": "milk",
+          "correct": true
+        },
+        {
+          "label": "bread",
+          "correct": false
+        },
+        {
+          "label": "egg",
+          "correct": false
+        }
+      ],
+      "source": "https://www.cambridgeenglish.org/Images/wordlists-pre-a1-starters-a1-movers-and-a2-flyers.pdf"
+    },
+    {
+      "id": "rice",
+      "word": "rice",
+      "es": "arroz",
+      "en": "small white grains that you cook and eat",
+      "example": "I eat rice with vegetables.",
+      "translation": "Como arroz con verduras.",
+      "prompt": "I cook ___ and eat it with vegetables.",
+      "choices": [
+        {
+          "label": "rice",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "bread",
+          "correct": false
+        }
+      ],
+      "source": "https://www.cambridgeenglish.org/Images/wordlists-pre-a1-starters-a1-movers-and-a2-flyers.pdf"
+    },
+    {
+      "id": "egg",
+      "word": "egg",
+      "es": "huevo",
+      "en": "a food laid by a hen",
+      "example": "I have an egg for breakfast.",
+      "translation": "Desayuno un huevo.",
+      "prompt": "A hen lays an ___.",
+      "choices": [
+        {
+          "label": "egg",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "bread",
+          "correct": false
+        }
+      ],
+      "source": "https://www.cambridgeenglish.org/Images/wordlists-pre-a1-starters-a1-movers-and-a2-flyers.pdf"
+    },
+    {
+      "id": "breakfast",
+      "word": "breakfast",
+      "es": "desayuno",
+      "en": "the first meal of the day",
+      "example": "I have breakfast at eight.",
+      "translation": "Desayuno a las ocho.",
+      "prompt": "I have ___ before I go to work in the morning.",
+      "choices": [
+        {
+          "label": "breakfast",
+          "correct": true
+        },
+        {
+          "label": "rice",
+          "correct": false
+        },
+        {
+          "label": "milk",
+          "correct": false
+        }
+      ],
+      "source": "https://www.cambridgeenglish.org/Images/wordlists-pre-a1-starters-a1-movers-and-a2-flyers.pdf"
     }
   ]
 }
