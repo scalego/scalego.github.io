@@ -1,8 +1,8 @@
 {
   "id": "unit-01-a2",
   "level": "A2",
-  "topic": "Viajes y planes",
-  "version": 1,
+  "topic": "Vocabulario A2 por temas",
+  "version": 2,
   "cards": [
     {
       "id": "travel",
@@ -147,6 +147,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/ticket"
+    },
+    {
+      "id": "belt",
+      "word": "belt",
+      "es": "cinturón",
+      "en": "a strip worn around the waist",
+      "example": "I wear a brown belt with these trousers.",
+      "translation": "Llevo un cinturón marrón con estos pantalones.",
+      "prompt": "¿Cómo se dice \"cinturón\" en inglés?",
+      "choices": [
+        {
+          "label": "belt",
+          "correct": true
+        },
+        {
+          "label": "sock",
+          "correct": false
+        },
+        {
+          "label": "button",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/belt"
+    },
+    {
+      "id": "button",
+      "word": "button",
+      "es": "botón",
+      "en": "a small object used to fasten clothes",
+      "example": "There is a button missing from my shirt.",
+      "translation": "A mi camisa le falta un botón.",
+      "prompt": "¿Cómo se dice \"botón\" de una camisa en inglés?",
+      "choices": [
+        {
+          "label": "button",
+          "correct": true
+        },
+        {
+          "label": "pocket",
+          "correct": false
+        },
+        {
+          "label": "belt",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/button"
+    },
+    {
+      "id": "pocket",
+      "word": "pocket",
+      "es": "bolsillo",
+      "en": "a small bag sewn into clothes for carrying things",
+      "example": "My keys are in my coat pocket.",
+      "translation": "Mis llaves están en el bolsillo de mi abrigo.",
+      "prompt": "¿Cómo se dice \"bolsillo\" en inglés?",
+      "choices": [
+        {
+          "label": "pocket",
+          "correct": true
+        },
+        {
+          "label": "button",
+          "correct": false
+        },
+        {
+          "label": "suit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/pocket"
+    },
+    {
+      "id": "sock",
+      "word": "sock",
+      "es": "calcetín",
+      "en": "a piece of clothing that covers the foot",
+      "example": "I need a clean sock for my left foot.",
+      "translation": "Necesito un calcetín limpio para el pie izquierdo.",
+      "prompt": "¿Cómo se dice \"calcetín\" en inglés?",
+      "choices": [
+        {
+          "label": "sock",
+          "correct": true
+        },
+        {
+          "label": "belt",
+          "correct": false
+        },
+        {
+          "label": "pocket",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/sock"
+    },
+    {
+      "id": "suit",
+      "word": "suit",
+      "es": "traje",
+      "en": "a jacket and trousers made from the same material",
+      "example": "He wears a suit to the interview.",
+      "translation": "Lleva un traje a la entrevista.",
+      "prompt": "¿Cómo se dice \"traje\" de chaqueta y pantalón en inglés?",
+      "choices": [
+        {
+          "label": "suit",
+          "correct": true
+        },
+        {
+          "label": "sock",
+          "correct": false
+        },
+        {
+          "label": "button",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/suit"
+    },
+    {
+      "id": "clothing",
+      "word": "clothing",
+      "es": "ropa; prendas de vestir",
+      "en": "clothes in general",
+      "example": "This shop sells clothing for adults.",
+      "translation": "Esta tienda vende ropa para adultos.",
+      "prompt": "¿Qué palabra significa \"ropa\" en general?",
+      "choices": [
+        {
+          "label": "clothing",
+          "correct": true
+        },
+        {
+          "label": "pocket",
+          "correct": false
+        },
+        {
+          "label": "belt",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/clothing"
     }
   ]
 }
