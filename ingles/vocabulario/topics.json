@@ -66,6 +66,18 @@
       ]
     },
     {
+      "id": "ropa",
+      "title": "Ropa y accesorios",
+      "cards": [
+        "belt",
+        "button",
+        "pocket",
+        "sock",
+        "suit",
+        "clothing"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
