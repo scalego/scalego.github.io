@@ -1,8 +1,8 @@
 {
   "id": "unit-01-b1",
   "level": "B1",
-  "topic": "Metas y decisiones",
-  "version": 1,
+  "topic": "Vocabulario B1 por temas",
+  "version": 2,
   "cards": [
     {
       "id": "achieve",
@@ -147,6 +147,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/avoid"
+    },
+    {
+      "id": "employment",
+      "word": "employment",
+      "es": "empleo; trabajo remunerado",
+      "en": "paid work",
+      "example": "The new factory provides employment for local people.",
+      "translation": "La nueva fábrica proporciona empleo a la población local.",
+      "prompt": "¿Qué palabra significa \"empleo\" o trabajo remunerado?",
+      "choices": [
+        {
+          "label": "employment",
+          "correct": true
+        },
+        {
+          "label": "qualification",
+          "correct": false
+        },
+        {
+          "label": "application",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/employment"
+    },
+    {
+      "id": "profession",
+      "word": "profession",
+      "es": "profesión",
+      "en": "a type of work that needs special training",
+      "example": "Teaching is a profession that requires training.",
+      "translation": "La docencia es una profesión que requiere formación.",
+      "prompt": "¿Cómo se dice \"profesión\" en inglés?",
+      "choices": [
+        {
+          "label": "profession",
+          "correct": true
+        },
+        {
+          "label": "shift",
+          "correct": false
+        },
+        {
+          "label": "application",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/profession"
+    },
+    {
+      "id": "qualification",
+      "word": "qualification",
+      "es": "título; cualificación",
+      "en": "a certificate gained after completing a course or passing an exam",
+      "example": "This job requires a qualification in nursing.",
+      "translation": "Este puesto requiere una titulación en enfermería.",
+      "prompt": "¿Qué palabra se refiere a un título obtenido tras estudiar o aprobar un examen?",
+      "choices": [
+        {
+          "label": "qualification",
+          "correct": true
+        },
+        {
+          "label": "employment",
+          "correct": false
+        },
+        {
+          "label": "shift",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/qualification"
+    },
+    {
+      "id": "application",
+      "word": "application",
+      "es": "solicitud",
+      "en": "a formal request for a job or a place on a course",
+      "example": "I sent my application for the job yesterday.",
+      "translation": "Envié mi solicitud para el puesto ayer.",
+      "prompt": "¿Qué palabra significa \"solicitud\" para un puesto de trabajo?",
+      "choices": [
+        {
+          "label": "application",
+          "correct": true
+        },
+        {
+          "label": "profession",
+          "correct": false
+        },
+        {
+          "label": "qualification",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/application"
+    },
+    {
+      "id": "shift",
+      "word": "shift",
+      "es": "turno de trabajo",
+      "en": "a period of work in a job where people work at different times",
+      "example": "My night shift starts at ten.",
+      "translation": "Mi turno de noche empieza a las diez.",
+      "prompt": "¿Cómo se dice \"turno de trabajo\" en inglés?",
+      "choices": [
+        {
+          "label": "shift",
+          "correct": true
+        },
+        {
+          "label": "application",
+          "correct": false
+        },
+        {
+          "label": "profession",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/shift"
+    },
+    {
+      "id": "retire",
+      "word": "retire",
+      "es": "jubilarse",
+      "en": "to stop working because of age or health",
+      "example": "My father plans to retire next year.",
+      "translation": "Mi padre tiene previsto jubilarse el año que viene.",
+      "prompt": "¿Cómo se dice \"jubilarse\" en inglés?",
+      "choices": [
+        {
+          "label": "retire",
+          "correct": true
+        },
+        {
+          "label": "improve",
+          "correct": false
+        },
+        {
+          "label": "suggest",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/retire"
     }
   ]
 }
