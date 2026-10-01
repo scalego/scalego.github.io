@@ -107,6 +107,18 @@
       ]
     },
     {
+      "id": "empleo",
+      "title": "Empleo y vida laboral",
+      "cards": [
+        "employment",
+        "profession",
+        "qualification",
+        "application",
+        "shift",
+        "retire"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
