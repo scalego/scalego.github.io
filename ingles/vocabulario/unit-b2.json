@@ -190,7 +190,7 @@
           "correct": false
         },
         {
-          "label": "loan",
+          "label": "insurance",
           "correct": false
         }
       ],
@@ -214,7 +214,7 @@
           "correct": false
         },
         {
-          "label": "budget",
+          "label": "insurance",
           "correct": false
         }
       ],
