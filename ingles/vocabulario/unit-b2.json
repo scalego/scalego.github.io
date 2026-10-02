@@ -1,8 +1,8 @@
 {
   "id": "work-planning-b2",
   "level": "B2",
-  "topic": "Trabajo y planificación",
-  "version": 1,
+  "topic": "Vocabulario B2 por temas",
+  "version": 2,
   "cards": [
     {
       "id": "deadline",
@@ -147,6 +147,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/follow-up"
+    },
+    {
+      "id": "budget",
+      "word": "budget",
+      "es": "presupuesto",
+      "en": "a plan for how much money you will earn and spend",
+      "example": "We need a monthly budget for food and rent.",
+      "translation": "Necesitamos un presupuesto mensual para comida y alquiler.",
+      "prompt": "We need a monthly ___ for food and rent.",
+      "choices": [
+        {
+          "label": "budget",
+          "correct": true
+        },
+        {
+          "label": "debt",
+          "correct": false
+        },
+        {
+          "label": "insurance",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/budget"
+    },
+    {
+      "id": "debt",
+      "word": "debt",
+      "es": "deuda",
+      "en": "money that you owe to a person or a bank",
+      "example": "She is working extra hours to pay off her debt.",
+      "translation": "Ella hace horas extra para pagar su deuda.",
+      "prompt": "She is working extra hours to pay off her ___.",
+      "choices": [
+        {
+          "label": "debt",
+          "correct": true
+        },
+        {
+          "label": "income",
+          "correct": false
+        },
+        {
+          "label": "loan",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/debt"
+    },
+    {
+      "id": "expense",
+      "word": "expense",
+      "es": "gasto",
+      "en": "money that you spend on something",
+      "example": "Travel is our biggest expense this year.",
+      "translation": "Los viajes son nuestro mayor gasto este año.",
+      "prompt": "Travel is our biggest ___ this year.",
+      "choices": [
+        {
+          "label": "expense",
+          "correct": true
+        },
+        {
+          "label": "income",
+          "correct": false
+        },
+        {
+          "label": "budget",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/expense"
+    },
+    {
+      "id": "income",
+      "word": "income",
+      "es": "ingresos",
+      "en": "money that you earn from work or from other sources",
+      "example": "His income is not enough to live in the city.",
+      "translation": "Sus ingresos no son suficientes para vivir en la ciudad.",
+      "prompt": "His ___ is not enough to live in the city.",
+      "choices": [
+        {
+          "label": "income",
+          "correct": true
+        },
+        {
+          "label": "expense",
+          "correct": false
+        },
+        {
+          "label": "insurance",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/income"
+    },
+    {
+      "id": "loan",
+      "word": "loan",
+      "es": "préstamo",
+      "en": "an amount of money that a bank lends you and that you must pay back",
+      "example": "They took a loan to buy a small flat.",
+      "translation": "Pidieron un préstamo para comprar un piso pequeño.",
+      "prompt": "They took a ___ to buy a small flat.",
+      "choices": [
+        {
+          "label": "loan",
+          "correct": true
+        },
+        {
+          "label": "debt",
+          "correct": false
+        },
+        {
+          "label": "budget",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/loan"
+    },
+    {
+      "id": "insurance",
+      "word": "insurance",
+      "es": "seguro",
+      "en": "an agreement to pay a company so that it pays for damage, loss or illness",
+      "example": "Our car insurance covers accidents.",
+      "translation": "Nuestro seguro de coche cubre los accidentes.",
+      "prompt": "Our car ___ covers accidents.",
+      "choices": [
+        {
+          "label": "insurance",
+          "correct": true
+        },
+        {
+          "label": "income",
+          "correct": false
+        },
+        {
+          "label": "expense",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/insurance"
     }
   ]
 }
