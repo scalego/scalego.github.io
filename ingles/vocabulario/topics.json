@@ -148,6 +148,18 @@
       ]
     },
     {
+      "id": "dinero",
+      "title": "Dinero y presupuesto",
+      "cards": [
+        "budget",
+        "debt",
+        "expense",
+        "income",
+        "loan",
+        "insurance"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
