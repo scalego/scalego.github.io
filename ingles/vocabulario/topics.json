@@ -37,6 +37,18 @@
       ]
     },
     {
+      "id": "cuerpo",
+      "title": "El cuerpo",
+      "cards": [
+        "head",
+        "hand",
+        "eye",
+        "foot",
+        "hair",
+        "face"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
