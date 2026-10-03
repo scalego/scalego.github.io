@@ -1,8 +1,8 @@
 {
   "id": "unit-01-a1",
   "level": "A1",
-  "topic": "La vida cotidiana",
-  "version": 1,
+  "topic": "Vocabulario A1 por temas",
+  "version": 2,
   "cards": [
     {
       "id": "family",
@@ -291,6 +291,150 @@
         }
       ],
       "source": "https://www.cambridgeenglish.org/Images/wordlists-pre-a1-starters-a1-movers-and-a2-flyers.pdf"
+    },
+    {
+      "id": "head",
+      "word": "head",
+      "es": "cabeza",
+      "en": "the top part of the body, with the face and brain",
+      "example": "I wear a hat on my head.",
+      "translation": "Llevo un sombrero en la cabeza.",
+      "prompt": "I wear a hat on my ___.",
+      "choices": [
+        {
+          "label": "head",
+          "correct": true
+        },
+        {
+          "label": "hand",
+          "correct": false
+        },
+        {
+          "label": "foot",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/head"
+    },
+    {
+      "id": "hand",
+      "word": "hand",
+      "es": "mano",
+      "en": "the part at the end of your arm that you use to hold things",
+      "example": "Please raise your hand if you have a question.",
+      "translation": "Levanta la mano si tienes una pregunta.",
+      "prompt": "Please raise your ___ if you have a question.",
+      "choices": [
+        {
+          "label": "hand",
+          "correct": true
+        },
+        {
+          "label": "hair",
+          "correct": false
+        },
+        {
+          "label": "face",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/hand"
+    },
+    {
+      "id": "eye",
+      "word": "eye",
+      "es": "ojo",
+      "en": "one of the two parts of the body that you see with",
+      "example": "She cannot see well with her left eye.",
+      "translation": "No ve bien con el ojo izquierdo.",
+      "prompt": "She cannot see well with her left ___.",
+      "choices": [
+        {
+          "label": "eye",
+          "correct": true
+        },
+        {
+          "label": "hand",
+          "correct": false
+        },
+        {
+          "label": "hair",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/eye"
+    },
+    {
+      "id": "foot",
+      "word": "foot",
+      "es": "pie",
+      "en": "the part at the end of your leg that you stand on",
+      "example": "My left foot is cold.",
+      "translation": "Tengo frío en el pie izquierdo.",
+      "prompt": "My left ___ is cold.",
+      "choices": [
+        {
+          "label": "foot",
+          "correct": true
+        },
+        {
+          "label": "head",
+          "correct": false
+        },
+        {
+          "label": "face",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/foot"
+    },
+    {
+      "id": "hair",
+      "word": "hair",
+      "es": "pelo",
+      "en": "the thin threads that grow on your head",
+      "example": "He washes his hair every morning.",
+      "translation": "Se lava el pelo todas las mañanas.",
+      "prompt": "He washes his ___ every morning.",
+      "choices": [
+        {
+          "label": "hair",
+          "correct": true
+        },
+        {
+          "label": "hand",
+          "correct": false
+        },
+        {
+          "label": "eye",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/hair"
+    },
+    {
+      "id": "face",
+      "word": "face",
+      "es": "cara",
+      "en": "the front part of your head, with your eyes, nose and mouth",
+      "example": "He has a big smile on his face.",
+      "translation": "Tiene una gran sonrisa en la cara.",
+      "prompt": "He has a big smile on his ___.",
+      "choices": [
+        {
+          "label": "face",
+          "correct": true
+        },
+        {
+          "label": "foot",
+          "correct": false
+        },
+        {
+          "label": "hair",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/face"
     }
   ]
 }
