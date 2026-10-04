@@ -2,7 +2,7 @@
   "id": "unit-01-a2",
   "level": "A2",
   "topic": "Vocabulario A2 por temas",
-  "version": 2,
+  "version": 3,
   "cards": [
     {
       "id": "travel",
@@ -291,6 +291,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/clothing"
+    },
+    {
+      "id": "cloud",
+      "word": "cloud",
+      "es": "nube",
+      "en": "a grey or white mass in the sky that can bring rain",
+      "example": "There is a big grey cloud over the mountain.",
+      "translation": "Hay una nube gris y grande sobre la montaña.",
+      "prompt": "There is a big grey ___ over the mountain.",
+      "choices": [
+        {
+          "label": "cloud",
+          "correct": true
+        },
+        {
+          "label": "season",
+          "correct": false
+        },
+        {
+          "label": "temperature",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/cloud"
+    },
+    {
+      "id": "storm",
+      "word": "storm",
+      "es": "tormenta",
+      "en": "very bad weather with strong wind and heavy rain",
+      "example": "A strong storm closed the airport last night.",
+      "translation": "Una fuerte tormenta cerró el aeropuerto anoche.",
+      "prompt": "A strong ___ closed the airport last night.",
+      "choices": [
+        {
+          "label": "storm",
+          "correct": true
+        },
+        {
+          "label": "season",
+          "correct": false
+        },
+        {
+          "label": "temperature",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/storm"
+    },
+    {
+      "id": "temperature",
+      "word": "temperature",
+      "es": "temperatura",
+      "en": "how hot or cold a place or thing is",
+      "example": "The temperature today is twenty degrees.",
+      "translation": "La temperatura de hoy es de veinte grados.",
+      "prompt": "The ___ today is twenty degrees.",
+      "choices": [
+        {
+          "label": "temperature",
+          "correct": true
+        },
+        {
+          "label": "cloud",
+          "correct": false
+        },
+        {
+          "label": "season",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/temperature"
+    },
+    {
+      "id": "season",
+      "word": "season",
+      "es": "estación del año",
+      "en": "one of the four parts of the year: spring, summer, autumn or winter",
+      "example": "Summer is my favourite season.",
+      "translation": "El verano es mi estación favorita.",
+      "prompt": "Summer is my favourite ___.",
+      "choices": [
+        {
+          "label": "season",
+          "correct": true
+        },
+        {
+          "label": "cloud",
+          "correct": false
+        },
+        {
+          "label": "storm",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/season"
+    },
+    {
+      "id": "wet",
+      "word": "wet",
+      "es": "mojado; húmedo",
+      "en": "covered with water or another liquid",
+      "example": "My shoes are wet because of the rain.",
+      "translation": "Mis zapatos están mojados por la lluvia.",
+      "prompt": "My shoes are ___ because of the rain.",
+      "choices": [
+        {
+          "label": "wet",
+          "correct": true
+        },
+        {
+          "label": "dry",
+          "correct": false
+        },
+        {
+          "label": "storm",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/wet"
+    },
+    {
+      "id": "dry",
+      "word": "dry",
+      "es": "seco",
+      "en": "not wet; with no water or liquid on it",
+      "example": "The clothes are dry, so you can wear them.",
+      "translation": "La ropa está seca, así que puedes ponértela.",
+      "prompt": "The clothes are ___, so you can wear them.",
+      "choices": [
+        {
+          "label": "dry",
+          "correct": true
+        },
+        {
+          "label": "wet",
+          "correct": false
+        },
+        {
+          "label": "cloud",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/dry"
     }
   ]
 }
