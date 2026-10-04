@@ -90,6 +90,18 @@
       ]
     },
     {
+      "id": "tiempo",
+      "title": "El tiempo y las estaciones",
+      "cards": [
+        "cloud",
+        "storm",
+        "temperature",
+        "season",
+        "wet",
+        "dry"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
