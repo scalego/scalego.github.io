@@ -2,7 +2,7 @@
   "id": "unit-01-b1",
   "level": "B1",
   "topic": "Vocabulario B1 por temas",
-  "version": 2,
+  "version": 3,
   "cards": [
     {
       "id": "achieve",
@@ -291,6 +291,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/retire"
+    },
+    {
+      "id": "symptom",
+      "word": "symptom",
+      "es": "síntoma",
+      "en": "a sign in your body that shows you have an illness",
+      "example": "A high temperature is a common symptom of flu.",
+      "translation": "La fiebre alta es un síntoma común de la gripe.",
+      "prompt": "A high temperature is a common ___ of flu.",
+      "choices": [
+        {
+          "label": "symptom",
+          "correct": true
+        },
+        {
+          "label": "treatment",
+          "correct": false
+        },
+        {
+          "label": "muscle",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/symptom"
+    },
+    {
+      "id": "treatment",
+      "word": "treatment",
+      "es": "tratamiento",
+      "en": "medical care that is given to a person who is ill or hurt",
+      "example": "The hospital gave him free treatment after the accident.",
+      "translation": "El hospital le dio tratamiento gratuito después del accidente.",
+      "prompt": "The hospital gave him free ___ after the accident.",
+      "choices": [
+        {
+          "label": "treatment",
+          "correct": true
+        },
+        {
+          "label": "throat",
+          "correct": false
+        },
+        {
+          "label": "muscle",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/treatment"
+    },
+    {
+      "id": "injured",
+      "word": "injured",
+      "es": "herido; lesionado",
+      "en": "hurt in an accident or attack",
+      "example": "Two players were injured in the match.",
+      "translation": "Dos jugadores resultaron heridos en el partido.",
+      "prompt": "Two players were ___ in the match.",
+      "choices": [
+        {
+          "label": "injured",
+          "correct": true
+        },
+        {
+          "label": "throat",
+          "correct": false
+        },
+        {
+          "label": "muscle",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/injured"
+    },
+    {
+      "id": "painful",
+      "word": "painful",
+      "es": "doloroso",
+      "en": "causing physical pain",
+      "example": "My knee is very painful when I walk.",
+      "translation": "Me duele mucho la rodilla cuando camino.",
+      "prompt": "My knee is very ___ when I walk.",
+      "choices": [
+        {
+          "label": "painful",
+          "correct": true
+        },
+        {
+          "label": "muscle",
+          "correct": false
+        },
+        {
+          "label": "throat",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/painful"
+    },
+    {
+      "id": "muscle",
+      "word": "muscle",
+      "es": "músculo",
+      "en": "a part of the body that is joined to bones and makes you move",
+      "example": "I pulled a muscle when I was running.",
+      "translation": "Me desgarré un músculo mientras corría.",
+      "prompt": "I pulled a ___ when I was running.",
+      "choices": [
+        {
+          "label": "muscle",
+          "correct": true
+        },
+        {
+          "label": "throat",
+          "correct": false
+        },
+        {
+          "label": "symptom",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/muscle"
+    },
+    {
+      "id": "throat",
+      "word": "throat",
+      "es": "garganta",
+      "en": "the back part of the mouth and the tube that goes down inside the neck",
+      "example": "The doctor looked in my throat with a small light.",
+      "translation": "El médico me miró la garganta con una pequeña luz.",
+      "prompt": "The doctor looked in my ___ with a small light.",
+      "choices": [
+        {
+          "label": "throat",
+          "correct": true
+        },
+        {
+          "label": "muscle",
+          "correct": false
+        },
+        {
+          "label": "symptom",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/throat"
     }
   ]
 }
