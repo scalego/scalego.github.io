@@ -143,6 +143,18 @@
       ]
     },
     {
+      "id": "salud",
+      "title": "Salud y cuerpo",
+      "cards": [
+        "symptom",
+        "treatment",
+        "injured",
+        "painful",
+        "muscle",
+        "throat"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
