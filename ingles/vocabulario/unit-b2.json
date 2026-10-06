@@ -2,7 +2,7 @@
   "id": "work-planning-b2",
   "level": "B2",
   "topic": "Vocabulario B2 por temas",
-  "version": 2,
+  "version": 3,
   "cards": [
     {
       "id": "deadline",
@@ -291,6 +291,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/insurance"
+    },
+    {
+      "id": "adapt",
+      "word": "adapt",
+      "es": "adaptarse",
+      "en": "to change so that you fit a new situation",
+      "example": "It took her a month to adapt to the new job.",
+      "translation": "Tardó un mes en adaptarse al nuevo trabajo.",
+      "prompt": "It took her a month to ___ to the new job.",
+      "choices": [
+        {
+          "label": "adapt",
+          "correct": true
+        },
+        {
+          "label": "alter",
+          "correct": false
+        },
+        {
+          "label": "decrease",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/adapt"
+    },
+    {
+      "id": "alter",
+      "word": "alter",
+      "es": "modificar; cambiar",
+      "en": "to make something different, usually a little",
+      "example": "We had to alter our plans because of the rain.",
+      "translation": "Tuvimos que cambiar nuestros planes por la lluvia.",
+      "prompt": "We had to ___ our plans because of the rain.",
+      "choices": [
+        {
+          "label": "alter",
+          "correct": true
+        },
+        {
+          "label": "adopt",
+          "correct": false
+        },
+        {
+          "label": "decrease",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/alter"
+    },
+    {
+      "id": "transform",
+      "word": "transform",
+      "es": "transformar",
+      "en": "to change something completely",
+      "example": "The new park will transform the neighbourhood.",
+      "translation": "El nuevo parque transformará el barrio.",
+      "prompt": "The new park will ___ the neighbourhood.",
+      "choices": [
+        {
+          "label": "transform",
+          "correct": true
+        },
+        {
+          "label": "decrease",
+          "correct": false
+        },
+        {
+          "label": "adopt",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/transform"
+    },
+    {
+      "id": "adopt",
+      "word": "adopt",
+      "es": "adoptar",
+      "en": "to start to use a new idea, method or plan",
+      "example": "The school decided to adopt a new timetable.",
+      "translation": "El colegio decidió adoptar un nuevo horario.",
+      "prompt": "The school decided to ___ a new timetable.",
+      "choices": [
+        {
+          "label": "adopt",
+          "correct": true
+        },
+        {
+          "label": "adapt",
+          "correct": false
+        },
+        {
+          "label": "decrease",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/adopt"
+    },
+    {
+      "id": "modify",
+      "word": "modify",
+      "es": "modificar",
+      "en": "to change something a little to make it better or more suitable",
+      "example": "They modified the recipe to make it healthier.",
+      "translation": "Modificaron la receta para hacerla más sana.",
+      "prompt": "They ___ the recipe to make it healthier.",
+      "choices": [
+        {
+          "label": "modify",
+          "correct": true
+        },
+        {
+          "label": "adopt",
+          "correct": false
+        },
+        {
+          "label": "decrease",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/modify"
+    },
+    {
+      "id": "decrease",
+      "word": "decrease",
+      "es": "disminuir; reducir",
+      "en": "to become less, or to make something less",
+      "example": "The number of visitors began to decrease in autumn.",
+      "translation": "El número de visitantes empezó a disminuir en otoño.",
+      "prompt": "The number of visitors began to ___ in autumn.",
+      "choices": [
+        {
+          "label": "decrease",
+          "correct": true
+        },
+        {
+          "label": "transform",
+          "correct": false
+        },
+        {
+          "label": "adapt",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/decrease"
     }
   ]
 }
