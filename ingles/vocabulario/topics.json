@@ -237,6 +237,18 @@
       ]
     },
     {
+      "id": "recursos",
+      "title": "Gestión y recursos",
+      "cards": [
+        "allocate",
+        "audit",
+        "deficit",
+        "transparency",
+        "subsidy",
+        "accountability"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
