@@ -2,7 +2,7 @@
   "id": "work-decisions-c1",
   "level": "C1",
   "topic": "Trabajo y decisiones",
-  "version": 1,
+  "version": 2,
   "cards": [
     {
       "id": "setback",
@@ -147,6 +147,394 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/bottleneck"
+    },
+    {
+      "id": "allocate",
+      "word": "allocate",
+      "es": "asignar; destinar recursos",
+      "en": "to give time, money or resources for a particular purpose",
+      "example": "We will allocate two hours to staff training.",
+      "translation": "Destinaremos dos horas a la formación del personal.",
+      "prompt": "We will ___ two hours to staff training.",
+      "choices": [
+        {
+          "label": "allocate",
+          "correct": true
+        },
+        {
+          "label": "audit",
+          "correct": false
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/allocate"
+    },
+    {
+      "id": "audit",
+      "word": "audit",
+      "es": "auditoría; revisión oficial de las cuentas",
+      "en": "an official examination of financial records",
+      "example": "An independent audit will check whether the accounts are accurate.",
+      "translation": "Una auditoría independiente comprobará si las cuentas son correctas.",
+      "prompt": "An independent ___ will check whether the accounts are accurate.",
+      "choices": [
+        {
+          "label": "audit",
+          "correct": true
+        },
+        {
+          "label": "surplus",
+          "correct": false
+        },
+        {
+          "label": "deficit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/audit"
+    },
+    {
+      "id": "deficit",
+      "word": "deficit",
+      "es": "déficit; diferencia cuando se gasta más de lo que se ingresa",
+      "en": "the amount by which spending is greater than income",
+      "example": "Spending exceeded income, leaving a deficit of €5,000.",
+      "translation": "Los gastos superaron los ingresos y dejaron un déficit de 5.000 €.",
+      "prompt": "Spending exceeded income, leaving a ___ of €5,000.",
+      "choices": [
+        {
+          "label": "deficit",
+          "correct": true
+        },
+        {
+          "label": "surplus",
+          "correct": false
+        },
+        {
+          "label": "audit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/deficit"
+    },
+    {
+      "id": "allocation",
+      "word": "allocation",
+      "es": "asignación; reparto de recursos",
+      "en": "the process of giving resources to particular people or purposes",
+      "example": "The allocation of funds determines how much each department receives.",
+      "translation": "El reparto de fondos determina cuánto recibe cada departamento.",
+      "prompt": "The ___ of funds determines how much each department receives.",
+      "choices": [
+        {
+          "label": "allocation",
+          "correct": true
+        },
+        {
+          "label": "deficit",
+          "correct": false
+        },
+        {
+          "label": "audit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/allocation"
+  "id": "work-decisions-c1",
+  "level": "C1",
+  "topic": "Trabajo y decisiones",
+  "version": 2,
+  "cards": [
+    {
+      "id": "setback",
+      "word": "setback",
+      "es": "contratiempo; revés",
+      "en": "an unexpected problem that delays progress",
+      "example": "The launch hit a setback, so we moved it to Friday.",
+      "translation": "El lanzamiento sufrió un contratiempo, así que lo pasamos al viernes.",
+      "prompt": "The launch hit a ___, so we moved it to Friday.",
+      "choices": [
+        {
+          "label": "setback",
+          "correct": true
+        },
+        {
+          "label": "deadline",
+          "correct": false
+        },
+        {
+          "label": "oversight",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/setback"
+    },
+    {
+      "id": "mitigate",
+      "word": "mitigate",
+      "es": "mitigar; reducir el impacto",
+      "en": "to make something harmful less severe",
+      "example": "We added a backup to mitigate the risk of losing data.",
+      "translation": "Añadimos una copia de seguridad para reducir el riesgo de perder datos.",
+      "prompt": "We added a backup to ___ the risk of losing data.",
+      "choices": [
+        {
+          "label": "mitigate",
+          "correct": true
+        },
+        {
+          "label": "allocate",
+          "correct": false
+        },
+        {
+          "label": "overlook",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/mitigate"
+    },
+    {
+      "id": "discrepancy",
+      "word": "discrepancy",
+      "es": "discrepancia; diferencia que no cuadra",
+      "en": "a difference between things that should agree",
+      "example": "There is a discrepancy between the invoice and the quote.",
+      "translation": "Hay una discrepancia entre la factura y el presupuesto.",
+      "prompt": "There is a ___ between the invoice and the quote.",
+      "choices": [
+        {
+          "label": "discrepancy",
+          "correct": true
+        },
+        {
+          "label": "milestone",
+          "correct": false
+        },
+        {
+          "label": "workload",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/discrepancy"
+    },
+    {
+      "id": "contingency",
+      "word": "contingency",
+      "es": "imprevisto; posibilidad para la que conviene prepararse",
+      "en": "a possible future event that needs a plan",
+      "example": "We have a contingency plan if the supplier is late.",
+      "translation": "Tenemos un plan para imprevistos por si el proveedor se retrasa.",
+      "prompt": "We have a ___ plan if the supplier is late.",
+      "choices": [
+        {
+          "label": "contingency",
+          "correct": true
+        },
+        {
+          "label": "routine",
+          "correct": false
+        },
+        {
+          "label": "casual",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/contingency"
+    },
+    {
+      "id": "oversight",
+      "word": "oversight",
+      "es": "descuido; error por omisión",
+      "en": "a mistake made by failing to notice something",
+      "example": "The missing attachment was an oversight, not a change of plan.",
+      "translation": "El adjunto que faltaba fue un descuido, no un cambio de plan.",
+      "prompt": "The missing attachment was an ___, not a change of plan.",
+      "choices": [
+        {
+          "label": "oversight",
+          "correct": true
+        },
+        {
+          "label": "outcome",
+          "correct": false
+        },
+        {
+          "label": "estimate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/oversight"
+    },
+    {
+      "id": "bottleneck",
+      "word": "bottleneck",
+      "es": "cuello de botella",
+      "en": "a point that slows down a process",
+      "example": "The approval step has become a bottleneck for the whole team.",
+      "translation": "La fase de aprobación se ha convertido en un cuello de botella para todo el equipo.",
+      "prompt": "The approval step has become a ___ for the whole team.",
+      "choices": [
+        {
+          "label": "bottleneck",
+          "correct": true
+        },
+        {
+          "label": "shortcut",
+          "correct": false
+        },
+        {
+          "label": "benefit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/bottleneck"
+    },
+    {
+      "id": "allocate",
+      "word": "allocate",
+      "es": "asignar; destinar recursos",
+      "en": "to give time, money or resources for a particular purpose",
+      "example": "We will allocate two hours to staff training.",
+      "translation": "Destinaremos dos horas a la formación del personal.",
+      "prompt": "We will ___ two hours to staff training.",
+      "choices": [
+        {
+          "label": "allocate",
+          "correct": true
+        },
+        {
+          "label": "audit",
+          "correct": false
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/allocate"
+    },
+    {
+      "id": "audit",
+      "word": "audit",
+      "es": "auditoría; revisión oficial de las cuentas",
+      "en": "an official examination of financial records",
+      "example": "An independent audit will check whether the accounts are accurate.",
+      "translation": "Una auditoría independiente comprobará si las cuentas son correctas.",
+      "prompt": "An independent ___ will check whether the accounts are accurate.",
+      "choices": [
+        {
+          "label": "audit",
+          "correct": true
+        },
+        {
+          "label": "surplus",
+          "correct": false
+        },
+        {
+          "label": "deficit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/audit"
+    },
+    {
+      "id": "deficit",
+      "word": "deficit",
+      "es": "déficit; diferencia cuando se gasta más de lo que se ingresa",
+      "en": "the amount by which spending is greater than income",
+      "example": "Spending exceeded income, leaving a deficit of €5,000.",
+      "translation": "Los gastos superaron los ingresos y dejaron un déficit de 5.000 €.",
+      "prompt": "Spending exceeded income, leaving a ___ of €5,000.",
+      "choices": [
+        {
+          "label": "deficit",
+          "correct": true
+        },
+        {
+          "label": "surplus",
+          "correct": false
+        },
+        {
+          "label": "audit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/deficit"
+    },
+    {
+      "id": "transparency",
+      "word": "transparency",
+      "es": "transparencia; claridad sin ocultar información",
+      "en": "the quality of being open about activities without keeping secrets",
+      "example": "Publishing the full accounts improves transparency in public spending.",
+      "translation": "Publicar las cuentas completas mejora la transparencia del gasto público.",
+      "prompt": "Publishing the full accounts improves ___ in public spending.",
+      "choices": [
+        {
+          "label": "transparency",
+          "correct": true
+        },
+        {
+          "label": "deficit",
+          "correct": false
+        },
+        {
+          "label": "subsidy",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/transparency"
+    },
+    {
+      "id": "subsidy",
+      "word": "subsidy",
+      "es": "subvención; ayuda económica",
+      "en": "money given to help pay for something or encourage an activity",
+      "example": "The government paid a subsidy to help farmers buy new equipment.",
+      "translation": "El Gobierno pagó una subvención para ayudar a los agricultores a comprar maquinaria nueva.",
+      "prompt": "The government paid a ___ to help farmers buy new equipment.",
+      "choices": [
+        {
+          "label": "subsidy",
+          "correct": true
+        },
+        {
+          "label": "deficit",
+          "correct": false
+        },
+        {
+          "label": "audit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/subsidy"
+    },
+    {
+      "id": "accountability",
+      "word": "accountability",
+      "es": "rendición de cuentas; obligación de explicar las propias decisiones",
+      "en": "being responsible for your actions and able to explain them",
+      "example": "Publishing how public money is spent improves accountability.",
+      "translation": "Publicar cómo se gasta el dinero público mejora la rendición de cuentas.",
+      "prompt": "Publishing how public money is spent improves ___.",
+      "choices": [
+        {
+          "label": "accountability",
+          "correct": true
+        },
+        {
+          "label": "subsidy",
+          "correct": false
+        },
+        {
+          "label": "deficit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/accountability"
     }
   ]
-}
+    }
