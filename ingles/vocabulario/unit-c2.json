@@ -2,7 +2,7 @@
   "id": "unit-01-c2",
   "level": "C2",
   "topic": "Expresión avanzada",
-  "version": 1,
+  "version": 2,
   "cards": [
     {
       "id": "ubiquitous",
@@ -147,6 +147,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/obfuscate"
+    },
+    {
+      "id": "elated",
+      "word": "elated",
+      "es": "eufórico; muy feliz por una buena noticia o un logro",
+      "en": "extremely happy and excited because something good has happened",
+      "example": "After winning the scholarship, she felt elated and celebrated with her family.",
+      "translation": "Tras conseguir la beca, se sintió eufórica y lo celebró con su familia.",
+      "prompt": "After winning the scholarship, she felt ___ and celebrated with her family.",
+      "choices": [
+        {
+          "label": "elated",
+          "correct": true
+        },
+        {
+          "label": "disillusioned",
+          "correct": false
+        },
+        {
+          "label": "perfunctory",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/us/dictionary/english/elated"
+    },
+    {
+      "id": "disillusioned",
+      "word": "disillusioned",
+      "es": "desilusionado al descubrir que algo no era como esperabas",
+      "en": "disappointed after discovering the truth about someone or something you admired",
+      "example": "She became disillusioned with the organisation after discovering its empty promises.",
+      "translation": "Se desilusionó con la organización al descubrir que sus promesas eran vacías.",
+      "prompt": "She became ___ with the organisation after discovering its empty promises.",
+      "choices": [
+        {
+          "label": "disillusioned",
+          "correct": true
+        },
+        {
+          "label": "elated",
+          "correct": false
+        },
+        {
+          "label": "ubiquitous",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/disillusioned"
+    },
+    {
+      "id": "resentment",
+      "word": "resentment",
+      "es": "resentimiento; enfado que persiste por una situación no deseada o injusta",
+      "en": "anger about something you have been forced to accept",
+      "example": "Being forced to work unpaid overtime caused resentment among the staff.",
+      "translation": "Tener que hacer horas extra sin cobrar provocó resentimiento entre el personal.",
+      "prompt": "Being forced to work unpaid overtime caused ___ among the staff.",
+      "choices": [
+        {
+          "label": "resentment",
+          "correct": true
+        },
+        {
+          "label": "nostalgia",
+          "correct": false
+        },
+        {
+          "label": "audit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/resentment"
+    },
+    {
+      "id": "remorse",
+      "word": "remorse",
+      "es": "remordimiento; pesar por algo malo que has hecho",
+      "en": "sadness and regret about something you have done",
+      "example": "He felt remorse for lying to his friend and apologised sincerely.",
+      "translation": "Sintió remordimiento por haber mentido a su amigo y se disculpó sinceramente.",
+      "prompt": "He felt ___ for lying to his friend and apologised sincerely.",
+      "choices": [
+        {
+          "label": "remorse",
+          "correct": true
+        },
+        {
+          "label": "nostalgia",
+          "correct": false
+        },
+        {
+          "label": "subsidy",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/remorse"
+    },
+    {
+      "id": "nostalgia",
+      "word": "nostalgia",
+      "es": "nostalgia; alegría y algo de tristeza al recordar el pasado",
+      "en": "pleasure mixed with slight sadness when remembering the past",
+      "example": "The old family photos filled her with nostalgia for her childhood.",
+      "translation": "Las antiguas fotos familiares la llenaron de nostalgia por su infancia.",
+      "prompt": "The old family photos filled her with ___ for her childhood.",
+      "choices": [
+        {
+          "label": "nostalgia",
+          "correct": true
+        },
+        {
+          "label": "deficit",
+          "correct": false
+        },
+        {
+          "label": "accountability",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/nostalgia"
+    },
+    {
+      "id": "dismay",
+      "word": "dismay",
+      "es": "consternación; disgusto o decepción ante algo inesperado",
+      "en": "unhappiness and disappointment at an unwelcome event",
+      "example": "To his dismay, he discovered that the exam had been brought forward by a month.",
+      "translation": "Para su consternación, descubrió que el examen se había adelantado un mes.",
+      "prompt": "To his ___, he discovered that the exam had been brought forward by a month.",
+      "choices": [
+        {
+          "label": "dismay",
+          "correct": true
+        },
+        {
+          "label": "elated",
+          "correct": false
+        },
+        {
+          "label": "transparency",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/dismay"
     }
   ]
 }
