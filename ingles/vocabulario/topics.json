@@ -278,6 +278,18 @@
       ]
     },
     {
+      "id": "emociones",
+      "title": "Emociones y reacciones",
+      "cards": [
+        "elated",
+        "disillusioned",
+        "resentment",
+        "remorse",
+        "nostalgia",
+        "dismay"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
@@ -287,4 +299,4 @@
       ]
     }
   ]
-}
+        }
