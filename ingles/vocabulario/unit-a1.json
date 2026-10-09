@@ -2,7 +2,7 @@
   "id": "unit-01-a1",
   "level": "A1",
   "topic": "Vocabulario A1 por temas",
-  "version": 2,
+  "version": 3,
   "cards": [
     {
       "id": "family",
@@ -435,6 +435,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/face"
+    },
+    {
+      "id": "bus",
+      "word": "bus",
+      "es": "autobús",
+      "en": "a large vehicle that carries passengers by road",
+      "example": "I take the bus to work every morning.",
+      "translation": "Voy al trabajo en autobús todas las mañanas.",
+      "prompt": "I take the ___ to work every morning.",
+      "choices": [
+        {
+          "label": "bus",
+          "correct": true
+        },
+        {
+          "label": "station",
+          "correct": false
+        },
+        {
+          "label": "street",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/bus"
+    },
+    {
+      "id": "train",
+      "word": "train",
+      "es": "tren",
+      "en": "a railway vehicle that carries people or goods",
+      "example": "The train travels on rails.",
+      "translation": "El tren circula por raíles.",
+      "prompt": "The ___ travels on rails.",
+      "choices": [
+        {
+          "label": "train",
+          "correct": true
+        },
+        {
+          "label": "car",
+          "correct": false
+        },
+        {
+          "label": "bus",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/train"
+    },
+    {
+      "id": "car",
+      "word": "car",
+      "es": "coche",
+      "en": "a road vehicle with four wheels for a small number of people",
+      "example": "My car has four wheels and five seats.",
+      "translation": "Mi coche tiene cuatro ruedas y cinco asientos.",
+      "prompt": "My ___ has four wheels and five seats.",
+      "choices": [
+        {
+          "label": "car",
+          "correct": true
+        },
+        {
+          "label": "train",
+          "correct": false
+        },
+        {
+          "label": "station",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/car"
+    },
+    {
+      "id": "street",
+      "word": "street",
+      "es": "calle",
+      "en": "a road in a town or city with buildings along it",
+      "example": "There are shops on this street.",
+      "translation": "Hay tiendas en esta calle.",
+      "prompt": "There are shops on this ___.",
+      "choices": [
+        {
+          "label": "street",
+          "correct": true
+        },
+        {
+          "label": "car",
+          "correct": false
+        },
+        {
+          "label": "bus",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/street"
+    },
+    {
+      "id": "station",
+      "word": "station",
+      "es": "estación de tren o autobús",
+      "en": "a place where trains or buses stop for passengers",
+      "example": "We wait for the train at the station.",
+      "translation": "Esperamos el tren en la estación.",
+      "prompt": "We wait for the train at the ___.",
+      "choices": [
+        {
+          "label": "station",
+          "correct": true
+        },
+        {
+          "label": "car",
+          "correct": false
+        },
+        {
+          "label": "water",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/station"
+    },
+    {
+      "id": "road",
+      "word": "road",
+      "es": "carretera; vía para vehículos",
+      "en": "a hard surface built for vehicles to travel along",
+      "example": "This road connects the two towns.",
+      "translation": "Esta carretera conecta las dos localidades.",
+      "prompt": "This ___ connects the two towns.",
+      "choices": [
+        {
+          "label": "road",
+          "correct": true
+        },
+        {
+          "label": "station",
+          "correct": false
+        },
+        {
+          "label": "house",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/road"
     }
   ]
 }
