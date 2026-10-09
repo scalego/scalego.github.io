@@ -49,6 +49,18 @@
       ]
     },
     {
+      "id": "transporte",
+      "title": "Transporte y calles",
+      "cards": [
+        "bus",
+        "train",
+        "car",
+        "street",
+        "station",
+        "road"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
@@ -299,4 +311,4 @@
       ]
     }
   ]
-        }
+}
