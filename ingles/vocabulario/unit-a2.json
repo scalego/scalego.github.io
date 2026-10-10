@@ -2,7 +2,7 @@
   "id": "unit-01-a2",
   "level": "A2",
   "topic": "Vocabulario A2 por temas",
-  "version": 3,
+  "version": 4,
   "cards": [
     {
       "id": "travel",
@@ -435,6 +435,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/dry"
+    },
+    {
+      "id": "fridge",
+      "word": "fridge",
+      "es": "frigorífico; nevera",
+      "en": "a piece of equipment that keeps food cold",
+      "example": "Put the milk in the fridge to keep it cold.",
+      "translation": "Pon la leche en el frigorífico para mantenerla fría.",
+      "prompt": "Put the milk in the ___ to keep it cold.",
+      "choices": [
+        {
+          "label": "fridge",
+          "correct": true
+        },
+        {
+          "label": "cupboard",
+          "correct": false
+        },
+        {
+          "label": "bowl",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/fridge"
+    },
+    {
+      "id": "fork",
+      "word": "fork",
+      "es": "tenedor",
+      "en": "a small object with points used for picking up food",
+      "example": "This fork has four points for picking up food.",
+      "translation": "Este tenedor tiene cuatro puntas para coger comida.",
+      "prompt": "This ___ has four points for picking up food.",
+      "choices": [
+        {
+          "label": "fork",
+          "correct": true
+        },
+        {
+          "label": "spoon",
+          "correct": false
+        },
+        {
+          "label": "fridge",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/fork"
+    },
+    {
+      "id": "spoon",
+      "word": "spoon",
+      "es": "cuchara",
+      "en": "an object with a handle and a hollow rounded part for food",
+      "example": "I eat my soup with a spoon.",
+      "translation": "Me tomo la sopa con una cuchara.",
+      "prompt": "I eat my soup with a ___.",
+      "choices": [
+        {
+          "label": "spoon",
+          "correct": true
+        },
+        {
+          "label": "fork",
+          "correct": false
+        },
+        {
+          "label": "cupboard",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/spoon"
+    },
+    {
+      "id": "bowl",
+      "word": "bowl",
+      "es": "cuenco; bol",
+      "en": "a deep round container for food",
+      "example": "She eats cereal from a bowl.",
+      "translation": "Come cereales en un cuenco.",
+      "prompt": "She eats cereal from a ___.",
+      "choices": [
+        {
+          "label": "bowl",
+          "correct": true
+        },
+        {
+          "label": "cooker",
+          "correct": false
+        },
+        {
+          "label": "fork",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/bowl"
+    },
+    {
+      "id": "cupboard",
+      "word": "cupboard",
+      "es": "armario; mueble para guardar cosas",
+      "en": "a piece of furniture with doors and shelves for storing things",
+      "example": "We keep clean dishes on the shelves inside the cupboard.",
+      "translation": "Guardamos los platos limpios en los estantes del armario.",
+      "prompt": "We keep clean dishes on the shelves inside the ___.",
+      "choices": [
+        {
+          "label": "cupboard",
+          "correct": true
+        },
+        {
+          "label": "bowl",
+          "correct": false
+        },
+        {
+          "label": "spoon",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/cupboard"
+    },
+    {
+      "id": "cooker",
+      "word": "cooker",
+      "es": "cocina; aparato para cocinar (inglés británico)",
+      "en": "a large kitchen appliance used to cook and heat food",
+      "example": "The gas cooker has an oven and four burners.",
+      "translation": "La cocina de gas tiene un horno y cuatro quemadores.",
+      "prompt": "The gas ___ has an oven and four burners.",
+      "choices": [
+        {
+          "label": "cooker",
+          "correct": true
+        },
+        {
+          "label": "fridge",
+          "correct": false
+        },
+        {
+          "label": "cupboard",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/cooker"
     }
   ]
 }
