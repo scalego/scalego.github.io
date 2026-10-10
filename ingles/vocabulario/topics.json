@@ -114,6 +114,18 @@
       ]
     },
     {
+      "id": "cocina",
+      "title": "En la cocina",
+      "cards": [
+        "fridge",
+        "fork",
+        "spoon",
+        "bowl",
+        "cupboard",
+        "cooker"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
