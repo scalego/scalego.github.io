@@ -2,7 +2,7 @@
   "id": "unit-01-b1",
   "level": "B1",
   "topic": "Vocabulario B1 por temas",
-  "version": 3,
+  "version": 4,
   "cards": [
     {
       "id": "achieve",
@@ -435,6 +435,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/throat"
+    },
+    {
+      "id": "recycle",
+      "word": "recycle",
+      "es": "reciclar",
+      "en": "to collect and process used materials so they can be used again",
+      "example": "We recycle old bottles to make new glass.",
+      "translation": "Reciclamos botellas usadas para fabricar vidrio nuevo.",
+      "prompt": "We ___ old bottles to make new glass.",
+      "choices": [
+        {
+          "label": "recycle",
+          "correct": true
+        },
+        {
+          "label": "pollute",
+          "correct": false
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/recycle"
+    },
+    {
+      "id": "pollution",
+      "word": "pollution",
+      "es": "contaminación",
+      "en": "damage to air, water or land caused by harmful substances",
+      "example": "Smoke from factories causes air pollution.",
+      "translation": "El humo de las fábricas provoca contaminación del aire.",
+      "prompt": "Smoke from factories causes air ___.",
+      "choices": [
+        {
+          "label": "pollution",
+          "correct": true
+        },
+        {
+          "label": "treatment",
+          "correct": false
+        },
+        {
+          "label": "qualification",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/pollution"
+    },
+    {
+      "id": "environment",
+      "word": "environment",
+      "es": "medio ambiente",
+      "en": "the air, water and land where people, animals and plants live",
+      "example": "Clean air and water are important for the environment.",
+      "translation": "El aire y el agua limpios son importantes para el medio ambiente.",
+      "prompt": "Clean air and water are important for the ___.",
+      "choices": [
+        {
+          "label": "environment",
+          "correct": true
+        },
+        {
+          "label": "application",
+          "correct": false
+        },
+        {
+          "label": "deadline",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/environment"
+    },
+    {
+      "id": "waste",
+      "word": "waste",
+      "es": "residuos; material que ya no se necesita",
+      "en": "unwanted material left after something has been used",
+      "example": "The factory sends its waste to a recycling centre.",
+      "translation": "La fábrica envía sus residuos a un centro de reciclaje.",
+      "prompt": "The factory sends its ___ to a recycling centre.",
+      "choices": [
+        {
+          "label": "waste",
+          "correct": true
+        },
+        {
+          "label": "income",
+          "correct": false
+        },
+        {
+          "label": "symptom",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/waste"
+    },
+    {
+      "id": "protect",
+      "word": "protect",
+      "es": "proteger",
+      "en": "to keep someone or something safe from damage or harm",
+      "example": "We must protect the river from harmful chemicals.",
+      "translation": "Debemos proteger el río de las sustancias químicas dañinas.",
+      "prompt": "We must ___ the river from harmful chemicals.",
+      "choices": [
+        {
+          "label": "protect",
+          "correct": true
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        },
+        {
+          "label": "invite",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/protect"
+    },
+    {
+      "id": "energy",
+      "word": "energy",
+      "es": "energía",
+      "en": "power used to provide heat or light or to make machines work",
+      "example": "The sun provides energy for these solar panels.",
+      "translation": "El sol proporciona energía a estos paneles solares.",
+      "prompt": "The sun provides ___ for these solar panels.",
+      "choices": [
+        {
+          "label": "energy",
+          "correct": true
+        },
+        {
+          "label": "pollution",
+          "correct": false
+        },
+        {
+          "label": "insurance",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/energy"
     }
   ]
 }
