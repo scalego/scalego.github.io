@@ -244,6 +244,18 @@
       ]
     },
     {
+      "id": "argumentos",
+      "title": "Pruebas y argumentos",
+      "cards": [
+        "evidence",
+        "claim",
+        "assume",
+        "estimate",
+        "assess",
+        "justify"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
