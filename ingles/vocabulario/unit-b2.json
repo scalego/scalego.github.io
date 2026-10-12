@@ -2,7 +2,7 @@
   "id": "work-planning-b2",
   "level": "B2",
   "topic": "Vocabulario B2 por temas",
-  "version": 3,
+  "version": 4,
   "cards": [
     {
       "id": "deadline",
@@ -435,6 +435,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/decrease"
+    },
+    {
+      "id": "evidence",
+      "word": "evidence",
+      "es": "pruebas; datos que apoyan que algo es cierto",
+      "en": "facts or information that give reason to believe something is true",
+      "example": "The photos provide evidence that the bridge is damaged.",
+      "translation": "Las fotos aportan pruebas de que el puente está dañado.",
+      "prompt": "The photos provide ___ that the bridge is damaged.",
+      "choices": [
+        {
+          "label": "evidence",
+          "correct": true
+        },
+        {
+          "label": "insurance",
+          "correct": false
+        },
+        {
+          "label": "workload",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/evidence"
+    },
+    {
+      "id": "claim",
+      "word": "claim",
+      "es": "afirmar algo que no se ha demostrado",
+      "en": "to say something is true although it may not be proved",
+      "example": "They claim the product works, but they have not shown any proof.",
+      "translation": "Afirman que el producto funciona, pero no han mostrado ninguna prueba.",
+      "prompt": "They ___ the product works, but they have not shown any proof.",
+      "choices": [
+        {
+          "label": "claim",
+          "correct": true
+        },
+        {
+          "label": "allocate",
+          "correct": false
+        },
+        {
+          "label": "recycle",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/claim"
+    },
+    {
+      "id": "assume",
+      "word": "assume",
+      "es": "suponer; dar por cierto sin pruebas",
+      "en": "to accept something as true without proof",
+      "example": "Do not assume that an email is genuine without checking the sender.",
+      "translation": "No des por hecho que un correo es auténtico sin comprobar quién lo envía.",
+      "prompt": "Do not ___ that an email is genuine without checking the sender.",
+      "choices": [
+        {
+          "label": "assume",
+          "correct": true
+        },
+        {
+          "label": "modify",
+          "correct": false
+        },
+        {
+          "label": "justify",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/assume"
+    },
+    {
+      "id": "estimate",
+      "word": "estimate",
+      "es": "estimar; calcular de forma aproximada",
+      "en": "to calculate approximately the cost, size or amount of something",
+      "example": "We estimate that the repairs will cost about €500.",
+      "translation": "Calculamos que las reparaciones costarán unos 500 €.",
+      "prompt": "We ___ that the repairs will cost about €500.",
+      "choices": [
+        {
+          "label": "estimate",
+          "correct": true
+        },
+        {
+          "label": "recycle",
+          "correct": false
+        },
+        {
+          "label": "allocate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/estimate"
+    },
+    {
+      "id": "assess",
+      "word": "assess",
+      "es": "evaluar; valorar",
+      "en": "to judge the quality, value or importance of something",
+      "example": "The teacher will assess each essay using the same criteria.",
+      "translation": "El profesor evaluará cada redacción con los mismos criterios.",
+      "prompt": "The teacher will ___ each essay using the same criteria.",
+      "choices": [
+        {
+          "label": "assess",
+          "correct": true
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        },
+        {
+          "label": "decrease",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/assess"
+    },
+    {
+      "id": "justify",
+      "word": "justify",
+      "es": "justificar; dar una buena razón para algo",
+      "en": "to give a good reason for an action or decision",
+      "example": "You must justify the decision by explaining why it was necessary.",
+      "translation": "Debes justificar la decisión explicando por qué era necesaria.",
+      "prompt": "You must ___ the decision by explaining why it was necessary.",
+      "choices": [
+        {
+          "label": "justify",
+          "correct": true
+        },
+        {
+          "label": "recycle",
+          "correct": false
+        },
+        {
+          "label": "allocate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/justify"
     }
   ]
 }
