@@ -2,7 +2,7 @@
   "id": "work-decisions-c1",
   "level": "C1",
   "topic": "Trabajo y decisiones",
-  "version": 2,
+  "version": 3,
   "cards": [
     {
       "id": "setback",
@@ -291,6 +291,126 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/accountability"
+    },
+    {
+      "id": "enforce",
+      "word": "enforce",
+      "es": "hacer cumplir; aplicar una norma",
+      "en": "to make people obey a law, or to make a situation happen or be accepted",
+      "example": "The police must enforce the new speed limits.",
+      "translation": "La policía debe hacer cumplir los nuevos límites de velocidad.",
+      "prompt": "The police must ___ the new speed limits.",
+      "choices": [
+        {
+          "label": "enforce",
+          "correct": true
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        },
+        {
+          "label": "recycle",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/enforce"
+    },
+    {
+      "id": "comply",
+      "word": "comply",
+      "es": "cumplir; acatar una norma u orden",
+      "en": "to act according to an order, set of rules or request",
+      "example": "Companies must comply with the safety rules.",
+      "translation": "Las empresas deben cumplir las normas de seguridad.",
+      "prompt": "Companies must ___ with the safety rules.",
+      "choices": [
+        {
+          "label": "comply",
+          "correct": true
+        },
+        {
+          "label": "estimate",
+          "correct": false
+        },
+        {
+          "label": "retire",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/comply"
+    },
+    {
+      "id": "impose",
+      "word": "impose",
+      "es": "imponer; obligar a aceptar",
+      "en": "to officially force a rule, tax or punishment to be obeyed or received",
+      "example": "The city decided to impose a fine on drivers who park here.",
+      "translation": "El ayuntamiento decidió imponer una multa a quienes aparquen aquí.",
+      "prompt": "The city decided to ___ a fine on drivers who park here.",
+      "choices": [
+        {
+          "label": "impose",
+          "correct": true
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        },
+        {
+          "label": "retire",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/impose"
+    },
+    {
+      "id": "restrict",
+      "word": "restrict",
+      "es": "restringir; limitar",
+      "en": "to limit the movements or actions of someone, or to limit something",
+      "example": "The school will restrict the use of phones in class.",
+      "translation": "El colegio restringirá el uso de móviles en clase.",
+      "prompt": "The school will ___ the use of phones in class.",
+      "choices": [
+        {
+          "label": "restrict",
+          "correct": true
+        },
+        {
+          "label": "recycle",
+          "correct": false
+        },
+        {
+          "label": "invite",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/restrict"
+    },
+    {
+      "id": "regulate",
+      "word": "regulate",
+      "es": "regular; controlar el funcionamiento de algo",
+      "en": "to control something, especially by making it work in a particular way",
+      "example": "A thermostat helps regulate the temperature in the house.",
+      "translation": "Un termostato ayuda a regular la temperatura de la casa.",
+      "prompt": "A thermostat helps ___ the temperature in the house.",
+      "choices": [
+        {
+          "label": "regulate",
+          "correct": true
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        },
+        {
+          "label": "negotiate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/regulate"
     }
   ]
 }
