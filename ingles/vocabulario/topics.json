@@ -297,6 +297,17 @@
       ]
     },
     {
+      "id": "normas",
+      "title": "Normas y control",
+      "cards": [
+        "enforce",
+        "comply",
+        "impose",
+        "restrict",
+        "regulate"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
