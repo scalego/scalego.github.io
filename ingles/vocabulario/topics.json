@@ -349,6 +349,17 @@
       ]
     },
     {
+      "id": "debate",
+      "title": "Debate y postura",
+      "cards": [
+        "advocate",
+        "concede",
+        "undermine",
+        "endorse",
+        "dispute"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
