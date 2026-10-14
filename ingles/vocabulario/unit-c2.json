@@ -2,7 +2,7 @@
   "id": "unit-01-c2",
   "level": "C2",
   "topic": "Expresión avanzada",
-  "version": 2,
+  "version": 3,
   "cards": [
     {
       "id": "ubiquitous",
@@ -291,6 +291,126 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/dismay"
+    },
+    {
+      "id": "advocate",
+      "word": "advocate",
+      "es": "defender; abogar por algo",
+      "en": "to publicly support or suggest an idea, development or way of doing something",
+      "example": "Many doctors advocate a daily walk for people who sit all day.",
+      "translation": "Muchos médicos recomiendan un paseo diario a quienes pasan el día sentados.",
+      "prompt": "Many doctors ___ a daily walk for people who sit all day.",
+      "choices": [
+        {
+          "label": "advocate",
+          "correct": true
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        },
+        {
+          "label": "recycle",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/advocate"
+    },
+    {
+      "id": "concede",
+      "word": "concede",
+      "es": "admitir, a veces a regañadientes",
+      "en": "to admit, often unwillingly, that something is true",
+      "example": "After hours of debate, she had to concede that he was right.",
+      "translation": "Tras horas de debate, tuvo que admitir que él tenía razón.",
+      "prompt": "After hours of debate, she had to ___ that he was right.",
+      "choices": [
+        {
+          "label": "concede",
+          "correct": true
+        },
+        {
+          "label": "recycle",
+          "correct": false
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/concede"
+    },
+    {
+      "id": "undermine",
+      "word": "undermine",
+      "es": "socavar; debilitar poco a poco",
+      "en": "to make someone less confident, less powerful or less likely to succeed",
+      "example": "Constant criticism can undermine a child's confidence.",
+      "translation": "Las críticas constantes pueden socavar la confianza de un niño.",
+      "prompt": "Constant criticism can ___ a child's confidence.",
+      "choices": [
+        {
+          "label": "undermine",
+          "correct": true
+        },
+        {
+          "label": "recycle",
+          "correct": false
+        },
+        {
+          "label": "retire",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/undermine"
+    },
+    {
+      "id": "endorse",
+      "word": "endorse",
+      "es": "respaldar; apoyar públicamente",
+      "en": "to make a public statement of your approval or support for something or someone",
+      "example": "The mayor will endorse the new bus plan at the meeting.",
+      "translation": "La alcaldesa respaldará el nuevo plan de autobuses en la reunión.",
+      "prompt": "The mayor will ___ the new bus plan at the meeting.",
+      "choices": [
+        {
+          "label": "endorse",
+          "correct": true
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        },
+        {
+          "label": "wash",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/endorse"
+    },
+    {
+      "id": "dispute",
+      "word": "dispute",
+      "es": "poner en duda; discutir que algo sea cierto",
+      "en": "to disagree with something that someone says",
+      "example": "Few people would dispute that exercise is good for health.",
+      "translation": "Poca gente pondría en duda que el ejercicio es bueno para la salud.",
+      "prompt": "Few people would ___ that exercise is good for health.",
+      "choices": [
+        {
+          "label": "dispute",
+          "correct": true
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        },
+        {
+          "label": "recycle",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/dispute"
     }
   ]
 }
