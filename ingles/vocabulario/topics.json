@@ -61,6 +61,18 @@
       ]
     },
     {
+      "id": "colores",
+      "title": "Colores",
+      "cards": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "black",
+        "white"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
