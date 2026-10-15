@@ -2,7 +2,7 @@
   "id": "unit-01-a1",
   "level": "A1",
   "topic": "Vocabulario A1 por temas",
-  "version": 3,
+  "version": 4,
   "cards": [
     {
       "id": "family",
@@ -579,6 +579,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/road"
+    },
+    {
+      "id": "red",
+      "word": "red",
+      "es": "rojo",
+      "en": "of the colour of fresh blood",
+      "example": "The traffic light is red, so we must stop.",
+      "translation": "El semáforo está en rojo, así que tenemos que parar.",
+      "prompt": "The traffic light is ___, so we must stop.",
+      "choices": [
+        {
+          "label": "red",
+          "correct": true
+        },
+        {
+          "label": "small",
+          "correct": false
+        },
+        {
+          "label": "cold",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/red"
+    },
+    {
+      "id": "blue",
+      "word": "blue",
+      "es": "azul",
+      "en": "of the colour of the sky without clouds",
+      "example": "On a sunny day, the sky is blue.",
+      "translation": "En un día soleado, el cielo es azul.",
+      "prompt": "On a sunny day, the sky is ___.",
+      "choices": [
+        {
+          "label": "blue",
+          "correct": true
+        },
+        {
+          "label": "loud",
+          "correct": false
+        },
+        {
+          "label": "hungry",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/blue"
+    },
+    {
+      "id": "green",
+      "word": "green",
+      "es": "verde",
+      "en": "of a colour between blue and yellow, like grass",
+      "example": "The grass in the park is green in spring.",
+      "translation": "La hierba del parque es verde en primavera.",
+      "prompt": "The grass in the park is ___ in spring.",
+      "choices": [
+        {
+          "label": "green",
+          "correct": true
+        },
+        {
+          "label": "tired",
+          "correct": false
+        },
+        {
+          "label": "heavy",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/green"
+    },
+    {
+      "id": "yellow",
+      "word": "yellow",
+      "es": "amarillo",
+      "en": "of a colour like that of a lemon",
+      "example": "A ripe banana is yellow.",
+      "translation": "Un plátano maduro es amarillo.",
+      "prompt": "A ripe banana is ___.",
+      "choices": [
+        {
+          "label": "yellow",
+          "correct": true
+        },
+        {
+          "label": "wet",
+          "correct": false
+        },
+        {
+          "label": "angry",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/yellow"
+    },
+    {
+      "id": "black",
+      "word": "black",
+      "es": "negro",
+      "en": "having the darkest colour there is, like coal",
+      "example": "Coal is black.",
+      "translation": "El carbón es negro.",
+      "prompt": "Coal is ___.",
+      "choices": [
+        {
+          "label": "black",
+          "correct": true
+        },
+        {
+          "label": "soft",
+          "correct": false
+        },
+        {
+          "label": "loud",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/black"
+    },
+    {
+      "id": "white",
+      "word": "white",
+      "es": "blanco",
+      "en": "of a colour like that of snow or milk",
+      "example": "Snow is white.",
+      "translation": "La nieve es blanca.",
+      "prompt": "Snow is ___.",
+      "choices": [
+        {
+          "label": "white",
+          "correct": true
+        },
+        {
+          "label": "busy",
+          "correct": false
+        },
+        {
+          "label": "late",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/white"
     }
   ]
 }
