@@ -138,6 +138,18 @@
       ]
     },
     {
+      "id": "compras",
+      "title": "De compras",
+      "cards": [
+        "price",
+        "customer",
+        "receipt",
+        "discount",
+        "cash",
+        "market"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
