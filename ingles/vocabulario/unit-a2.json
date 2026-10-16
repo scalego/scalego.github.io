@@ -2,7 +2,7 @@
   "id": "unit-01-a2",
   "level": "A2",
   "topic": "Vocabulario A2 por temas",
-  "version": 4,
+  "version": 5,
   "cards": [
     {
       "id": "travel",
@@ -579,6 +579,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/cooker"
+    },
+    {
+      "id": "price",
+      "word": "price",
+      "es": "precio",
+      "en": "the amount of money for which something is sold",
+      "example": "The price of this jacket is 40 euros.",
+      "translation": "El precio de esta chaqueta es de 40 euros.",
+      "prompt": "The ___ of this jacket is 40 euros.",
+      "choices": [
+        {
+          "label": "price",
+          "correct": true
+        },
+        {
+          "label": "season",
+          "correct": false
+        },
+        {
+          "label": "storm",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/price"
+    },
+    {
+      "id": "customer",
+      "word": "customer",
+      "es": "cliente",
+      "en": "a person who buys goods or a service",
+      "example": "The customer asked for a bigger size.",
+      "translation": "El cliente pidió una talla más grande.",
+      "prompt": "The ___ asked for a bigger size.",
+      "choices": [
+        {
+          "label": "customer",
+          "correct": true
+        },
+        {
+          "label": "cupboard",
+          "correct": false
+        },
+        {
+          "label": "temperature",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/customer"
+    },
+    {
+      "id": "receipt",
+      "word": "receipt",
+      "es": "recibo; ticket de compra",
+      "en": "a piece of paper that shows you have paid for something",
+      "example": "Keep the receipt in case you want to return it.",
+      "translation": "Guarda el recibo por si quieres devolverlo.",
+      "prompt": "Keep the ___ in case you want to return it.",
+      "choices": [
+        {
+          "label": "receipt",
+          "correct": true
+        },
+        {
+          "label": "cloud",
+          "correct": false
+        },
+        {
+          "label": "spoon",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/receipt"
+    },
+    {
+      "id": "discount",
+      "word": "discount",
+      "es": "descuento",
+      "en": "a reduction in the usual price",
+      "example": "The shop gives a discount to students.",
+      "translation": "La tienda hace un descuento a los estudiantes.",
+      "prompt": "The shop gives a ___ to students.",
+      "choices": [
+        {
+          "label": "discount",
+          "correct": true
+        },
+        {
+          "label": "weather",
+          "correct": false
+        },
+        {
+          "label": "belt",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/discount"
+    },
+    {
+      "id": "cash",
+      "word": "cash",
+      "es": "dinero en efectivo",
+      "en": "money in the form of notes and coins",
+      "example": "I do not have a card, so I will pay in cash.",
+      "translation": "No tengo tarjeta, así que pagaré en efectivo.",
+      "prompt": "I do not have a card, so I will pay in ___.",
+      "choices": [
+        {
+          "label": "cash",
+          "correct": true
+        },
+        {
+          "label": "sock",
+          "correct": false
+        },
+        {
+          "label": "fork",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/cash"
+    },
+    {
+      "id": "market",
+      "word": "market",
+      "es": "mercado",
+      "en": "a place where people buy and sell things, often outdoors",
+      "example": "We buy fresh fruit at the market on Saturdays.",
+      "translation": "Compramos fruta fresca en el mercado los sábados.",
+      "prompt": "We buy fresh fruit at the ___ on Saturdays.",
+      "choices": [
+        {
+          "label": "market",
+          "correct": true
+        },
+        {
+          "label": "storm",
+          "correct": false
+        },
+        {
+          "label": "suit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/market"
     }
   ]
 }
