@@ -2,7 +2,7 @@
   "id": "unit-01-b1",
   "level": "B1",
   "topic": "Vocabulario B1 por temas",
-  "version": 4,
+  "version": 5,
   "cards": [
     {
       "id": "achieve",
@@ -579,6 +579,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/energy"
+    },
+    {
+      "id": "trust",
+      "word": "trust",
+      "es": "confiar en",
+      "en": "to believe that someone is good and honest and will not hurt you",
+      "example": "I trust my best friend with my secrets.",
+      "translation": "Confío en mi mejor amiga con mis secretos.",
+      "prompt": "I ___ my best friend with my secrets.",
+      "choices": [
+        {
+          "label": "trust",
+          "correct": true
+        },
+        {
+          "label": "argue",
+          "correct": false
+        },
+        {
+          "label": "forgive",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/trust"
+    },
+    {
+      "id": "argue",
+      "word": "argue",
+      "es": "discutir",
+      "en": "to speak angrily to someone because you disagree with them",
+      "example": "They argue about money almost every week.",
+      "translation": "Discuten por dinero casi cada semana.",
+      "prompt": "They ___ about money almost every week.",
+      "choices": [
+        {
+          "label": "argue",
+          "correct": true
+        },
+        {
+          "label": "respect",
+          "correct": false
+        },
+        {
+          "label": "support",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/argue"
+    },
+    {
+      "id": "apologize",
+      "word": "apologize",
+      "es": "disculparse, pedir perdón",
+      "en": "to tell someone that you are sorry for something you did that caused problems",
+      "example": "He called me to apologize for arriving late.",
+      "translation": "Me llamó para disculparse por llegar tarde.",
+      "prompt": "He called me to ___ for arriving late.",
+      "choices": [
+        {
+          "label": "apologize",
+          "correct": true
+        },
+        {
+          "label": "forgive",
+          "correct": false
+        },
+        {
+          "label": "respect",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/apologize"
+    },
+    {
+      "id": "forgive",
+      "word": "forgive",
+      "es": "perdonar",
+      "en": "to stop being angry with someone for something that person did",
+      "example": "It was hard, but she forgave him in the end.",
+      "translation": "Fue difícil, pero ella lo perdonó al final.",
+      "prompt": "It was hard, but she ___ him in the end.",
+      "choices": [
+        {
+          "label": "forgive",
+          "correct": true
+        },
+        {
+          "label": "argue",
+          "correct": false
+        },
+        {
+          "label": "apologize",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/forgive"
+    },
+    {
+      "id": "respect",
+      "word": "respect",
+      "es": "respetar",
+      "en": "to feel or show admiration for someone because of their good ideas or qualities",
+      "example": "I really respect my grandfather for his honesty.",
+      "translation": "Respeto mucho a mi abuelo por su honestidad.",
+      "prompt": "I really ___ my grandfather for his honesty.",
+      "choices": [
+        {
+          "label": "respect",
+          "correct": true
+        },
+        {
+          "label": "apologize",
+          "correct": false
+        },
+        {
+          "label": "support",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/respect"
+    },
+    {
+      "id": "support",
+      "word": "support",
+      "es": "apoyar",
+      "en": "to help someone emotionally or in a practical way",
+      "example": "My family supported me when I lost my job.",
+      "translation": "Mi familia me apoyó cuando perdí mi trabajo.",
+      "prompt": "My family ___ me when I lost my job.",
+      "choices": [
+        {
+          "label": "support",
+          "correct": true
+        },
+        {
+          "label": "argue",
+          "correct": false
+        },
+        {
+          "label": "apologize",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/support"
     }
   ]
 }
