@@ -215,6 +215,18 @@
       ]
     },
     {
+      "id": "relaciones",
+      "title": "Relaciones y sentimientos",
+      "cards": [
+        "trust",
+        "argue",
+        "apologize",
+        "forgive",
+        "respect",
+        "support"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
