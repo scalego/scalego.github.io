@@ -292,6 +292,18 @@
       ]
     },
     {
+      "id": "actualidad",
+      "title": "Actualidad y sociedad",
+      "cards": [
+        "poverty",
+        "violence",
+        "refugee",
+        "threat",
+        "broadcast",
+        "misleading"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
@@ -405,4 +417,4 @@
       ]
     }
   ]
-}
+    }
