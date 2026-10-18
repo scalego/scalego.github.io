@@ -2,7 +2,7 @@
   "id": "work-planning-b2",
   "level": "B2",
   "topic": "Vocabulario B2 por temas",
-  "version": 4,
+  "version": 5,
   "cards": [
     {
       "id": "deadline",
@@ -579,6 +579,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/justify"
+    },
+    {
+      "id": "poverty",
+      "word": "poverty",
+      "es": "pobreza",
+      "en": "the condition of being extremely poor",
+      "example": "The government promised to reduce poverty.",
+      "translation": "El gobierno prometió reducir la pobreza.",
+      "prompt": "The government promised to reduce ___.",
+      "choices": [
+        {
+          "label": "poverty",
+          "correct": true
+        },
+        {
+          "label": "broadcast",
+          "correct": false
+        },
+        {
+          "label": "misleading",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/poverty"
+    },
+    {
+      "id": "violence",
+      "word": "violence",
+      "es": "violencia",
+      "en": "actions intended to hurt people or cause damage",
+      "example": "The report describes years of violence in the region.",
+      "translation": "El informe describe años de violencia en la región.",
+      "prompt": "The report describes years of ___ in the region.",
+      "choices": [
+        {
+          "label": "violence",
+          "correct": true
+        },
+        {
+          "label": "broadcast",
+          "correct": false
+        },
+        {
+          "label": "misleading",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/violence"
+    },
+    {
+      "id": "refugee",
+      "word": "refugee",
+      "es": "refugiado, refugiada",
+      "en": "a person who had to leave their country because of war, politics, religion or poverty",
+      "example": "Each refugee receives food and a place to sleep.",
+      "translation": "Cada refugiado recibe comida y un lugar para dormir.",
+      "prompt": "Each ___ receives food and a place to sleep.",
+      "choices": [
+        {
+          "label": "refugee",
+          "correct": true
+        },
+        {
+          "label": "threat",
+          "correct": false
+        },
+        {
+          "label": "poverty",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/refugee"
+    },
+    {
+      "id": "threat",
+      "word": "threat",
+      "es": "amenaza",
+      "en": "a statement that something bad will happen if someone does not do what you want",
+      "example": "The letter contained a threat against the family.",
+      "translation": "La carta contenía una amenaza contra la familia.",
+      "prompt": "The letter contained a ___ against the family.",
+      "choices": [
+        {
+          "label": "threat",
+          "correct": true
+        },
+        {
+          "label": "misleading",
+          "correct": false
+        },
+        {
+          "label": "broadcast",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/threat"
+    },
+    {
+      "id": "broadcast",
+      "word": "broadcast",
+      "es": "emitir, transmitir",
+      "en": "to send out a programme on television or radio",
+      "example": "They broadcast the news live every evening.",
+      "translation": "Emiten las noticias en directo cada tarde.",
+      "prompt": "They ___ the news live every evening.",
+      "choices": [
+        {
+          "label": "broadcast",
+          "correct": true
+        },
+        {
+          "label": "misleading",
+          "correct": false
+        },
+        {
+          "label": "threat",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/broadcast"
+    },
+    {
+      "id": "misleading",
+      "word": "misleading",
+      "es": "engañoso, engañosa",
+      "en": "making someone believe something that is not true",
+      "example": "The advert was misleading, so many people complained.",
+      "translation": "El anuncio era engañoso, así que mucha gente se quejó.",
+      "prompt": "The advert was ___, so many people complained.",
+      "choices": [
+        {
+          "label": "misleading",
+          "correct": true
+        },
+        {
+          "label": "poverty",
+          "correct": false
+        },
+        {
+          "label": "refugee",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/misleading"
     }
   ]
 }
