@@ -356,6 +356,18 @@
       ]
     },
     {
+      "id": "riesgo",
+      "title": "Riesgo y responsabilidad",
+      "cards": [
+        "hazard",
+        "precaution",
+        "liability",
+        "exposure",
+        "inevitable",
+        "alert"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
@@ -417,4 +429,4 @@
       ]
     }
   ]
-    }
+}
