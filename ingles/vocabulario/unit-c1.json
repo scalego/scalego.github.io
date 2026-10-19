@@ -2,7 +2,7 @@
   "id": "work-decisions-c1",
   "level": "C1",
   "topic": "Trabajo y decisiones",
-  "version": 3,
+  "version": 4,
   "cards": [
     {
       "id": "setback",
@@ -411,6 +411,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/regulate"
+    },
+    {
+      "id": "hazard",
+      "word": "hazard",
+      "es": "peligro, riesgo",
+      "en": "something dangerous that is likely to cause damage",
+      "example": "Icy roads are a serious hazard for drivers.",
+      "translation": "Las carreteras heladas son un peligro serio para los conductores.",
+      "prompt": "Icy roads are a serious ___ for drivers.",
+      "choices": [
+        {
+          "label": "hazard",
+          "correct": true
+        },
+        {
+          "label": "inevitable",
+          "correct": false
+        },
+        {
+          "label": "precaution",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/hazard"
+    },
+    {
+      "id": "precaution",
+      "word": "precaution",
+      "es": "precaución",
+      "en": "an action you take to prevent something unpleasant or dangerous",
+      "example": "You should take every precaution when working with chemicals.",
+      "translation": "Debes tomar toda precaución al trabajar con productos químicos.",
+      "prompt": "You should take every ___ when working with chemicals.",
+      "choices": [
+        {
+          "label": "precaution",
+          "correct": true
+        },
+        {
+          "label": "hazard",
+          "correct": false
+        },
+        {
+          "label": "alert",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/precaution"
+    },
+    {
+      "id": "liability",
+      "word": "liability",
+      "es": "responsabilidad legal",
+      "en": "legal responsibility for something",
+      "example": "The company accepted liability for the accident.",
+      "translation": "La empresa aceptó la responsabilidad legal por el accidente.",
+      "prompt": "The company accepted ___ for the accident.",
+      "choices": [
+        {
+          "label": "liability",
+          "correct": true
+        },
+        {
+          "label": "hazard",
+          "correct": false
+        },
+        {
+          "label": "inevitable",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/liability"
+    },
+    {
+      "id": "exposure",
+      "word": "exposure",
+      "es": "exposición",
+      "en": "the fact of being affected by something because of your situation",
+      "example": "Prolonged exposure to the sun can damage your skin.",
+      "translation": "La exposición prolongada al sol puede dañar tu piel.",
+      "prompt": "Prolonged ___ to the sun can damage your skin.",
+      "choices": [
+        {
+          "label": "exposure",
+          "correct": true
+        },
+        {
+          "label": "precaution",
+          "correct": false
+        },
+        {
+          "label": "liability",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/exposure"
+    },
+    {
+      "id": "inevitable",
+      "word": "inevitable",
+      "es": "inevitable",
+      "en": "certain to happen and impossible to avoid",
+      "example": "With so little rain, a drought was inevitable.",
+      "translation": "Con tan poca lluvia, una sequía era inevitable.",
+      "prompt": "With so little rain, a drought was ___.",
+      "choices": [
+        {
+          "label": "inevitable",
+          "correct": true
+        },
+        {
+          "label": "hazard",
+          "correct": false
+        },
+        {
+          "label": "liability",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/inevitable"
+    },
+    {
+      "id": "alert",
+      "word": "alert",
+      "es": "alerta, aviso",
+      "en": "a warning to be prepared for something dangerous",
+      "example": "The authorities issued an alert for heavy storms.",
+      "translation": "Las autoridades emitieron una alerta por fuertes tormentas.",
+      "prompt": "The authorities issued an ___ for heavy storms.",
+      "choices": [
+        {
+          "label": "alert",
+          "correct": true
+        },
+        {
+          "label": "exposure",
+          "correct": false
+        },
+        {
+          "label": "inevitable",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/alert"
     }
   ]
 }
