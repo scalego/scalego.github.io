@@ -2,7 +2,7 @@
   "id": "unit-01-c2",
   "level": "C2",
   "topic": "Expresión avanzada",
-  "version": 3,
+  "version": 4,
   "cards": [
     {
       "id": "ubiquitous",
@@ -411,6 +411,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/dispute"
+    },
+    {
+      "id": "sue",
+      "word": "sue",
+      "es": "demandar (a alguien)",
+      "en": "to take legal action against a person or organization, usually to claim money for harm they caused",
+      "example": "She decided to sue the company for the damage to her house.",
+      "translation": "Decidió demandar a la empresa por los daños a su casa.",
+      "prompt": "She decided to ___ the company for the damage to her house.",
+      "choices": [
+        {
+          "label": "sue",
+          "correct": true
+        },
+        {
+          "label": "verdict",
+          "correct": false
+        },
+        {
+          "label": "custody",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/sue"
+    },
+    {
+      "id": "verdict",
+      "word": "verdict",
+      "es": "veredicto",
+      "en": "the decision made at the end of a trial after judging the facts",
+      "example": "The jury took three days to reach a verdict.",
+      "translation": "El jurado tardó tres días en llegar a un veredicto.",
+      "prompt": "The jury took three days to reach a ___.",
+      "choices": [
+        {
+          "label": "verdict",
+          "correct": true
+        },
+        {
+          "label": "sue",
+          "correct": false
+        },
+        {
+          "label": "legitimate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/verdict"
+    },
+    {
+      "id": "custody",
+      "word": "custody",
+      "es": "custodia",
+      "en": "the legal right or duty to care for a child after its parents have separated",
+      "example": "After the divorce, the mother was given custody of the children.",
+      "translation": "Tras el divorcio, la madre obtuvo la custodia de los niños.",
+      "prompt": "After the divorce, the mother was given ___ of the children.",
+      "choices": [
+        {
+          "label": "custody",
+          "correct": true
+        },
+        {
+          "label": "verdict",
+          "correct": false
+        },
+        {
+          "label": "negligence",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/custody"
+    },
+    {
+      "id": "prosecute",
+      "word": "prosecute",
+      "es": "procesar, acusar judicialmente",
+      "en": "to officially accuse someone of a crime in a law court",
+      "example": "The state decided to prosecute him for fraud.",
+      "translation": "El estado decidió procesarlo por fraude.",
+      "prompt": "The state decided to ___ him for fraud.",
+      "choices": [
+        {
+          "label": "prosecute",
+          "correct": true
+        },
+        {
+          "label": "custody",
+          "correct": false
+        },
+        {
+          "label": "verdict",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/prosecute"
+    },
+    {
+      "id": "legitimate",
+      "word": "legitimate",
+      "es": "legítimo",
+      "en": "allowed by law, or reasonable and acceptable",
+      "example": "He had a legitimate reason to complain.",
+      "translation": "Tenía un motivo legítimo para quejarse.",
+      "prompt": "He had a ___ reason to complain.",
+      "choices": [
+        {
+          "label": "legitimate",
+          "correct": true
+        },
+        {
+          "label": "negligence",
+          "correct": false
+        },
+        {
+          "label": "custody",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/legitimate"
+    },
+    {
+      "id": "negligence",
+      "word": "negligence",
+      "es": "negligencia",
+      "en": "the fact of not giving enough care or attention to someone or something",
+      "example": "The accident was caused by the driver's negligence.",
+      "translation": "El accidente fue causado por la negligencia del conductor.",
+      "prompt": "The accident was caused by the driver's ___.",
+      "choices": [
+        {
+          "label": "negligence",
+          "correct": true
+        },
+        {
+          "label": "custody",
+          "correct": false
+        },
+        {
+          "label": "verdict",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/negligence"
     }
   ]
 }
