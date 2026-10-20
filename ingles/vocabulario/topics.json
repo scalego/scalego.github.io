@@ -420,6 +420,18 @@
       ]
     },
     {
+      "id": "justicia",
+      "title": "Justicia y derechos",
+      "cards": [
+        "sue",
+        "verdict",
+        "custody",
+        "prosecute",
+        "legitimate",
+        "negligence"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
