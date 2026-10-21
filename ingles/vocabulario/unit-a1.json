@@ -2,7 +2,7 @@
   "id": "unit-01-a1",
   "level": "A1",
   "topic": "Vocabulario A1 por temas",
-  "version": 4,
+  "version": 5,
   "cards": [
     {
       "id": "family",
@@ -723,6 +723,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/white"
+    },
+    {
+      "id": "cat",
+      "word": "cat",
+      "es": "gato, gata",
+      "en": "a small animal with fur that people keep as a pet",
+      "example": "My cat says 'meow' when it is hungry.",
+      "translation": "Mi gato maúlla cuando tiene hambre.",
+      "prompt": "My ___ says 'meow' when it is hungry.",
+      "choices": [
+        {
+          "label": "cat",
+          "correct": true
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "bird",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/cat"
+    },
+    {
+      "id": "dog",
+      "word": "dog",
+      "es": "perro, perra",
+      "en": "a common animal with four legs that people keep as a pet or to guard things",
+      "example": "Our dog barks at the postman.",
+      "translation": "Nuestro perro le ladra al cartero.",
+      "prompt": "Our ___ barks at the postman.",
+      "choices": [
+        {
+          "label": "dog",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/dog"
+    },
+    {
+      "id": "bird",
+      "word": "bird",
+      "es": "pájaro",
+      "en": "a creature with feathers and wings that can usually fly",
+      "example": "The bird is building a nest in the tree.",
+      "translation": "El pájaro está construyendo un nido en el árbol.",
+      "prompt": "The ___ is building a nest in the tree.",
+      "choices": [
+        {
+          "label": "bird",
+          "correct": true
+        },
+        {
+          "label": "fish",
+          "correct": false
+        },
+        {
+          "label": "horse",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/bird"
+    },
+    {
+      "id": "fish",
+      "word": "fish",
+      "es": "pez",
+      "en": "an animal that lives and breathes in water",
+      "example": "A fish lives and breathes in water.",
+      "translation": "Un pez vive y respira en el agua.",
+      "prompt": "A ___ lives and breathes in water.",
+      "choices": [
+        {
+          "label": "fish",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/fish"
+    },
+    {
+      "id": "horse",
+      "word": "horse",
+      "es": "caballo",
+      "en": "a large animal that people ride",
+      "example": "My grandfather rides his horse in the mountains.",
+      "translation": "Mi abuelo monta su caballo por la montaña.",
+      "prompt": "My grandfather rides his ___ in the mountains.",
+      "choices": [
+        {
+          "label": "horse",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/horse"
+    },
+    {
+      "id": "cow",
+      "word": "cow",
+      "es": "vaca",
+      "en": "a large farm animal that gives milk",
+      "example": "This cow gives milk every morning.",
+      "translation": "Esta vaca da leche cada mañana.",
+      "prompt": "This ___ gives milk every morning.",
+      "choices": [
+        {
+          "label": "cow",
+          "correct": true
+        },
+        {
+          "label": "fish",
+          "correct": false
+        },
+        {
+          "label": "bird",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/cow"
     }
   ]
 }
