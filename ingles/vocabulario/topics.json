@@ -162,6 +162,18 @@
       ]
     },
     {
+      "id": "restaurante",
+      "title": "En el restaurante",
+      "cards": [
+        "menu",
+        "bill",
+        "order",
+        "dish",
+        "dessert",
+        "serve"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
