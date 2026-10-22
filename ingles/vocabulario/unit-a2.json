@@ -2,7 +2,7 @@
   "id": "unit-01-a2",
   "level": "A2",
   "topic": "Vocabulario A2 por temas",
-  "version": 5,
+  "version": 6,
   "cards": [
     {
       "id": "travel",
@@ -723,6 +723,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/market"
+    },
+    {
+      "id": "menu",
+      "word": "menu",
+      "es": "carta, menú",
+      "en": "a list of the food you can eat in a restaurant",
+      "example": "The menu has ten vegetarian dishes.",
+      "translation": "La carta tiene diez platos vegetarianos.",
+      "prompt": "The ___ has ten vegetarian dishes.",
+      "choices": [
+        {
+          "label": "menu",
+          "correct": true
+        },
+        {
+          "label": "bill",
+          "correct": false
+        },
+        {
+          "label": "dessert",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/menu"
+    },
+    {
+      "id": "bill",
+      "word": "bill",
+      "es": "cuenta",
+      "en": "the paper that shows how much you must pay in a restaurant",
+      "example": "Can we pay the bill now?",
+      "translation": "¿Podemos pagar la cuenta ahora?",
+      "prompt": "Can we pay the ___ now?",
+      "choices": [
+        {
+          "label": "bill",
+          "correct": true
+        },
+        {
+          "label": "dessert",
+          "correct": false
+        },
+        {
+          "label": "dish",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/bill"
+    },
+    {
+      "id": "order",
+      "word": "order",
+      "es": "pedir",
+      "en": "to ask for food or drink in a restaurant",
+      "example": "She ordered a coffee and a sandwich.",
+      "translation": "Pidió un café y un bocadillo.",
+      "prompt": "She ___ a coffee and a sandwich.",
+      "choices": [
+        {
+          "label": "order",
+          "correct": true
+        },
+        {
+          "label": "serve",
+          "correct": false
+        },
+        {
+          "label": "dish",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/order"
+    },
+    {
+      "id": "dish",
+      "word": "dish",
+      "es": "plato",
+      "en": "food prepared in a particular way",
+      "example": "Paella is a typical Spanish dish.",
+      "translation": "La paella es un plato típico español.",
+      "prompt": "Paella is a typical Spanish ___.",
+      "choices": [
+        {
+          "label": "dish",
+          "correct": true
+        },
+        {
+          "label": "dessert",
+          "correct": false
+        },
+        {
+          "label": "menu",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/dish"
+    },
+    {
+      "id": "dessert",
+      "word": "dessert",
+      "es": "postre",
+      "en": "sweet food eaten at the end of a meal",
+      "example": "For dessert, we had ice cream.",
+      "translation": "De postre, tomamos helado.",
+      "prompt": "For ___, we had ice cream.",
+      "choices": [
+        {
+          "label": "dessert",
+          "correct": true
+        },
+        {
+          "label": "dish",
+          "correct": false
+        },
+        {
+          "label": "order",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/dessert"
+    },
+    {
+      "id": "serve",
+      "word": "serve",
+      "es": "servir",
+      "en": "to give food or drinks to people",
+      "example": "They serve breakfast until eleven.",
+      "translation": "Sirven el desayuno hasta las once.",
+      "prompt": "They ___ breakfast until eleven.",
+      "choices": [
+        {
+          "label": "serve",
+          "correct": true
+        },
+        {
+          "label": "bill",
+          "correct": false
+        },
+        {
+          "label": "dish",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/serve"
     }
   ]
 }
