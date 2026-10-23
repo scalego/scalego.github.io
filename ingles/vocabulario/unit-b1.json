@@ -2,7 +2,7 @@
   "id": "unit-01-b1",
   "level": "B1",
   "topic": "Vocabulario B1 por temas",
-  "version": 5,
+  "version": 6,
   "cards": [
     {
       "id": "achieve",
@@ -723,6 +723,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/support"
+    },
+    {
+      "id": "abroad",
+      "word": "abroad",
+      "es": "en el extranjero, al extranjero",
+      "en": "in or to a foreign country",
+      "example": "My sister lives abroad, in Portugal.",
+      "translation": "Mi hermana vive en el extranjero, en Portugal.",
+      "prompt": "My sister lives ___, in Portugal.",
+      "choices": [
+        {
+          "label": "abroad",
+          "correct": true
+        },
+        {
+          "label": "destination",
+          "correct": false
+        },
+        {
+          "label": "departure",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/abroad"
+    },
+    {
+      "id": "accommodation",
+      "word": "accommodation",
+      "es": "alojamiento",
+      "en": "a place to stay or live",
+      "example": "The price includes flights and accommodation.",
+      "translation": "El precio incluye los vuelos y el alojamiento.",
+      "prompt": "The price includes flights and ___.",
+      "choices": [
+        {
+          "label": "accommodation",
+          "correct": true
+        },
+        {
+          "label": "souvenir",
+          "correct": false
+        },
+        {
+          "label": "departure",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/accommodation"
+    },
+    {
+      "id": "destination",
+      "word": "destination",
+      "es": "destino",
+      "en": "the place where someone is going",
+      "example": "After ten hours on the train, we finally arrived at our destination.",
+      "translation": "Tras diez horas de tren, por fin llegamos a nuestro destino.",
+      "prompt": "After ten hours on the train, we finally arrived at our ___.",
+      "choices": [
+        {
+          "label": "destination",
+          "correct": true
+        },
+        {
+          "label": "accommodation",
+          "correct": false
+        },
+        {
+          "label": "souvenir",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/destination"
+    },
+    {
+      "id": "souvenir",
+      "word": "souvenir",
+      "es": "recuerdo (de un viaje)",
+      "en": "something you buy to remember a holiday or a special event",
+      "example": "She bought a small souvenir for her grandmother.",
+      "translation": "Compró un pequeño recuerdo para su abuela.",
+      "prompt": "She bought a small ___ for her grandmother.",
+      "choices": [
+        {
+          "label": "souvenir",
+          "correct": true
+        },
+        {
+          "label": "destination",
+          "correct": false
+        },
+        {
+          "label": "departure",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/souvenir"
+    },
+    {
+      "id": "cancel",
+      "word": "cancel",
+      "es": "cancelar",
+      "en": "to decide that an organized event will not happen, or to stop an order or booking",
+      "example": "They cancelled our flight because of the storm.",
+      "translation": "Cancelaron nuestro vuelo por la tormenta.",
+      "prompt": "They ___ our flight because of the storm.",
+      "choices": [
+        {
+          "label": "cancel",
+          "correct": true
+        },
+        {
+          "label": "destination",
+          "correct": false
+        },
+        {
+          "label": "accommodation",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/cancel"
+    },
+    {
+      "id": "departure",
+      "word": "departure",
+      "es": "salida",
+      "en": "the act of leaving a place to start a journey",
+      "example": "The departure of the train is at nine o'clock.",
+      "translation": "La salida del tren es a las nueve.",
+      "prompt": "The ___ of the train is at nine o'clock.",
+      "choices": [
+        {
+          "label": "departure",
+          "correct": true
+        },
+        {
+          "label": "accommodation",
+          "correct": false
+        },
+        {
+          "label": "souvenir",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/departure"
     }
   ]
 }
