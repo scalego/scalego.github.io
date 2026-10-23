@@ -251,6 +251,18 @@
       ]
     },
     {
+      "id": "viajesaloj",
+      "title": "Viajes y alojamiento",
+      "cards": [
+        "abroad",
+        "accommodation",
+        "destination",
+        "souvenir",
+        "cancel",
+        "departure"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
