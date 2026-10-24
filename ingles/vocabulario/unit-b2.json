@@ -2,7 +2,7 @@
   "id": "work-planning-b2",
   "level": "B2",
   "topic": "Vocabulario B2 por temas",
-  "version": 5,
+  "version": 6,
   "cards": [
     {
       "id": "deadline",
@@ -723,6 +723,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/misleading"
+    },
+    {
+      "id": "privacy",
+      "word": "privacy",
+      "es": "privacidad",
+      "en": "your right to keep your personal matters secret",
+      "example": "Many people worry about their privacy online.",
+      "translation": "Mucha gente se preocupa por su privacidad en internet.",
+      "prompt": "Many people worry about their ___ online.",
+      "choices": [
+        {
+          "label": "privacy",
+          "correct": true
+        },
+        {
+          "label": "update",
+          "correct": false
+        },
+        {
+          "label": "virtual",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/privacy"
+    },
+    {
+      "id": "virtual",
+      "word": "virtual",
+      "es": "virtual",
+      "en": "created by computer technology and appearing to exist, but not existing in the physical world",
+      "example": "The museum offers a virtual tour on its website.",
+      "translation": "El museo ofrece una visita virtual en su página web.",
+      "prompt": "The museum offers a ___ tour on its website.",
+      "choices": [
+        {
+          "label": "virtual",
+          "correct": true
+        },
+        {
+          "label": "artificial",
+          "correct": false
+        },
+        {
+          "label": "network",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/virtual"
+    },
+    {
+      "id": "artificial",
+      "word": "artificial",
+      "es": "artificial",
+      "en": "made by people, often as a copy of something natural",
+      "example": "This juice has no artificial colours.",
+      "translation": "Este zumo no tiene colorantes artificiales.",
+      "prompt": "This juice has no ___ colours.",
+      "choices": [
+        {
+          "label": "artificial",
+          "correct": true
+        },
+        {
+          "label": "virtual",
+          "correct": false
+        },
+        {
+          "label": "update",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/artificial"
+    },
+    {
+      "id": "update",
+      "word": "update",
+      "es": "actualizar",
+      "en": "to make something more modern by adding new information or changing its design",
+      "example": "You should update the app to fix the problem.",
+      "translation": "Deberías actualizar la aplicación para arreglar el problema.",
+      "prompt": "You should ___ the app to fix the problem.",
+      "choices": [
+        {
+          "label": "update",
+          "correct": true
+        },
+        {
+          "label": "network",
+          "correct": false
+        },
+        {
+          "label": "privacy",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/update"
+    },
+    {
+      "id": "network",
+      "word": "network",
+      "es": "red",
+      "en": "a large system of connected parts that allows communication between them",
+      "example": "The office network is down, so nobody can print.",
+      "translation": "La red de la oficina está caída, así que nadie puede imprimir.",
+      "prompt": "The office ___ is down, so nobody can print.",
+      "choices": [
+        {
+          "label": "network",
+          "correct": true
+        },
+        {
+          "label": "privacy",
+          "correct": false
+        },
+        {
+          "label": "update",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/network"
+    },
+    {
+      "id": "intelligence",
+      "word": "intelligence",
+      "es": "inteligencia",
+      "en": "the ability to learn, understand and make judgments based on reason",
+      "example": "Human intelligence is not the same as artificial intelligence.",
+      "translation": "La inteligencia humana no es lo mismo que la inteligencia artificial.",
+      "prompt": "Human ___ is not the same as artificial intelligence.",
+      "choices": [
+        {
+          "label": "intelligence",
+          "correct": true
+        },
+        {
+          "label": "network",
+          "correct": false
+        },
+        {
+          "label": "privacy",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/intelligence"
     }
   ]
 }
