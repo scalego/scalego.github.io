@@ -340,6 +340,18 @@
       ]
     },
     {
+      "id": "tecnologia",
+      "title": "Tecnología y vida digital",
+      "cards": [
+        "privacy",
+        "virtual",
+        "artificial",
+        "update",
+        "network",
+        "intelligence"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
