@@ -416,6 +416,18 @@
       ]
     },
     {
+      "id": "comunicacion",
+      "title": "Comunicación y expresión",
+      "cards": [
+        "convey",
+        "assert",
+        "contradict",
+        "exaggerate",
+        "clarify",
+        "dismiss"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
