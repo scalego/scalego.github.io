@@ -2,7 +2,7 @@
   "id": "work-decisions-c1",
   "level": "C1",
   "topic": "Trabajo y decisiones",
-  "version": 4,
+  "version": 5,
   "cards": [
     {
       "id": "setback",
@@ -555,6 +555,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/alert"
+    },
+    {
+      "id": "convey",
+      "word": "convey",
+      "es": "expresar; transmitir (una idea o sentimiento)",
+      "en": "to express a thought, feeling, or idea so that it is understood by other people",
+      "example": "The ad conveys a sense of freedom and adventure.",
+      "translation": "El anuncio transmite una sensación de libertad y aventura.",
+      "prompt": "The ad ___ a sense of freedom and adventure.",
+      "choices": [
+        {
+          "label": "conveys",
+          "correct": true
+        },
+        {
+          "label": "contradicts",
+          "correct": false
+        },
+        {
+          "label": "clarifies",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/convey"
+    },
+    {
+      "id": "assert",
+      "word": "assert",
+      "es": "afirmar; asegurar (que algo es cierto)",
+      "en": "to say that something is certainly true",
+      "example": "She asserted that the report was accurate.",
+      "translation": "Ella aseguró que el informe era correcto.",
+      "prompt": "She ___ that the report was accurate.",
+      "choices": [
+        {
+          "label": "asserted",
+          "correct": true
+        },
+        {
+          "label": "dismissed",
+          "correct": false
+        },
+        {
+          "label": "exaggerated",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/assert"
+    },
+    {
+      "id": "contradict",
+      "word": "contradict",
+      "es": "contradecir",
+      "en": "to say the opposite of what someone else has said, or to be so different that one of two statements must be wrong",
+      "example": "The two reports contradict each other, so we checked the figures again.",
+      "translation": "Los dos informes se contradicen, así que revisamos las cifras de nuevo.",
+      "prompt": "The two reports ___ each other, so we checked the figures again.",
+      "choices": [
+        {
+          "label": "contradict",
+          "correct": true
+        },
+        {
+          "label": "convey",
+          "correct": false
+        },
+        {
+          "label": "assert",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/contradict"
+    },
+    {
+      "id": "exaggerate",
+      "word": "exaggerate",
+      "es": "exagerar",
+      "en": "to make something seem bigger, better or worse than it really is",
+      "example": "Don't exaggerate: it was only a small mistake.",
+      "translation": "No exageres: solo fue un pequeño error.",
+      "prompt": "Don't ___: it was only a small mistake.",
+      "choices": [
+        {
+          "label": "exaggerate",
+          "correct": true
+        },
+        {
+          "label": "clarify",
+          "correct": false
+        },
+        {
+          "label": "convey",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/exaggerate"
+    },
+    {
+      "id": "clarify",
+      "word": "clarify",
+      "es": "aclarar; precisar",
+      "en": "to make something easier to understand by giving more details or a simpler explanation",
+      "example": "Could you clarify what you mean by 'urgent'?",
+      "translation": "¿Podrías aclarar a qué te refieres con 'urgente'?",
+      "prompt": "Could you ___ what you mean by 'urgent'?",
+      "choices": [
+        {
+          "label": "clarify",
+          "correct": true
+        },
+        {
+          "label": "assert",
+          "correct": false
+        },
+        {
+          "label": "dismiss",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/clarify"
+    },
+    {
+      "id": "dismiss",
+      "word": "dismiss",
+      "es": "descartar; no dar importancia a",
+      "en": "to decide that something or someone is not important and not worth considering",
+      "example": "The manager dismissed the complaint as unimportant.",
+      "translation": "El gerente descartó la queja por considerarla poco importante.",
+      "prompt": "The manager ___ the complaint as unimportant.",
+      "choices": [
+        {
+          "label": "dismissed",
+          "correct": true
+        },
+        {
+          "label": "conveyed",
+          "correct": false
+        },
+        {
+          "label": "contradicted",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/dismiss"
     }
   ]
 }
