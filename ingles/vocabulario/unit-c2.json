@@ -2,7 +2,7 @@
   "id": "unit-01-c2",
   "level": "C2",
   "topic": "Expresión avanzada",
-  "version": 4,
+  "version": 5,
   "cards": [
     {
       "id": "ubiquitous",
@@ -555,6 +555,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/negligence"
+    },
+    {
+      "id": "imply",
+      "word": "imply",
+      "es": "insinuar; dar a entender",
+      "en": "to communicate an idea or feeling without saying it directly",
+      "example": "She didn't say it directly, but she implied that the plan had failed.",
+      "translation": "No lo dijo directamente, pero dio a entender que el plan había fracasado.",
+      "prompt": "She didn't say it directly, but she ___ that the plan had failed.",
+      "choices": [
+        {
+          "label": "implied",
+          "correct": true
+        },
+        {
+          "label": "inferred",
+          "correct": false
+        },
+        {
+          "label": "alleged",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/imply"
+    },
+    {
+      "id": "infer",
+      "word": "infer",
+      "es": "inferir; deducir",
+      "en": "to form an opinion or guess that something is true because of the information that you have",
+      "example": "From his tone, I inferred that he was unhappy with the decision.",
+      "translation": "Por su tono, deduje que no estaba contento con la decisión.",
+      "prompt": "From his tone, I ___ that he was unhappy with the decision.",
+      "choices": [
+        {
+          "label": "inferred",
+          "correct": true
+        },
+        {
+          "label": "implied",
+          "correct": false
+        },
+        {
+          "label": "alleged",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/infer"
+    },
+    {
+      "id": "subtle",
+      "word": "subtle",
+      "es": "sutil",
+      "en": "not loud, bright, noticeable, or obvious in any way",
+      "example": "There is a subtle difference between the two colors.",
+      "translation": "Hay una diferencia sutil entre los dos colores.",
+      "prompt": "There is a ___ difference between the two colors.",
+      "choices": [
+        {
+          "label": "subtle",
+          "correct": true
+        },
+        {
+          "label": "ubiquitous",
+          "correct": false
+        },
+        {
+          "label": "incongruous",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/subtle"
+    },
+    {
+      "id": "allege",
+      "word": "allege",
+      "es": "alegar; afirmar sin pruebas",
+      "en": "to say that someone has done something illegal or wrong without giving proof",
+      "example": "The journalist was criticized for alleging that the minister had lied, without offering any proof.",
+      "translation": "Criticaron al periodista por alegar que el ministro había mentido sin ofrecer ninguna prueba.",
+      "prompt": "The journalist was criticized for ___ that the minister had lied, without offering any proof.",
+      "choices": [
+        {
+          "label": "alleging",
+          "correct": true
+        },
+        {
+          "label": "inferring",
+          "correct": false
+        },
+        {
+          "label": "implying",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/allege"
+    },
+    {
+      "id": "ambiguous",
+      "word": "ambiguous",
+      "es": "ambiguo",
+      "en": "having or expressing more than one possible meaning, sometimes intentionally",
+      "example": "His answer was so ambiguous that nobody knew what he meant.",
+      "translation": "Su respuesta era tan ambigua que nadie sabía qué quería decir.",
+      "prompt": "His answer was so ___ that nobody knew what he meant.",
+      "choices": [
+        {
+          "label": "ambiguous",
+          "correct": true
+        },
+        {
+          "label": "ubiquitous",
+          "correct": false
+        },
+        {
+          "label": "perfunctory",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/ambiguous"
+    },
+    {
+      "id": "misinterpret",
+      "word": "misinterpret",
+      "es": "interpretar mal",
+      "en": "to form an understanding that is not correct of something that is said or done",
+      "example": "I misinterpreted her silence as anger, but she was just tired.",
+      "translation": "Interpreté mal su silencio como enfado, pero solo estaba cansada.",
+      "prompt": "I ___ her silence as anger, but she was just tired.",
+      "choices": [
+        {
+          "label": "misinterpreted",
+          "correct": true
+        },
+        {
+          "label": "implied",
+          "correct": false
+        },
+        {
+          "label": "inferred",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/misinterpret"
     }
   ]
 }
