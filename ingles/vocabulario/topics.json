@@ -492,6 +492,18 @@
       ]
     },
     {
+      "id": "interpretacion",
+      "title": "Insinuación e interpretación",
+      "cards": [
+        "imply",
+        "infer",
+        "subtle",
+        "allege",
+        "ambiguous",
+        "misinterpret"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
