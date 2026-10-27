@@ -85,6 +85,18 @@
       ]
     },
     {
+      "id": "ciudad",
+      "title": "La ciudad",
+      "cards": [
+        "park",
+        "shop",
+        "bank",
+        "hospital",
+        "supermarket",
+        "hotel"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
