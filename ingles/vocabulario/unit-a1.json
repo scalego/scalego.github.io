@@ -2,7 +2,7 @@
   "id": "unit-01-a1",
   "level": "A1",
   "topic": "Vocabulario A1 por temas",
-  "version": 5,
+  "version": 6,
   "cards": [
     {
       "id": "family",
@@ -867,6 +867,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/cow"
+    },
+    {
+      "id": "park",
+      "word": "park",
+      "es": "parque",
+      "en": "a large area of land with grass and trees where people can walk or play",
+      "example": "The children play in the park.",
+      "translation": "Los niños juegan en el parque.",
+      "prompt": "The children play in the ___.",
+      "choices": [
+        {
+          "label": "park",
+          "correct": true
+        },
+        {
+          "label": "shop",
+          "correct": false
+        },
+        {
+          "label": "bank",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/park"
+    },
+    {
+      "id": "shop",
+      "word": "shop",
+      "es": "tienda",
+      "en": "a place where you can buy goods or services",
+      "example": "This shop sells fruit and vegetables.",
+      "translation": "Esta tienda vende fruta y verdura.",
+      "prompt": "This ___ sells fruit and vegetables.",
+      "choices": [
+        {
+          "label": "shop",
+          "correct": true
+        },
+        {
+          "label": "park",
+          "correct": false
+        },
+        {
+          "label": "hotel",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/shop"
+    },
+    {
+      "id": "bank",
+      "word": "bank",
+      "es": "banco",
+      "en": "an organization where people keep or borrow money",
+      "example": "I go to the bank to get some money.",
+      "translation": "Voy al banco a sacar dinero.",
+      "prompt": "I go to the ___ to get some money.",
+      "choices": [
+        {
+          "label": "bank",
+          "correct": true
+        },
+        {
+          "label": "hospital",
+          "correct": false
+        },
+        {
+          "label": "park",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/bank"
+    },
+    {
+      "id": "hospital",
+      "word": "hospital",
+      "es": "hospital",
+      "en": "a place where ill or injured people are treated by doctors and nurses",
+      "example": "The doctors in the hospital are very kind.",
+      "translation": "Los médicos del hospital son muy amables.",
+      "prompt": "The doctors in the ___ are very kind.",
+      "choices": [
+        {
+          "label": "hospital",
+          "correct": true
+        },
+        {
+          "label": "shop",
+          "correct": false
+        },
+        {
+          "label": "supermarket",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/hospital"
+    },
+    {
+      "id": "supermarket",
+      "word": "supermarket",
+      "es": "supermercado",
+      "en": "a large shop that sells food and other things for the home",
+      "example": "We buy milk and bread at the supermarket.",
+      "translation": "Compramos leche y pan en el supermercado.",
+      "prompt": "We buy milk and bread at the ___.",
+      "choices": [
+        {
+          "label": "supermarket",
+          "correct": true
+        },
+        {
+          "label": "bank",
+          "correct": false
+        },
+        {
+          "label": "park",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/supermarket"
+    },
+    {
+      "id": "hotel",
+      "word": "hotel",
+      "es": "hotel",
+      "en": "a building where you pay to sleep in a room when you travel",
+      "example": "They stay in a small hotel near the beach.",
+      "translation": "Se alojan en un hotel pequeño cerca de la playa.",
+      "prompt": "They stay in a small ___ near the beach.",
+      "choices": [
+        {
+          "label": "hotel",
+          "correct": true
+        },
+        {
+          "label": "shop",
+          "correct": false
+        },
+        {
+          "label": "bank",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/hotel"
     }
   ]
 }
