@@ -2,7 +2,7 @@
   "id": "unit-01-a2",
   "level": "A2",
   "topic": "Vocabulario A2 por temas",
-  "version": 6,
+  "version": 7,
   "cards": [
     {
       "id": "travel",
@@ -867,6 +867,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/serve"
+    },
+    {
+      "id": "team",
+      "word": "team",
+      "es": "equipo",
+      "en": "a number of people who do something together as a group",
+      "example": "Our team plays every Saturday.",
+      "translation": "Nuestro equipo juega todos los sábados.",
+      "prompt": "Our ___ plays every Saturday.",
+      "choices": [
+        {
+          "label": "team",
+          "correct": true
+        },
+        {
+          "label": "match",
+          "correct": false
+        },
+        {
+          "label": "race",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/team"
+    },
+    {
+      "id": "match",
+      "word": "match",
+      "es": "partido",
+      "en": "a sports competition in which two people or teams compete against each other",
+      "example": "The match starts at eight o'clock.",
+      "translation": "El partido empieza a las ocho.",
+      "prompt": "The ___ starts at eight o'clock.",
+      "choices": [
+        {
+          "label": "match",
+          "correct": true
+        },
+        {
+          "label": "gym",
+          "correct": false
+        },
+        {
+          "label": "goal",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/match"
+    },
+    {
+      "id": "win",
+      "word": "win",
+      "es": "ganar",
+      "en": "to get the first position or a prize in a competition",
+      "example": "I hope we win the game tonight.",
+      "translation": "Espero que ganemos el partido esta noche.",
+      "prompt": "I hope we ___ the game tonight.",
+      "choices": [
+        {
+          "label": "win",
+          "correct": true
+        },
+        {
+          "label": "match",
+          "correct": false
+        },
+        {
+          "label": "goal",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/win"
+    },
+    {
+      "id": "goal",
+      "word": "goal",
+      "es": "gol; portería",
+      "en": "a point scored in sports such as football when the ball goes into the goal area",
+      "example": "He scored a goal in the last minute.",
+      "translation": "Marcó un gol en el último minuto.",
+      "prompt": "He scored a ___ in the last minute.",
+      "choices": [
+        {
+          "label": "goal",
+          "correct": true
+        },
+        {
+          "label": "team",
+          "correct": false
+        },
+        {
+          "label": "match",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/goal"
+    },
+    {
+      "id": "gym",
+      "word": "gym",
+      "es": "gimnasio",
+      "en": "a room with equipment for exercising the body",
+      "example": "She exercises at the gym twice a week.",
+      "translation": "Ella hace ejercicio en el gimnasio dos veces por semana.",
+      "prompt": "She exercises at the ___ twice a week.",
+      "choices": [
+        {
+          "label": "gym",
+          "correct": true
+        },
+        {
+          "label": "team",
+          "correct": false
+        },
+        {
+          "label": "goal",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/gym"
+    },
+    {
+      "id": "race",
+      "word": "race",
+      "es": "carrera",
+      "en": "a competition in which the competitors try to be the fastest",
+      "example": "He won the 100-meter race.",
+      "translation": "Ganó la carrera de 100 metros.",
+      "prompt": "He won the 100-meter ___.",
+      "choices": [
+        {
+          "label": "race",
+          "correct": true
+        },
+        {
+          "label": "match",
+          "correct": false
+        },
+        {
+          "label": "goal",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/race"
     }
   ]
 }
