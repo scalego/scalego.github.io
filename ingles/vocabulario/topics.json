@@ -186,6 +186,18 @@
       ]
     },
     {
+      "id": "deportes",
+      "title": "Los deportes",
+      "cards": [
+        "team",
+        "match",
+        "win",
+        "goal",
+        "gym",
+        "race"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
