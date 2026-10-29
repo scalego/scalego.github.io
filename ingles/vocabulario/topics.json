@@ -287,6 +287,18 @@
       ]
     },
     {
+      "id": "personalidad",
+      "title": "La personalidad",
+      "cards": [
+        "honest",
+        "shy",
+        "rude",
+        "patient",
+        "confident",
+        "proud"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
