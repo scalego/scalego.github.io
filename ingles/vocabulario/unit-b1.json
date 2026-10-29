@@ -2,7 +2,7 @@
   "id": "unit-01-b1",
   "level": "B1",
   "topic": "Vocabulario B1 por temas",
-  "version": 6,
+  "version": 7,
   "cards": [
     {
       "id": "achieve",
@@ -867,6 +867,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/departure"
+    },
+    {
+      "id": "honest",
+      "word": "honest",
+      "es": "honesto; sincero",
+      "en": "telling the truth and not likely to steal, cheat or lie",
+      "example": "An honest person always tells the truth.",
+      "translation": "Una persona honesta dice siempre la verdad.",
+      "prompt": "An ___ person always tells the truth.",
+      "choices": [
+        {
+          "label": "honest",
+          "correct": true
+        },
+        {
+          "label": "shy",
+          "correct": false
+        },
+        {
+          "label": "rude",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/honest"
+    },
+    {
+      "id": "shy",
+      "word": "shy",
+      "es": "tímido",
+      "en": "nervous and uncomfortable with other people",
+      "example": "He is too shy to speak in public.",
+      "translation": "Es demasiado tímido para hablar en público.",
+      "prompt": "He is too ___ to speak in public.",
+      "choices": [
+        {
+          "label": "shy",
+          "correct": true
+        },
+        {
+          "label": "confident",
+          "correct": false
+        },
+        {
+          "label": "proud",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/shy"
+    },
+    {
+      "id": "rude",
+      "word": "rude",
+      "es": "grosero; maleducado",
+      "en": "not polite; offensive or embarrassing",
+      "example": "It is rude to interrupt when someone is talking.",
+      "translation": "Es de mala educación interrumpir cuando alguien está hablando.",
+      "prompt": "It is ___ to interrupt when someone is talking.",
+      "choices": [
+        {
+          "label": "rude",
+          "correct": true
+        },
+        {
+          "label": "honest",
+          "correct": false
+        },
+        {
+          "label": "shy",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/rude"
+    },
+    {
+      "id": "patient",
+      "word": "patient",
+      "es": "paciente",
+      "en": "able to wait without complaining or becoming annoyed",
+      "example": "You need to be patient with young children.",
+      "translation": "Hay que ser paciente con los niños pequeños.",
+      "prompt": "You need to be ___ with young children.",
+      "choices": [
+        {
+          "label": "patient",
+          "correct": true
+        },
+        {
+          "label": "rude",
+          "correct": false
+        },
+        {
+          "label": "shy",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/patient"
+    },
+    {
+      "id": "confident",
+      "word": "confident",
+      "es": "seguro de sí mismo",
+      "en": "certain of your abilities or trusting in people, plans or the future",
+      "example": "He is confident that everything will go well.",
+      "translation": "Está seguro de que todo saldrá bien.",
+      "prompt": "He is ___ that everything will go well.",
+      "choices": [
+        {
+          "label": "confident",
+          "correct": true
+        },
+        {
+          "label": "shy",
+          "correct": false
+        },
+        {
+          "label": "rude",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/confident"
+    },
+    {
+      "id": "proud",
+      "word": "proud",
+      "es": "orgulloso",
+      "en": "feeling pleasure and satisfaction because you or people connected with you have done something good",
+      "example": "Her parents are very proud of her.",
+      "translation": "Sus padres están muy orgullosos de ella.",
+      "prompt": "Her parents are very ___ of her.",
+      "choices": [
+        {
+          "label": "proud",
+          "correct": true
+        },
+        {
+          "label": "shy",
+          "correct": false
+        },
+        {
+          "label": "patient",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/proud"
     }
   ]
 }
