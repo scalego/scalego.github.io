@@ -388,6 +388,18 @@
       ]
     },
     {
+      "id": "politica",
+      "title": "Gobierno y política",
+      "cards": [
+        "policy",
+        "parliament",
+        "minister",
+        "debate",
+        "democracy",
+        "candidate"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
