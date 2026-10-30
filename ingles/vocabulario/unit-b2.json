@@ -2,7 +2,7 @@
   "id": "work-planning-b2",
   "level": "B2",
   "topic": "Vocabulario B2 por temas",
-  "version": 6,
+  "version": 7,
   "cards": [
     {
       "id": "deadline",
@@ -867,6 +867,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/intelligence"
+    },
+    {
+      "id": "policy",
+      "word": "policy",
+      "es": "política; norma oficial",
+      "en": "a set of ideas or a plan of what to do in particular situations, agreed officially by a government or organization",
+      "example": "The government changed its policy on housing.",
+      "translation": "El Gobierno cambió su política de vivienda.",
+      "prompt": "The government changed its ___ on housing.",
+      "choices": [
+        {
+          "label": "policy",
+          "correct": true
+        },
+        {
+          "label": "debate",
+          "correct": false
+        },
+        {
+          "label": "parliament",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/policy"
+    },
+    {
+      "id": "parliament",
+      "word": "parliament",
+      "es": "parlamento",
+      "en": "the group of elected politicians who make the laws in some countries",
+      "example": "The new law was discussed in parliament.",
+      "translation": "La nueva ley se debatió en el parlamento.",
+      "prompt": "The new law was discussed in ___.",
+      "choices": [
+        {
+          "label": "parliament",
+          "correct": true
+        },
+        {
+          "label": "minister",
+          "correct": false
+        },
+        {
+          "label": "candidate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/parliament"
+    },
+    {
+      "id": "minister",
+      "word": "minister",
+      "es": "ministro; ministra",
+      "en": "a member of the government who is in charge of a particular department",
+      "example": "The minister answered questions about the health system.",
+      "translation": "La ministra respondió a preguntas sobre el sistema sanitario.",
+      "prompt": "The ___ answered questions about the health system.",
+      "choices": [
+        {
+          "label": "minister",
+          "correct": true
+        },
+        {
+          "label": "parliament",
+          "correct": false
+        },
+        {
+          "label": "debate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/minister"
+    },
+    {
+      "id": "debate",
+      "word": "debate",
+      "es": "debate",
+      "en": "a serious discussion of a subject in which many people take part",
+      "example": "There was a long debate about the new tax.",
+      "translation": "Hubo un largo debate sobre el nuevo impuesto.",
+      "prompt": "There was a long ___ about the new tax.",
+      "choices": [
+        {
+          "label": "debate",
+          "correct": true
+        },
+        {
+          "label": "policy",
+          "correct": false
+        },
+        {
+          "label": "candidate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/debate"
+    },
+    {
+      "id": "democracy",
+      "word": "democracy",
+      "es": "democracia",
+      "en": "a system of government in which power is held by freely elected representatives",
+      "example": "Voting is an important part of democracy.",
+      "translation": "Votar es una parte importante de la democracia.",
+      "prompt": "Voting is an important part of ___.",
+      "choices": [
+        {
+          "label": "democracy",
+          "correct": true
+        },
+        {
+          "label": "debate",
+          "correct": false
+        },
+        {
+          "label": "policy",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/democracy"
+    },
+    {
+      "id": "candidate",
+      "word": "candidate",
+      "es": "candidato; candidata",
+      "en": "a person who is competing to get a job or an elected position",
+      "example": "Each candidate explained their plans for the city.",
+      "translation": "Cada candidato explicó sus planes para la ciudad.",
+      "prompt": "Each ___ explained their plans for the city.",
+      "choices": [
+        {
+          "label": "candidate",
+          "correct": true
+        },
+        {
+          "label": "policy",
+          "correct": false
+        },
+        {
+          "label": "debate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/candidate"
     }
   ]
 }
