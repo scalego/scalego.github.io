@@ -476,6 +476,18 @@
       ]
     },
     {
+      "id": "evolucion",
+      "title": "Cambio y evolución",
+      "cards": [
+        "undergo",
+        "deteriorate",
+        "evolve",
+        "thrive",
+        "emerge",
+        "worsen"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
