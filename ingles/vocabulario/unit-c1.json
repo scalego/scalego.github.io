@@ -2,7 +2,7 @@
   "id": "work-decisions-c1",
   "level": "C1",
   "topic": "Trabajo y decisiones",
-  "version": 5,
+  "version": 6,
   "cards": [
     {
       "id": "setback",
@@ -699,6 +699,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/dismiss"
+    },
+    {
+      "id": "undergo",
+      "word": "undergo",
+      "es": "sufrir; pasar por (un cambio)",
+      "en": "to experience something unpleasant or something that involves a change",
+      "example": "The building is undergoing major repairs.",
+      "translation": "El edificio está pasando por una gran reforma.",
+      "prompt": "The building is ___ major repairs.",
+      "choices": [
+        {
+          "label": "undergoing",
+          "correct": true
+        },
+        {
+          "label": "evolving",
+          "correct": false
+        },
+        {
+          "label": "thriving",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/undergo"
+    },
+    {
+      "id": "deteriorate",
+      "word": "deteriorate",
+      "es": "deteriorarse",
+      "en": "to become worse",
+      "example": "His eyesight began to deteriorate with age.",
+      "translation": "Su vista empezó a deteriorarse con la edad.",
+      "prompt": "His eyesight began to ___ with age.",
+      "choices": [
+        {
+          "label": "deteriorate",
+          "correct": true
+        },
+        {
+          "label": "thrive",
+          "correct": false
+        },
+        {
+          "label": "emerge",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/deteriorate"
+    },
+    {
+      "id": "evolve",
+      "word": "evolve",
+      "es": "evolucionar",
+      "en": "to develop gradually",
+      "example": "The company evolved from a small family business.",
+      "translation": "La empresa evolucionó a partir de un pequeño negocio familiar.",
+      "prompt": "The company ___ from a small family business.",
+      "choices": [
+        {
+          "label": "evolved",
+          "correct": true
+        },
+        {
+          "label": "deteriorated",
+          "correct": false
+        },
+        {
+          "label": "thrived",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/evolve"
+    },
+    {
+      "id": "thrive",
+      "word": "thrive",
+      "es": "prosperar",
+      "en": "to grow, develop, or be successful",
+      "example": "Small shops thrive in this neighborhood.",
+      "translation": "Las pequeñas tiendas prosperan en este barrio.",
+      "prompt": "Small shops ___ in this neighborhood.",
+      "choices": [
+        {
+          "label": "thrive",
+          "correct": true
+        },
+        {
+          "label": "undergo",
+          "correct": false
+        },
+        {
+          "label": "deteriorate",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/thrive"
+    },
+    {
+      "id": "emerge",
+      "word": "emerge",
+      "es": "surgir; salir a la luz",
+      "en": "to become known, especially as a result of examining something or asking questions",
+      "example": "New details emerged during the investigation.",
+      "translation": "Surgieron nuevos detalles durante la investigación.",
+      "prompt": "New details ___ during the investigation.",
+      "choices": [
+        {
+          "label": "emerged",
+          "correct": true
+        },
+        {
+          "label": "thrived",
+          "correct": false
+        },
+        {
+          "label": "deteriorated",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/emerge"
+    },
+    {
+      "id": "worsen",
+      "word": "worsen",
+      "es": "empeorar",
+      "en": "to become worse or to make something become worse",
+      "example": "The weather worsened during the night.",
+      "translation": "El tiempo empeoró durante la noche.",
+      "prompt": "The weather ___ during the night.",
+      "choices": [
+        {
+          "label": "worsened",
+          "correct": true
+        },
+        {
+          "label": "thrived",
+          "correct": false
+        },
+        {
+          "label": "underwent",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/worsen"
     }
   ]
 }
