@@ -564,6 +564,18 @@
       ]
     },
     {
+      "id": "ciencia",
+      "title": "Ciencia y razonamiento",
+      "cards": [
+        "hypothesis",
+        "empirical",
+        "paradox",
+        "plausible",
+        "theoretical",
+        "scrutiny"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
