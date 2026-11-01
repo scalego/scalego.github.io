@@ -2,7 +2,7 @@
   "id": "unit-01-c2",
   "level": "C2",
   "topic": "Expresión avanzada",
-  "version": 5,
+  "version": 6,
   "cards": [
     {
       "id": "ubiquitous",
@@ -699,6 +699,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/misinterpret"
+    },
+    {
+      "id": "hypothesis",
+      "word": "hypothesis",
+      "es": "hipótesis",
+      "en": "an idea or explanation for something that is based on known facts but has not yet been proved",
+      "example": "The results support her hypothesis about sleep.",
+      "translation": "Los resultados apoyan su hipótesis sobre el sueño.",
+      "prompt": "The results support her ___ about sleep.",
+      "choices": [
+        {
+          "label": "hypothesis",
+          "correct": true
+        },
+        {
+          "label": "paradox",
+          "correct": false
+        },
+        {
+          "label": "scrutiny",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/hypothesis"
+    },
+    {
+      "id": "empirical",
+      "word": "empirical",
+      "es": "empírico",
+      "en": "based on what is experienced or seen rather than on theory",
+      "example": "The study is based on empirical data collected over ten years.",
+      "translation": "El estudio se basa en datos empíricos recogidos durante diez años.",
+      "prompt": "The study is based on ___ data collected over ten years.",
+      "choices": [
+        {
+          "label": "empirical",
+          "correct": true
+        },
+        {
+          "label": "theoretical",
+          "correct": false
+        },
+        {
+          "label": "plausible",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/empirical"
+    },
+    {
+      "id": "paradox",
+      "word": "paradox",
+      "es": "paradoja",
+      "en": "a situation or statement that seems impossible because it contains two opposite ideas",
+      "example": "It is a paradox that the richest country has so much poverty.",
+      "translation": "Es una paradoja que el país más rico tenga tanta pobreza.",
+      "prompt": "It is a ___ that the richest country has so much poverty.",
+      "choices": [
+        {
+          "label": "paradox",
+          "correct": true
+        },
+        {
+          "label": "scrutiny",
+          "correct": false
+        },
+        {
+          "label": "theoretical",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/paradox"
+    },
+    {
+      "id": "plausible",
+      "word": "plausible",
+      "es": "plausible; verosímil",
+      "en": "seeming likely to be true, or able to be believed",
+      "example": "The most plausible explanation is a simple error.",
+      "translation": "La explicación más plausible es un simple error.",
+      "prompt": "The most ___ explanation is a simple error.",
+      "choices": [
+        {
+          "label": "plausible",
+          "correct": true
+        },
+        {
+          "label": "empirical",
+          "correct": false
+        },
+        {
+          "label": "hypothesis",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/plausible"
+    },
+    {
+      "id": "theoretical",
+      "word": "theoretical",
+      "es": "teórico",
+      "en": "based on ideas rather than practical uses or experience",
+      "example": "His interest is purely theoretical, with no practical application.",
+      "translation": "Su interés es puramente teórico, sin aplicación práctica.",
+      "prompt": "His interest is purely ___, with no practical application.",
+      "choices": [
+        {
+          "label": "theoretical",
+          "correct": true
+        },
+        {
+          "label": "empirical",
+          "correct": false
+        },
+        {
+          "label": "plausible",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/theoretical"
+    },
+    {
+      "id": "scrutiny",
+      "word": "scrutiny",
+      "es": "escrutinio; examen detallado",
+      "en": "the careful and detailed examination of something in order to get information about it",
+      "example": "The data came under close scrutiny.",
+      "translation": "Los datos fueron sometidos a un examen detallado.",
+      "prompt": "The data came under close ___.",
+      "choices": [
+        {
+          "label": "scrutiny",
+          "correct": true
+        },
+        {
+          "label": "hypothesis",
+          "correct": false
+        },
+        {
+          "label": "paradox",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/scrutiny"
     }
   ]
 }
