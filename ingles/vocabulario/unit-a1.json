@@ -2,7 +2,7 @@
   "id": "unit-01-a1",
   "level": "A1",
   "topic": "Vocabulario A1 por temas",
-  "version": 6,
+  "version": 7,
   "cards": [
     {
       "id": "family",
@@ -1011,6 +1011,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/hotel"
+    },
+    {
+      "id": "day",
+      "word": "day",
+      "es": "día",
+      "en": "a period of 24 hours",
+      "example": "What day is it today?",
+      "translation": "¿Qué día es hoy?",
+      "prompt": "What ___ is it today?",
+      "choices": [
+        {
+          "label": "day",
+          "correct": true
+        },
+        {
+          "label": "week",
+          "correct": false
+        },
+        {
+          "label": "month",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/day"
+    },
+    {
+      "id": "week",
+      "word": "week",
+      "es": "semana",
+      "en": "a period of seven days",
+      "example": "There are seven days in a week.",
+      "translation": "Hay siete días en una semana.",
+      "prompt": "There are seven days in a ___.",
+      "choices": [
+        {
+          "label": "week",
+          "correct": true
+        },
+        {
+          "label": "month",
+          "correct": false
+        },
+        {
+          "label": "year",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/week"
+    },
+    {
+      "id": "month",
+      "word": "month",
+      "es": "mes",
+      "en": "one of the twelve parts of a year",
+      "example": "December is the last month of the year.",
+      "translation": "Diciembre es el último mes del año.",
+      "prompt": "December is the last ___ of the year.",
+      "choices": [
+        {
+          "label": "month",
+          "correct": true
+        },
+        {
+          "label": "week",
+          "correct": false
+        },
+        {
+          "label": "day",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/month"
+    },
+    {
+      "id": "year",
+      "word": "year",
+      "es": "año",
+      "en": "a period of twelve months",
+      "example": "A year has twelve months.",
+      "translation": "Un año tiene doce meses.",
+      "prompt": "A ___ has twelve months.",
+      "choices": [
+        {
+          "label": "year",
+          "correct": true
+        },
+        {
+          "label": "week",
+          "correct": false
+        },
+        {
+          "label": "month",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/year"
+    },
+    {
+      "id": "today",
+      "word": "today",
+      "es": "hoy",
+      "en": "this day",
+      "example": "Today is Monday.",
+      "translation": "Hoy es lunes.",
+      "prompt": "___ is Monday.",
+      "choices": [
+        {
+          "label": "today",
+          "correct": true
+        },
+        {
+          "label": "year",
+          "correct": false
+        },
+        {
+          "label": "week",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/today"
+    },
+    {
+      "id": "morning",
+      "word": "morning",
+      "es": "mañana (primera parte del día)",
+      "en": "the first part of the day",
+      "example": "I drink coffee in the morning.",
+      "translation": "Tomo café por la mañana.",
+      "prompt": "I drink coffee in the ___.",
+      "choices": [
+        {
+          "label": "morning",
+          "correct": true
+        },
+        {
+          "label": "week",
+          "correct": false
+        },
+        {
+          "label": "month",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/morning"
     }
   ]
 }
