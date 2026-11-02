@@ -97,6 +97,18 @@
       ]
     },
     {
+      "id": "calendario",
+      "title": "El calendario",
+      "cards": [
+        "day",
+        "week",
+        "month",
+        "year",
+        "today",
+        "morning"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
