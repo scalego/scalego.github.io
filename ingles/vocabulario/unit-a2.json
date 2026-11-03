@@ -2,7 +2,7 @@
   "id": "unit-01-a2",
   "level": "A2",
   "topic": "Vocabulario A2 por temas",
-  "version": 7,
+  "version": 8,
   "cards": [
     {
       "id": "travel",
@@ -1011,6 +1011,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/race"
+    },
+    {
+      "id": "mountain",
+      "word": "mountain",
+      "es": "montaña",
+      "en": "a very high hill",
+      "example": "They climbed the mountain in two days.",
+      "translation": "Subieron la montaña en dos días.",
+      "prompt": "They climbed the ___ in two days.",
+      "choices": [
+        {
+          "label": "mountain",
+          "correct": true
+        },
+        {
+          "label": "forest",
+          "correct": false
+        },
+        {
+          "label": "lake",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/mountain"
+    },
+    {
+      "id": "forest",
+      "word": "forest",
+      "es": "bosque",
+      "en": "a large area of trees",
+      "example": "Many birds live in this forest.",
+      "translation": "Muchos pájaros viven en este bosque.",
+      "prompt": "Many birds live in this ___.",
+      "choices": [
+        {
+          "label": "forest",
+          "correct": true
+        },
+        {
+          "label": "lake",
+          "correct": false
+        },
+        {
+          "label": "island",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/forest"
+    },
+    {
+      "id": "lake",
+      "word": "lake",
+      "es": "lago",
+      "en": "a large area of water with land around it",
+      "example": "We swam in the lake last summer.",
+      "translation": "Nadamos en el lago el verano pasado.",
+      "prompt": "We swam in the ___ last summer.",
+      "choices": [
+        {
+          "label": "lake",
+          "correct": true
+        },
+        {
+          "label": "forest",
+          "correct": false
+        },
+        {
+          "label": "hill",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/lake"
+    },
+    {
+      "id": "hill",
+      "word": "hill",
+      "es": "colina",
+      "en": "an area of land higher than the land around it, smaller than a mountain",
+      "example": "Their house is on top of a hill.",
+      "translation": "Su casa está en lo alto de una colina.",
+      "prompt": "Their house is on top of a ___.",
+      "choices": [
+        {
+          "label": "hill",
+          "correct": true
+        },
+        {
+          "label": "lake",
+          "correct": false
+        },
+        {
+          "label": "forest",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/hill"
+    },
+    {
+      "id": "island",
+      "word": "island",
+      "es": "isla",
+      "en": "a piece of land with water all around it",
+      "example": "The island has only one shop.",
+      "translation": "La isla solo tiene una tienda.",
+      "prompt": "The ___ has only one shop.",
+      "choices": [
+        {
+          "label": "island",
+          "correct": true
+        },
+        {
+          "label": "lake",
+          "correct": false
+        },
+        {
+          "label": "forest",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/island"
+    },
+    {
+      "id": "countryside",
+      "word": "countryside",
+      "es": "campo (zona rural)",
+      "en": "land away from towns and cities",
+      "example": "My grandparents live in the countryside.",
+      "translation": "Mis abuelos viven en el campo.",
+      "prompt": "My grandparents live in the ___.",
+      "choices": [
+        {
+          "label": "countryside",
+          "correct": true
+        },
+        {
+          "label": "mountain",
+          "correct": false
+        },
+        {
+          "label": "lake",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/countryside"
     }
   ]
 }
