@@ -323,6 +323,18 @@
       ]
     },
     {
+      "id": "dinero",
+      "title": "El dinero",
+      "cards": [
+        "afford",
+        "salary",
+        "fee",
+        "owe",
+        "worth",
+        "tax"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
