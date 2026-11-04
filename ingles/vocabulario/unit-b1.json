@@ -2,7 +2,7 @@
   "id": "unit-01-b1",
   "level": "B1",
   "topic": "Vocabulario B1 por temas",
-  "version": 7,
+  "version": 8,
   "cards": [
     {
       "id": "achieve",
@@ -1011,6 +1011,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/proud"
+    },
+    {
+      "id": "afford",
+      "word": "afford",
+      "es": "permitirse",
+      "en": "to have enough money to buy or pay for something",
+      "example": "We can't afford a new car this year.",
+      "translation": "No podemos permitirnos un coche nuevo este año.",
+      "prompt": "We can't ___ a new car this year.",
+      "choices": [
+        {
+          "label": "afford",
+          "correct": true
+        },
+        {
+          "label": "spend",
+          "correct": false
+        },
+        {
+          "label": "save",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/afford"
+    },
+    {
+      "id": "salary",
+      "word": "salary",
+      "es": "salario",
+      "en": "the money a worker receives every month for their job",
+      "example": "Her salary is paid at the end of the month.",
+      "translation": "Su salario se paga a fin de mes.",
+      "prompt": "Her ___ is paid at the end of the month.",
+      "choices": [
+        {
+          "label": "salary",
+          "correct": true
+        },
+        {
+          "label": "afford",
+          "correct": false
+        },
+        {
+          "label": "owe",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/salary"
+    },
+    {
+      "id": "fee",
+      "word": "fee",
+      "es": "tasa (cuota; honorarios)",
+      "en": "money you pay for a service or to join something",
+      "example": "The gym charges a monthly fee of twenty euros.",
+      "translation": "El gimnasio cobra una cuota mensual de veinte euros.",
+      "prompt": "The gym charges a monthly ___ of twenty euros.",
+      "choices": [
+        {
+          "label": "fee",
+          "correct": true
+        },
+        {
+          "label": "salary",
+          "correct": false
+        },
+        {
+          "label": "tax",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/fee"
+    },
+    {
+      "id": "owe",
+      "word": "owe",
+      "es": "deber (dinero)",
+      "en": "to have to pay money back to someone",
+      "example": "I owe my brother fifty euros.",
+      "translation": "Le debo cincuenta euros a mi hermano.",
+      "prompt": "I ___ my brother fifty euros.",
+      "choices": [
+        {
+          "label": "owe",
+          "correct": true
+        },
+        {
+          "label": "afford",
+          "correct": false
+        },
+        {
+          "label": "worth",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/owe"
+    },
+    {
+      "id": "worth",
+      "word": "worth",
+      "es": "valer (tener un valor de)",
+      "en": "having a particular value",
+      "example": "This watch is worth three hundred euros.",
+      "translation": "Este reloj vale trescientos euros.",
+      "prompt": "This watch is ___ three hundred euros.",
+      "choices": [
+        {
+          "label": "worth",
+          "correct": true
+        },
+        {
+          "label": "afford",
+          "correct": false
+        },
+        {
+          "label": "owe",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/worth"
+    },
+    {
+      "id": "tax",
+      "word": "tax",
+      "es": "impuesto",
+      "en": "money that people pay to the government",
+      "example": "The government raised the tax on fuel.",
+      "translation": "El gobierno subió el impuesto sobre los carburantes.",
+      "prompt": "The government raised the ___ on fuel.",
+      "choices": [
+        {
+          "label": "tax",
+          "correct": true
+        },
+        {
+          "label": "salary",
+          "correct": false
+        },
+        {
+          "label": "fee",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/tax"
     }
   ]
 }
