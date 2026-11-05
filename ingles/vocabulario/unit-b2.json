@@ -2,7 +2,7 @@
   "id": "work-planning-b2",
   "level": "B2",
   "topic": "Vocabulario B2 por temas",
-  "version": 7,
+  "version": 8,
   "cards": [
     {
       "id": "deadline",
@@ -1011,6 +1011,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/candidate"
+    },
+    {
+      "id": "theory",
+      "word": "theory",
+      "es": "teoría",
+      "en": "an idea that explains why something happens",
+      "example": "Einstein developed the theory of relativity.",
+      "translation": "Einstein desarrolló la teoría de la relatividad.",
+      "prompt": "Einstein developed the ___ of relativity.",
+      "choices": [
+        {
+          "label": "theory",
+          "correct": true
+        },
+        {
+          "label": "survey",
+          "correct": false
+        },
+        {
+          "label": "observation",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/theory"
+    },
+    {
+      "id": "analyse",
+      "word": "analyse",
+      "es": "analizar",
+      "en": "to study something carefully to understand it",
+      "example": "Scientists analyse the data carefully.",
+      "translation": "Los científicos analizan los datos con cuidado.",
+      "prompt": "Scientists ___ the data carefully.",
+      "choices": [
+        {
+          "label": "analyse",
+          "correct": true
+        },
+        {
+          "label": "theory",
+          "correct": false
+        },
+        {
+          "label": "observation",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/analyse"
+    },
+    {
+      "id": "survey",
+      "word": "survey",
+      "es": "encuesta (estudio)",
+      "en": "a set of questions asked to a group of people to find out their opinions",
+      "example": "The survey included two thousand people.",
+      "translation": "La encuesta incluyó a dos mil personas.",
+      "prompt": "The ___ included two thousand people.",
+      "choices": [
+        {
+          "label": "survey",
+          "correct": true
+        },
+        {
+          "label": "theory",
+          "correct": false
+        },
+        {
+          "label": "measure",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/survey"
+    },
+    {
+      "id": "significant",
+      "word": "significant",
+      "es": "significativo (importante)",
+      "en": "large or important enough to be noticed",
+      "example": "The study found a significant difference between the groups.",
+      "translation": "El estudio encontró una diferencia significativa entre los grupos.",
+      "prompt": "The study found a ___ difference between the groups.",
+      "choices": [
+        {
+          "label": "significant",
+          "correct": true
+        },
+        {
+          "label": "accurate",
+          "correct": false
+        },
+        {
+          "label": "theory",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/significant"
+    },
+    {
+      "id": "measure",
+      "word": "measure",
+      "es": "medir",
+      "en": "to find the size, amount or degree of something",
+      "example": "The device measures the temperature every hour.",
+      "translation": "El aparato mide la temperatura cada hora.",
+      "prompt": "The device ___ the temperature every hour.",
+      "choices": [
+        {
+          "label": "measure",
+          "correct": true
+        },
+        {
+          "label": "survey",
+          "correct": false
+        },
+        {
+          "label": "observation",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/measure"
+    },
+    {
+      "id": "observation",
+      "word": "observation",
+      "es": "observación",
+      "en": "the act of watching something carefully",
+      "example": "Careful observation is the basis of good science.",
+      "translation": "La observación cuidadosa es la base de la buena ciencia.",
+      "prompt": "Careful ___ is the basis of good science.",
+      "choices": [
+        {
+          "label": "observation",
+          "correct": true
+        },
+        {
+          "label": "survey",
+          "correct": false
+        },
+        {
+          "label": "theory",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/observation"
     }
   ]
 }
