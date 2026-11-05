@@ -436,6 +436,18 @@
       ]
     },
     {
+      "id": "ciencia",
+      "title": "Ciencia e investigación",
+      "cards": [
+        "theory",
+        "analyse",
+        "survey",
+        "significant",
+        "measure",
+        "observation"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
