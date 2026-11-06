@@ -536,6 +536,18 @@
       ]
     },
     {
+      "id": "economia",
+      "title": "Economía y empresas",
+      "cards": [
+        "revenue",
+        "turnover",
+        "commodity",
+        "enterprise",
+        "consumption",
+        "transaction"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
