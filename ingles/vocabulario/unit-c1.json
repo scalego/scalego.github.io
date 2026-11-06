@@ -2,7 +2,7 @@
   "id": "work-decisions-c1",
   "level": "C1",
   "topic": "Trabajo y decisiones",
-  "version": 7,
+  "version": 8,
   "cards": [
     {
       "id": "setback",
@@ -858,11 +858,11 @@
           "correct": true
         },
         {
-          "label": "turnover",
+          "label": "enterprise",
           "correct": false
         },
         {
-          "label": "consumption",
+          "label": "commodity",
           "correct": false
         }
       ],
