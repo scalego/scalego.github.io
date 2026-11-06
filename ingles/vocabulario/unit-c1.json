@@ -2,7 +2,7 @@
   "id": "work-decisions-c1",
   "level": "C1",
   "topic": "Trabajo y decisiones",
-  "version": 6,
+  "version": 7,
   "cards": [
     {
       "id": "setback",
@@ -843,6 +843,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/worsen"
+    },
+    {
+      "id": "revenue",
+      "word": "revenue",
+      "es": "ingresos",
+      "en": "the money that a business or government receives",
+      "example": "Tourism is a major source of revenue for the region.",
+      "translation": "El turismo es una fuente importante de ingresos para la región.",
+      "prompt": "Tourism is a major source of ___ for the region.",
+      "choices": [
+        {
+          "label": "revenue",
+          "correct": true
+        },
+        {
+          "label": "turnover",
+          "correct": false
+        },
+        {
+          "label": "consumption",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/revenue"
+    },
+    {
+      "id": "turnover",
+      "word": "turnover",
+      "es": "facturación",
+      "en": "the total amount of business a company does in a period",
+      "example": "The company has an annual turnover of two million euros.",
+      "translation": "La empresa tiene una facturación anual de dos millones de euros.",
+      "prompt": "The company has an annual ___ of two million euros.",
+      "choices": [
+        {
+          "label": "turnover",
+          "correct": true
+        },
+        {
+          "label": "consumption",
+          "correct": false
+        },
+        {
+          "label": "commodity",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/turnover"
+    },
+    {
+      "id": "commodity",
+      "word": "commodity",
+      "es": "materia prima (producto básico)",
+      "en": "a product or raw material that can be bought and sold",
+      "example": "Oil is the country's most valuable commodity.",
+      "translation": "El petróleo es la materia prima más valiosa del país.",
+      "prompt": "Oil is the country's most valuable ___.",
+      "choices": [
+        {
+          "label": "commodity",
+          "correct": true
+        },
+        {
+          "label": "revenue",
+          "correct": false
+        },
+        {
+          "label": "enterprise",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/commodity"
+    },
+    {
+      "id": "enterprise",
+      "word": "enterprise",
+      "es": "empresa (iniciativa)",
+      "en": "a business or organization",
+      "example": "Running a small enterprise requires long hours.",
+      "translation": "Llevar una pequeña empresa exige muchas horas de trabajo.",
+      "prompt": "Running a small ___ requires long hours.",
+      "choices": [
+        {
+          "label": "enterprise",
+          "correct": true
+        },
+        {
+          "label": "commodity",
+          "correct": false
+        },
+        {
+          "label": "revenue",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/enterprise"
+    },
+    {
+      "id": "consumption",
+      "word": "consumption",
+      "es": "consumo",
+      "en": "the amount of something that is used",
+      "example": "The government wants to reduce energy consumption.",
+      "translation": "El gobierno quiere reducir el consumo de energía.",
+      "prompt": "The government wants to reduce energy ___.",
+      "choices": [
+        {
+          "label": "consumption",
+          "correct": true
+        },
+        {
+          "label": "revenue",
+          "correct": false
+        },
+        {
+          "label": "turnover",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/consumption"
+    },
+    {
+      "id": "transaction",
+      "word": "transaction",
+      "es": "transacción (operación)",
+      "en": "an act of buying, selling or paying something",
+      "example": "Every transaction is recorded in the company's accounts.",
+      "translation": "Cada operación queda registrada en las cuentas de la empresa.",
+      "prompt": "Every ___ is recorded in the company's accounts.",
+      "choices": [
+        {
+          "label": "transaction",
+          "correct": true
+        },
+        {
+          "label": "enterprise",
+          "correct": false
+        },
+        {
+          "label": "commodity",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/transaction"
     }
   ]
 }
