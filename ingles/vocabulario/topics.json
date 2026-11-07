@@ -636,6 +636,18 @@
       ]
     },
     {
+      "id": "economia-avanzada",
+      "title": "Economía avanzada",
+      "cards": [
+        "merger",
+        "monopoly",
+        "surplus",
+        "expenditure",
+        "welfare",
+        "monetary"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
