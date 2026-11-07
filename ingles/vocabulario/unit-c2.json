@@ -2,7 +2,7 @@
   "id": "unit-01-c2",
   "level": "C2",
   "topic": "Expresión avanzada",
-  "version": 6,
+  "version": 7,
   "cards": [
     {
       "id": "ubiquitous",
@@ -843,6 +843,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/scrutiny"
+    },
+    {
+      "id": "merger",
+      "word": "merger",
+      "es": "fusión",
+      "en": "the joining of two companies into one",
+      "example": "The merger created the largest bank in the country.",
+      "translation": "La fusión creó el banco más grande del país.",
+      "prompt": "The ___ created the largest bank in the country.",
+      "choices": [
+        {
+          "label": "merger",
+          "correct": true
+        },
+        {
+          "label": "monopoly",
+          "correct": false
+        },
+        {
+          "label": "surplus",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/merger"
+    },
+    {
+      "id": "monopoly",
+      "word": "monopoly",
+      "es": "monopolio",
+      "en": "when one company controls a whole market",
+      "example": "One company has a monopoly on rail services.",
+      "translation": "Una empresa tiene el monopolio de los servicios ferroviarios.",
+      "prompt": "One company has a ___ on rail services.",
+      "choices": [
+        {
+          "label": "monopoly",
+          "correct": true
+        },
+        {
+          "label": "merger",
+          "correct": false
+        },
+        {
+          "label": "surplus",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/monopoly"
+    },
+    {
+      "id": "surplus",
+      "word": "surplus",
+      "es": "superávit",
+      "en": "an amount that is more than what is needed or spent",
+      "example": "The government ended the year with a budget surplus.",
+      "translation": "El gobierno terminó el año con superávit presupuestario.",
+      "prompt": "The government ended the year with a budget ___.",
+      "choices": [
+        {
+          "label": "surplus",
+          "correct": true
+        },
+        {
+          "label": "expenditure",
+          "correct": false
+        },
+        {
+          "label": "merger",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/surplus"
+    },
+    {
+      "id": "expenditure",
+      "word": "expenditure",
+      "es": "gasto (público)",
+      "en": "the total amount of money spent",
+      "example": "Public expenditure on health has increased.",
+      "translation": "El gasto público en sanidad ha aumentado.",
+      "prompt": "Public ___ on health has increased.",
+      "choices": [
+        {
+          "label": "expenditure",
+          "correct": true
+        },
+        {
+          "label": "welfare",
+          "correct": false
+        },
+        {
+          "label": "monopoly",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/expenditure"
+    },
+    {
+      "id": "welfare",
+      "word": "welfare",
+      "es": "bienestar social (prestaciones sociales)",
+      "en": "help given by the government to people who need it",
+      "example": "The state provides welfare for families in need.",
+      "translation": "El Estado proporciona prestaciones sociales a las familias necesitadas.",
+      "prompt": "The state provides ___ for families in need.",
+      "choices": [
+        {
+          "label": "welfare",
+          "correct": true
+        },
+        {
+          "label": "expenditure",
+          "correct": false
+        },
+        {
+          "label": "surplus",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/welfare"
+    },
+    {
+      "id": "monetary",
+      "word": "monetary",
+      "es": "monetario",
+      "en": "relating to money, especially a country's money supply",
+      "example": "The central bank controls monetary policy.",
+      "translation": "El banco central controla la política monetaria.",
+      "prompt": "The central bank controls ___ policy.",
+      "choices": [
+        {
+          "label": "monetary",
+          "correct": true
+        },
+        {
+          "label": "surplus",
+          "correct": false
+        },
+        {
+          "label": "expenditure",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/monetary"
     }
   ]
 }
