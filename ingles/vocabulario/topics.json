@@ -109,6 +109,18 @@
       ]
     },
     {
+      "id": "ropa",
+      "title": "La ropa",
+      "cards": [
+        "shirt",
+        "trousers",
+        "dress",
+        "skirt",
+        "shoes",
+        "hat"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
