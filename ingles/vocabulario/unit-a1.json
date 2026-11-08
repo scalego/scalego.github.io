@@ -2,7 +2,7 @@
   "id": "unit-01-a1",
   "level": "A1",
   "topic": "Vocabulario A1 por temas",
-  "version": 7,
+  "version": 8,
   "cards": [
     {
       "id": "family",
@@ -1155,6 +1155,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/morning"
+    },
+    {
+      "id": "shirt",
+      "word": "shirt",
+      "es": "camisa",
+      "en": "a piece of clothing for the top part of the body, with sleeves and usually buttons at the front",
+      "example": "He wears a white shirt to work.",
+      "translation": "Lleva una camisa blanca al trabajo.",
+      "prompt": "He wears a white ___ to work.",
+      "choices": [
+        {
+          "label": "shirt",
+          "correct": true
+        },
+        {
+          "label": "bread",
+          "correct": false
+        },
+        {
+          "label": "morning",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/shirt"
+    },
+    {
+      "id": "trousers",
+      "word": "trousers",
+      "es": "pantalones",
+      "en": "a piece of clothing that covers the body from the waist down and has a separate part for each leg",
+      "example": "These trousers are too long for me.",
+      "translation": "Estos pantalones me quedan largos.",
+      "prompt": "These ___ are too long for me.",
+      "choices": [
+        {
+          "label": "trousers",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "station",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/trousers"
+    },
+    {
+      "id": "dress",
+      "word": "dress",
+      "es": "vestido",
+      "en": "a piece of clothing for a woman or girl that covers the top of the body and hangs down",
+      "example": "She bought a red dress for the party.",
+      "translation": "Se compró un vestido rojo para la fiesta.",
+      "prompt": "She bought a red ___ for the party.",
+      "choices": [
+        {
+          "label": "dress",
+          "correct": true
+        },
+        {
+          "label": "bus",
+          "correct": false
+        },
+        {
+          "label": "egg",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/dress"
+    },
+    {
+      "id": "skirt",
+      "word": "skirt",
+      "es": "falda",
+      "en": "a piece of clothing for women and girls that hangs down from the waist",
+      "example": "Her new skirt is blue.",
+      "translation": "Su falda nueva es azul.",
+      "prompt": "Her new ___ is blue.",
+      "choices": [
+        {
+          "label": "skirt",
+          "correct": true
+        },
+        {
+          "label": "egg",
+          "correct": false
+        },
+        {
+          "label": "morning",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/skirt"
+    },
+    {
+      "id": "shoes",
+      "word": "shoes",
+      "es": "zapatos",
+      "en": "things you wear on your feet, usually made of leather or a similar strong material",
+      "example": "Your shoes are under the bed.",
+      "translation": "Tus zapatos están debajo de la cama.",
+      "prompt": "Your ___ are under the bed.",
+      "choices": [
+        {
+          "label": "shoes",
+          "correct": true
+        },
+        {
+          "label": "week",
+          "correct": false
+        },
+        {
+          "label": "water",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/shoe"
+    },
+    {
+      "id": "hat",
+      "word": "hat",
+      "es": "sombrero",
+      "en": "a covering for the head, often with a part that sticks out at the front or around the edge",
+      "example": "Put on your hat because it is cold.",
+      "translation": "Ponte el sombrero porque hace frío.",
+      "prompt": "Put on your ___ because it is cold.",
+      "choices": [
+        {
+          "label": "hat",
+          "correct": true
+        },
+        {
+          "label": "house",
+          "correct": false
+        },
+        {
+          "label": "day",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/hat"
     }
   ]
 }
