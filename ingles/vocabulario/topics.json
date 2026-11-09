@@ -234,6 +234,18 @@
       ]
     },
     {
+      "id": "trabajo",
+      "title": "El trabajo y los estudios",
+      "cards": [
+        "office",
+        "meeting",
+        "boss",
+        "worker",
+        "colleague",
+        "exam"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
