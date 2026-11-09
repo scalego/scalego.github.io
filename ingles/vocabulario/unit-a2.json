@@ -2,7 +2,7 @@
   "id": "unit-01-a2",
   "level": "A2",
   "topic": "Vocabulario A2 por temas",
-  "version": 8,
+  "version": 9,
   "cards": [
     {
       "id": "travel",
@@ -1155,6 +1155,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/countryside"
+    },
+    {
+      "id": "office",
+      "word": "office",
+      "es": "oficina",
+      "en": "a room or building where people work, usually sitting at desks",
+      "example": "Her office is on the second floor.",
+      "translation": "Su oficina está en la segunda planta.",
+      "prompt": "Her ___ is on the second floor.",
+      "choices": [
+        {
+          "label": "office",
+          "correct": true
+        },
+        {
+          "label": "island",
+          "correct": false
+        },
+        {
+          "label": "spoon",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/office"
+    },
+    {
+      "id": "meeting",
+      "word": "meeting",
+      "es": "reunión",
+      "en": "an event where people come together to discuss or decide something",
+      "example": "We have a meeting at ten o'clock.",
+      "translation": "Tenemos una reunión a las diez.",
+      "prompt": "We have a ___ at ten o'clock.",
+      "choices": [
+        {
+          "label": "meeting",
+          "correct": true
+        },
+        {
+          "label": "fridge",
+          "correct": false
+        },
+        {
+          "label": "dessert",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/meeting"
+    },
+    {
+      "id": "boss",
+      "word": "boss",
+      "es": "jefe",
+      "en": "the person who is in charge of a group of workers",
+      "example": "My boss arrives early every day.",
+      "translation": "Mi jefe llega temprano todos los días.",
+      "prompt": "My ___ arrives early every day.",
+      "choices": [
+        {
+          "label": "boss",
+          "correct": true
+        },
+        {
+          "label": "fork",
+          "correct": false
+        },
+        {
+          "label": "cloud",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/boss"
+    },
+    {
+      "id": "worker",
+      "word": "worker",
+      "es": "trabajador",
+      "en": "someone who works for a company or an organization",
+      "example": "Each worker wears a helmet in the factory.",
+      "translation": "Cada trabajador lleva casco en la fábrica.",
+      "prompt": "Each ___ wears a helmet in the factory.",
+      "choices": [
+        {
+          "label": "worker",
+          "correct": true
+        },
+        {
+          "label": "bowl",
+          "correct": false
+        },
+        {
+          "label": "button",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/worker"
+    },
+    {
+      "id": "colleague",
+      "word": "colleague",
+      "es": "compañero de trabajo",
+      "en": "one of the people you work with",
+      "example": "I eat lunch with a colleague from my office.",
+      "translation": "Como con un compañero de trabajo de mi oficina.",
+      "prompt": "I eat lunch with a ___ from my office.",
+      "choices": [
+        {
+          "label": "colleague",
+          "correct": true
+        },
+        {
+          "label": "storm",
+          "correct": false
+        },
+        {
+          "label": "ticket",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/colleague"
+    },
+    {
+      "id": "exam",
+      "word": "exam",
+      "es": "examen",
+      "en": "a test of what you know or can do, especially at school",
+      "example": "The English exam is on Friday.",
+      "translation": "El examen de inglés es el viernes.",
+      "prompt": "The English ___ is on Friday.",
+      "choices": [
+        {
+          "label": "exam",
+          "correct": true
+        },
+        {
+          "label": "sock",
+          "correct": false
+        },
+        {
+          "label": "cooker",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/exam"
     }
   ]
 }
