@@ -359,6 +359,18 @@
       ]
     },
     {
+      "id": "medios",
+      "title": "Los medios de comunicación",
+      "cards": [
+        "journalist",
+        "article",
+        "headline",
+        "interview",
+        "advert",
+        "documentary"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
