@@ -2,7 +2,7 @@
   "id": "unit-01-b1",
   "level": "B1",
   "topic": "Vocabulario B1 por temas",
-  "version": 8,
+  "version": 9,
   "cards": [
     {
       "id": "achieve",
@@ -1155,6 +1155,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/tax"
+    },
+    {
+      "id": "journalist",
+      "word": "journalist",
+      "es": "periodista",
+      "en": "a person who writes news stories or reports for newspapers, television or radio",
+      "example": "The journalist asked the minister three questions.",
+      "translation": "El periodista le hizo tres preguntas al ministro.",
+      "prompt": "The ___ asked the minister three questions.",
+      "choices": [
+        {
+          "label": "journalist",
+          "correct": true
+        },
+        {
+          "label": "muscle",
+          "correct": false
+        },
+        {
+          "label": "symptom",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/journalist"
+    },
+    {
+      "id": "article",
+      "word": "article",
+      "es": "artículo",
+      "en": "a piece of writing about a particular subject in a newspaper or magazine",
+      "example": "I read an interesting article about healthy food.",
+      "translation": "Leí un artículo interesante sobre comida sana.",
+      "prompt": "I read an interesting ___ about healthy food.",
+      "choices": [
+        {
+          "label": "article",
+          "correct": true
+        },
+        {
+          "label": "salary",
+          "correct": false
+        },
+        {
+          "label": "souvenir",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/article"
+    },
+    {
+      "id": "headline",
+      "word": "headline",
+      "es": "titular",
+      "en": "a line of words printed in large letters as the title of a story in a newspaper",
+      "example": "The headline says that prices will rise.",
+      "translation": "El titular dice que los precios subirán.",
+      "prompt": "The ___ says that prices will rise.",
+      "choices": [
+        {
+          "label": "headline",
+          "correct": true
+        },
+        {
+          "label": "throat",
+          "correct": false
+        },
+        {
+          "label": "waste",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/headline"
+    },
+    {
+      "id": "interview",
+      "word": "interview",
+      "es": "entrevista",
+      "en": "a meeting in which someone asks a person questions, for example about a job or for a news story",
+      "example": "She gave an interview on the radio this morning.",
+      "translation": "Dio una entrevista en la radio esta mañana.",
+      "prompt": "She gave an ___ on the radio this morning.",
+      "choices": [
+        {
+          "label": "interview",
+          "correct": true
+        },
+        {
+          "label": "application",
+          "correct": false
+        },
+        {
+          "label": "symptom",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/interview"
+    },
+    {
+      "id": "advert",
+      "word": "advert",
+      "es": "anuncio",
+      "en": "a picture, short film or song that tries to persuade people to buy a product",
+      "example": "I saw an advert for a new phone on TV.",
+      "translation": "Vi un anuncio de un teléfono nuevo en la tele.",
+      "prompt": "I saw an ___ for a new phone on TV.",
+      "choices": [
+        {
+          "label": "advert",
+          "correct": true
+        },
+        {
+          "label": "energy",
+          "correct": false
+        },
+        {
+          "label": "tax",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/advert"
+    },
+    {
+      "id": "documentary",
+      "word": "documentary",
+      "es": "documental",
+      "en": "a film or television programme that gives facts about a real subject",
+      "example": "We watched a documentary about life in the ocean.",
+      "translation": "Vimos un documental sobre la vida en el océano.",
+      "prompt": "We watched a ___ about life in the ocean.",
+      "choices": [
+        {
+          "label": "documentary",
+          "correct": true
+        },
+        {
+          "label": "shift",
+          "correct": false
+        },
+        {
+          "label": "fee",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/documentary"
     }
   ]
 }
