@@ -484,6 +484,18 @@
       ]
     },
     {
+      "id": "justicia",
+      "title": "La justicia y el derecho",
+      "cards": [
+        "suspect",
+        "accuse",
+        "victim",
+        "witness",
+        "trial",
+        "innocent"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
