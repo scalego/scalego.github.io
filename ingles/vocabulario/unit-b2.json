@@ -2,7 +2,7 @@
   "id": "work-planning-b2",
   "level": "B2",
   "topic": "Vocabulario B2 por temas",
-  "version": 8,
+  "version": 9,
   "cards": [
     {
       "id": "deadline",
@@ -1155,6 +1155,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/observation"
+    },
+    {
+      "id": "suspect",
+      "word": "suspect",
+      "es": "sospechoso",
+      "en": "a person who the police think may have committed a crime",
+      "example": "The police arrested the main suspect last night.",
+      "translation": "La policía arrestó al principal sospechoso anoche.",
+      "prompt": "The police arrested the main ___ last night.",
+      "choices": [
+        {
+          "label": "suspect",
+          "correct": true
+        },
+        {
+          "label": "network",
+          "correct": false
+        },
+        {
+          "label": "priority",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/suspect"
+    },
+    {
+      "id": "accuse",
+      "word": "accuse",
+      "es": "acusar",
+      "en": "to say that someone has done something wrong or has committed a crime",
+      "example": "They accuse him of stealing the money.",
+      "translation": "Lo acusan de robar el dinero.",
+      "prompt": "They ___ him of stealing the money.",
+      "choices": [
+        {
+          "label": "accuse",
+          "correct": true
+        },
+        {
+          "label": "transform",
+          "correct": false
+        },
+        {
+          "label": "decrease",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/accuse"
+    },
+    {
+      "id": "victim",
+      "word": "victim",
+      "es": "víctima",
+      "en": "someone who has been hurt or killed by a crime or an accident",
+      "example": "The victim told the police what had happened.",
+      "translation": "La víctima contó a la policía lo que había pasado.",
+      "prompt": "The ___ told the police what had happened.",
+      "choices": [
+        {
+          "label": "victim",
+          "correct": true
+        },
+        {
+          "label": "budget",
+          "correct": false
+        },
+        {
+          "label": "theory",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/victim"
+    },
+    {
+      "id": "witness",
+      "word": "witness",
+      "es": "testigo",
+      "en": "a person who sees a crime or an accident happen",
+      "example": "One witness saw two men leave the building.",
+      "translation": "Un testigo vio a dos hombres salir del edificio.",
+      "prompt": "One ___ saw two men leave the building.",
+      "choices": [
+        {
+          "label": "witness",
+          "correct": true
+        },
+        {
+          "label": "policy",
+          "correct": false
+        },
+        {
+          "label": "expense",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/witness"
+    },
+    {
+      "id": "trial",
+      "word": "trial",
+      "es": "juicio",
+      "en": "a legal process in which a court decides whether someone is guilty",
+      "example": "The trial will begin next month.",
+      "translation": "El juicio empezará el mes que viene.",
+      "prompt": "The ___ will begin next month.",
+      "choices": [
+        {
+          "label": "trial",
+          "correct": true
+        },
+        {
+          "label": "virtual",
+          "correct": false
+        },
+        {
+          "label": "artificial",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/trial"
+    },
+    {
+      "id": "innocent",
+      "word": "innocent",
+      "es": "inocente",
+      "en": "not guilty of a crime",
+      "example": "The court found him innocent of all charges.",
+      "translation": "El tribunal lo declaró inocente de todos los cargos.",
+      "prompt": "The court found him ___ of all charges.",
+      "choices": [
+        {
+          "label": "innocent",
+          "correct": true
+        },
+        {
+          "label": "significant",
+          "correct": false
+        },
+        {
+          "label": "misleading",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/innocent"
     }
   ]
 }
