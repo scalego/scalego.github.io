@@ -596,6 +596,18 @@
       ]
     },
     {
+      "id": "ambiente",
+      "title": "El medio ambiente avanzado",
+      "cards": [
+        "emission",
+        "renewable",
+        "habitat",
+        "erosion",
+        "ozone",
+        "extinction"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
