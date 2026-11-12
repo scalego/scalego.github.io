@@ -2,7 +2,7 @@
   "id": "work-decisions-c1",
   "level": "C1",
   "topic": "Trabajo y decisiones",
-  "version": 8,
+  "version": 9,
   "cards": [
     {
       "id": "setback",
@@ -987,6 +987,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/transaction"
+    },
+    {
+      "id": "emission",
+      "word": "emission",
+      "es": "emisión",
+      "en": "an amount of a gas, heat or light that is sent out into the air",
+      "example": "The factory paid a fine for every illegal emission.",
+      "translation": "La fábrica pagó una multa por cada emisión ilegal.",
+      "prompt": "The factory paid a fine for every illegal ___.",
+      "choices": [
+        {
+          "label": "emission",
+          "correct": true
+        },
+        {
+          "label": "audit",
+          "correct": false
+        },
+        {
+          "label": "hazard",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/emission"
+    },
+    {
+      "id": "renewable",
+      "word": "renewable",
+      "es": "renovable",
+      "en": "describes energy that can be replaced naturally as fast as it is used",
+      "example": "Solar power is a renewable source of energy.",
+      "translation": "La energía solar es una fuente de energía renovable.",
+      "prompt": "Solar power is a ___ source of energy.",
+      "choices": [
+        {
+          "label": "renewable",
+          "correct": true
+        },
+        {
+          "label": "exposure",
+          "correct": false
+        },
+        {
+          "label": "liability",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/renewable"
+    },
+    {
+      "id": "habitat",
+      "word": "habitat",
+      "es": "hábitat",
+      "en": "the natural environment in which an animal or plant usually lives",
+      "example": "The forest is the natural habitat of these birds.",
+      "translation": "El bosque es el hábitat natural de estas aves.",
+      "prompt": "The forest is the natural ___ of these birds.",
+      "choices": [
+        {
+          "label": "habitat",
+          "correct": true
+        },
+        {
+          "label": "bottleneck",
+          "correct": false
+        },
+        {
+          "label": "discrepancy",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/habitat"
+    },
+    {
+      "id": "erosion",
+      "word": "erosion",
+      "es": "erosión",
+      "en": "the gradual damage and removal of soil or rock by wind, rain or the sea",
+      "example": "The coast is disappearing because of erosion.",
+      "translation": "La costa está desapareciendo a causa de la erosión.",
+      "prompt": "The coast is disappearing because of ___.",
+      "choices": [
+        {
+          "label": "erosion",
+          "correct": true
+        },
+        {
+          "label": "turnover",
+          "correct": false
+        },
+        {
+          "label": "deficit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/erosion"
+    },
+    {
+      "id": "ozone",
+      "word": "ozone",
+      "es": "ozono",
+      "en": "a form of oxygen that exists high in the atmosphere and protects the Earth from the sun",
+      "example": "The ozone layer stops dangerous light from the sun.",
+      "translation": "La capa de ozono frena la luz peligrosa del sol.",
+      "prompt": "The ___ layer stops dangerous light from the sun.",
+      "choices": [
+        {
+          "label": "ozone",
+          "correct": true
+        },
+        {
+          "label": "commodity",
+          "correct": false
+        },
+        {
+          "label": "enterprise",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/ozone"
+    },
+    {
+      "id": "extinction",
+      "word": "extinction",
+      "es": "extinción",
+      "en": "a situation in which a type of animal or plant no longer exists",
+      "example": "Many species are in danger of extinction.",
+      "translation": "Muchas especies están en peligro de extinción.",
+      "prompt": "Many species are in danger of ___.",
+      "choices": [
+        {
+          "label": "extinction",
+          "correct": true
+        },
+        {
+          "label": "revenue",
+          "correct": false
+        },
+        {
+          "label": "setback",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/extinction"
     }
   ]
 }
