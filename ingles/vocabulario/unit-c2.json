@@ -2,7 +2,7 @@
   "id": "unit-01-c2",
   "level": "C2",
   "topic": "Expresión avanzada",
-  "version": 7,
+  "version": 8,
   "cards": [
     {
       "id": "ubiquitous",
@@ -987,6 +987,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/monetary"
+    },
+    {
+      "id": "treaty",
+      "word": "treaty",
+      "es": "tratado",
+      "en": "a written agreement between two or more countries, formally approved and signed by their leaders",
+      "example": "The two countries signed a peace treaty in 1995.",
+      "translation": "Los dos países firmaron un tratado de paz en 1995.",
+      "prompt": "The two countries signed a peace ___ in 1995.",
+      "choices": [
+        {
+          "label": "treaty",
+          "correct": true
+        },
+        {
+          "label": "verdict",
+          "correct": false
+        },
+        {
+          "label": "merger",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/treaty"
+    },
+    {
+      "id": "sanction",
+      "word": "sanction",
+      "es": "sanción",
+      "en": "an official order that limits trade or contact with a country to make it obey international law",
+      "example": "The UN imposed a new sanction on the regime.",
+      "translation": "La ONU impuso una nueva sanción al régimen.",
+      "prompt": "The UN imposed a new ___ on the regime.",
+      "choices": [
+        {
+          "label": "sanction",
+          "correct": true
+        },
+        {
+          "label": "hypothesis",
+          "correct": false
+        },
+        {
+          "label": "nostalgia",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/sanction"
+    },
+    {
+      "id": "diplomacy",
+      "word": "diplomacy",
+      "es": "diplomacia",
+      "en": "the management of relationships between countries",
+      "example": "Diplomacy avoided a war between the two nations.",
+      "translation": "La diplomacia evitó una guerra entre las dos naciones.",
+      "prompt": "___ avoided a war between the two nations.",
+      "choices": [
+        {
+          "label": "diplomacy",
+          "correct": true
+        },
+        {
+          "label": "expenditure",
+          "correct": false
+        },
+        {
+          "label": "paradox",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/diplomacy"
+    },
+    {
+      "id": "alliance",
+      "word": "alliance",
+      "es": "alianza",
+      "en": "a group of countries, political parties or people who have agreed to work together because of shared interests",
+      "example": "The military alliance includes thirty countries.",
+      "translation": "La alianza militar incluye treinta países.",
+      "prompt": "The military ___ includes thirty countries.",
+      "choices": [
+        {
+          "label": "alliance",
+          "correct": true
+        },
+        {
+          "label": "monopoly",
+          "correct": false
+        },
+        {
+          "label": "surplus",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/alliance"
+    },
+    {
+      "id": "coup",
+      "word": "coup",
+      "es": "golpe de Estado",
+      "en": "a sudden illegal, often violent, taking of government power, especially by part of an army",
+      "example": "The army took control in a coup last year.",
+      "translation": "El ejército tomó el control en un golpe de Estado el año pasado.",
+      "prompt": "The army took control in a ___ last year.",
+      "choices": [
+        {
+          "label": "coup",
+          "correct": true
+        },
+        {
+          "label": "custody",
+          "correct": false
+        },
+        {
+          "label": "remorse",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/coup"
+    },
+    {
+      "id": "summit",
+      "word": "summit",
+      "es": "cumbre",
+      "en": "an important formal meeting between leaders of two or more countries",
+      "example": "The presidents will meet at a summit in June.",
+      "translation": "Los presidentes se reunirán en una cumbre en junio.",
+      "prompt": "The presidents will meet at a ___ in June.",
+      "choices": [
+        {
+          "label": "summit",
+          "correct": true
+        },
+        {
+          "label": "scrutiny",
+          "correct": false
+        },
+        {
+          "label": "welfare",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/summit"
     }
   ]
 }
