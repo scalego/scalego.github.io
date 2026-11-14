@@ -2,7 +2,7 @@
   "id": "unit-01-a1",
   "level": "A1",
   "topic": "Vocabulario A1 por temas",
-  "version": 8,
+  "version": 9,
   "cards": [
     {
       "id": "family",
@@ -1299,6 +1299,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/hat"
+    },
+    {
+      "id": "sun",
+      "word": "sun",
+      "es": "sol",
+      "en": "the star in the sky that gives the Earth light and heat",
+      "example": "The sun is very strong today.",
+      "translation": "El sol está muy fuerte hoy.",
+      "prompt": "The ___ is very strong today.",
+      "choices": [
+        {
+          "label": "sun",
+          "correct": true
+        },
+        {
+          "label": "milk",
+          "correct": false
+        },
+        {
+          "label": "book",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/sun"
+    },
+    {
+      "id": "rain",
+      "word": "rain",
+      "es": "lluvia",
+      "en": "drops of water that fall from clouds",
+      "example": "The rain is heavy this morning.",
+      "translation": "La lluvia es fuerte esta mañana.",
+      "prompt": "The ___ is heavy this morning.",
+      "choices": [
+        {
+          "label": "rain",
+          "correct": true
+        },
+        {
+          "label": "bread",
+          "correct": false
+        },
+        {
+          "label": "bus",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/rain"
+    },
+    {
+      "id": "snow",
+      "word": "snow",
+      "es": "nieve",
+      "en": "soft white pieces of frozen water that fall from the sky in cold weather",
+      "example": "The snow covers the streets in winter.",
+      "translation": "La nieve cubre las calles en invierno.",
+      "prompt": "The ___ covers the streets in winter.",
+      "choices": [
+        {
+          "label": "snow",
+          "correct": true
+        },
+        {
+          "label": "rice",
+          "correct": false
+        },
+        {
+          "label": "milk",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/snow"
+    },
+    {
+      "id": "hot",
+      "word": "hot",
+      "es": "caliente",
+      "en": "having a high temperature",
+      "example": "The soup is too hot to drink.",
+      "translation": "La sopa está demasiado caliente para beberla.",
+      "prompt": "The soup is too ___ to drink.",
+      "choices": [
+        {
+          "label": "hot",
+          "correct": true
+        },
+        {
+          "label": "water",
+          "correct": false
+        },
+        {
+          "label": "egg",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/hot"
+    },
+    {
+      "id": "cold",
+      "word": "cold",
+      "es": "frío",
+      "en": "having a low temperature",
+      "example": "The water in the lake is very cold.",
+      "translation": "El agua del lago está muy fría.",
+      "prompt": "The water in the lake is very ___.",
+      "choices": [
+        {
+          "label": "cold",
+          "correct": true
+        },
+        {
+          "label": "school",
+          "correct": false
+        },
+        {
+          "label": "friend",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/cold"
+    },
+    {
+      "id": "wind",
+      "word": "wind",
+      "es": "viento",
+      "en": "a natural, fast movement of air",
+      "example": "The wind moves the boats on the sea.",
+      "translation": "El viento mueve los barcos en el mar.",
+      "prompt": "The ___ moves the boats on the sea.",
+      "choices": [
+        {
+          "label": "wind",
+          "correct": true
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "hand",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/wind"
     }
   ]
 }
