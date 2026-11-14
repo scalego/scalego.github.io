@@ -121,6 +121,18 @@
       ]
     },
     {
+      "id": "eltiempo",
+      "title": "El tiempo",
+      "cards": [
+        "sun",
+        "rain",
+        "snow",
+        "hot",
+        "cold",
+        "wind"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
