@@ -2,7 +2,7 @@
   "id": "unit-01-a2",
   "level": "A2",
   "topic": "Vocabulario A2 por temas",
-  "version": 9,
+  "version": 10,
   "cards": [
     {
       "id": "travel",
@@ -1299,6 +1299,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/exam"
+    },
+    {
+      "id": "ill",
+      "word": "ill",
+      "es": "enfermo",
+      "en": "not feeling well; suffering from a disease",
+      "example": "She stayed home because she was ill.",
+      "translation": "Se quedó en casa porque estaba enferma.",
+      "prompt": "She stayed home because she was ___.",
+      "choices": [
+        {
+          "label": "ill",
+          "correct": true
+        },
+        {
+          "label": "dry",
+          "correct": false
+        },
+        {
+          "label": "cloud",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/ill"
+    },
+    {
+      "id": "pain",
+      "word": "pain",
+      "es": "dolor",
+      "en": "a bad feeling in a part of your body when you are hurt or ill",
+      "example": "I have a pain in my back.",
+      "translation": "Tengo un dolor en la espalda.",
+      "prompt": "I have a ___ in my back.",
+      "choices": [
+        {
+          "label": "pain",
+          "correct": true
+        },
+        {
+          "label": "fork",
+          "correct": false
+        },
+        {
+          "label": "button",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/pain"
+    },
+    {
+      "id": "medicine",
+      "word": "medicine",
+      "es": "medicina",
+      "en": "a substance that you take to treat an illness",
+      "example": "Take this medicine twice a day.",
+      "translation": "Toma esta medicina dos veces al día.",
+      "prompt": "Take this ___ twice a day.",
+      "choices": [
+        {
+          "label": "medicine",
+          "correct": true
+        },
+        {
+          "label": "ticket",
+          "correct": false
+        },
+        {
+          "label": "bowl",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/medicine"
+    },
+    {
+      "id": "headache",
+      "word": "headache",
+      "es": "dolor de cabeza",
+      "en": "a pain in your head",
+      "example": "I can't work because I have a bad headache.",
+      "translation": "No puedo trabajar porque tengo un fuerte dolor de cabeza.",
+      "prompt": "I can't work because I have a bad ___.",
+      "choices": [
+        {
+          "label": "headache",
+          "correct": true
+        },
+        {
+          "label": "storm",
+          "correct": false
+        },
+        {
+          "label": "sock",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/headache"
+    },
+    {
+      "id": "dentist",
+      "word": "dentist",
+      "es": "dentista",
+      "en": "a doctor who looks after people's teeth",
+      "example": "I'm going to the dentist tomorrow.",
+      "translation": "Voy al dentista mañana.",
+      "prompt": "I'm going to the ___ tomorrow.",
+      "choices": [
+        {
+          "label": "dentist",
+          "correct": true
+        },
+        {
+          "label": "sock",
+          "correct": false
+        },
+        {
+          "label": "belt",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/dentist"
+    },
+    {
+      "id": "hurt",
+      "word": "hurt",
+      "es": "hacer daño",
+      "en": "to cause pain to yourself or to someone else",
+      "example": "Did you hurt your leg when you fell?",
+      "translation": "¿Te hiciste daño en la pierna cuando te caíste?",
+      "prompt": "Did you ___ your leg when you fell?",
+      "choices": [
+        {
+          "label": "hurt",
+          "correct": true
+        },
+        {
+          "label": "win",
+          "correct": false
+        },
+        {
+          "label": "order",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/hurt"
     }
   ]
 }
