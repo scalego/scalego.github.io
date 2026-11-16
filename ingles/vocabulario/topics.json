@@ -395,6 +395,18 @@
       ]
     },
     {
+      "id": "tecnologia",
+      "title": "Tecnología e internet",
+      "cards": [
+        "upload",
+        "download",
+        "password",
+        "link",
+        "delete",
+        "folder"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
