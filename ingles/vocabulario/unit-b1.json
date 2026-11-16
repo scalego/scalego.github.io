@@ -2,7 +2,7 @@
   "id": "unit-01-b1",
   "level": "B1",
   "topic": "Vocabulario B1 por temas",
-  "version": 9,
+  "version": 10,
   "cards": [
     {
       "id": "achieve",
@@ -1299,6 +1299,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/documentary"
+    },
+    {
+      "id": "upload",
+      "word": "upload",
+      "es": "subir",
+      "en": "to copy or move programs or information to a larger computer system or to the internet",
+      "example": "They upload new photos to the website every week.",
+      "translation": "Suben fotos nuevas al sitio web cada semana.",
+      "prompt": "They ___ new photos to the website every week.",
+      "choices": [
+        {
+          "label": "upload",
+          "correct": true
+        },
+        {
+          "label": "invent",
+          "correct": false
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/upload"
+    },
+    {
+      "id": "download",
+      "word": "download",
+      "es": "descarga",
+      "en": "a computer program or information that has been or can be copied into a computer's memory",
+      "example": "The song is available as a free download.",
+      "translation": "La canción está disponible como descarga gratuita.",
+      "prompt": "The song is available as a free ___.",
+      "choices": [
+        {
+          "label": "download",
+          "correct": true
+        },
+        {
+          "label": "shower",
+          "correct": false
+        },
+        {
+          "label": "mirror",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/download"
+    },
+    {
+      "id": "password",
+      "word": "password",
+      "es": "contraseña",
+      "en": "a secret word or combination of letters or numbers that you use to prove who you are when you use a computer or website",
+      "example": "You need a password to open your account.",
+      "translation": "Necesitas una contraseña para abrir tu cuenta.",
+      "prompt": "You need a ___ to open your account.",
+      "choices": [
+        {
+          "label": "password",
+          "correct": true
+        },
+        {
+          "label": "blanket",
+          "correct": false
+        },
+        {
+          "label": "candle",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/password"
+    },
+    {
+      "id": "link",
+      "word": "link",
+      "es": "enlace",
+      "en": "a connection between documents on the internet",
+      "example": "Click on the link to read the full article.",
+      "translation": "Haz clic en el enlace para leer el artículo completo.",
+      "prompt": "Click on the ___ to read the full article.",
+      "choices": [
+        {
+          "label": "link",
+          "correct": true
+        },
+        {
+          "label": "stair",
+          "correct": false
+        },
+        {
+          "label": "pillow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/link"
+    },
+    {
+      "id": "delete",
+      "word": "delete",
+      "es": "borrar",
+      "en": "to remove or draw a line through something, especially a written word or words",
+      "example": "We delete old emails we do not need.",
+      "translation": "Borramos los correos antiguos que no necesitamos.",
+      "prompt": "We ___ old emails we do not need.",
+      "choices": [
+        {
+          "label": "delete",
+          "correct": true
+        },
+        {
+          "label": "paint",
+          "correct": false
+        },
+        {
+          "label": "fold",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/delete"
+    },
+    {
+      "id": "folder",
+      "word": "folder",
+      "es": "carpeta",
+      "en": "a place on a computer where files or programs can be stored",
+      "example": "Save the document in a new folder.",
+      "translation": "Guarda el documento en una carpeta nueva.",
+      "prompt": "Save the document in a new ___.",
+      "choices": [
+        {
+          "label": "folder",
+          "correct": true
+        },
+        {
+          "label": "kettle",
+          "correct": false
+        },
+        {
+          "label": "curtain",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/folder"
     }
   ]
 }
