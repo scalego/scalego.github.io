@@ -532,6 +532,18 @@
       ]
     },
     {
+      "id": "medicina",
+      "title": "Salud y medicina",
+      "cards": [
+        "surgery",
+        "infection",
+        "therapy",
+        "dose",
+        "ward",
+        "cure"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
