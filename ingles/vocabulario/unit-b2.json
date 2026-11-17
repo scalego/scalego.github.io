@@ -2,7 +2,7 @@
   "id": "work-planning-b2",
   "level": "B2",
   "topic": "Vocabulario B2 por temas",
-  "version": 9,
+  "version": 10,
   "cards": [
     {
       "id": "deadline",
@@ -1299,6 +1299,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/innocent"
+    },
+    {
+      "id": "surgery",
+      "word": "surgery",
+      "es": "cirugía",
+      "en": "the treatment of injuries or diseases in people or animals by cutting open the body and removing or repairing the damage",
+      "example": "The patient underwent surgery on his heart.",
+      "translation": "El paciente se sometió a una cirugía de corazón.",
+      "prompt": "The patient underwent ___ on his heart.",
+      "choices": [
+        {
+          "label": "surgery",
+          "correct": true
+        },
+        {
+          "label": "picnic",
+          "correct": false
+        },
+        {
+          "label": "ladder",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/surgery"
+    },
+    {
+      "id": "infection",
+      "word": "infection",
+      "es": "infección",
+      "en": "a condition in which bacteria or viruses that cause disease have entered the body",
+      "example": "She went to the doctor with a serious infection.",
+      "translation": "Fue al médico con una infección grave.",
+      "prompt": "She went to the doctor with a serious ___.",
+      "choices": [
+        {
+          "label": "infection",
+          "correct": true
+        },
+        {
+          "label": "sandwich",
+          "correct": false
+        },
+        {
+          "label": "carpet",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/infection"
+    },
+    {
+      "id": "therapy",
+      "word": "therapy",
+      "es": "terapia",
+      "en": "a treatment that helps someone feel better, grow stronger, etc., especially after an illness",
+      "example": "Physical therapy helped him walk again.",
+      "translation": "La fisioterapia le ayudó a volver a caminar.",
+      "prompt": "Physical ___ helped him walk again.",
+      "choices": [
+        {
+          "label": "therapy",
+          "correct": true
+        },
+        {
+          "label": "weather",
+          "correct": false
+        },
+        {
+          "label": "breakfast",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/therapy"
+    },
+    {
+      "id": "dose",
+      "word": "dose",
+      "es": "dosis",
+      "en": "a measured amount of something such as medicine",
+      "example": "The doctor gave her a high dose of the medicine.",
+      "translation": "El médico le dio una dosis alta del medicamento.",
+      "prompt": "The doctor gave her a high ___ of the medicine.",
+      "choices": [
+        {
+          "label": "dose",
+          "correct": true
+        },
+        {
+          "label": "window",
+          "correct": false
+        },
+        {
+          "label": "engine",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/dose"
+    },
+    {
+      "id": "ward",
+      "word": "ward",
+      "es": "sala de hospital",
+      "en": "one of the parts or large rooms into which a hospital is divided, usually with beds for patients",
+      "example": "She works in the children's ward of the hospital.",
+      "translation": "Trabaja en la sala infantil del hospital.",
+      "prompt": "She works in the children's ___ of the hospital.",
+      "choices": [
+        {
+          "label": "ward",
+          "correct": true
+        },
+        {
+          "label": "beach",
+          "correct": false
+        },
+        {
+          "label": "roof",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/ward"
+    },
+    {
+      "id": "cure",
+      "word": "cure",
+      "es": "curar",
+      "en": "to make someone with an illness healthy again",
+      "example": "Doctors hope to cure the disease with this new drug.",
+      "translation": "Los médicos esperan curar la enfermedad con este nuevo fármaco.",
+      "prompt": "Doctors hope to ___ the disease with this new drug.",
+      "choices": [
+        {
+          "label": "cure",
+          "correct": true
+        },
+        {
+          "label": "paint",
+          "correct": false
+        },
+        {
+          "label": "borrow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/cure"
     }
   ]
 }
