@@ -2,7 +2,7 @@
   "id": "work-decisions-c1",
   "level": "C1",
   "topic": "Trabajo y decisiones",
-  "version": 9,
+  "version": 10,
   "cards": [
     {
       "id": "setback",
@@ -1131,6 +1131,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/extinction"
+    },
+    {
+      "id": "infrastructure",
+      "word": "infrastructure",
+      "es": "infraestructura",
+      "en": "the basic systems and services, such as transport and power supplies, that a country or organization uses in order to work effectively",
+      "example": "The city invested in new infrastructure for public transport.",
+      "translation": "La ciudad invirtió en nueva infraestructura para el transporte público.",
+      "prompt": "The city invested in new ___ for public transport.",
+      "choices": [
+        {
+          "label": "infrastructure",
+          "correct": true
+        },
+        {
+          "label": "harvest",
+          "correct": false
+        },
+        {
+          "label": "wedding",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/infrastructure"
+    },
+    {
+      "id": "housing",
+      "word": "housing",
+      "es": "vivienda",
+      "en": "buildings for people to live in",
+      "example": "There is a shortage of affordable housing in the city.",
+      "translation": "Hay escasez de vivienda asequible en la ciudad.",
+      "prompt": "There is a shortage of affordable ___ in the city.",
+      "choices": [
+        {
+          "label": "housing",
+          "correct": true
+        },
+        {
+          "label": "sunset",
+          "correct": false
+        },
+        {
+          "label": "laughter",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/housing"
+    },
+    {
+      "id": "congestion",
+      "word": "congestion",
+      "es": "congestión",
+      "en": "a situation in which there is too much traffic and movement is difficult",
+      "example": "Traffic congestion gets worse during the summer.",
+      "translation": "La congestión del tráfico empeora durante el verano.",
+      "prompt": "Traffic ___ gets worse during the summer.",
+      "choices": [
+        {
+          "label": "congestion",
+          "correct": true
+        },
+        {
+          "label": "potato",
+          "correct": false
+        },
+        {
+          "label": "whisper",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/congestion"
+    },
+    {
+      "id": "commute",
+      "word": "commute",
+      "es": "desplazarse al trabajo",
+      "en": "to make the same journey regularly between work and home",
+      "example": "They commute to the city by train every day.",
+      "translation": "Se desplazan a la ciudad en tren todos los días.",
+      "prompt": "They ___ to the city by train every day.",
+      "choices": [
+        {
+          "label": "commute",
+          "correct": true
+        },
+        {
+          "label": "whisper",
+          "correct": false
+        },
+        {
+          "label": "bake",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/commute"
+    },
+    {
+      "id": "density",
+      "word": "density",
+      "es": "densidad",
+      "en": "the number of people or things in a place in relation to the size of the place",
+      "example": "The area has a very high population density.",
+      "translation": "La zona tiene una densidad de población muy alta.",
+      "prompt": "The area has a very high population ___.",
+      "choices": [
+        {
+          "label": "density",
+          "correct": true
+        },
+        {
+          "label": "carpet",
+          "correct": false
+        },
+        {
+          "label": "flavour",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/density"
+    },
+    {
+      "id": "homeless",
+      "word": "homeless",
+      "es": "sin hogar",
+      "en": "without a home",
+      "example": "The charity helps homeless families in the city.",
+      "translation": "La ONG ayuda a familias sin hogar en la ciudad.",
+      "prompt": "The charity helps ___ families in the city.",
+      "choices": [
+        {
+          "label": "homeless",
+          "correct": true
+        },
+        {
+          "label": "blanket",
+          "correct": false
+        },
+        {
+          "label": "garage",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/homeless"
     }
   ]
 }
