@@ -656,6 +656,18 @@
       ]
     },
     {
+      "id": "ciudad",
+      "title": "La ciudad y la vida urbana",
+      "cards": [
+        "infrastructure",
+        "housing",
+        "congestion",
+        "commute",
+        "density",
+        "homeless"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
