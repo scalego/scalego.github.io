@@ -2,7 +2,7 @@
   "id": "unit-01-c2",
   "level": "C2",
   "topic": "Expresión avanzada",
-  "version": 8,
+  "version": 9,
   "cards": [
     {
       "id": "ubiquitous",
@@ -1131,6 +1131,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/summit"
+    },
+    {
+      "id": "chronic",
+      "word": "chronic",
+      "es": "crónico",
+      "en": "especially of a disease or something bad, continuing for a long time",
+      "example": "She suffers from chronic back pain.",
+      "translation": "Sufre dolor de espalda crónico.",
+      "prompt": "She suffers from ___ back pain.",
+      "choices": [
+        {
+          "label": "chronic",
+          "correct": true
+        },
+        {
+          "label": "pillow",
+          "correct": false
+        },
+        {
+          "label": "battery",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/chronic"
+    },
+    {
+      "id": "diagnosis",
+      "word": "diagnosis",
+      "es": "diagnóstico",
+      "en": "a judgment about what a particular illness or problem is, made after examining it",
+      "example": "The doctor gave her a diagnosis after the tests.",
+      "translation": "El médico le dio un diagnóstico después de las pruebas.",
+      "prompt": "The doctor gave her a ___ after the tests.",
+      "choices": [
+        {
+          "label": "diagnosis",
+          "correct": true
+        },
+        {
+          "label": "sunrise",
+          "correct": false
+        },
+        {
+          "label": "recipe",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/diagnosis"
+    },
+    {
+      "id": "vaccine",
+      "word": "vaccine",
+      "es": "vacuna",
+      "en": "a substance that is put into the body of a person or animal to protect them from a disease by causing them to produce antibodies",
+      "example": "The new vaccine protects against the disease.",
+      "translation": "La nueva vacuna protege contra la enfermedad.",
+      "prompt": "The new ___ protects against the disease.",
+      "choices": [
+        {
+          "label": "vaccine",
+          "correct": true
+        },
+        {
+          "label": "tablecloth",
+          "correct": false
+        },
+        {
+          "label": "hurricane",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/vaccine"
+    },
+    {
+      "id": "transplant",
+      "word": "transplant",
+      "es": "trasplante",
+      "en": "a medical operation in which a new organ is put into someone's body",
+      "example": "He survived a kidney transplant last year.",
+      "translation": "Sobrevivió a un trasplante de riñón el año pasado.",
+      "prompt": "He survived a kidney ___ last year.",
+      "choices": [
+        {
+          "label": "transplant",
+          "correct": true
+        },
+        {
+          "label": "barcode",
+          "correct": false
+        },
+        {
+          "label": "teaspoon",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/transplant"
+    },
+    {
+      "id": "antibiotic",
+      "word": "antibiotic",
+      "es": "antibiótico",
+      "en": "a medicine or chemical that can destroy harmful bacteria in the body or limit their growth",
+      "example": "The doctor prescribed an antibiotic for the infection.",
+      "translation": "El médico recetó un antibiótico para la infección.",
+      "prompt": "The doctor prescribed an ___ for the infection.",
+      "choices": [
+        {
+          "label": "antibiotic",
+          "correct": true
+        },
+        {
+          "label": "umbrella",
+          "correct": false
+        },
+        {
+          "label": "anchor",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/antibiotic"
+    },
+    {
+      "id": "injection",
+      "word": "injection",
+      "es": "inyección",
+      "en": "the act of putting a liquid, especially a drug, into a person's body using a needle and a syringe",
+      "example": "The nurse gave him an injection in his arm.",
+      "translation": "La enfermera le puso una inyección en el brazo.",
+      "prompt": "The nurse gave him an ___ in his arm.",
+      "choices": [
+        {
+          "label": "injection",
+          "correct": true
+        },
+        {
+          "label": "apron",
+          "correct": false
+        },
+        {
+          "label": "orbit",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/injection"
     }
   ]
 }
