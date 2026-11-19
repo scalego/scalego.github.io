@@ -780,6 +780,18 @@
       ]
     },
     {
+      "id": "medicina",
+      "title": "La medicina avanzada",
+      "cards": [
+        "chronic",
+        "diagnosis",
+        "vaccine",
+        "transplant",
+        "antibiotic",
+        "injection"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
