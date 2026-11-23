@@ -2,7 +2,7 @@
   "id": "unit-01-a1",
   "level": "A1",
   "topic": "Vocabulario A1 por temas",
-  "version": 9,
+  "version": 10,
   "cards": [
     {
       "id": "family",
@@ -1443,6 +1443,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/wind"
+    },
+    {
+      "id": "table",
+      "word": "table",
+      "es": "mesa",
+      "en": "a flat surface, usually supported by four legs, at which people sit to eat or work, or on which objects are placed",
+      "example": "The books are on the table.",
+      "translation": "Los libros están sobre la mesa.",
+      "prompt": "The books are on the ___.",
+      "choices": [
+        {
+          "label": "table",
+          "correct": true
+        },
+        {
+          "label": "cloud",
+          "correct": false
+        },
+        {
+          "label": "song",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/table"
+    },
+    {
+      "id": "chair",
+      "word": "chair",
+      "es": "silla",
+      "en": "a seat for one person that has a back, usually four legs, and sometimes two arms",
+      "example": "She sits on a red chair.",
+      "translation": "Se sienta en una silla roja.",
+      "prompt": "She sits on a red ___.",
+      "choices": [
+        {
+          "label": "chair",
+          "correct": true
+        },
+        {
+          "label": "river",
+          "correct": false
+        },
+        {
+          "label": "dream",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/chair"
+    },
+    {
+      "id": "bed",
+      "word": "bed",
+      "es": "cama",
+      "en": "a large, rectangular piece of furniture, often with four legs, used for sleeping on",
+      "example": "The cat sleeps on my bed.",
+      "translation": "El gato duerme en mi cama.",
+      "prompt": "The cat sleeps on my ___.",
+      "choices": [
+        {
+          "label": "bed",
+          "correct": true
+        },
+        {
+          "label": "rain",
+          "correct": false
+        },
+        {
+          "label": "finger",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/bed"
+    },
+    {
+      "id": "door",
+      "word": "door",
+      "es": "puerta",
+      "en": "a flat object that is used to close the entrance of something such as a room or building, or the entrance itself",
+      "example": "Please close the door.",
+      "translation": "Cierra la puerta, por favor.",
+      "prompt": "Please close the ___.",
+      "choices": [
+        {
+          "label": "door",
+          "correct": true
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "idea",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/door"
+    },
+    {
+      "id": "window",
+      "word": "window",
+      "es": "ventana",
+      "en": "a space usually filled with glass in the wall of a building or in a vehicle, to allow light and air in",
+      "example": "He opens the window every morning.",
+      "translation": "Abre la ventana cada mañana.",
+      "prompt": "He opens the ___ every morning.",
+      "choices": [
+        {
+          "label": "window",
+          "correct": true
+        },
+        {
+          "label": "sand",
+          "correct": false
+        },
+        {
+          "label": "uncle",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/window"
+    },
+    {
+      "id": "clock",
+      "word": "clock",
+      "es": "reloj",
+      "en": "a device for measuring and showing time, usually found in or on a building and not worn by a person",
+      "example": "The clock on the wall is new.",
+      "translation": "El reloj de la pared es nuevo.",
+      "prompt": "The ___ on the wall is new.",
+      "choices": [
+        {
+          "label": "clock",
+          "correct": true
+        },
+        {
+          "label": "milk",
+          "correct": false
+        },
+        {
+          "label": "tree",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/clock"
     }
   ]
 }
