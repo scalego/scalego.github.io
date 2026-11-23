@@ -133,6 +133,18 @@
       ]
     },
     {
+      "id": "muebles",
+      "title": "Los muebles",
+      "cards": [
+        "table",
+        "chair",
+        "bed",
+        "door",
+        "window",
+        "clock"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
@@ -267,6 +279,18 @@
         "headache",
         "dentist",
         "hurt"
+      ]
+    },
+    {
+      "id": "casa",
+      "title": "La casa y los muebles",
+      "cards": [
+        "sofa",
+        "lamp",
+        "shelf",
+        "mirror",
+        "curtain",
+        "drawer"
       ]
     },
     {
@@ -407,6 +431,18 @@
       ]
     },
     {
+      "id": "cocinar",
+      "title": "Cocinar",
+      "cards": [
+        "recipe",
+        "ingredient",
+        "fry",
+        "grill",
+        "vegetarian",
+        "flavour"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
@@ -541,6 +577,18 @@
         "dose",
         "ward",
         "cure"
+      ]
+    },
+    {
+      "id": "deporte",
+      "title": "El deporte y la competición",
+      "cards": [
+        "opponent",
+        "referee",
+        "medal",
+        "stadium",
+        "trophy",
+        "victory"
       ]
     },
     {
