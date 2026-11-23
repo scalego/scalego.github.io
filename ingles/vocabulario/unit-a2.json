@@ -2,7 +2,7 @@
   "id": "unit-01-a2",
   "level": "A2",
   "topic": "Vocabulario A2 por temas",
-  "version": 10,
+  "version": 11,
   "cards": [
     {
       "id": "travel",
@@ -1443,6 +1443,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/hurt"
+    },
+    {
+      "id": "sofa",
+      "word": "sofa",
+      "es": "sofá",
+      "en": "a long, soft seat with a back and usually arms, on which more than one person can sit at the same time",
+      "example": "They watch TV on the sofa.",
+      "translation": "Ven la tele en el sofá.",
+      "prompt": "They watch TV on the ___.",
+      "choices": [
+        {
+          "label": "sofa",
+          "correct": true
+        },
+        {
+          "label": "lake",
+          "correct": false
+        },
+        {
+          "label": "noise",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/sofa"
+    },
+    {
+      "id": "lamp",
+      "word": "lamp",
+      "es": "lámpara",
+      "en": "a device for giving light, especially one that has a covering or is contained within something",
+      "example": "She turns on the lamp at night.",
+      "translation": "Enciende la lámpara por la noche.",
+      "prompt": "She turns on the ___ at night.",
+      "choices": [
+        {
+          "label": "lamp",
+          "correct": true
+        },
+        {
+          "label": "stone",
+          "correct": false
+        },
+        {
+          "label": "soup",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/lamp"
+    },
+    {
+      "id": "shelf",
+      "word": "shelf",
+      "es": "estante",
+      "en": "a long, flat board fixed horizontally, usually against a wall or inside a cupboard, so that objects can be stored on it",
+      "example": "The plates are on the top shelf.",
+      "translation": "Los platos están en el estante de arriba.",
+      "prompt": "The plates are on the top ___.",
+      "choices": [
+        {
+          "label": "shelf",
+          "correct": true
+        },
+        {
+          "label": "river",
+          "correct": false
+        },
+        {
+          "label": "drum",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/shelf"
+    },
+    {
+      "id": "mirror",
+      "word": "mirror",
+      "es": "espejo",
+      "en": "a piece of glass with a shiny, metal-covered back that reflects light, producing an image of whatever is in front of it",
+      "example": "She looks at herself in the mirror.",
+      "translation": "Se mira en el espejo.",
+      "prompt": "She looks at herself in the ___.",
+      "choices": [
+        {
+          "label": "mirror",
+          "correct": true
+        },
+        {
+          "label": "pocket",
+          "correct": false
+        },
+        {
+          "label": "garden",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/mirror"
+    },
+    {
+      "id": "curtain",
+      "word": "curtain",
+      "es": "cortina",
+      "en": "a piece of material, especially cloth, that hangs across a window or opening to make a room or part of a room dark or private",
+      "example": "She opens the curtain and looks outside.",
+      "translation": "Abre la cortina y mira fuera.",
+      "prompt": "She opens the ___ and looks outside.",
+      "choices": [
+        {
+          "label": "curtain",
+          "correct": true
+        },
+        {
+          "label": "salad",
+          "correct": false
+        },
+        {
+          "label": "hammer",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/curtain"
+    },
+    {
+      "id": "drawer",
+      "word": "drawer",
+      "es": "cajón",
+      "en": "a box-shaped part of a piece of furniture that slides in and out and is used for keeping things in",
+      "example": "The forks are in the kitchen drawer.",
+      "translation": "Los tenedores están en el cajón de la cocina.",
+      "prompt": "The forks are in the kitchen ___.",
+      "choices": [
+        {
+          "label": "drawer",
+          "correct": true
+        },
+        {
+          "label": "piano",
+          "correct": false
+        },
+        {
+          "label": "tunnel",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/drawer"
     }
   ]
 }
