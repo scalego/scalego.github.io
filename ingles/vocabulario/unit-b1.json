@@ -2,7 +2,7 @@
   "id": "unit-01-b1",
   "level": "B1",
   "topic": "Vocabulario B1 por temas",
-  "version": 10,
+  "version": 11,
   "cards": [
     {
       "id": "achieve",
@@ -1443,6 +1443,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/folder"
+    },
+    {
+      "id": "recipe",
+      "word": "recipe",
+      "es": "receta",
+      "en": "a set of instructions telling you how to prepare and cook food, including a list of what food is needed",
+      "example": "My grandmother gave me this recipe.",
+      "translation": "Mi abuela me dio esta receta.",
+      "prompt": "My grandmother gave me this ___.",
+      "choices": [
+        {
+          "label": "recipe",
+          "correct": true
+        },
+        {
+          "label": "blanket",
+          "correct": false
+        },
+        {
+          "label": "thunder",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/recipe"
+    },
+    {
+      "id": "ingredient",
+      "word": "ingredient",
+      "es": "ingrediente",
+      "en": "a food that is used with other foods in the preparation of a particular dish",
+      "example": "The main ingredient is tomato.",
+      "translation": "El ingrediente principal es el tomate.",
+      "prompt": "The main ___ is tomato.",
+      "choices": [
+        {
+          "label": "ingredient",
+          "correct": true
+        },
+        {
+          "label": "pillow",
+          "correct": false
+        },
+        {
+          "label": "mattress",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/ingredient"
+    },
+    {
+      "id": "fry",
+      "word": "fry",
+      "es": "freír",
+      "en": "to cook food in hot oil or fat, or to be cooked in hot oil or fat",
+      "example": "They fry the potatoes in hot oil.",
+      "translation": "Fríen las patatas en aceite caliente.",
+      "prompt": "They ___ the potatoes in hot oil.",
+      "choices": [
+        {
+          "label": "fry",
+          "correct": true
+        },
+        {
+          "label": "draw",
+          "correct": false
+        },
+        {
+          "label": "read",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/fry"
+    },
+    {
+      "id": "grill",
+      "word": "grill",
+      "es": "asar a la parrilla",
+      "en": "to cook food over fire or hot coals, usually on a metal frame",
+      "example": "We grill the fish outside.",
+      "translation": "Asamos el pescado a la parrilla fuera.",
+      "prompt": "We ___ the fish outside.",
+      "choices": [
+        {
+          "label": "grill",
+          "correct": true
+        },
+        {
+          "label": "fold",
+          "correct": false
+        },
+        {
+          "label": "iron",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/grill"
+    },
+    {
+      "id": "vegetarian",
+      "word": "vegetarian",
+      "es": "vegetariano",
+      "en": "a person who does not eat meat for health or religious reasons or because they want to avoid being cruel to animals",
+      "example": "My brother is a vegetarian.",
+      "translation": "Mi hermano es vegetariano.",
+      "prompt": "My brother is a ___.",
+      "choices": [
+        {
+          "label": "vegetarian",
+          "correct": true
+        },
+        {
+          "label": "building",
+          "correct": false
+        },
+        {
+          "label": "drum",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/vegetarian"
+    },
+    {
+      "id": "flavour",
+      "word": "flavour",
+      "es": "sabor",
+      "en": "how food or drink tastes, or a particular taste itself",
+      "example": "This soup has a wonderful flavour.",
+      "translation": "Esta sopa tiene un sabor maravilloso.",
+      "prompt": "This soup has a wonderful ___.",
+      "choices": [
+        {
+          "label": "flavour",
+          "correct": true
+        },
+        {
+          "label": "stair",
+          "correct": false
+        },
+        {
+          "label": "battery",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/flavour"
     }
   ]
 }
