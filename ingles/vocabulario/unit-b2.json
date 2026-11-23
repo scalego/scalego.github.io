@@ -2,7 +2,7 @@
   "id": "work-planning-b2",
   "level": "B2",
   "topic": "Vocabulario B2 por temas",
-  "version": 10,
+  "version": 11,
   "cards": [
     {
       "id": "deadline",
@@ -1443,6 +1443,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/cure"
+    },
+    {
+      "id": "opponent",
+      "word": "opponent",
+      "es": "rival",
+      "en": "a person who someone is competing against in a sports event",
+      "example": "Their opponent in the final is very strong.",
+      "translation": "Su rival en la final es muy fuerte.",
+      "prompt": "Their ___ in the final is very strong.",
+      "choices": [
+        {
+          "label": "opponent",
+          "correct": true
+        },
+        {
+          "label": "pillow",
+          "correct": false
+        },
+        {
+          "label": "hammer",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/opponent"
+    },
+    {
+      "id": "referee",
+      "word": "referee",
+      "es": "árbitro",
+      "en": "in sports such as football or basketball, a person who is in charge of making certain that the rules are followed",
+      "example": "The referee showed a red card.",
+      "translation": "El árbitro mostró una tarjeta roja.",
+      "prompt": "The ___ showed a red card.",
+      "choices": [
+        {
+          "label": "referee",
+          "correct": true
+        },
+        {
+          "label": "blanket",
+          "correct": false
+        },
+        {
+          "label": "engine",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/referee"
+    },
+    {
+      "id": "medal",
+      "word": "medal",
+      "es": "medalla",
+      "en": "a small metal disc, with words or a picture on it, given as a reward for winning a competition or for a brave action",
+      "example": "She won a gold medal in the race.",
+      "translation": "Ganó una medalla de oro en la carrera.",
+      "prompt": "She won a gold ___ in the race.",
+      "choices": [
+        {
+          "label": "medal",
+          "correct": true
+        },
+        {
+          "label": "potato",
+          "correct": false
+        },
+        {
+          "label": "apron",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/medal"
+    },
+    {
+      "id": "stadium",
+      "word": "stadium",
+      "es": "estadio",
+      "en": "a large closed area of land with rows of seats around the sides, used for sports events and musical performances",
+      "example": "The stadium was full of fans.",
+      "translation": "El estadio estaba lleno de aficionados.",
+      "prompt": "The ___ was full of fans.",
+      "choices": [
+        {
+          "label": "stadium",
+          "correct": true
+        },
+        {
+          "label": "candle",
+          "correct": false
+        },
+        {
+          "label": "basket",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/stadium"
+    },
+    {
+      "id": "trophy",
+      "word": "trophy",
+      "es": "trofeo",
+      "en": "a prize, such as a silver cup, that is given to the winner of a competition or race",
+      "example": "The team lifted the trophy.",
+      "translation": "El equipo levantó el trofeo.",
+      "prompt": "The team lifted the ___.",
+      "choices": [
+        {
+          "label": "trophy",
+          "correct": true
+        },
+        {
+          "label": "ladder",
+          "correct": false
+        },
+        {
+          "label": "stair",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/trophy"
+    },
+    {
+      "id": "victory",
+      "word": "victory",
+      "es": "victoria",
+      "en": "an occasion when you win a game, competition, election, war, etc.",
+      "example": "The victory made them champions.",
+      "translation": "La victoria les hizo campeones.",
+      "prompt": "The ___ made them champions.",
+      "choices": [
+        {
+          "label": "victory",
+          "correct": true
+        },
+        {
+          "label": "plumber",
+          "correct": false
+        },
+        {
+          "label": "thunder",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/victory"
     }
   ]
 }
