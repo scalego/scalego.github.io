@@ -716,6 +716,18 @@
       ]
     },
     {
+      "id": "pensamiento",
+      "title": "Ideas y pensamiento",
+      "cards": [
+        "notion",
+        "assumption",
+        "perspective",
+        "rational",
+        "consciousness",
+        "stereotype"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
