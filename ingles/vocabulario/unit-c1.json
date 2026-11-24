@@ -2,7 +2,7 @@
   "id": "work-decisions-c1",
   "level": "C1",
   "topic": "Trabajo y decisiones",
-  "version": 10,
+  "version": 11,
   "cards": [
     {
       "id": "setback",
@@ -1275,6 +1275,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/homeless"
+    },
+    {
+      "id": "notion",
+      "word": "notion",
+      "es": "noción",
+      "en": "a belief or idea",
+      "example": "He has a strange notion of honesty.",
+      "translation": "Tiene una idea extraña de la honestidad.",
+      "prompt": "He has a strange ___ of honesty.",
+      "choices": [
+        {
+          "label": "notion",
+          "correct": true
+        },
+        {
+          "label": "carpet",
+          "correct": false
+        },
+        {
+          "label": "weather",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/notion"
+    },
+    {
+      "id": "assumption",
+      "word": "assumption",
+      "es": "suposición",
+      "en": "something you accept as true without proof",
+      "example": "His assumption was wrong from the start.",
+      "translation": "Su suposición era errónea desde el principio.",
+      "prompt": "His ___ was wrong from the start.",
+      "choices": [
+        {
+          "label": "assumption",
+          "correct": true
+        },
+        {
+          "label": "ladder",
+          "correct": false
+        },
+        {
+          "label": "salt",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/assumption"
+    },
+    {
+      "id": "perspective",
+      "word": "perspective",
+      "es": "perspectiva",
+      "en": "a particular way of considering something",
+      "example": "Try to see the problem from my perspective.",
+      "translation": "Intenta ver el problema desde mi perspectiva.",
+      "prompt": "Try to see the problem from my ___.",
+      "choices": [
+        {
+          "label": "perspective",
+          "correct": true
+        },
+        {
+          "label": "engine",
+          "correct": false
+        },
+        {
+          "label": "blanket",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/perspective"
+    },
+    {
+      "id": "rational",
+      "word": "rational",
+      "es": "racional",
+      "en": "based on clear thought and reason",
+      "example": "We need a rational discussion about money.",
+      "translation": "Necesitamos una discusión racional sobre el dinero.",
+      "prompt": "We need a ___ discussion about money.",
+      "choices": [
+        {
+          "label": "rational",
+          "correct": true
+        },
+        {
+          "label": "hammer",
+          "correct": false
+        },
+        {
+          "label": "cloud",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/rational"
+    },
+    {
+      "id": "consciousness",
+      "word": "consciousness",
+      "es": "conciencia",
+      "en": "the state of understanding and realizing something",
+      "example": "The campaign raised consciousness about water use.",
+      "translation": "La campaña aumentó la conciencia sobre el uso del agua.",
+      "prompt": "The campaign raised ___ about water use.",
+      "choices": [
+        {
+          "label": "consciousness",
+          "correct": true
+        },
+        {
+          "label": "potato",
+          "correct": false
+        },
+        {
+          "label": "stair",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/consciousness"
+    },
+    {
+      "id": "stereotype",
+      "word": "stereotype",
+      "es": "estereotipo",
+      "en": "a fixed idea about what a type of person is like",
+      "example": "The film repeats an old stereotype.",
+      "translation": "La película repite un viejo estereotipo.",
+      "prompt": "The film repeats an old ___.",
+      "choices": [
+        {
+          "label": "stereotype",
+          "correct": true
+        },
+        {
+          "label": "mirror",
+          "correct": false
+        },
+        {
+          "label": "drum",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/stereotype"
     }
   ]
 }
