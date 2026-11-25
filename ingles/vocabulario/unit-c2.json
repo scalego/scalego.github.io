@@ -2,7 +2,7 @@
   "id": "unit-01-c2",
   "level": "C2",
   "topic": "Expresión avanzada",
-  "version": 9,
+  "version": 10,
   "cards": [
     {
       "id": "ubiquitous",
@@ -1275,6 +1275,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/injection"
+    },
+    {
+      "id": "masterpiece",
+      "word": "masterpiece",
+      "es": "obra maestra",
+      "en": "a work of art made with great skill",
+      "example": "Many people consider this painting his masterpiece.",
+      "translation": "Mucha gente considera este cuadro su obra maestra.",
+      "prompt": "Many people consider this painting his ___.",
+      "choices": [
+        {
+          "label": "masterpiece",
+          "correct": true
+        },
+        {
+          "label": "blanket",
+          "correct": false
+        },
+        {
+          "label": "engine",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/masterpiece"
+    },
+    {
+      "id": "heritage",
+      "word": "heritage",
+      "es": "patrimonio",
+      "en": "the culture and traditions that a society keeps from the past",
+      "example": "The museum protects the heritage of the region.",
+      "translation": "El museo protege el patrimonio de la región.",
+      "prompt": "The museum protects the ___ of the region.",
+      "choices": [
+        {
+          "label": "heritage",
+          "correct": true
+        },
+        {
+          "label": "potato",
+          "correct": false
+        },
+        {
+          "label": "ladder",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/heritage"
+    },
+    {
+      "id": "irony",
+      "word": "irony",
+      "es": "ironía",
+      "en": "the use of words that mean the opposite of what you say",
+      "example": "His comment was full of gentle irony.",
+      "translation": "Su comentario estaba lleno de una fina ironía.",
+      "prompt": "His comment was full of gentle ___.",
+      "choices": [
+        {
+          "label": "irony",
+          "correct": true
+        },
+        {
+          "label": "salt",
+          "correct": false
+        },
+        {
+          "label": "carpet",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/irony"
+    },
+    {
+      "id": "metaphor",
+      "word": "metaphor",
+      "es": "metáfora",
+      "en": "an expression that describes something by comparing it to something else",
+      "example": "The writer uses the sea as a metaphor for freedom.",
+      "translation": "El escritor usa el mar como metáfora de la libertad.",
+      "prompt": "The writer uses the sea as a ___ for freedom.",
+      "choices": [
+        {
+          "label": "metaphor",
+          "correct": true
+        },
+        {
+          "label": "drum",
+          "correct": false
+        },
+        {
+          "label": "pillow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/metaphor"
+    },
+    {
+      "id": "narrative",
+      "word": "narrative",
+      "es": "narrativa",
+      "en": "a story or a description of a series of events",
+      "example": "The novel has a complex narrative.",
+      "translation": "La novela tiene una narrativa compleja.",
+      "prompt": "The novel has a complex ___.",
+      "choices": [
+        {
+          "label": "narrative",
+          "correct": true
+        },
+        {
+          "label": "hammer",
+          "correct": false
+        },
+        {
+          "label": "cloud",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/narrative"
+    },
+    {
+      "id": "trilogy",
+      "word": "trilogy",
+      "es": "trilogía",
+      "en": "a series of three books or films about the same characters or story",
+      "example": "She finished the third book of the trilogy.",
+      "translation": "Terminó el tercer libro de la trilogía.",
+      "prompt": "She finished the third book of the ___.",
+      "choices": [
+        {
+          "label": "trilogy",
+          "correct": true
+        },
+        {
+          "label": "mirror",
+          "correct": false
+        },
+        {
+          "label": "stair",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/trilogy"
     }
   ]
 }
