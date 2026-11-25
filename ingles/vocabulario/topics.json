@@ -852,6 +852,18 @@
       ]
     },
     {
+      "id": "arte",
+      "title": "El arte y la literatura",
+      "cards": [
+        "masterpiece",
+        "heritage",
+        "irony",
+        "metaphor",
+        "narrative",
+        "trilogy"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
