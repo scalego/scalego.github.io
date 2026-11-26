@@ -2,7 +2,7 @@
   "id": "unit-01-a1",
   "level": "A1",
   "topic": "Vocabulario A1 por temas",
-  "version": 10,
+  "version": 11,
   "cards": [
     {
       "id": "family",
@@ -1587,6 +1587,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/clock"
+    },
+    {
+      "id": "tree",
+      "word": "tree",
+      "es": "árbol",
+      "en": "a tall plant with a wooden trunk and branches",
+      "example": "There is a big tree in front of my house.",
+      "translation": "Hay un árbol grande delante de mi casa.",
+      "prompt": "There is a big ___ in front of my house.",
+      "choices": [
+        {
+          "label": "tree",
+          "correct": true
+        },
+        {
+          "label": "carpet",
+          "correct": false
+        },
+        {
+          "label": "spoon",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/tree"
+    },
+    {
+      "id": "flower",
+      "word": "flower",
+      "es": "flor",
+      "en": "the coloured part of a plant",
+      "example": "She gives her mother a red flower.",
+      "translation": "Le da a su madre una flor roja.",
+      "prompt": "She gives her mother a red ___.",
+      "choices": [
+        {
+          "label": "flower",
+          "correct": true
+        },
+        {
+          "label": "hammer",
+          "correct": false
+        },
+        {
+          "label": "mirror",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/flower"
+    },
+    {
+      "id": "sea",
+      "word": "sea",
+      "es": "mar",
+      "en": "the salty water that covers a large part of the earth",
+      "example": "The sea is very blue today.",
+      "translation": "El mar está muy azul hoy.",
+      "prompt": "The ___ is very blue today.",
+      "choices": [
+        {
+          "label": "sea",
+          "correct": true
+        },
+        {
+          "label": "ladder",
+          "correct": false
+        },
+        {
+          "label": "piano",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/sea"
+    },
+    {
+      "id": "river",
+      "word": "river",
+      "es": "río",
+      "en": "a natural wide flow of fresh water",
+      "example": "They swim in the river in summer.",
+      "translation": "Nadan en el río en verano.",
+      "prompt": "They swim in the ___ in summer.",
+      "choices": [
+        {
+          "label": "river",
+          "correct": true
+        },
+        {
+          "label": "blanket",
+          "correct": false
+        },
+        {
+          "label": "drum",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/river"
+    },
+    {
+      "id": "beach",
+      "word": "beach",
+      "es": "playa",
+      "en": "an area of sand or small stones near the sea",
+      "example": "We play on the beach in the afternoon.",
+      "translation": "Jugamos en la playa por la tarde.",
+      "prompt": "We play on the ___ in the afternoon.",
+      "choices": [
+        {
+          "label": "beach",
+          "correct": true
+        },
+        {
+          "label": "engine",
+          "correct": false
+        },
+        {
+          "label": "pillow",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/beach"
+    },
+    {
+      "id": "grass",
+      "word": "grass",
+      "es": "hierba",
+      "en": "the low green plant that covers the ground",
+      "example": "The children sit on the grass.",
+      "translation": "Los niños se sientan en la hierba.",
+      "prompt": "The children sit on the ___.",
+      "choices": [
+        {
+          "label": "grass",
+          "correct": true
+        },
+        {
+          "label": "stair",
+          "correct": false
+        },
+        {
+          "label": "jacket",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/grass"
     }
   ]
 }
