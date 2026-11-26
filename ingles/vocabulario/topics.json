@@ -145,6 +145,18 @@
       ]
     },
     {
+      "id": "naturaleza",
+      "title": "La naturaleza",
+      "cards": [
+        "tree",
+        "flower",
+        "sea",
+        "river",
+        "beach",
+        "grass"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
