@@ -306,6 +306,18 @@
       ]
     },
     {
+      "id": "aficiones",
+      "title": "Las aficiones",
+      "cards": [
+        "hobby",
+        "drawing",
+        "painting",
+        "fishing",
+        "camping",
+        "climbing"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
