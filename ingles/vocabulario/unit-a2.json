@@ -2,7 +2,7 @@
   "id": "unit-01-a2",
   "level": "A2",
   "topic": "Vocabulario A2 por temas",
-  "version": 11,
+  "version": 12,
   "cards": [
     {
       "id": "travel",
@@ -1587,6 +1587,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/drawer"
+    },
+    {
+      "id": "hobby",
+      "word": "hobby",
+      "es": "afición",
+      "en": "an activity you do for pleasure in your free time",
+      "example": "Her favourite hobby is photography.",
+      "translation": "Su afición favorita es la fotografía.",
+      "prompt": "Her favourite ___ is photography.",
+      "choices": [
+        {
+          "label": "hobby",
+          "correct": true
+        },
+        {
+          "label": "hammer",
+          "correct": false
+        },
+        {
+          "label": "blanket",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/hobby"
+    },
+    {
+      "id": "drawing",
+      "word": "drawing",
+      "es": "dibujo",
+      "en": "the act of making a picture with a pencil or pen",
+      "example": "My son is good at drawing.",
+      "translation": "Mi hijo es bueno en el dibujo.",
+      "prompt": "My son is good at ___.",
+      "choices": [
+        {
+          "label": "drawing",
+          "correct": true
+        },
+        {
+          "label": "ladder",
+          "correct": false
+        },
+        {
+          "label": "engine",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/drawing"
+    },
+    {
+      "id": "painting",
+      "word": "painting",
+      "es": "pintura",
+      "en": "a picture made using paint",
+      "example": "There is a famous painting in the museum.",
+      "translation": "Hay una pintura famosa en el museo.",
+      "prompt": "There is a famous ___ in the museum.",
+      "choices": [
+        {
+          "label": "painting",
+          "correct": true
+        },
+        {
+          "label": "carpet",
+          "correct": false
+        },
+        {
+          "label": "potato",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/painting"
+    },
+    {
+      "id": "fishing",
+      "word": "fishing",
+      "es": "pesca",
+      "en": "the sport of catching fish",
+      "example": "They go fishing at the lake on Sundays.",
+      "translation": "Van de pesca al lago los domingos.",
+      "prompt": "They go ___ at the lake on Sundays.",
+      "choices": [
+        {
+          "label": "fishing",
+          "correct": true
+        },
+        {
+          "label": "spoon",
+          "correct": false
+        },
+        {
+          "label": "mirror",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/fishing"
+    },
+    {
+      "id": "camping",
+      "word": "camping",
+      "es": "acampada",
+      "en": "the activity of staying in a tent on holiday",
+      "example": "We went camping in the mountains last year.",
+      "translation": "Fuimos de acampada a las montañas el año pasado.",
+      "prompt": "We went ___ in the mountains last year.",
+      "choices": [
+        {
+          "label": "camping",
+          "correct": true
+        },
+        {
+          "label": "piano",
+          "correct": false
+        },
+        {
+          "label": "jacket",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/camping"
+    },
+    {
+      "id": "climbing",
+      "word": "climbing",
+      "es": "escalada",
+      "en": "the sport of climbing on rocks or mountains",
+      "example": "Climbing is his favourite sport.",
+      "translation": "La escalada es su deporte favorito.",
+      "prompt": "___ is his favourite sport.",
+      "choices": [
+        {
+          "label": "climbing",
+          "correct": true
+        },
+        {
+          "label": "thunder",
+          "correct": false
+        },
+        {
+          "label": "drum",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/climbing"
     }
   ]
 }
