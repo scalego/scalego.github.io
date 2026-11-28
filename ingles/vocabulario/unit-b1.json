@@ -2,7 +2,7 @@
   "id": "unit-01-b1",
   "level": "B1",
   "topic": "Vocabulario B1 por temas",
-  "version": 11,
+  "version": 12,
   "cards": [
     {
       "id": "achieve",
@@ -1587,6 +1587,150 @@
         }
       ],
       "source": "https://dictionary.cambridge.org/dictionary/english/flavour"
+    },
+    {
+      "id": "crime",
+      "word": "crime",
+      "es": "delito",
+      "en": "an illegal activity",
+      "example": "Stealing cars is a serious crime.",
+      "translation": "Robar coches es un delito grave.",
+      "prompt": "Stealing cars is a serious ___.",
+      "choices": [
+        {
+          "label": "crime",
+          "correct": true
+        },
+        {
+          "label": "blanket",
+          "correct": false
+        },
+        {
+          "label": "salad",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/crime"
+    },
+    {
+      "id": "thief",
+      "word": "thief",
+      "es": "ladrón",
+      "en": "a person who steals things",
+      "example": "The thief took her bag in the street.",
+      "translation": "El ladrón le quitó el bolso en la calle.",
+      "prompt": "The ___ took her bag in the street.",
+      "choices": [
+        {
+          "label": "thief",
+          "correct": true
+        },
+        {
+          "label": "cloud",
+          "correct": false
+        },
+        {
+          "label": "spoon",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/thief"
+    },
+    {
+      "id": "rob",
+      "word": "rob",
+      "es": "robar",
+      "en": "to take money or property illegally from a person or place",
+      "example": "Two men tried to rob the bank.",
+      "translation": "Dos hombres intentaron robar el banco.",
+      "prompt": "Two men tried to ___ the bank.",
+      "choices": [
+        {
+          "label": "rob",
+          "correct": true
+        },
+        {
+          "label": "cook",
+          "correct": false
+        },
+        {
+          "label": "dance",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/rob"
+    },
+    {
+      "id": "arrest",
+      "word": "arrest",
+      "es": "detener",
+      "en": "when the police take someone because they think that person did a crime",
+      "example": "The police arrested him last night.",
+      "translation": "La policía lo detuvo anoche.",
+      "prompt": "The police ___ him last night.",
+      "choices": [
+        {
+          "label": "arrest",
+          "correct": true
+        },
+        {
+          "label": "watered",
+          "correct": false
+        },
+        {
+          "label": "fried",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/arrest"
+    },
+    {
+      "id": "prison",
+      "word": "prison",
+      "es": "cárcel",
+      "en": "a building where criminals are kept",
+      "example": "He spent five years in prison.",
+      "translation": "Pasó cinco años en la cárcel.",
+      "prompt": "He spent five years in ___.",
+      "choices": [
+        {
+          "label": "prison",
+          "correct": true
+        },
+        {
+          "label": "carpet",
+          "correct": false
+        },
+        {
+          "label": "thunder",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/prison"
+    },
+    {
+      "id": "law",
+      "word": "law",
+      "es": "ley",
+      "en": "a rule made by a government",
+      "example": "There is a new law about driving.",
+      "translation": "Hay una nueva ley sobre la conducción.",
+      "prompt": "There is a new ___ about driving.",
+      "choices": [
+        {
+          "label": "law",
+          "correct": true
+        },
+        {
+          "label": "pillow",
+          "correct": false
+        },
+        {
+          "label": "engine",
+          "correct": false
+        }
+      ],
+      "source": "https://dictionary.cambridge.org/dictionary/english/law"
     }
   ]
 }
