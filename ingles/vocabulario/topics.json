@@ -467,6 +467,18 @@
       ]
     },
     {
+      "id": "crimen",
+      "title": "El crimen y la ley",
+      "cards": [
+        "crime",
+        "thief",
+        "rob",
+        "arrest",
+        "prison",
+        "law"
+      ]
+    },
+    {
       "id": "variado",
       "title": "Variado",
       "cards": [
